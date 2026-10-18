@@ -2,7 +2,7 @@
 
 - CORE_QUESTIONS: the 56 hand-designed questions below.
 - POOL_QUESTIONS: extra questions generated from Wikidata and reviewed by
-  hand, loaded from data/raw/question_pool.csv.
+  hand, loaded from raw/question_pool.csv.
 - QUESTIONS: both together, in the column order of the generated dataset.
 
 Column names are the stable data format; the wording can be revised without

@@ -1,8 +1,8 @@
 """Read and validate roster files (one human-readable row per person or character).
 
 Two files share this format:
-- data/raw/roster.csv: hand-curated and reviewed entry by entry;
-- data/raw/roster_auto.csv: generated from Wikidata by
+- raw/roster.csv: hand-curated and reviewed entry by entry;
+- raw/roster_auto.csv: generated from Wikidata by
   scripts/build_auto_roster.py, using "unknown" wherever the data is unclear.
 
 See docs/DATA.md for the column rules. Every check fails with the file line
@@ -18,9 +18,9 @@ from typing import Dict, FrozenSet, Optional, Sequence, Tuple
 from questions import QUESTIONS
 
 ROOT = Path(__file__).resolve().parent.parent
-ROSTER_PATH = ROOT / "data" / "raw" / "roster.csv"
-AUTO_ROSTER_PATH = ROOT / "data" / "raw" / "roster_auto.csv"
-COUNTRIES_PATH = ROOT / "data" / "raw" / "countries.csv"
+ROSTER_PATH = ROOT / "raw" / "roster.csv"
+AUTO_ROSTER_PATH = ROOT / "raw" / "roster_auto.csv"
+COUNTRIES_PATH = ROOT / "raw" / "countries.csv"
 
 ROSTER_COLUMNS = (
     "name", "wikidata_id", "popularity_wikidata_id", "kind", "gender", "species", "origin_year", "alive",
@@ -123,7 +123,7 @@ class RosterEntry:
 # --- country table ------------------------------------------------------------
 
 def load_countries(path=COUNTRIES_PATH) -> Dict[str, str]:
-    """Country name -> region, from data/raw/countries.csv."""
+    """Country name -> region, from raw/countries.csv."""
     countries = {}
     with open(path, newline="", encoding="utf-8-sig") as handle:
         for line_number, row in enumerate(csv.DictReader(handle), start=2):
@@ -228,7 +228,7 @@ def _parse_countries(row, regions, countries_table, line_number):
     countries = frozenset(_items(_text(row, "country")))
     strangers = sorted(countries - set(countries_table))
     if strangers:
-        _fail(line_number, "country %s not in data/raw/countries.csv; add it there with its region" % strangers)
+        _fail(line_number, "country %s not in raw/countries.csv; add it there with its region" % strangers)
     if countries and not regions:
         _fail(line_number, "region is 'unknown' but country is given; set region from the country")
     mismatched = sorted(c for c in countries if countries_table[c] not in regions)

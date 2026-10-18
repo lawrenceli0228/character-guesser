@@ -8,8 +8,8 @@
 | Of which | 91 hand-curated and reviewed entry by entry (`roster.csv`); 409 generated from Wikidata by fixed rules (`roster_auto.csv`) |
 | Attributes | **107** Yes/No attributes: 56 hand-designed core questions + 51 questions in the reviewed question pool. Each value is `true`, `false` or `unknown` |
 | Popularity | `sitelinks`: number of Wikipedia/Wikimedia language editions with an article (26–340) |
-| Game file | `data/characters.csv` (generated; do not edit by hand) |
-| Wikidata snapshot | `data/raw/wikidata_snapshot.json`, retrieved 2026-10-17 |
+| Game file | `../dataset/characters.csv` (plus `questions.csv`) (generated; do not edit by hand) |
+| Wikidata snapshot | `raw/wikidata_snapshot.json`, retrieved 2026-10-17 |
 | Licence | Wikidata content is CC0 1.0 (public domain); attribution given anyway |
 
 The roster mixes real people and fictional characters, so the first question,
@@ -22,25 +22,27 @@ select_candidates.py ─► candidates.csv ─┐   (network: QLever, WDQS, Wiki
 fetch_wikidata.py ──────────────────────┼─► wikidata_snapshot.json   (network: WDQS)
                                         │
 roster.csv (curated) ───────────────────┤
-build_auto_roster.py ─► roster_auto.csv ┼─► src/preprocess.py ─► data/characters.csv ─► src/data_loader.py ─► game
+build_auto_roster.py ─► roster_auto.csv ┼─► src/preprocess.py ─► ../dataset/characters.csv ─► src/data_loader.py ─► game
 question_pool.csv (reviewed) ───────────┘
 check_wikidata.py, propose_questions.py, analyse_data.py: review and quality reports
 ```
 
 ```bash
-python scripts/select_candidates.py   # rank candidates (network, ~15 min first time; cached afterwards)
-python scripts/fetch_wikidata.py      # download facts for roster + candidates (network, ~10 min)
-python scripts/build_auto_roster.py   # generate roster_auto.csv (offline)
-python scripts/check_wikidata.py      # verify curated roster facts (offline)
-python src/preprocess.py              # rebuild data/characters.csv (offline)
-python scripts/analyse_data.py        # distribution, hard pairs, depth check, popularity
-python -m pytest                      # includes a check that characters.csv is up to date
+python data_pipeline/scripts/select_candidates.py   # rank candidates (network, ~15 min first time; cached afterwards)
+python data_pipeline/scripts/fetch_wikidata.py      # download facts for roster + candidates (network, ~10 min)
+python data_pipeline/scripts/build_auto_roster.py   # generate roster_auto.csv (offline)
+python data_pipeline/scripts/check_wikidata.py      # verify curated roster facts (offline)
+python data_pipeline/src/preprocess.py              # rebuild ../dataset/characters.csv (offline)
+python data_pipeline/scripts/analyse_data.py        # distribution, hard pairs, depth check, popularity
+python -m pytest data_pipeline/tests  # includes a check that characters.csv is up to date
 ```
 
 Only the first two steps need the internet; every file they produce is kept,
 so the dataset rebuilds offline and reproducibly.
 
-## Using the data in the game
+## Reading the data with the pipeline helper
+
+The game reads `../dataset/` with its own code (see `../dataset/README.md`). Inside the pipeline:
 
 ```python
 from data_loader import load_characters, to_feature_matrix
@@ -63,7 +65,7 @@ hesitate on a debatable fact (Elon Musk is `unknown` for "from Africa").
 
 | | Curated (91) | Generated (409) |
 |---|---|---|
-| File | `data/raw/roster.csv` | `data/raw/roster_auto.csv` (regenerate, do not edit) |
+| File | `raw/roster.csv` | `raw/roster_auto.csv` (regenerate, do not edit) |
 | How | Every value chosen by hand, with notes and overrides | Fixed rules on Wikidata facts, plus reviewed tables and corrections |
 | Contradictions between facts | Build fails (a review mistake) | The triggering value becomes `unknown` |
 | `source` column in `characters.csv` | "manually reviewed" | "generated automatically" |
@@ -75,7 +77,7 @@ hesitate on a debatable fact (Elon Musk is `unknown` for "from Africa").
    sitelinks (QLever Wikidata endpoint; WDQS times out on such rankings).
 2. **Removed** (status in `candidates.csv`):
    - already in the curated roster;
-   - listed in `data/raw/exclusions.csv` (71 entries, each with a reason):
+   - listed in `raw/exclusions.csv` (71 entries, each with a reason):
      religious figures, people known mainly for atrocities, terrorism or
      organised crime, Nazi or fascist leaders; for fiction, characters from
      mythology, religion, folklore or legend, things that are not story
@@ -92,7 +94,7 @@ hesitate on a debatable fact (Elon Musk is `unknown` for "from Africa").
    list's views.
 4. Entries are taken in rank order until there are 350 real people and 150
    fictional characters in total (`scripts/dataset_config.py`). Four were
-   skipped by the generator (see `data/raw/auto_roster_report.txt`), so the
+   skipped by the generator (see `raw/auto_roster_report.txt`), so the
    next-ranked candidates took their places.
 
 ## Rules for generated rows (`build_auto_roster.py`)
@@ -112,7 +114,7 @@ Why the description? Wikidata lists many secondary occupations (most actors
 are also "singer", most politicians "writer"); the one-line description states
 what someone is mainly known for, which is what the questions ask.
 
-### Reviewed tables (all in `data/raw/`)
+### Reviewed tables (all in `raw/`)
 
 | File | Rows | Purpose |
 |---|---|---|
@@ -178,7 +180,7 @@ Russia, India, Canada, Brazil); known for (12 domains); traits (Nobel Prize,
 ruled a country, monarch or royal, superpowers or magic, villain, robot);
 medium of first appearance (5).
 
-## Question pool (`data/raw/question_pool.csv`, 51 questions)
+## Question pool (`raw/question_pool.csv`, 51 questions)
 
 Built from Wikidata properties (occupation, awards, positions, sport,
 instrument, education, narrative universe) and reviewed by hand; two manual

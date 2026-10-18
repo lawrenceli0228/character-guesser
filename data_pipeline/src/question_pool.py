@@ -1,6 +1,6 @@
 """Extra Yes/No questions generated from Wikidata and reviewed by hand.
 
-Each row of data/raw/question_pool.csv defines one question:
+Each row of raw/question_pool.csv defines one question:
 
 - sources: Wikidata facts that make the answer Yes, e.g. "P106=Q170790"
   (occupation = mathematician). Empty for purely manual questions.
@@ -24,12 +24,12 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import FrozenSet, Iterable, Mapping, Optional, Sequence, Tuple
 
-POOL_PATH = Path(__file__).resolve().parent.parent / "data" / "raw" / "question_pool.csv"
+POOL_PATH = Path(__file__).resolve().parent.parent / "raw" / "question_pool.csv"
 POOL_COLUMNS = ("attribute", "question", "sources", "add", "remove", "unknown", "gate", "keywords", "notes")
 GATES = ("", "real", "all")
 SOURCE_PATTERN = re.compile(r"^(P[1-9][0-9]*)=(Q[1-9][0-9]*)$")
 NAME_LISTS = ("add", "remove", "unknown")
-# Non-attribute columns of data/characters.csv.
+# Non-attribute columns of dataset/characters.csv.
 RESERVED_ATTRIBUTES = frozenset({"name", "source", "sitelinks"})
 
 

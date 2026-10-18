@@ -1,17 +1,17 @@
-"""Build data/characters.csv, the binary dataset used by the game.
+"""Build dataset/characters.csv, the binary dataset used by the game.
 
 Usage:
     python src/preprocess.py
 
 Combines
-- data/raw/roster.csv: hand-curated, reviewed entries;
-- data/raw/roster_auto.csv (optional): entries generated from Wikidata by
+- raw/roster.csv: hand-curated, reviewed entries;
+- raw/roster_auto.csv (optional): entries generated from Wikidata by
   scripts/build_auto_roster.py;
-- data/raw/question_pool.csv: extra questions generated from Wikidata and
+- raw/question_pool.csv: extra questions generated from Wikidata and
   reviewed by hand (see question_pool.py);
-- data/raw/wikidata_snapshot.json: facts and sitelinks (popularity), saved by
+- raw/wikidata_snapshot.json: facts and sitelinks (popularity), saved by
   scripts/fetch_wikidata.py;
-and writes data/characters.csv, where every attribute in questions.QUESTIONS
+and writes dataset/characters.csv, where every attribute in questions.QUESTIONS
 is stored as "true", "false" or "unknown", followed by a sitelinks column.
 Missing or ambiguous facts stay "unknown"; they are never turned into "false".
 Roster parsing and validation live in roster.py.
@@ -35,8 +35,10 @@ from roster import (  # noqa: F401  (parse_roster_row and load_roster are re-exp
 )
 
 ROOT = Path(__file__).resolve().parent.parent
-SNAPSHOT_PATH = ROOT / "data" / "raw" / "wikidata_snapshot.json"
-OUTPUT_PATH = ROOT / "data" / "characters.csv"
+SNAPSHOT_PATH = ROOT / "raw" / "wikidata_snapshot.json"
+DATASET_DIR = ROOT.parent / "dataset"  # the finished dataset the game reads
+OUTPUT_PATH = DATASET_DIR / "characters.csv"
+QUESTIONS_OUTPUT_PATH = DATASET_DIR / "questions.csv"
 
 # (feature, threshold year, True if the feature means "before" the threshold)
 YEAR_FEATURES = (
@@ -260,6 +262,21 @@ def build_dataset(
     return [format_row(entry, sitelinks_for(entry, entities), pool, claims_by_name[entry.name]) for entry in entries]
 
 
+def question_rows() -> List[Dict[str, str]]:
+    """One row per attribute: column name, player-facing text and whether it is a core or pool question."""
+    return [
+        {"attribute": attribute, "question": text, "group": "core" if attribute in CORE_QUESTIONS else "pool"}
+        for attribute, text in QUESTIONS.items()
+    ]
+
+
+def write_questions(path=QUESTIONS_OUTPUT_PATH):
+    with open(path, "w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["attribute", "question", "group"])
+        writer.writeheader()
+        writer.writerows(question_rows())
+
+
 def write_dataset(rows: Sequence[Dict[str, str]], path=OUTPUT_PATH):
     with open(path, "w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
@@ -270,14 +287,16 @@ def write_dataset(rows: Sequence[Dict[str, str]], path=OUTPUT_PATH):
 def main():
     try:
         rows = build_dataset()
+        DATASET_DIR.mkdir(exist_ok=True)
         write_dataset(rows)
+        write_questions()
     except (OSError, ValueError, csv.Error) as error:  # ValueError covers RosterError, PoolError, UnicodeDecodeError
         print("Could not build dataset: %s" % error, file=sys.stderr)
         return 1
     fictional_count = sum(row["is_fictional"] == "true" for row in rows)
-    print("Wrote %d rows (%d real, %d fictional) x %d attributes (%d core + %d pool) to %s" % (
-        len(rows), len(rows) - fictional_count, fictional_count, len(QUESTIONS),
-        len(CORE_QUESTIONS), len(QUESTIONS) - len(CORE_QUESTIONS), OUTPUT_PATH.relative_to(ROOT)))
+    print("Wrote %d rows (%d real, %d fictional) x %d attributes (%d core + %d pool) to %s and %s" % (
+        len(rows), len(rows) - fictional_count, fictional_count, len(QUESTIONS), len(CORE_QUESTIONS),
+        len(QUESTIONS) - len(CORE_QUESTIONS), OUTPUT_PATH.relative_to(ROOT.parent), QUESTIONS_OUTPUT_PATH.name))
     return 0
 
 

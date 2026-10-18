@@ -1,4 +1,4 @@
-"""Generate data/raw/roster_auto.csv from Wikidata for the extended dataset.
+"""Generate raw/roster_auto.csv from Wikidata for the extended dataset.
 
 Usage:
     python scripts/select_candidates.py   # ranked candidates (network)
@@ -11,17 +11,17 @@ each, until dataset_config.TARGET_REAL / TARGET_FICTIONAL (including the
 curated roster) are reached. The rules, all documented in docs/DATA.md:
 
 - Real people: "known for" domains come from keywords in the one-line
-  Wikidata description (data/raw/domain_keywords.csv), which states what
+  Wikidata description (raw/domain_keywords.csv), which states what
   someone is mainly known for. Country/region from citizenship (P27) via
-  data/raw/countries.csv; several citizenships make the places debatable.
+  raw/countries.csv; several citizenships make the places debatable.
 - Fictional characters: medium, year and country come from the work they
   first appeared in (P4584), else the works they appear in (P1441), using
-  data/raw/work_types.csv. Species from their class (P31) via
-  data/raw/character_classes.csv.
+  raw/work_types.csv. Species from their class (P31) via
+  raw/character_classes.csv.
 - Anything that cannot be determined is written as unknown, never guessed.
 - Entries with too little usable data are skipped (listed in the report).
 
-Writes data/raw/roster_auto.csv and data/raw/auto_roster_report.txt (skipped
+Writes raw/roster_auto.csv and raw/auto_roster_report.txt (skipped
 entries and unmapped Wikidata values to review).
 """
 
@@ -37,7 +37,7 @@ from dataset_config import TARGET_FICTIONAL, TARGET_REAL
 from wikidata_http import entity_id
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW = ROOT / "data" / "raw"
+RAW = ROOT / "raw"
 SNAPSHOT_PATH = RAW / "wikidata_snapshot.json"
 CANDIDATES_PATH = RAW / "candidates.csv"
 ROSTER_PATH = RAW / "roster.csv"
@@ -434,7 +434,7 @@ def fictional_tags(description, entity, class_tags):
 
 def franchise_country(description, tables):
     """Fallback country from a well-known franchise or publisher named in the description
-    (data/raw/franchise_countries.csv), e.g. "fictional character in Marvel Comics" -> USA."""
+    (raw/franchise_countries.csv), e.g. "fictional character in Marvel Comics" -> USA."""
     lowered = description.lower()
     countries = sorted({country for keyword, country, _ in tables["franchises"] if country and keyword in lowered})
     if len(countries) != 1:

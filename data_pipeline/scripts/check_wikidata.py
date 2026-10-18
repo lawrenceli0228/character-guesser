@@ -5,7 +5,7 @@ Usage:
     python scripts/check_wikidata.py
 
 Compares name/label, gender, birth year, living status, age at death and
-Nobel Prize in data/raw/roster.csv with data/raw/wikidata_snapshot.json and
+Nobel Prize in raw/roster.csv with raw/wikidata_snapshot.json and
 prints every disagreement for manual review. Nothing is changed
 automatically. Works offline.
 """
@@ -16,8 +16,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ROSTER_PATH = ROOT / "data" / "raw" / "roster.csv"
-SNAPSHOT_PATH = ROOT / "data" / "raw" / "wikidata_snapshot.json"
+ROSTER_PATH = ROOT / "raw" / "roster.csv"
+SNAPSHOT_PATH = ROOT / "raw" / "wikidata_snapshot.json"
 
 BIRTH_YEAR_TOLERANCE = 2  # BCE dates and uncertain dates differ by a year or two
 

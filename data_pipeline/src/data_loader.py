@@ -1,4 +1,4 @@
-"""Load and validate data/characters.csv for the game and the evaluation.
+"""Load and validate dataset/characters.csv for the game and the evaluation.
 
 Example:
     from data_loader import load_characters
@@ -20,7 +20,7 @@ from typing import List, Mapping, Optional, Sequence, Tuple
 
 from questions import QUESTIONS
 
-DEFAULT_DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "characters.csv"
+DEFAULT_DATA_PATH = Path(__file__).resolve().parent.parent.parent / "dataset" / "characters.csv"
 NAME_COLUMN = "name"
 SOURCE_COLUMN = "source"
 SITELINKS_COLUMN = "sitelinks"

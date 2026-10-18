@@ -5,8 +5,8 @@ Usage:
 
 1. QLever: the HUMAN_POOL humans and FICTIONAL_POOL fictional characters with
    the most Wikipedia/Wikimedia sitelinks (a broad, objective long list).
-2. Drop entries already in data/raw/roster.csv and those in
-   data/raw/exclusions.csv (religious figures, people known mainly for
+2. Drop entries already in raw/roster.csv and those in
+   raw/exclusions.csv (religious figures, people known mainly for
    atrocities or terrorism).
 3. WDQS: English Wikipedia article title, a "mul" label when there is no
    English one, and for fictional characters whether they belong to an
@@ -20,8 +20,8 @@ Usage:
    ranked by score = pageviews x sitelinks, which balances current and
    long-term recognition.
 
-Writes data/raw/candidates.csv (every long-list entry with its status and
-rank) and caches pageviews in data/raw/pageviews_60d_direct.json.
+Writes raw/candidates.csv (every long-list entry with its status and
+rank) and caches pageviews in raw/pageviews_60d_direct.json.
 """
 
 import csv
@@ -34,7 +34,7 @@ from pathlib import Path
 from wikidata_http import chunks, entity_id, get_json, qlever, sparql, value
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW = ROOT / "data" / "raw"
+RAW = ROOT / "raw"
 ROSTER_PATH = RAW / "roster.csv"
 EXCLUSIONS_PATH = RAW / "exclusions.csv"
 CANDIDATES_PATH = RAW / "candidates.csv"

@@ -201,7 +201,7 @@ def test_project_dataset_is_up_to_date_with_roster(tmp_path):
         if old.get(column) != new.get(column)
     ]
     assert len(actual) == len(expected) and not changed, \
-        "data/characters.csv is stale (run `python src/preprocess.py`); first changes: %s" % changed[:10]
+        "dataset/characters.csv is stale (run `python data_pipeline/src/preprocess.py`); first changes: %s" % changed[:10]
 
 
 # --- review follow-ups ------------------------------------------------------
@@ -253,3 +253,11 @@ def test_feature_matrix_rejects_unknown_value_that_hides_unknowns(small_csv, unk
 def test_feature_matrix_rejects_empty_input():
     with pytest.raises(ValueError, match="no characters"):
         to_feature_matrix([])
+
+
+
+def test_exported_questions_match_question_definitions():
+    exported = list(csv.DictReader(open(preprocess.QUESTIONS_OUTPUT_PATH, encoding="utf-8")))
+
+    assert exported == preprocess.question_rows()
+    assert [row["attribute"] for row in exported] == list(QUESTIONS)

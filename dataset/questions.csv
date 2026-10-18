@@ -1,0 +1,108 @@
+attribute,question,group
+is_fictional,Is this a fictional character (not a real person)?,core
+is_male,Is this person or character male?,core
+is_human,Is this a human being?,core
+is_animal,"Is this an animal, or an animal-like character (such as a talking mouse or bear)?",core
+is_alive,Is this person still alive today?,core
+died_before_age_40,Did this person die before the age of 40?,core
+origin_bce,Was this person born (or this character created) before the Common Era (BCE)?,core
+origin_before_1500,Was this person born (or this character created) before the year 1500?,core
+origin_before_1800,Was this person born (or this character created) before 1800?,core
+origin_before_1900,Was this person born (or this character created) before 1900?,core
+origin_before_1950,Was this person born (or this character created) before 1950?,core
+origin_1960_or_later,Was this person born (or this character created) in 1960 or later?,core
+origin_1970_or_later,Was this person born (or this character created) in 1970 or later?,core
+origin_1980_or_later,Was this person born (or this character created) in 1980 or later?,core
+origin_1995_or_later,Was this person born (or this character created) in 1995 or later?,core
+from_asia,Is this person or character from Asia?,core
+from_europe,Is this person or character from Europe?,core
+from_north_america,Is this person or character from North America?,core
+from_south_america,Is this person or character from South America?,core
+from_africa,Is this person or character from Africa?,core
+from_oceania,Is this person or character from Australia or Oceania?,core
+from_chinese_speaking_world,"Is this person or character from the Chinese-speaking world (mainland China, Hong Kong or Taiwan)?",core
+from_usa,Is this person or character from the United States?,core
+from_uk,Is this person or character from the United Kingdom?,core
+from_japan,Is this person or character from Japan?,core
+from_france,Is this person or character from France?,core
+from_germany,Is this person or character from Germany?,core
+from_italy,Is this person or character from Italy?,core
+from_spain,Is this person or character from Spain?,core
+from_russia,Is this person or character from Russia (including the Soviet Union)?,core
+from_india,Is this person or character from India?,core
+from_canada,Is this person or character from Canada?,core
+from_brazil,Is this person or character from Brazil?,core
+known_for_science_or_medicine,Is this person or character known for science or medicine?,core
+known_for_technology,"Is this person or character known for technology, computing or inventions?",core
+known_for_politics_or_leadership,Is this person or character known for politics or leading a nation?,core
+known_for_sport,Is this person or character known for sport?,core
+known_for_football,Is this person known for football (soccer)?,core
+known_for_music,Is this person or character known for music?,core
+known_for_acting_or_tv,Is this person known for acting in films or appearing on television?,core
+known_for_filmmaking,Is this person known for directing or producing films?,core
+known_for_writing,"Is this person known for writing, poetry or philosophy?",core
+known_for_visual_art,Is this person known for painting or other visual art?,core
+known_for_business,Is this person known for business or founding a company?,core
+known_for_exploration,"Is this person known for exploration, such as voyages of discovery or space travel?",core
+won_nobel_prize,Has this person won a Nobel Prize?,core
+has_ruled_a_country,"Has this person or character ruled a country or kingdom (as a monarch, president, prime minister or dictator)?",core
+is_monarch_or_royal,Is this person or character a monarch or a member of a royal family?,core
+has_superpowers_or_magic,Does this character have superpowers or magical abilities?,core
+is_villain,Is this a fictional villain?,core
+is_robot_or_machine,Is this character a robot or machine?,core
+first_appeared_in_book,Is this a fictional character who first appeared in a book?,core
+first_appeared_in_comic,Is this a fictional character who first appeared in a comic or manga?,core
+first_appeared_in_animation,Is this a fictional character who first appeared in an animated film or cartoon?,core
+first_appeared_in_video_game,Is this a fictional character who first appeared in a video game?,core
+first_appeared_in_live_action,Is this a fictional character who first appeared in a live-action film or TV show?,core
+occupation_physicist,Is this person a physicist?,pool
+occupation_mathematician,Is this person known as a mathematician?,pool
+occupation_chemist,Is this person a chemist?,pool
+occupation_inventor,Is this person or character known as an inventor?,pool
+occupation_computer_scientist,Is this person known for computer science or programming?,pool
+occupation_engineer,Is this person an engineer?,pool
+occupation_philosopher,Is this person a philosopher?,pool
+occupation_poet,Is this person a poet?,pool
+occupation_novelist,Is this person a novelist?,pool
+occupation_singer,Is this person a singer?,pool
+occupation_martial_artist,Is this person or character known for martial arts?,pool
+occupation_superhero,Is this character a superhero?,pool
+occupation_lawyer,Did this person work as a lawyer?,pool
+occupation_military_leader,Is this person known as a military commander?,pool
+occupation_wizard,Is this character a wizard or witch?,pool
+occupation_nurse,Was this person a nurse?,pool
+occupation_comedian,Is this person known for comedy?,pool
+occupation_emperor,Was this person an emperor?,pool
+occupation_activist,Is this person known as an independence or civil-rights activist?,pool
+occupation_conservationist,Is this person known for wildlife or environmental conservation?,pool
+occupation_detective,Is this character a detective?,pool
+occupation_spy,Is this character a spy?,pool
+occupation_pirate,Is this character a pirate?,pool
+sport_basketball,Is this person a basketball player?,pool
+sport_tennis,Is this person a tennis player?,pool
+sport_athletics,Is this person a track-and-field athlete (for example a sprinter)?,pool
+sport_cricket,Is this person a cricketer?,pool
+instrument_piano,Is this person known for playing the piano?,pool
+instrument_guitar,Is this person known for playing the guitar?,pool
+position_us_president,Has this person been President of the United States?,pool
+studied_at_cambridge,Did this person study at the University of Cambridge?,pool
+universe_harry_potter,Is this character from the Harry Potter series?,pool
+universe_dc,Is this character from DC Comics?,pool
+universe_tolkien,Is this character from The Hobbit or The Lord of the Rings?,pool
+award_nobel_peace,Has this person won the Nobel Peace Prize?,pool
+award_nobel_physics,Has this person won the Nobel Prize in Physics?,pool
+award_oscar,Has this person won an Oscar (Academy Award)?,pool
+award_grammy,Has this person won a Grammy Award?,pool
+award_olympic_gold,Has this person won an Olympic gold medal?,pool
+franchise_disney,Is this a Disney character?,pool
+franchise_nintendo,Is this a Nintendo character?,pool
+universe_marvel,Is this character from Marvel Comics?,pool
+universe_star_wars,Is this character from Star Wars?,pool
+award_golden_globe,Has this person won a Golden Globe Award?,pool
+position_us_vice_president,Has this person been Vice President of the United States?,pool
+position_uk_prime_minister,Has this person been Prime Minister of the United Kingdom?,pool
+occupation_rapper,Is this person a rapper?,pool
+sport_boxing,Is this person a boxer?,pool
+sport_racing,Is this person a racing driver?,pool
+franchise_x_men,Is this character from the X-Men comics or films?,pool
+franchise_avengers,Is this character a member of the Avengers?,pool

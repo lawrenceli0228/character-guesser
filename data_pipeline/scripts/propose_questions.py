@@ -3,12 +3,12 @@
 Usage:
     python scripts/propose_questions.py
 
-Reads data/raw/wikidata_snapshot.json and writes
-data/raw/question_candidates.csv: every (property, value) shared by at least
+Reads raw/wikidata_snapshot.json and writes
+raw/question_candidates.csv: every (property, value) shared by at least
 MIN_SHARED roster entries, with how many entries and which ones have it.
 
 The candidate list is only input for manual review. Questions that are kept
-are written by hand into data/raw/question_pool.csv, with player-friendly
+are written by hand into raw/question_pool.csv, with player-friendly
 wording and, where useful, several Wikidata values merged into one question
 (e.g. actor + film actor + television actor).
 """
@@ -20,10 +20,10 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ROSTER_PATH = ROOT / "data" / "raw" / "roster.csv"
-AUTO_ROSTER_PATH = ROOT / "data" / "raw" / "roster_auto.csv"
-SNAPSHOT_PATH = ROOT / "data" / "raw" / "wikidata_snapshot.json"
-OUTPUT_PATH = ROOT / "data" / "raw" / "question_candidates.csv"
+ROSTER_PATH = ROOT / "raw" / "roster.csv"
+AUTO_ROSTER_PATH = ROOT / "raw" / "roster_auto.csv"
+SNAPSHOT_PATH = ROOT / "raw" / "wikidata_snapshot.json"
+OUTPUT_PATH = ROOT / "raw" / "question_candidates.csv"
 MIN_SHARED = 2
 # Properties that can become player-facing questions. The snapshot also holds
 # helper properties (citizenship, class, works) used only to build the roster.

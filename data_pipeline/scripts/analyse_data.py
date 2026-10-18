@@ -1,4 +1,4 @@
-"""Data-quality report for data/characters.csv.
+"""Data-quality report for dataset/characters.csv.
 
 Usage:
     python scripts/analyse_data.py

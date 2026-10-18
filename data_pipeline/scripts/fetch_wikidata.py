@@ -3,11 +3,11 @@
 Usage:
     python scripts/fetch_wikidata.py
 
-Entities: every ID in data/raw/roster.csv (plus popularity_wikidata_id), and
-the top-ranked eligible candidates in data/raw/candidates.csv (written by
+Entities: every ID in raw/roster.csv (plus popularity_wikidata_id), and
+the top-ranked eligible candidates in raw/candidates.csv (written by
 scripts/select_candidates.py), enough to fill the targets in dataset_config.py.
 
-For each entity data/raw/wikidata_snapshot.json stores:
+For each entity raw/wikidata_snapshot.json stores:
 - label, description, gender (P21), birth (P569) and death (P570) dates and
   Nobel Prize awards (P166), used by check_wikidata.py and build_auto_roster.py;
 - the number of Wikipedia/Wikimedia sitelinks, used as a popularity score;
@@ -34,7 +34,7 @@ from dataset_config import FETCH_BUFFER, TARGET_FICTIONAL, TARGET_REAL
 from wikidata_http import WDQS_ENDPOINT, chunks, entity_id, sparql, value
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW = ROOT / "data" / "raw"
+RAW = ROOT / "raw"
 ROSTER_PATH = RAW / "roster.csv"
 CANDIDATES_PATH = RAW / "candidates.csv"
 SNAPSHOT_PATH = RAW / "wikidata_snapshot.json"
