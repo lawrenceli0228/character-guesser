@@ -1,0 +1,13 @@
+Targets still unfilled: {'real': 0, 'fictional': 0}
+
+Skipped (4):
+  fictional Darth Vader (Q12206942): not fetched, unnamed or duplicate name
+  fictional He-Man (Q550404): neither medium nor year of first appearance can be determined
+  fictional HAL 9000 (Q833933): neither medium nor year of first appearance can be determined
+  real Ronaldinho (Q39444): no recognisable 'known for' keyword in description 'Brazilian associaton fooball player (born 1980)'
+
+Unmapped country IDs (0):
+
+Unmapped work types (0):
+
+Unmapped character classes (0):

@@ -1,0 +1,92 @@
+name,wikidata_id,popularity_wikidata_id,kind,gender,species,origin_year,alive,age_at_death,region,country,domains,media,tags,overrides,notes
+Albert Einstein,Q937,,real,male,human,1879,no,76,europe,Germany,science,,nobel,from_usa=unknown;from_north_america=unknown,Born in Germany; later US citizen
+Isaac Newton,Q935,,real,male,human,1642,no,84,europe,UK,science,,,,
+Marie Curie,Q7186,,real,female,human,1867,no,66,europe,France,science,,nobel,,Born in Poland; worked in France
+Charles Darwin,Q1035,,real,male,human,1809,no,73,europe,UK,science,,,,
+Galileo Galilei,Q307,,real,male,human,1564,no,77,europe,Italy,science,,,,
+Nikola Tesla,Q9036,,real,male,human,1856,no,86,europe,Serbia,science;technology,,,from_usa=unknown;from_north_america=unknown,Ethnic Serb born in Smiljan (Austrian Empire; now Croatia); worked in the US
+Stephen Hawking,Q17714,,real,male,human,1942,no,76,europe,UK,science,,,,
+Ada Lovelace,Q7259,,real,female,human,1815,no,36,europe,UK,science;technology,,,,
+Alan Turing,Q7251,,real,male,human,1912,no,41,europe,UK,science;technology,,,,
+Tu Youyou,Q462843,,real,female,human,1930,yes,,asia,China,science,,nobel,,
+Abraham Lincoln,Q91,,real,male,human,1809,no,56,north_america,USA,politics,,ruler,,
+Napoleon,Q517,,real,male,human,1769,no,51,europe,France,politics,,ruler;royal,,Crowned Emperor of the French
+Elizabeth II,Q9682,,real,female,human,1926,no,96,europe,UK,politics,,ruler;royal,,
+Barack Obama,Q76,,real,male,human,1961,yes,,north_america,USA,politics,,ruler;nobel,,
+Nelson Mandela,Q8023,,real,male,human,1918,no,95,africa,South Africa,politics,,ruler;nobel,,
+Mahatma Gandhi,Q1001,,real,male,human,1869,no,78,asia,India,politics,,,,
+Julius Caesar,Q1048,,real,male,human,-100,no,55,europe,Italy,politics,,ruler,,Roman Republic; dictator not monarch
+Cleopatra,Q635,,real,female,human,-69,no,39,africa,Egypt,politics,,ruler;royal,,Cleopatra VII of Ptolemaic Egypt
+Genghis Khan,Q720,,real,male,human,1162,no,65,asia,Mongolia,politics,,ruler;royal,,Birth year uncertain (c. 1162)
+Qin Shi Huang,Q7192,,real,male,human,-259,no,49,asia,China,politics,,ruler;royal,,
+Winston Churchill,Q8016,,real,male,human,1874,no,90,europe,UK,politics,,ruler;nobel,known_for_writing=unknown,Nobel Prize in Literature 1953
+Confucius,Q4604,,real,male,human,-551,no,72,asia,China,writing,,,,Birth year traditional (551 BCE)
+William Shakespeare,Q692,,real,male,human,1564,no,52,europe,UK,writing,,,,
+Jane Austen,Q36322,,real,female,human,1775,no,41,europe,UK,writing,,,,
+J. K. Rowling,Q34660,,real,female,human,1965,yes,,europe,UK,writing,,,,
+Lu Xun,Q23114,,real,male,human,1881,no,55,asia,China,writing,,,,
+Li Bai,Q7071,,real,male,human,701,no,61,asia,China,writing,,,,
+Mark Twain,Q7245,,real,male,human,1835,no,74,north_america,USA,writing,,,,
+Agatha Christie,Q35064,,real,female,human,1890,no,85,europe,UK,writing,,,,
+Leonardo da Vinci,Q762,,real,male,human,1452,no,67,europe,Italy,art;science,,,known_for_technology=unknown,Painter; also famous for invention designs
+Vincent van Gogh,Q5582,,real,male,human,1853,no,37,europe,Netherlands,art,,,,
+Pablo Picasso,Q5593,,real,male,human,1881,no,91,europe,Spain,art,,,,
+Frida Kahlo,Q5588,,real,female,human,1907,no,47,north_america,Mexico,art,,,,
+Wolfgang Amadeus Mozart,Q254,,real,male,human,1756,no,35,europe,Austria,music,,,,
+Ludwig van Beethoven,Q255,,real,male,human,1770,no,56,europe,Germany,music,,,,
+Michael Jackson,Q2831,,real,male,human,1958,no,50,north_america,USA,music,,,,
+Taylor Swift,Q26876,,real,female,human,1989,yes,,north_america,USA,music,,,,
+John Lennon,Q1203,,real,male,human,1940,no,40,europe,UK,music,,,,
+Jay Chou,Q238819,,real,male,human,1979,yes,,asia,Taiwan,music,,,known_for_acting_or_tv=unknown,Mainly a singer; also acts
+Charlie Chaplin,Q882,,real,male,human,1889,no,88,europe,UK,acting;film,,,from_usa=unknown;from_north_america=unknown,British-born; career in Hollywood
+Marilyn Monroe,Q4616,,real,female,human,1926,no,36,north_america,USA,acting,,,,
+Jackie Chan,Q36970,,real,male,human,1954,yes,,asia,Hong Kong,acting,,,,
+Bruce Lee,Q16397,,real,male,human,1940,no,32,asia,Hong Kong,acting,,,from_usa=unknown;from_north_america=unknown;known_for_sport=unknown,Born in San Francisco; raised in Hong Kong; martial artist
+Leonardo DiCaprio,Q38111,,real,male,human,1974,yes,,north_america,USA,acting,,,,
+Hugh Jackman,Q129591,,real,male,human,1968,yes,,oceania,Australia,acting,,,known_for_music=unknown,Also known for musicals
+Steve Irwin,Q126513,,real,male,human,1962,no,44,oceania,Australia,acting,,,,Wildlife TV presenter
+Michael Jordan,Q41421,,real,male,human,1963,yes,,north_america,USA,sport,,,,
+Lionel Messi,Q615,,real,male,human,1987,yes,,south_america,Argentina,sport;football,,,,
+Cristiano Ronaldo,Q11571,,real,male,human,1985,yes,,europe,Portugal,sport;football,,,,
+Serena Williams,Q11459,,real,female,human,1981,yes,,north_america,USA,sport,,,,
+Usain Bolt,Q1189,,real,male,human,1986,yes,,north_america,Jamaica,sport,,,from_north_america=unknown,Caribbean; players may not call Jamaica North America
+Yao Ming,Q58590,,real,male,human,1980,yes,,asia,China,sport,,,,
+Roger Federer,Q1426,,real,male,human,1981,yes,,europe,Switzerland,sport,,,,
+Don Bradman,Q313591,,real,male,human,1908,no,92,oceania,Australia,sport,,,,
+Cathy Freeman,Q234762,,real,female,human,1973,yes,,oceania,Australia,sport,,,,
+Steve Jobs,Q19837,,real,male,human,1955,no,56,north_america,USA,business;technology,,,,
+Bill Gates,Q5284,,real,male,human,1955,yes,,north_america,USA,business;technology,,,,
+Elon Musk,Q317521,,real,male,human,1971,yes,,north_america,USA,business;technology,,,from_africa=unknown,Born in South Africa
+Florence Nightingale,Q37103,,real,female,human,1820,no,90,europe,UK,science,,,,Founder of modern nursing
+Neil Armstrong,Q1615,,real,male,human,1930,no,82,north_america,USA,science;exploration,,,,Astronaut and engineer
+Harry Potter,Q3244512,,fictional,male,human,1997,na,,europe,UK,,book,powers,,
+Hermione Granger,Q174009,,fictional,female,human,1997,na,,europe,UK,,book,powers,,
+Lord Voldemort,Q176132,,fictional,male,human,1997,na,,europe,UK,,book,powers;villain,,
+Sherlock Holmes,Q4653,,fictional,male,human,1887,na,,europe,UK,,book,,,
+Frodo Baggins,Q177329,,fictional,male,other,1954,na,,europe,UK,,book,,,A hobbit
+Gandalf,Q177499,,fictional,male,unknown,1937,na,,europe,UK,,book,powers,is_animal=false,A wizard (Maia); human-like
+Alice,Q1269082,,fictional,female,human,1865,na,,europe,UK,,book,,,Alice's Adventures in Wonderland
+Winnie-the-Pooh,Q188574,,fictional,male,animal,1926,na,,europe,UK,,book,,,
+James Bond,Q2009573,,fictional,male,human,1953,na,,europe,UK,,book,,,
+Sun Wukong,Q11773777,,fictional,male,animal,1592,na,,asia,China,,book,powers,is_monarch_or_royal=unknown;origin_before_1500=unknown,Novel Journey to the West (c. 1592); the Monkey King appears in earlier tales and drama; calls himself the Monkey King
+Count Dracula,Q3266236,,fictional,male,unknown,1897,na,,europe,UK,,book,powers;villain,,A vampire who can turn into a bat
+Spider-Man,Q79037,,fictional,male,human,1962,na,,north_america,USA,,comic,powers,,
+Batman,Q2695156,,fictional,male,human,1939,na,,north_america,USA,,comic,,,
+Superman,Q79015,,fictional,male,other,1938,na,,north_america,USA,,comic,powers,,Kryptonian
+Wonder Woman,Q338430,,fictional,female,unknown,1941,na,,north_america,USA,,comic,powers;royal,is_animal=false,Amazon princess of Themyscira
+Doraemon,Q1186309,,fictional,male,other,1969,na,,asia,Japan,,comic,robot,is_animal=unknown;has_superpowers_or_magic=unknown;origin_1970_or_later=unknown,Robot cat with futuristic gadgets; first issues published Dec 1969 but cover-dated Jan 1970
+Naruto Uzumaki,Q931,,fictional,male,human,1999,na,,asia,Japan,,comic,powers,,Serialised from 1999
+Goku,Q2142,,fictional,male,other,1984,na,,asia,Japan,,comic,powers,,A Saiyan
+Mickey Mouse,Q11934,,fictional,male,animal,1928,na,,north_america,USA,,animation,,,
+SpongeBob SquarePants,Q935079,,fictional,male,other,1999,na,,north_america,USA,,animation,,is_animal=unknown,A sea sponge
+Homer Simpson,Q7810,,fictional,male,human,1987,na,,north_america,USA,,animation,,,
+Elsa,Q15620419,,fictional,female,human,2013,na,,north_america,USA,,animation,powers;ruler;royal,,Queen of Arendelle in Frozen
+Simba,Q1649583,,fictional,male,animal,1994,na,,north_america,USA,,animation,ruler;royal,,The Lion King
+Totoro,Q1939137,Q39571,fictional,unknown,other,1988,na,,asia,Japan,,animation,powers,is_animal=unknown,Forest spirit in My Neighbor Totoro
+Peppa Pig,Q89412603,Q938985,fictional,female,animal,2004,na,,europe,UK,,animation,,,
+Mario,Q12379,,fictional,male,human,1981,na,,asia,Japan,,video_game,,has_superpowers_or_magic=unknown,Gains powers from items
+Pikachu,Q9351,,fictional,unknown,animal,1996,na,,asia,Japan,,video_game,powers,,Electric mouse Pokemon
+Lara Croft,Q223684,,fictional,female,human,1996,na,,europe,UK,,video_game,,,Tomb Raider (UK developer Core Design)
+Sonic the Hedgehog,Q191626,,fictional,male,animal,1991,na,,asia,Japan,,video_game,powers,,Super speed
+Darth Vader,Q51752,,fictional,male,human,1977,na,,north_america,USA,,live_action,powers;villain,is_robot_or_machine=unknown,Star Wars; partly a cyborg
+Jack Sparrow,Q202857,,fictional,male,human,2003,na,,north_america,USA,,live_action,,,Pirates of the Caribbean

@@ -1,0 +1,1331 @@
+property,property_name,value_id,value_label,count,members
+P106,occupation,Q33999,actor,145,Agnez Mo; Al Pacino; Albert Camus; Alfred Hitchcock; Amitabh Bachchan; Andrew Garfield; Angelina Jolie; Anne Hathaway; Anthony Hopkins; Ariana Grande; Arnold Schwarzenegger; Audrey Hepburn; Avril Lavigne; Barbra Streisand; Ben Affleck; Beyoncé; Bob Dylan; Brad Pitt; Bradley Cooper; Britney Spears; Bruce Lee; Bruce Willis; Cameron Diaz; Carrie Fisher; Cate Blanchett; Charlie Chaplin; Charlize Theron; Cher; Chris Pratt; Christopher Lee; Chuck Norris; Clint Eastwood; Daniel Radcliffe; David Beckham; David Bowie; Demi Lovato; Denzel Washington; Diego Maradona; Dolly Parton; Don Bradman; Donald Trump; Dua Lipa; Dwayne Johnson; Elizabeth Taylor; Eminem; Emma Stone; Emma Watson; Frank Sinatra; George Clooney; George Harrison; George Lucas; Grace Kelly; Gwyneth Paltrow; Halle Berry; Harrison Ford; Heath Ledger; Hugh Jackman; Jack Nicholson; Jackie Chan; James Cameron; James Dean; Jane Fonda; Jason Bateman; Jay Chou; Jennifer Aniston; Jennifer Lawrence; Jennifer Lopez; Jeremy Renner; Jessica Alba; Jim Carrey; Jim Morrison; Jodie Foster; John Lennon; John Travolta; John Wayne; Johnny Cash; Johnny Depp; Judy Garland; Julia Roberts; Justin Timberlake; Justin Trudeau; Kate Winslet; Katy Perry; Keanu Reeves; Kendall Jenner; Kevin Costner; Kim Kardashian; Kylie Minogue; Lana Del Rey; Leonardo DiCaprio; Louis XIV of France; Madonna; Mariah Carey; Marilyn Monroe; Marlon Brando; Martin Scorsese; Mary Jane Watson; Matt Damon; Megan Fox; Mel Gibson; Meryl Streep; Mike Tyson; Mila Kunis; Miley Cyrus; Monica Bellucci; Morgan Freeman; Mystique; Natalie Portman; Nicolas Cage; Nicole Kidman; Pamela Anderson; Paul Newman; Pelé; Penélope Cruz; Prince (musician); Priyanka Chopra; Quentin Tarantino; Rihanna; Robert De Niro; Robert Downey Jr.; Robin Williams; Roman Polanski; Ronald Reagan; Rowan Atkinson; Russell Crowe; Salvador Dalí; Sandra Bullock; Scarlett Johansson; Sean Connery; Selena Gomez; Serena Williams; Shah Rukh Khan; Shakira; Stephen King; Steve Irwin; Steven Spielberg; Tom Cruise; Tom Hanks; Tom Holland; Tupac Shakur; Walt Disney; Whitney Houston; Will Smith; William Shakespeare; Woody Allen
+P106,occupation,Q36180,writer,123,Abraham Lincoln; Ada Lovelace; Agatha Christie; Al Pacino; Albert Camus; Albert Einstein; Alfred Hitchcock; Ali Khamenei; Amitabh Bachchan; Anthony Hopkins; Barbra Streisand; Ben Affleck; Benjamin Franklin; Bill Clinton; Bob Dylan; Bruce Lee; Bruce Willis; Carrie Fisher; Charles Darwin; Charles Dickens; Charles III; Charlie Chaplin; Christopher Nolan; Chuck Norris; Clint Eastwood; Confucius; Dante Alighieri; Donald Trump; Dwight D. Eisenhower; Edgar Allan Poe; Elizabeth Taylor; Ernest Hemingway; Florence Nightingale; Franz Kafka; Friedrich Nietzsche; Fyodor Dostoyevsky; George Clooney; George Lucas; George Orwell; George R. R. Martin; George Washington; Helen Keller; Henry Kissinger; Immanuel Kant; Indira Gandhi; J. K. Rowling; J. R. R. Tolkien; JD Vance; Jack Nicholson; James A. Garfield; James Cameron; James Joyce; Jane Austen; Jane Fonda; Jawaharlal Nehru; Jimmy Carter; Joe Biden; Johann Wolfgang von Goethe; John Adams; John F. Kennedy; John Lennon; John Steinbeck; John Travolta; John Wayne; Julius Caesar; Kamala Harris; Karl Marx; Keanu Reeves; Leo Tolstoy; Leon Trotsky; Leonardo da Vinci; Li Bai; Lord Byron; Lu Xun; Madonna; Mahathir Mohamad; Mahatma Gandhi; Malala Yousafzai; Mao Zedong; Marcus Aurelius; Mark Twain; Marlon Brando; Martin Luther King Jr.; Martin Scorsese; Matt Damon; Mel Gibson; Melania Trump; Michelangelo; Muammar Gaddafi; Mustafa Kemal Atatürk; Narendra Modi; Niccolò Machiavelli; Nicolas Cage; Oscar Wilde; Otto von Bismarck; Pablo Picasso; Paul Newman; Plato; Quentin Tarantino; René Descartes; Roman Polanski; Russell Crowe; Salvador Dalí; Sean Connery; Serena Williams; Socrates; Stanley Kubrick; Stephen Hawking; Stephen King; Steven Spielberg; Theodore Roosevelt; Thomas Jefferson; Tom Cruise; Tom Hanks; Ulysses S. Grant; Victor Hugo; Virginia Woolf; Voltaire; Walt Disney; Will Smith; William Shakespeare; Woodrow Wilson; Woody Allen
+P106,occupation,Q10800557,film actor,117,Al Pacino; Alfred Hitchcock; Amitabh Bachchan; Andrew Garfield; Anne Hathaway; Anthony Hopkins; Ariana Grande; Arnold Schwarzenegger; Audrey Hepburn; Avril Lavigne; Barbra Streisand; Ben Affleck; Bob Dylan; Brad Pitt; Bradley Cooper; Bruce Lee; Bruce Willis; Cameron Diaz; Carrie Fisher; Cate Blanchett; Charlie Chaplin; Charlize Theron; Cher; Chris Pratt; Christopher Lee; Christopher Nolan; Chuck Norris; Clint Eastwood; Daniel Radcliffe; David Bowie; Demi Moore; Dwayne Johnson; Elizabeth Taylor; Elton John; Eminem; Emma Stone; Emma Watson; Fidel Castro; Frank Sinatra; George Clooney; George Harrison; George Lucas; Grace Kelly; Gwyneth Paltrow; Halle Berry; Harrison Ford; Heath Ledger; Hugh Jackman; Jack Nicholson; Jackie Chan; James Dean; Jane Fonda; Jason Bateman; Jennifer Aniston; Jennifer Lawrence; Jennifer Lopez; Jeremy Renner; Jessica Alba; Jim Carrey; Jodie Foster; John Lennon; John Travolta; John Wayne; Johnny Depp; Judy Garland; Julia Roberts; Kate Winslet; Keanu Reeves; Kevin Costner; Leonardo DiCaprio; Madonna; Marilyn Monroe; Marlon Brando; Martin Scorsese; Matt Damon; Megan Fox; Mel Gibson; Meryl Streep; Michael Caine; Mikhail Gorbachev; Mila Kunis; Miley Cyrus; Monica Bellucci; Morgan Freeman; Natalie Portman; Nicolas Cage; Nicole Kidman; Pablo Picasso; Pamela Anderson; Paul McCartney; Paul Newman; Pelé; Penélope Cruz; Prince (musician); Priyanka Chopra; Quentin Tarantino; Robert De Niro; Robin Williams; Roman Polanski; Ronald Reagan; Rowan Atkinson; Russell Crowe; Salvador Dalí; Sandra Bullock; Scarlett Johansson; Sean Connery; Shah Rukh Khan; Steven Spielberg; Sylvester Stallone; Tom Cruise; Tom Hanks; Tom Holland; Tupac Shakur; Walt Disney; Whitney Houston; Will Smith; Woody Allen
+P106,occupation,Q3282637,film producer,95,Al Pacino; Alfred Hitchcock; Amitabh Bachchan; Andy Warhol; Anthony Hopkins; Arnold Schwarzenegger; Barbra Streisand; Ben Affleck; Brad Pitt; Bradley Cooper; Bruce Lee; Bruce Willis; Cameron Diaz; Carrie Fisher; Cate Blanchett; Charlie Chaplin; Charlize Theron; Christopher Lee; Christopher Nolan; Chuck Norris; Clint Eastwood; David Bowie; Demi Moore; Donald Trump; Dua Lipa; Dwayne Johnson; Elizabeth Taylor; Emma Stone; Frank Sinatra; George Clooney; George Harrison; George Lucas; George R. R. Martin; Halle Berry; Harrison Ford; Hillary Clinton; Hugh Jackman; J. K. Rowling; Jack Nicholson; Jackie Chan; James Cameron; Jane Fonda; Jason Bateman; Jennifer Aniston; Jennifer Lawrence; Jennifer Lopez; Jeremy Renner; Jim Carrey; Jodie Foster; John Lennon; John Travolta; John Wayne; Johnny Depp; Julia Roberts; Kate Winslet; Keanu Reeves; Kevin Costner; Kylie Minogue; Leonardo DiCaprio; Madonna; Marilyn Monroe; Martin Scorsese; Matt Damon; Mel Gibson; Meryl Streep; Morgan Freeman; Natalie Portman; Nicolas Cage; Nicole Kidman; Pamela Anderson; Paul McCartney; Paul Newman; Prince (musician); Priyanka Chopra; Quentin Tarantino; Robert De Niro; Robert Downey Jr.; Robin Williams; Roman Polanski; Rowan Atkinson; Russell Crowe; Sandra Bullock; Sean Connery; Shah Rukh Khan; Stanley Kubrick; Steve Jobs; Steven Spielberg; Sylvester Stallone; Thomas Edison; Tom Cruise; Tom Hanks; Walt Disney; Whitney Houston; Will Smith; Woody Allen
+P106,occupation,Q82955,politician,92,"Abraham Lincoln; Alexander the Great; Ali Khamenei; Andrew Jackson; Arnold Schwarzenegger; Augustus; Barack Obama; Bashar al-Assad; Benjamin Franklin; Benjamin Netanyahu; Bernie Sanders; Bill Clinton; Catherine II of Russia; Charles I of England; Charles III; Charles de Gaulle; Clint Eastwood; Dante Alighieri; Donald Trump; Dwight D. Eisenhower; Edward VII; Elon Musk; Emmanuel Macron; Fidel Castro; Florence Nightingale; Galileo Galilei; George H. W. Bush; George III of Great Britain; George V; George W. Bush; George Washington; Gerald Ford; Harry S. Truman; Henry Kissinger; Hermione Granger; Hillary Clinton; Indira Gandhi; JD Vance; Jair Bolsonaro; James A. Garfield; Jawaharlal Nehru; Jimmy Carter; Joe Biden; Johann Wolfgang von Goethe; John Adams; John F. Kennedy; Julius Caesar; Justin Trudeau; Kamala Harris; Karl Marx; Keir Starmer; Kim Jong-un; Leon Trotsky; Lord Byron; Louis XIV of France; Luiz Inácio Lula da Silva; Lyndon B. Johnson; Mahathir Mohamad; Mahatma Gandhi; Malcolm X; Mao Zedong; Marcus Aurelius; Margaret Thatcher; Martin Luther King Jr.; Mary, Queen of Scots; Mikhail Gorbachev; Muammar Gaddafi; Mustafa Kemal Atatürk; Napoleon; Narendra Modi; Nelson Mandela; Niccolò Machiavelli; Nikita Khrushchev; Otto von Bismarck; Padmé Amidala; Palpatine; Pelé; Pervez Musharraf; Princess Leia; Qin Shi Huang; Richard Nixon; Ronald Reagan; Theodore Roosevelt; Thomas Jefferson; Ulysses S. Grant; Victor Hugo; Vladimir Lenin; Vladimir Putin; Volodymyr Zelenskyy; Winston Churchill; Woodrow Wilson; Xi Jinping"
+P106,occupation,Q10798782,television actor,83,Al Pacino; Amitabh Bachchan; Andrew Garfield; Anne Hathaway; Anthony Hopkins; Ariana Grande; Arnold Schwarzenegger; Barbra Streisand; Ben Affleck; Brad Pitt; Bradley Cooper; Bruce Lee; Bruce Willis; Cameron Diaz; Carrie Fisher; Charlize Theron; Cher; Chris Pratt; Christopher Lee; Chuck Norris; Clint Eastwood; Daniel Radcliffe; Demi Moore; Dwayne Johnson; Elizabeth Taylor; Emma Stone; Frank Sinatra; George Clooney; George Harrison; Grace Kelly; Gwyneth Paltrow; Halle Berry; Heath Ledger; Hugh Jackman; Jack Nicholson; James Dean; Jane Fonda; Jason Bateman; Jennifer Aniston; Jennifer Lawrence; Jennifer Lopez; Jeremy Renner; Jessica Alba; Jim Carrey; Jodie Foster; John Travolta; John Wayne; Johnny Depp; Judy Garland; Julia Roberts; Kate Winslet; Keanu Reeves; Kevin Costner; LeBron James; Leonardo DiCaprio; Marlon Brando; Matt Damon; Megan Fox; Mel Gibson; Meryl Streep; Mila Kunis; Miley Cyrus; Morgan Freeman; Natalie Portman; Nicole Kidman; Pamela Anderson; Paul McCartney; Paul Newman; Penélope Cruz; Quentin Tarantino; Robert Downey Jr.; Robin Williams; Ronald Reagan; Rowan Atkinson; Russell Crowe; Sandra Bullock; Sean Connery; Shah Rukh Khan; Tom Hanks; Tom Holland; Tupac Shakur; Whitney Houston; Will Smith
+P106,occupation,Q177220,singer,69,Adele; Agnez Mo; Amitabh Bachchan; Amy Winehouse; Andrew Garfield; Ariana Grande; Audrey Hepburn; Avril Lavigne; Barbra Streisand; Beyoncé; Billie Eilish; Bob Dylan; Bob Marley; Britney Spears; Bruce Willis; Bruno Mars; Carrie Fisher; Cher; Christopher Lee; Clint Eastwood; Céline Dion; Daniel Radcliffe; David Bowie; Demi Lovato; Dua Lipa; Elton John; Elvis Presley; Eminem; Frank Sinatra; Freddie Mercury; George Harrison; Gwyneth Paltrow; Hugh Jackman; Jay Chou; Jennifer Lopez; Jim Morrison; Jimi Hendrix; John Lennon; John Travolta; Johnny Cash; Judy Garland; Justin Bieber; Kanye West; Kate Winslet; Katy Perry; Keanu Reeves; Kurt Cobain; Kylie Minogue; Lady Gaga; Lana Del Rey; Madonna; Mariah Carey; Marilyn Monroe; Michael Jackson; Miley Cyrus; Nicki Minaj; Nicole Kidman; Ozzy Osbourne; Paul McCartney; Prince (musician); Priyanka Chopra; Rihanna; Robert Downey Jr.; Russell Crowe; Scarlett Johansson; Shakira; Taylor Swift; Whitney Houston; Will Smith
+P106,occupation,Q2405480,voice actor,69,Anne Hathaway; Ariana Grande; Avril Lavigne; Ben Affleck; Brad Pitt; Bruce Willis; Cameron Diaz; Carrie Fisher; Cate Blanchett; Charlize Theron; Chris Pratt; Christopher Lee; Demi Moore; Dwayne Johnson; Emma Stone; Emma Watson; Frank Sinatra; George Clooney; Halle Berry; Harrison Ford; Hugh Jackman; Jane Fonda; Jason Bateman; Jennifer Aniston; Jennifer Lawrence; Jennifer Lopez; Jessica Alba; Jim Carrey; Jodie Foster; John Travolta; Johnny Depp; Judy Garland; Julia Roberts; Kate Winslet; Katy Perry; Keanu Reeves; Kevin Costner; Kim Kardashian; Madonna; Martin Scorsese; Matt Damon; Megan Fox; Mel Gibson; Meryl Streep; Mike Tyson; Mila Kunis; Miley Cyrus; Monica Bellucci; Morgan Freeman; Nicolas Cage; Nicole Kidman; Pamela Anderson; Paul Newman; Penélope Cruz; Rihanna; Robert De Niro; Robert Downey Jr.; Robin Williams; Ronald Reagan; Rowan Atkinson; Sandra Bullock; Scarlett Johansson; Sean Connery; Selena Gomez; Shakira; Tom Hanks; Tom Holland; Walt Disney; Will Smith
+P106,occupation,Q2526255,film director,67,Al Pacino; Alfred Hitchcock; Andy Warhol; Anthony Hopkins; Arnold Schwarzenegger; Barbra Streisand; Ben Affleck; Bob Dylan; Bradley Cooper; Bruce Lee; Cate Blanchett; Charlie Chaplin; Cher; Christopher Nolan; Clint Eastwood; Demi Moore; Emma Watson; Ernest Hemingway; George Clooney; George Harrison; George Lucas; Gwyneth Paltrow; Halle Berry; Heath Ledger; Jack Nicholson; Jackie Chan; James Cameron; Jason Bateman; Jay Chou; Jennifer Aniston; Jennifer Lawrence; Jodie Foster; John Lennon; John Wayne; Johnny Depp; Kate Winslet; Keanu Reeves; Kevin Costner; Madonna; Martin Scorsese; Mel Gibson; Morgan Freeman; Natalie Portman; Nicolas Cage; Paul McCartney; Paul Newman; Penélope Cruz; Prince (musician); Quentin Tarantino; Robert De Niro; Robert Downey Jr.; Roman Polanski; Russell Crowe; Salvador Dalí; Sandra Bullock; Scarlett Johansson; Sean Connery; Stanley Kubrick; Stephen King; Steven Spielberg; Sylvester Stallone; Thomas Edison; Tom Cruise; Tom Hanks; Walt Disney; Will Smith; Woody Allen
+P106,occupation,Q28389,screenwriter,62,Al Pacino; Alfred Hitchcock; Andy Warhol; Anthony Hopkins; Barbra Streisand; Ben Affleck; Bob Dylan; Bradley Cooper; Bruce Lee; Bruce Willis; Carrie Fisher; Charlie Chaplin; Christopher Nolan; Chuck Norris; Clint Eastwood; Ernest Hemingway; George Clooney; George Lucas; George R. R. Martin; Gwyneth Paltrow; J. K. Rowling; Jack Nicholson; Jackie Chan; James Cameron; Jim Carrey; John Steinbeck; John Wayne; Kevin Costner; Kobe Bryant; LeBron James; Leonardo DiCaprio; Madonna; Martin Scorsese; Matt Damon; Mel Gibson; Natalie Portman; Nelson Mandela; Nicolas Cage; Oscar Wilde; Pablo Picasso; Paul McCartney; Paul Newman; Prince (musician); Quentin Tarantino; Robert Downey Jr.; Robin Williams; Roman Polanski; Ronald Reagan; Rowan Atkinson; Russell Crowe; Salvador Dalí; Sandra Bullock; Sean Connery; Shah Rukh Khan; Stanley Kubrick; Stephen King; Steve Irwin; Sylvester Stallone; Thomas Edison; Tom Cruise; Tom Hanks; Woody Allen
+P106,occupation,Q639669,musician,61,Adele; Amy Winehouse; Anne Hathaway; Ariana Grande; Avril Lavigne; Beyoncé; Bob Dylan; Britney Spears; Bruce Willis; Bruno Mars; Charlie Chaplin; Cher; Christopher Lee; Clint Eastwood; David Bowie; Demi Lovato; Elton John; Eminem; George Harrison; Grace Kelly; Gwyneth Paltrow; Hugh Jackman; Jane Fonda; Jennifer Lopez; Jeremy Renner; Jim Morrison; John Lennon; John Travolta; Johnny Depp; Judy Garland; Justin Bieber; Kanye West; Kate Winslet; Katy Perry; Keanu Reeves; Kevin Costner; Kurt Cobain; Lana Del Rey; Leonardo da Vinci; Mariah Carey; Marilyn Monroe; Michael Jackson; Miley Cyrus; Nicki Minaj; Nicole Kidman; Ozzy Osbourne; Pelé; Quentin Tarantino; Rihanna; Robert Downey Jr.; Robin Williams; Selena Gomez; Shah Rukh Khan; Shakira; Taylor Swift; Tom Cruise; Tom Hanks; Tupac Shakur; Whitney Houston; Will Smith; Wolfgang Amadeus Mozart
+P106,occupation,Q36834,composer,49,Adele; Amy Winehouse; Anthony Hopkins; Avril Lavigne; Barbra Streisand; Beyoncé; Billie Eilish; Bob Dylan; Bob Marley; Britney Spears; Bruno Mars; Charlie Chaplin; Cher; Clint Eastwood; Céline Dion; David Bowie; Demi Lovato; Dua Lipa; Elton John; Freddie Mercury; Friedrich Nietzsche; George Harrison; Henry VIII of England; Jay Chou; Jim Morrison; Jimi Hendrix; Johann Sebastian Bach; Johann Wolfgang von Goethe; John Lennon; Johnny Cash; Katy Perry; Kurt Cobain; Kylie Minogue; Leonardo da Vinci; Ludwig van Beethoven; Mariah Carey; Michael Jackson; Miley Cyrus; Paul McCartney; Pelé; Prince (musician); Russell Crowe; Shakira; Taylor Swift; Tom Hanks; Tupac Shakur; Will Smith; Wolfgang Amadeus Mozart; Woody Allen
+P106,occupation,Q2259451,stage actor,43,Al Pacino; Andrew Garfield; Anne Hathaway; Anthony Hopkins; Audrey Hepburn; Barbra Streisand; Bradley Cooper; Carrie Fisher; Cate Blanchett; Charlie Chaplin; Christopher Lee; Daniel Radcliffe; Demi Moore; Elizabeth Taylor; Emma Stone; Emma Watson; Grace Kelly; Gwyneth Paltrow; Hugh Jackman; James Dean; Jane Fonda; Jennifer Aniston; Jeremy Renner; Jessica Alba; John Travolta; Judy Garland; Julia Roberts; Kate Winslet; Leonardo DiCaprio; Marlon Brando; Mary Jane Watson; Meryl Streep; Morgan Freeman; Natalie Portman; Paul Newman; Robert De Niro; Robin Williams; Rowan Atkinson; Scarlett Johansson; Sean Connery; Tom Hanks; Tom Holland; William Shakespeare
+P106,occupation,Q3455803,director,39,Alfred Hitchcock; Andy Warhol; Barbra Streisand; Billie Eilish; Bob Dylan; Bruce Lee; Charlie Chaplin; Christopher Nolan; Clint Eastwood; Frank Sinatra; George Clooney; George Lucas; Jack Nicholson; James Cameron; Jay Chou; Jim Morrison; John Wayne; Johnny Depp; Kanye West; Kevin Costner; Madonna; Marlon Brando; Mel Gibson; Morgan Freeman; Nicolas Cage; Paul Newman; Quentin Tarantino; Robert De Niro; Roman Polanski; Russell Crowe; Sandra Bullock; Stanley Kubrick; Stephen King; Steven Spielberg; Tom Cruise; Tom Hanks; Walt Disney; Will Smith; Woody Allen
+P106,occupation,Q18814623,autobiographer,34,Arnold Schwarzenegger; Bill Clinton; Bob Dylan; Charlie Chaplin; Elizabeth Taylor; George H. W. Bush; George Harrison; George W. Bush; Gerald Ford; Helen Keller; Henry Kissinger; Hillary Clinton; Jane Fonda; Jawaharlal Nehru; Jennifer Lopez; Jimmy Carter; Johann Wolfgang von Goethe; Leon Trotsky; Lord Byron; Mahathir Mohamad; Mahatma Gandhi; Malcolm X; Margaret Thatcher; Marilyn Monroe; Mark Twain; Michael Jordan; Mike Tyson; Nelson Mandela; Richard Nixon; Serena Williams; Theodore Roosevelt; Virginia Woolf; Voltaire; Yao Ming
+P106,occupation,Q49757,poet,34,Ada Lovelace; Albert Camus; Ali Khamenei; Bob Dylan; Dante Alighieri; Edgar Allan Poe; Ernest Hemingway; Franz Kafka; Freddie Mercury; Friedrich Nietzsche; Fyodor Dostoyevsky; George Harrison; J. R. R. Tolkien; James Joyce; Jim Morrison; Johann Wolfgang von Goethe; John Lennon; Julius Caesar; Karl Marx; Leo Tolstoy; Li Bai; Lord Byron; Lu Xun; Madonna; Mao Zedong; Michelangelo; Niccolò Machiavelli; Oscar Wilde; Pablo Picasso; Plato; Tupac Shakur; Victor Hugo; Voltaire; William Shakespeare
+P106,occupation,Q372436,statesperson,32,Abraham Lincoln; Andrew Jackson; Barack Obama; Bashar al-Assad; Benjamin Netanyahu; Bill Clinton; Charles de Gaulle; Count Dracula; Dwight D. Eisenhower; Emmanuel Macron; Fidel Castro; Franklin Delano Roosevelt; George H. W. Bush; George W. Bush; George Washington; Gerald Ford; James A. Garfield; Jimmy Carter; Johann Wolfgang von Goethe; John Adams; John F. Kennedy; Louis XIV of France; Lyndon B. Johnson; Margaret Thatcher; Mustafa Kemal Atatürk; Richard Nixon; Ronald Reagan; Theodore Roosevelt; Thomas Jefferson; Ulysses S. Grant; Woodrow Wilson; Xi Jinping
+P106,occupation,Q578109,television producer,30,Alfred Hitchcock; Ben Affleck; Brad Pitt; Cameron Diaz; Cate Blanchett; Demi Moore; Donald Trump; George R. R. Martin; Gwyneth Paltrow; Halle Berry; James Cameron; Jennifer Lopez; Jodie Foster; Justin Bieber; Kim Kardashian; Martin Scorsese; Matt Damon; Meryl Streep; Mila Kunis; Miley Cyrus; Morgan Freeman; Nicolas Cage; Pamela Anderson; Robert De Niro; Sandra Bullock; Shah Rukh Khan; Stephen King; Steven Spielberg; Tom Hanks; Will Smith
+P106,occupation,Q4610556,model,29,Andrew Garfield; Angelina Jolie; Ariana Grande; Audrey Hepburn; Cameron Diaz; David Beckham; Demi Moore; Dua Lipa; Emma Stone; Emma Watson; Grace Kelly; Halle Berry; Jane Fonda; Jean Grey; Jessica Alba; Julia Roberts; Kendall Jenner; Mary Jane Watson; Megan Fox; Melania Trump; Mila Kunis; Monica Bellucci; Mystique; Nicole Kidman; Pamela Anderson; Priyanka Chopra; Rafael Nadal; Selena Gomez; Whitney Houston
+P106,occupation,Q188784,superhero,29,Aquaman; Batman; Beast; Black Cat; Black Panther; Catwoman; Cyclops; Daredevil; Dick Grayson; Gambit; Harley Quinn; Iron Man; Jean Grey; Kitty Pryde; Lex Luthor; Martian Manhunter; Miles Morales; Mystique; Nightcrawler; Quicksilver; Rogue (X-Men); Scarlet Witch; Silver Surfer; Spider-Man; Storm (X-Men); Superman; Vision (Marvel); Wolverine; Wonder Woman
+P106,occupation,Q753110,songwriter,28,Adele; Agnez Mo; Amy Winehouse; Ariana Grande; Beyoncé; Bob Dylan; Britney Spears; Bruno Mars; David Bowie; Demi Moore; Dua Lipa; Eminem; George Harrison; Gwyneth Paltrow; Jay Chou; Jimi Hendrix; John Lennon; Justin Bieber; Kanye West; Katy Perry; Kurt Cobain; Lady Gaga; Madonna; Mariah Carey; Michael Jackson; Nicki Minaj; Tupac Shakur; Will Smith
+P106,occupation,Q4964182,philosopher,27,Abraham Van Helsing; Albert Camus; Albert Einstein; Aristotle; Charles Darwin; Confucius; Dante Alighieri; Emmanuel Macron; Friedrich Nietzsche; Fyodor Dostoyevsky; Galileo Galilei; Immanuel Kant; Isaac Newton; Johann Wolfgang von Goethe; Karl Marx; Leo Tolstoy; Leon Trotsky; Li Bai; Mahatma Gandhi; Mao Zedong; Marcus Aurelius; Niccolò Machiavelli; Plato; René Descartes; Socrates; Thomas Jefferson; Voltaire
+P106,occupation,Q488205,singer-songwriter,26,Adele; Amy Winehouse; Avril Lavigne; Barbra Streisand; Billie Eilish; Bob Marley; David Bowie; Demi Lovato; Dolly Parton; Freddie Mercury; George Harrison; Jim Morrison; Jimi Hendrix; John Lennon; Johnny Cash; Justin Bieber; Kylie Minogue; Lana Del Rey; Miley Cyrus; Ozzy Osbourne; Paul McCartney; Prince (musician); Robert Downey Jr.; Selena Gomez; Taylor Swift; Will Smith
+P106,occupation,Q43845,businessperson,25,Agnez Mo; Arnold Schwarzenegger; Batman; Beyoncé; David Beckham; Donald Trump; Dwayne Johnson; George W. Bush; Gwyneth Paltrow; Harry S. Truman; Iron Man; Jessica Alba; Jimmy Carter; Kanye West; Katy Perry; Kingpin; Madonna; Melania Trump; Rihanna; Sandra Bullock; Selena Gomez; Serena Williams; Spider-Man; Steve Irwin; Will Smith
+P106,occupation,Q131524,entrepreneur,25,Arnold Schwarzenegger; Bill Gates; Charles III; David Beckham; Donald Trump; Elon Musk; Eminem; George H. W. Bush; Henry Kissinger; Jeff Bezos; Jeremy Renner; Kanye West; Katy Perry; Kim Kardashian; Kylie Minogue; Madonna; Mark Zuckerberg; Michael Jordan; Paul Newman; Ron Weasley; Steve Jobs; Thomas Edison; Warren Buffett; Will Smith; Yao Ming
+P106,occupation,Q116,monarch,24,Alexander the Great; Catherine II of Russia; Charlemagne; Charles I of England; Cleopatra; Edward VII; Edward VIII; Elizabeth II; Elsa; Genghis Khan; George III of Great Britain; George V; George VI; Harald V of Norway; Henry VIII of England; Hirohito; Louis XIV of France; Marcus Aurelius; Nicholas II of Russia; Padmé Amidala; Palpatine; Qin Shi Huang; Queen Victoria; William the Conqueror
+P106,occupation,Q6625963,novelist,23,Agatha Christie; Albert Camus; Carrie Fisher; Charles Dickens; Edgar Allan Poe; Ernest Hemingway; Franz Kafka; Fyodor Dostoyevsky; George R. R. Martin; J. K. Rowling; J. R. R. Tolkien; James Joyce; Jane Austen; Jimmy Carter; Johann Wolfgang von Goethe; John Steinbeck; Leo Tolstoy; Lu Xun; Mark Twain; Oscar Wilde; Stephen King; Victor Hugo; Virginia Woolf
+P106,occupation,Q47541952,producer,23,Al Pacino; Alfred Hitchcock; Andy Warhol; Christopher Lee; Christopher Nolan; Frank Sinatra; George Clooney; Hugh Jackman; Jack Nicholson; John Travolta; John Wayne; Johnny Depp; Morgan Freeman; Nicole Kidman; Paul Newman; Robert De Niro; Roman Polanski; Russell Crowe; Stanley Kubrick; Tom Hanks; Walt Disney; Will Smith; Woody Allen
+P106,occupation,Q193391,diplomat,22,Benjamin Franklin; Benjamin Netanyahu; Bill Clinton; Gandalf; George H. W. Bush; Henry Kissinger; Hillary Clinton; Hirohito; Jimmy Carter; Joe Biden; Johann Wolfgang von Goethe; John Adams; José Mourinho; Leon Trotsky; Leonardo da Vinci; Niccolò Machiavelli; Nicole Kidman; Otto von Bismarck; Princess Leia; Spock; Thomas Jefferson; Wonder Woman
+P106,occupation,Q40348,lawyer,21,Abraham Lincoln; Andrew Jackson; Barack Obama; Bill Clinton; Daredevil; Fidel Castro; Franz Kafka; Gerald Ford; Hillary Clinton; James A. Garfield; Joe Biden; Johann Wolfgang von Goethe; John Adams; Justin Trudeau; Kamala Harris; Mahatma Gandhi; Mikhail Gorbachev; Nelson Mandela; Richard Nixon; Thomas Jefferson; Woodrow Wilson
+P106,occupation,Q47064,military personnel,21,Augustus; Benjamin Netanyahu; Captain America; Christopher Lee; Dwight D. Eisenhower; Edward VIII; Hirohito; Indiana Jones; James A. Garfield; Joan of Arc; Julius Caesar; Leon Trotsky; Nikita Khrushchev; Paul Newman; Pervez Musharraf; Punisher; René Descartes; Sabretooth; Ulysses S. Grant; Wolverine; Wonder Woman
+P106,occupation,Q69423232,film screenwriter,20,Al Pacino; Alfred Hitchcock; Anthony Hopkins; Charlie Chaplin; Christopher Nolan; Franz Kafka; Fyodor Dostoyevsky; Jack Nicholson; James Cameron; Jennifer Lawrence; John Wayne; Martin Scorsese; Mel Gibson; Paul Newman; Quentin Tarantino; Roman Polanski; Stanley Kubrick; Steven Spielberg; Tom Hanks; Woody Allen
+P106,occupation,Q12362622,philanthropist,20,"Angelina Jolie; Audrey Hepburn; Batman; Charles III; Demi Moore; Diana, Princess of Wales; Elizabeth Taylor; Elon Musk; George Lucas; James Cameron; Jeremy Renner; Jessica Alba; Lex Luthor; Madonna; Mark Zuckerberg; Michael Jackson; Paul Newman; Shakira; Will Smith; William, Prince of Wales"
+P106,occupation,Q482980,author,19,Andy Warhol; Bob Dylan; Charles Dickens; Charles de Gaulle; Immanuel Kant; J. K. Rowling; J. R. R. Tolkien; JD Vance; James Joyce; John Lennon; Keanu Reeves; Kobe Bryant; Madonna; Mahatma Gandhi; Mao Zedong; Oscar Wilde; Palpatine; Victor Hugo; Virginia Woolf
+P106,occupation,Q185351,jurist,19,Barack Obama; Bill Clinton; Fidel Castro; Franz Kafka; Hillary Clinton; JD Vance; James A. Garfield; Joe Biden; Johann Wolfgang von Goethe; Justin Trudeau; Kamala Harris; Keir Starmer; Mahatma Gandhi; Mikhail Gorbachev; Otto von Bismarck; Richard Nixon; Theodore Roosevelt; Thomas Jefferson; Woodrow Wilson
+P106,occupation,Q1053574,executive producer,18,Ben Affleck; Brad Pitt; Bruce Willis; Cameron Diaz; Christopher Nolan; Dwayne Johnson; George Lucas; Hugh Jackman; Jane Fonda; Jennifer Aniston; Jennifer Lopez; Jodie Foster; Nicolas Cage; Stanley Kubrick; Steve Jobs; Steven Spielberg; Tom Hanks; Will Smith
+P106,occupation,Q1622272,university teacher,18,Abraham Van Helsing; Albert Einstein; Beast; Carl Jung; Cate Blanchett; Galileo Galilei; Henry Kissinger; Hillary Clinton; Immanuel Kant; Indiana Jones; J. R. R. Tolkien; J. Robert Oppenheimer; Joe Biden; Marie Curie; Neil Armstrong; Professor Moriarty; Tu Youyou; Woodrow Wilson
+P106,occupation,Q1028181,painter,17,Andy Warhol; Anthony Hopkins; Bob Dylan; Carl Jung; David Bowie; Freddie Mercury; Frida Kahlo; George W. Bush; Jim Carrey; Johann Wolfgang von Goethe; Leonardo da Vinci; Michelangelo; Pablo Picasso; Paul McCartney; Salvador Dalí; Vincent van Gogh; Walt Disney
+P106,occupation,Q855091,guitarist,16,Amy Winehouse; Bob Dylan; Bob Marley; David Bowie; Freddie Mercury; George Harrison; Jimi Hendrix; John Lennon; Johnny Cash; Johnny Depp; Justin Bieber; Kurt Cobain; Madonna; Paul McCartney; Prince (musician); Shakira
+P106,occupation,Q205375,inventor,16,Ada Lovelace; Albert Einstein; Christopher Columbus; Galileo Galilei; Iron Man; James Cameron; Leonardo da Vinci; Lex Luthor; Nikola Tesla; Spider-Man; Steve Jobs; The Doctor (Doctor Who); Thomas Edison; Thomas Jefferson; Tu Youyou; Walt Disney
+P106,occupation,Q183945,record producer,16,Beyoncé; Bob Dylan; Bruno Mars; David Bowie; Eminem; Freddie Mercury; George Harrison; Jay Chou; Jimi Hendrix; Kanye West; Madonna; Michael Jackson; Prince (musician); Selena Gomez; Whitney Houston; Will Smith
+P106,occupation,Q948329,character actor,15,Bradley Cooper; Cher; Christopher Lee; Heath Ledger; Jack Nicholson; Jodie Foster; Morgan Freeman; Nicolas Cage; Roman Polanski; Ronald Reagan; Russell Crowe; Sean Connery; Tom Hanks; Will Smith; Woody Allen
+P106,occupation,Q5716684,dancer,15,Agnez Mo; Audrey Hepburn; Beyoncé; Billie Eilish; Britney Spears; Bruno Mars; Jennifer Lopez; John Travolta; Katy Perry; Madonna; Michael Jackson; Prince (musician); Shah Rukh Khan; Tom Holland; Tupac Shakur
+P106,occupation,Q11774202,essayist,15,Albert Camus; Carl Jung; Edgar Allan Poe; Fyodor Dostoyevsky; Helen Keller; J. R. R. Tolkien; Leo Tolstoy; Lu Xun; Mahatma Gandhi; Oscar Wilde; Sigmund Freud; Theodore Roosevelt; Victor Hugo; Virginia Woolf; Voltaire
+P106,occupation,Q189290,military officer,15,"Abraham Lincoln; Charles de Gaulle; Christopher Lee; Dwight D. Eisenhower; Gandalf; George VI; George W. Bush; Harry S. Truman; J. R. R. Tolkien; Muammar Gaddafi; Otto von Bismarck; Paul Newman; Prince Philip, Duke of Edinburgh; Richard Nixon; Ronald Reagan"
+P106,occupation,Q37226,teacher,15,Bill Clinton; Confucius; Florence Nightingale; J. K. Rowling; J. R. R. Tolkien; James Joyce; Justin Trudeau; Kitty Pryde; Lyndon B. Johnson; Mark Twain; Socrates; Spider-Man; Stephen King; Thomas Jefferson; Woodrow Wilson
+P106,occupation,Q10732476,art collector,14,Catherine II of Russia; Charles I of England; David Bowie; Edward VII; Elizabeth Taylor; George III of Great Britain; George Lucas; J. Robert Oppenheimer; Johann Wolfgang von Goethe; Louis XIV of France; Madonna; Napoleon; Ronald Reagan; Steven Spielberg
+P106,occupation,Q1930187,journalist,14,Albert Camus; Amelia Earhart; Charles Dickens; Ernest Hemingway; Fidel Castro; James Joyce; John F. Kennedy; Karl Marx; Leon Trotsky; Mahatma Gandhi; Mark Twain; Mystique; Stephen King; Steve Irwin
+P106,occupation,Q2478141,aristocrat,13,"Catherine II of Russia; Charles III; Diana, Princess of Wales; Edward VII; Edward VIII; George III of Great Britain; George V; George VI; Hirohito; Lord Byron; Marie Antoinette; Mary, Queen of Scots; William, Prince of Wales"
+P106,occupation,Q214917,playwright,13,Albert Camus; Carrie Fisher; Charles Dickens; Ernest Hemingway; Friedrich Nietzsche; Johann Wolfgang von Goethe; Leo Tolstoy; Niccolò Machiavelli; Oscar Wilde; Victor Hugo; Voltaire; William Shakespeare; Woody Allen
+P106,occupation,Q12144794,prose writer,13,Charles Dickens; Dante Alighieri; Ernest Hemingway; Franz Kafka; Fyodor Dostoyevsky; George R. R. Martin; J. R. R. Tolkien; James Joyce; John Lennon; John Steinbeck; Leo Tolstoy; Mark Twain; Oscar Wilde
+P106,occupation,Q55960555,recording artist,13,Adele; Amy Winehouse; Avril Lavigne; Barbra Streisand; Cher; Elton John; George Harrison; Jay Chou; John Lennon; Lana Del Rey; Paul McCartney; Scarlett Johansson; Whitney Houston
+P106,occupation,Q937857,association football player,12,Albert Camus; Cristiano Ronaldo; David Beckham; Diego Maradona; José Mourinho; Kylian Mbappé; Lionel Messi; Neymar; Pelé; Ronaldo Nazário; Sean Connery; Zinedine Zidane
+P106,occupation,Q13235160,manufacturer,12,Ben Affleck; David Bowie; Freddie Mercury; George Clooney; George R. R. Martin; Madonna; Pamela Anderson; Robert Downey Jr.; Rowan Atkinson; Shakira; Stanley Kubrick; Walt Disney
+P106,occupation,Q3242115,revolutionary,12,Che Guevara; Daenerys Targaryen; Fidel Castro; George Washington; Jon Snow; Karl Marx; Leon Trotsky; Mahatma Gandhi; Mao Zedong; Mustafa Kemal Atatürk; Nikita Khrushchev; Vladimir Lenin
+P106,occupation,Q1097498,ruler,12,Aquaman; Augustus; Daenerys Targaryen; Darkseid; Doctor Doom; George III of Great Britain; Jon Snow; Julius Caesar; Magneto; Palpatine; Qin Shi Huang; Simba
+P106,occupation,Q15949613,short story writer,12,Charles Dickens; Edgar Allan Poe; Ernest Hemingway; Franz Kafka; Fyodor Dostoyevsky; George R. R. Martin; Jane Austen; Leo Tolstoy; Lu Xun; Oscar Wilde; Tom Hanks; Virginia Woolf
+P106,occupation,Q18939491,diarist,11,Andy Warhol; Anne Frank; Franz Kafka; Harry S. Truman; Johann Wolfgang von Goethe; Leo Tolstoy; Lord Byron; Ronald Reagan; Theodore Roosevelt; Virginia Woolf; Voltaire
+P106,occupation,Q11124885,martial artist,11,Bane; Batman; Bruce Lee; Catwoman; Daredevil; Dick Grayson; Goku; Harley Quinn; Lara Croft; Ra's al Ghul; Wonder Woman
+P106,occupation,Q169470,physicist,11,Albert Einstein; Galileo Galilei; Immanuel Kant; J. Robert Oppenheimer; Johann Wolfgang von Goethe; Leonardo da Vinci; Lex Luthor; Marie Curie; Nikola Tesla; René Descartes; Thomas Edison
+P106,occupation,Q102277154,pop musician,11,Ariana Grande; Britney Spears; Bruno Mars; Demi Lovato; Jennifer Lopez; Lana Del Rey; Madonna; Mariah Carey; Miley Cyrus; Paul McCartney; Shakira
+P106,occupation,Q15253558,activist,10,Clint Eastwood; Demi Moore; Emma Watson; Frank Sinatra; Hermione Granger; Kanye West; Malala Yousafzai; Marlon Brando; Paul Newman; Tupac Shakur
+P106,occupation,Q81096,engineer,10,Ada Lovelace; Elon Musk; Galileo Galilei; George Washington; J. Robert Oppenheimer; James Cameron; Jimmy Carter; Leonardo da Vinci; Lex Luthor; Thomas Edison
+P106,occupation,Q11900058,explorer,10,Charles Darwin; Christopher Columbus; James Cameron; James T. Kirk; Lara Croft; Silver Surfer; Steve Irwin; The Doctor (Doctor Who); Theodore Roosevelt; Ulysses S. Grant
+P106,occupation,Q1414443,filmmaker,10,Alfred Hitchcock; Andy Warhol; Jack Nicholson; James Cameron; Paul Newman; Quentin Tarantino; Roman Polanski; Selena Gomez; Stanley Kubrick; Woody Allen
+P106,occupation,Q48282,student,10,Cyclops; Draco Malfoy; Gwen Stacy; Harry Potter; Hermione Granger; Jean Grey; Luna Lovegood; Miles Morales; Ron Weasley; Storm (X-Men)
+P106,occupation,Q947873,television presenter,10,Hugh Jackman; Mary Jane Watson; Morgan Freeman; Nicolas Cage; Pamela Anderson; Penélope Cruz; Shah Rukh Khan; Steve Irwin; Tom Hanks; Walt Disney
+P106,occupation,Q2095549,aircraft pilot,9,"Amelia Earhart; Cyclops; George H. W. Bush; Harrison Ford; Kitty Pryde; Morgan Freeman; Neil Armstrong; Tom Cruise; William, Prince of Wales"
+P106,occupation,Q4853732,children's writer,9,Charles Dickens; Charles III; J. K. Rowling; J. R. R. Tolkien; Leo Tolstoy; Madonna; Mark Twain; Oscar Wilde; Paul McCartney
+P106,occupation,Q15296811,draftsperson,9,Andy Warhol; Johann Wolfgang von Goethe; John Lennon; Pablo Picasso; Salvador Dalí; Thomas Jefferson; Victor Hugo; Vincent van Gogh; Walt Disney
+P106,occupation,Q7042855,film editor,9,Alfred Hitchcock; Charlie Chaplin; Christopher Nolan; George Lucas; James Cameron; Martin Scorsese; Quentin Tarantino; Stanley Kubrick; Steven Spielberg
+P106,occupation,Q201788,historian,9,J. R. R. Tolkien; Julius Caesar; Karl Marx; Leon Trotsky; Niccolò Machiavelli; Theodore Roosevelt; Voltaire; Winston Churchill; Woodrow Wilson
+P106,occupation,Q8178443,librettist,9,David Bowie; Franz Kafka; J. R. R. Tolkien; James Joyce; Johann Wolfgang von Goethe; Leonardo da Vinci; Lord Byron; Oscar Wilde; Victor Hugo
+P106,occupation,Q170790,mathematician,9,Ada Lovelace; Albert Einstein; Galileo Galilei; Immanuel Kant; Isaac Newton; Leonardo da Vinci; Professor Moriarty; René Descartes; Thomas Edison
+P106,occupation,Q901,scientist,9,Abraham Van Helsing; Albert Einstein; Galileo Galilei; Hulk; J. Robert Oppenheimer; Leonardo da Vinci; Professor X; Spider-Man; The Doctor (Doctor Who)
+P106,occupation,Q4991371,soldier,9,Benjamin Netanyahu; Count Dracula; Deadpool; JD Vance; Jon Snow; Mark Twain; Optimus Prime; Pervez Musharraf; Punisher
+P106,occupation,Q11397897,swordfighter,9,Aragorn; Conan the Barbarian; Frodo Baggins; Gandalf; Jack Sparrow; Jon Snow; Ra's al Ghul; Wonder Woman; Zorro
+P106,occupation,Q2059704,television director,9,Alfred Hitchcock; Arnold Schwarzenegger; Demi Moore; Jason Bateman; Jennifer Aniston; Martin Scorsese; Paul McCartney; Rowan Atkinson; Tom Hanks
+P106,occupation,Q3190387,vigilante,9,Batman; Catwoman; Daredevil; Dick Grayson; Eric Cartman; Harley Quinn; Punisher; Sirius Black; Zorro
+P106,occupation,Q593644,chemist,8,Bane; Leonardo da Vinci; Lex Luthor; Margaret Thatcher; Marie Curie; The Joker; Tu Youyou; Walter White
+P106,occupation,Q1402561,military leader,8,Alexander the Great; Aragorn; Bashar al-Assad; Conan the Barbarian; Darkseid; Genghis Khan; Julius Caesar; Napoleon
+P106,occupation,Q6051619,opinion journalist,8,Albert Camus; Fyodor Dostoyevsky; Johann Wolfgang von Goethe; Leo Tolstoy; Mark Twain; Martin Luther King Jr.; Oscar Wilde; Victor Hugo
+P106,occupation,Q486748,pianist,8,Bob Dylan; David Bowie; Elton John; Freddie Mercury; John Lennon; Paul McCartney; Prince (musician); Wolfgang Amadeus Mozart
+P106,occupation,Q9352089,spy,8,Dick Grayson; Indiana Jones; James Bond; Jon Snow; Magneto; Princess Leia; Severus Snape; Wolverine
+P106,occupation,Q333634,translator,8,Ada Lovelace; Ali Khamenei; Franz Kafka; Fyodor Dostoyevsky; J. R. R. Tolkien; Lord Byron; Lu Xun; Niccolò Machiavelli
+P106,occupation,Q51724,Jedi,7,Darth Vader; Grogu; Kylo Ren; Luke Skywalker; Obi-Wan Kenobi; Princess Leia; Yoda
+P106,occupation,Q245068,comedian,7,Charlie Chaplin; Jackie Chan; Jim Carrey; Robin Williams; Rowan Atkinson; Tom Hanks; Woody Allen
+P106,occupation,Q82594,computer scientist,7,Ada Lovelace; Alan Turing; Bill Gates; Edward Snowden; Jeff Bezos; Mark Zuckerberg; Steve Jobs
+P106,occupation,Q2159907,criminal,7,Bane; Bashar al-Assad; Black Cat; Kingpin; Professor Moriarty; Riddler; The Joker
+P106,occupation,Q5322166,designer,7,Andy Warhol; Bob Dylan; Leonardo da Vinci; Salvador Dalí; Serena Williams; Steve Jobs; Walt Disney
+P106,occupation,Q3578589,environmentalist,7,"Charles III; Diana, Princess of Wales; Harrison Ford; Jimmy Carter; Leonardo DiCaprio; Mikhail Gorbachev; Steve Irwin"
+P106,occupation,Q132050,governor,7,Andrew Jackson; Arnold Schwarzenegger; Bill Clinton; George W. Bush; Theodore Roosevelt; Thomas Jefferson; Woodrow Wilson
+P106,occupation,Q822146,lyricist,7,Bob Dylan; Elton John; Jim Morrison; Li Bai; Lord Byron; Paul McCartney; Taylor Swift
+P106,occupation,Q11774156,memoirist,7,Amelia Earhart; Barack Obama; Charles de Gaulle; Demi Moore; Julius Caesar; Mahatma Gandhi; Malala Yousafzai
+P106,occupation,Q484188,serial killer,7,Freddy Krueger; Hannibal Lecter; Harley Quinn; Lord Voldemort; Michael Myers; Sabretooth; The Joker
+P106,occupation,Q12414919,terrorist,7,Bane; Harley Quinn; Mystique; Quicksilver; Ra's al Ghul; Rogue (X-Men); The Joker
+P106,occupation,Q3391743,visual artist,7,Andy Warhol; David Bowie; Johann Wolfgang von Goethe; Kurt Cobain; Leonardo da Vinci; Michelangelo; Pablo Picasso
+P106,occupation,Q38239859,army officer,6,Andrew Jackson; Dwight D. Eisenhower; George Washington; Mustafa Kemal Atatürk; Napoleon; Ulysses S. Grant
+P106,occupation,Q4947495,crime boss,6,Black Cat; Kingpin; Lex Luthor; The Joker; Two-Face; Vito Corleone
+P106,occupation,Q1415090,film score composer,6,Anthony Hopkins; Charlie Chaplin; George Harrison; Paul McCartney; Prince (musician); Woody Allen
+P106,occupation,Q1979607,financier,6,Elon Musk; George W. Bush; JD Vance; Pervez Musharraf; Steve Jobs; Warren Buffett
+P106,occupation,Q1056391,head teacher,6,Albus Dumbledore; Cyclops; Jean Grey; Magneto; Minerva McGonagall; Professor X
+P106,occupation,Q644687,illustrator,6,Andy Warhol; J. R. R. Tolkien; Pablo Picasso; Salvador Dalí; Victor Hugo; Walt Disney
+P106,occupation,Q148401,magician,6,Count Dracula; Doctor Doom; Doctor Strange; Gandalf; Palpatine; Ron Weasley
+P106,occupation,Q18805,naturalist,6,Charles Darwin; Immanuel Kant; Johann Wolfgang von Goethe; Leonardo da Vinci; René Descartes; Theodore Roosevelt
+P106,occupation,Q16323111,peace activist,6,"Diana, Princess of Wales; Helen Keller; Jimmy Carter; John Lennon; Mahatma Gandhi; Martin Luther King Jr."
+P106,occupation,Q33231,photographer,6,Andy Warhol; Pablo Picasso; Penélope Cruz; Salvador Dalí; Spider-Man; Stanley Kubrick
+P106,occupation,Q1238570,political scientist,6,Benjamin Netanyahu; Emmanuel Macron; Henry Kissinger; Niccolò Machiavelli; Voltaire; Woodrow Wilson
+P106,occupation,Q2252262,rapper,6,Eminem; Jay Chou; Kanye West; Nicki Minaj; Tupac Shakur; Will Smith
+P106,occupation,Q45199,sailor,6,Christopher Columbus; Donald Duck; Jack Sparrow; Long John Silver; Popeye; Wolverine
+P106,occupation,Q18844224,science fiction writer,6,George Lucas; George R. R. Martin; Mark Twain; Stephen King; Steven Spielberg; Voltaire
+P106,occupation,Q2873500,adventurer,5,Conan the Barbarian; Doctor Doom; Donald Duck; Indiana Jones; Tarzan
+P106,occupation,Q483501,artist,5,Andy Warhol; Bob Dylan; Leonardo da Vinci; Pablo Picasso; Salvador Dalí
+P106,occupation,Q484876,chief executive officer,5,Batman; Donald Trump; Lex Luthor; Mark Zuckerberg; Warren Buffett
+P106,occupation,Q970153,child actor,5,Daniel Radcliffe; Demi Lovato; Emma Watson; Mila Kunis; Selena Gomez
+P106,occupation,Q222344,cinematographer,5,Alfred Hitchcock; Andy Warhol; Christopher Nolan; George Lucas; Stanley Kubrick
+P106,occupation,Q3501317,fashion designer,5,Dua Lipa; Jennifer Lopez; Kanye West; Kim Kardashian; Selena Gomez
+P106,occupation,Q3357567,fashion model,5,Cameron Diaz; Emma Watson; Marilyn Monroe; Monica Bellucci; Priyanka Chopra
+P106,occupation,Q1925963,graphic artist,5,Andy Warhol; Leonardo da Vinci; Pablo Picasso; Salvador Dalí; Victor Hugo
+P106,occupation,Q557880,investor,5,Bill Gates; Donald Trump; Elon Musk; Kanye West; Warren Buffett
+P106,occupation,Q4263842,literary critic,5,Edgar Allan Poe; J. R. R. Tolkien; James Joyce; Lu Xun; Virginia Woolf
+P106,occupation,Q178197,mercenary,5,Conan the Barbarian; Deadpool; Mystique; Sabretooth; Wolverine
+P106,occupation,Q10669499,naval officer,5,"George H. W. Bush; Gerald Ford; Jimmy Carter; John F. Kennedy; Prince Philip, Duke of Edinburgh"
+P106,occupation,Q1231865,pedagogue,5,Albert Einstein; Friedrich Nietzsche; Henry Kissinger; Immanuel Kant; Leo Tolstoy
+P106,occupation,Q15077007,podcaster,5,Barack Obama; Dua Lipa; Hillary Clinton; Jason Bateman; Mike Tyson
+P106,occupation,Q60723829,pop singer,5,Dua Lipa; John Lennon; Katy Perry; Rihanna; Selena Gomez
+P106,occupation,Q1058617,private investigator,5,Black Cat; Hercule Poirot; Mystique; Riddler; Sherlock Holmes
+P106,occupation,Q5482740,programmer,5,Ada Lovelace; Bill Gates; Elon Musk; Jeff Bezos; Mark Zuckerberg
+P106,occupation,Q1281618,sculptor,5,Andy Warhol; Leonardo da Vinci; Michelangelo; Pablo Picasso; Salvador Dalí
+P106,occupation,Q10833314,tennis player,5,George VI; Novak Djokovic; Rafael Nadal; Roger Federer; Serena Williams
+P106,occupation,Q3579035,travel writer,5,Amelia Earhart; Charles Darwin; Johann Wolfgang von Goethe; Mark Twain; Victor Hugo
+P106,occupation,Q11063,astronomer,4,Galileo Galilei; Leonardo da Vinci; René Descartes; Silver Surfer
+P106,occupation,Q2066131,athlete,4,Kobe Bryant; Michael Jordan; Pelé; Serena Williams
+P106,occupation,Q808967,barrister,4,Jawaharlal Nehru; Keir Starmer; Mahatma Gandhi; Margaret Thatcher
+P106,occupation,Q3665646,basketball player,4,Kobe Bryant; LeBron James; Michael Jordan; Yao Ming
+P106,occupation,Q8246794,blogger,4,David Beckham; George R. R. Martin; Kim Kardashian; Malala Yousafzai
+P106,occupation,Q2374149,botanist,4,Charles Darwin; Charles Dickens; Johann Wolfgang von Goethe; Leonardo da Vinci
+P106,occupation,Q2490358,choreographer,4,Jackie Chan; Jennifer Lopez; Pablo Picasso; Shakira
+P106,occupation,Q17307272,circus performer,4,Dick Grayson; Gandalf; Kitty Pryde; Nightcrawler
+P106,occupation,Q842782,detective,4,Batman; Black Cat; Hercule Poirot; Miss Marple
+P106,occupation,Q10384029,drug trafficker,4,Bane; Kingpin; Lex Luthor; Walter White
+P106,occupation,Q188094,economist,4,Benjamin Netanyahu; Karl Marx; Mikhail Gorbachev; Warren Buffett
+P106,occupation,Q131512,farmer,4,Abraham Lincoln; George Washington; Goku; Jimmy Carter
+P106,occupation,Q1476215,human rights defender,4,Jimmy Carter; Malala Yousafzai; Malcolm X; Zorro
+P106,occupation,Q22336956,humanitarian,4,"Audrey Hepburn; Diana, Princess of Wales; Jimmy Carter; Mahatma Gandhi"
+P106,occupation,Q182436,librarian,4,Immanuel Kant; Johann Wolfgang von Goethe; Mao Zedong; Optimus Prime
+P106,occupation,Q15883433,mass murderer,4,Darkseid; Jason Voorhees; Lex Luthor; Michael Myers
+P106,occupation,Q16003550,pacifist,4,Albert Einstein; Leo Tolstoy; Mahatma Gandhi; Martin Luther King Jr.
+P106,occupation,Q10729326,pirate,4,Conan the Barbarian; Jack Sparrow; Long John Silver; Monkey D. Luffy
+P106,occupation,Q11499147,political activist,4,Helen Keller; John Lennon; Malcolm X; Nelson Mandela
+P106,occupation,Q270141,polymath,4,Benjamin Franklin; Johann Wolfgang von Goethe; Leonardo da Vinci; René Descartes
+P106,occupation,Q11569986,printmaker,4,Andy Warhol; Johann Wolfgang von Goethe; Pablo Picasso; Vincent van Gogh
+P106,occupation,Q2251335,school teacher,4,Johann Sebastian Bach; Minerva McGonagall; Severus Snape; Walter White
+P106,occupation,Q98544732,scientific collector,4,Charles Darwin; Hirohito; John Steinbeck; Theodore Roosevelt
+P106,occupation,Q2304859,sovereign,4,"Charlemagne; Cleopatra; Mary, Queen of Scots; Napoleon"
+P106,occupation,Q465501,stunt performer,4,Bruce Lee; Chuck Norris; Jackie Chan; Tom Cruise
+P106,occupation,Q19350898,theoretical physicist,4,Albert Einstein; J. Robert Oppenheimer; Sheldon Cooper; Stephen Hawking
+P106,occupation,Q3562775,thief,4,Catwoman; Conan the Barbarian; Gambit; Storm (X-Men)
+P106,occupation,Q60661987,time traveller,4,Hermione Granger; Silver Surfer; Spock; The Doctor (Doctor Who)
+P106,occupation,Q15627169,trade unionist,4,Helen Keller; Jawaharlal Nehru; Luiz Inácio Lula da Silva; Ronald Reagan
+P106,occupation,Q350979,zoologist,4,Hirohito; Johann Wolfgang von Goethe; Leonardo da Vinci; Steve Irwin
+P106,occupation,Q19204627,American football player,3,Dwayne Johnson; Gerald Ford; John Wayne
+P106,occupation,Q96034777,HIV/AIDS activist,3,"Diana, Princess of Wales; Elizabeth Taylor; Elton John"
+P106,occupation,Q21505200,Quidditch player,3,Draco Malfoy; Harry Potter; Ron Weasley
+P106,occupation,Q3606216,aphorist,3,Franz Kafka; Johann Wolfgang von Goethe; Mark Twain
+P106,occupation,Q3621491,archaeologist,3,Indiana Jones; Lara Croft; Thomas Jefferson
+P106,occupation,Q42973,architect,3,Leonardo da Vinci; Michelangelo; Thomas Jefferson
+P106,occupation,Q2079935,architectural drafter,3,Leonardo da Vinci; Michelangelo; Pablo Picasso
+P106,occupation,Q628099,association football coach,3,Diego Maradona; José Mourinho; Zinedine Zidane
+P106,occupation,Q1050486,auror,3,Albus Dumbledore; Harry Potter; Ron Weasley
+P106,occupation,Q808266,bartender,3,Dick Grayson; Kitty Pryde; Wolverine
+P106,occupation,Q1021386,civil rights advocate,3,Mahatma Gandhi; Malcolm X; Martin Luther King Jr.
+P106,occupation,Q386854,drummer,3,Paul McCartney; Prince (musician); Ringo Starr
+P106,occupation,Q39018,emperor,3,Marcus Aurelius; Napoleon; Qin Shi Huang
+P106,occupation,Q3286043,erotic photography model,3,Kim Kardashian; Madonna; Pamela Anderson
+P106,occupation,Q16157720,fictional tyrant,3,Lord Voldemort; Morgoth; Sauron
+P106,occupation,Q30242234,freedom fighter,3,Jawaharlal Nehru; Mahatma Gandhi; Nelson Mandela
+P106,occupation,Q5589126,government agent,3,Kitty Pryde; Sabretooth; Wonder Woman
+P106,occupation,Q2285706,head of government,3,Benjamin Netanyahu; Jawaharlal Nehru; Mahathir Mohamad
+P106,occupation,Q15981151,jazz musician,3,Amy Winehouse; Barbra Streisand; Frank Sinatra
+P106,occupation,Q2519376,jewelry designer,3,Melania Trump; Pablo Picasso; Salvador Dalí
+P106,occupation,Q14467526,linguist,3,Dante Alighieri; Helen Keller; J. R. R. Tolkien
+P106,occupation,Q327029,mechanic,3,Leonardo da Vinci; Luke Skywalker; Rogue (X-Men)
+P106,occupation,Q215536,merchant,3,Andy Warhol; Donald Trump; JD Vance
+P106,occupation,Q12806039,military theorist,3,Charles de Gaulle; Mao Zedong; Niccolò Machiavelli
+P106,occupation,Q1327329,multi-instrumentalist,3,Bruno Mars; George Harrison; Prince (musician)
+P106,occupation,Q2340668,music video director,3,David Bowie; Heath Ledger; Martin Scorsese
+P106,occupation,Q12859263,orator,3,Christopher Lee; Helen Keller; Julius Caesar
+P106,occupation,Q39631,physician,3,Abraham Van Helsing; Che Guevara; Mahathir Mohamad
+P106,occupation,Q15994177,political theorist,3,Dante Alighieri; Mao Zedong; Niccolò Machiavelli
+P106,occupation,Q15958642,political writer,3,Barack Obama; Benjamin Netanyahu; Mahatma Gandhi
+P106,occupation,Q13218361,polo player,3,"Charles III; Prince Philip, Duke of Edinburgh; William, Prince of Wales"
+P106,occupation,Q121594,professor,3,Albert Einstein; Albus Dumbledore; Minerva McGonagall
+P106,occupation,Q211346,psychiatrist,3,Carl Jung; Hannibal Lecter; Harley Quinn
+P106,occupation,Q10349745,racing automobile driver,3,James Dean; Lewis Hamilton; Paul Newman
+P106,occupation,Q15995642,religious leader,3,Joan of Arc; Malcolm X; Martin Luther King Jr.
+P106,occupation,Q12374149,rock musician,3,Freddie Mercury; Jim Morrison; Jimi Hendrix
+P106,occupation,Q2707485,scenographer,3,Pablo Picasso; Salvador Dalí; Stanley Kubrick
+P106,occupation,Q512314,socialite,3,"Diana, Princess of Wales; Kim Kardashian; Zorro"
+P106,occupation,Q2643890,vocalist,3,David Bowie; Jim Morrison; Jimi Hendrix
+P106,occupation,Q157195,waiter,3,Harley Quinn; Nicki Minaj; Rogue (X-Men)
+P106,occupation,Q28692502,women's rights activist,3,Amelia Earhart; Malala Yousafzai; Virginia Woolf
+P106,occupation,Q183318,Dictator,2,Fidel Castro; Palpatine
+P106,occupation,Q860918,Esperantist,2,Leo Tolstoy; Lu Xun
+P106,occupation,Q10841764,Formula One driver,2,Lewis Hamilton; Michael Schumacher
+P106,occupation,Q728711,Playboy Playmate,2,Marilyn Monroe; Pamela Anderson
+P106,occupation,Q15954519,alchemist,2,Count Dracula; Palpatine
+P106,occupation,Q121998,ambassador,2,John Adams; Spock
+P106,occupation,Q1371925,announcer,2,Cyclops; Ronald Reagan
+P106,occupation,Q120115224,anti-communist,2,John F. Kennedy; Ronald Reagan
+P106,occupation,Q1792450,art historian,2,Johann Wolfgang von Goethe; Victor Hugo
+P106,occupation,Q55983771,assassin,2,Bane; Ra's al Ghul
+P106,occupation,Q11631,astronaut,2,Neil Armstrong; Wonder Woman
+P106,occupation,Q11513337,athletics competitor,2,Cathy Freeman; Usain Bolt
+P106,occupation,Q806349,bandleader,2,David Bowie; Johnny Cash
+P106,occupation,Q10871364,baseball player,2,George H. W. Bush; Michael Jordan
+P106,occupation,Q12360214,bass guitarist,2,George Harrison; Paul McCartney
+P106,occupation,Q18581305,beauty pageant contestant,2,Halle Berry; Priyanka Chopra
+P106,occupation,Q621613,bounty hunter,2,Bane; Black Cat
+P106,occupation,Q11338576,boxer,2,Mike Tyson; Muhammad Ali
+P106,occupation,Q2961975,business executive,2,Lex Luthor; Margaret Thatcher
+P106,occupation,Q911554,business magnate,2,Donald Trump; Lex Luthor
+P106,occupation,Q3303330,calligrapher,2,Li Bai; Mao Zedong
+P106,occupation,Q1208175,camera operator,2,Christopher Nolan; Stanley Kubrick
+P106,occupation,Q3658608,caricaturist,2,Leonardo da Vinci; Walt Disney
+P106,occupation,Q154549,carpenter,2,Harrison Ford; Mario
+P106,occupation,Q211236,celebrity,2,Kim Kardashian; Melania Trump
+P106,occupation,Q373085,chancellor,2,Otto von Bismarck; Palpatine
+P106,occupation,Q2259532,cleric,2,Ali Khamenei; Martin Luther King Jr.
+P106,occupation,Q28528560,communist,2,Leon Trotsky; Mao Zedong
+P106,occupation,Q158852,conductor,2,Johann Sebastian Bach; Wolfgang Amadeus Mozart
+P106,occupation,Q156839,cook,2,Long John Silver; SpongeBob SquarePants
+P106,occupation,Q3589290,correspondent,2,René Descartes; Voltaire
+P106,occupation,Q15442776,cryptographer,2,Alan Turing; Thomas Jefferson
+P106,occupation,Q31900000,dragon rider,2,Daenerys Targaryen; Jon Snow
+P106,occupation,Q11481802,dub actor,2,Anne Hathaway; Elon Musk
+P106,occupation,Q1326886,electrical engineer,2,Nikola Tesla; Rowan Atkinson
+P106,occupation,Q3064032,fabulist,2,Franz Kafka; Oscar Wilde
+P106,occupation,Q76451138,fictional ninja,2,Naruto Uzumaki; Ra's al Ghul
+P106,occupation,Q7330070,foreign minister,2,Henry Kissinger; Thomas Jefferson
+P106,occupation,Q22662561,game show host,2,Donald Trump; Ronald Reagan
+P106,occupation,Q627325,graphic designer,2,Andy Warhol; Freddie Mercury
+P106,occupation,Q20726593,helicopter pilot,2,"Charles III; William, Prince of Wales"
+P106,occupation,Q777952,instructor,2,Punisher; Wolverine
+P106,occupation,Q16533,judge,2,Andrew Jackson; Harry S. Truman
+P106,occupation,Q674067,mime artist,2,David Bowie; Robin Williams
+P106,occupation,Q1350157,music critic,2,Friedrich Nietzsche; Johann Wolfgang von Goethe
+P106,occupation,Q16145150,music educator,2,Johann Sebastian Bach; Wolfgang Amadeus Mozart
+P106,occupation,Q3089940,music executive,2,Eminem; Michael Jackson
+P106,occupation,Q1954956,musical theatre actor,2,Demi Moore; Hugh Jackman
+P106,occupation,Q14915627,musicologist,2,Johann Sebastian Bach; René Descartes
+P106,occupation,Q28837146,necromancer,2,Count Dracula; Sauron
+P106,occupation,Q186360,nurse,2,Florence Nightingale; Wonder Woman
+P106,occupation,Q765778,organist,2,Johann Sebastian Bach; Wolfgang Amadeus Mozart
+P106,occupation,Q212948,partisan,2,Che Guevara; Fidel Castro
+P106,occupation,Q15472169,patron of the arts,2,George III of Great Britain; Mark Zuckerberg
+P106,occupation,Q10774753,performance artist,2,Andy Warhol; John Lennon
+P106,occupation,Q23760244,philosopher of law,2,Immanuel Kant; Plato
+P106,occupation,Q1209498,poet lawyer,2,Franz Kafka; Voltaire
+P106,occupation,Q19385508,police detective,2,Dick Grayson; Martian Manhunter
+P106,occupation,Q13590141,presenter,2,Pamela Anderson; Penélope Cruz
+P106,occupation,Q30461,president,2,George Washington; The Doctor (Doctor Who)
+P106,occupation,Q2722764,radio personality,2,Bob Dylan; Judy Garland
+P106,occupation,Q1524582,rancher,2,Lyndon B. Johnson; Theodore Roosevelt
+P106,occupation,Q1125062,rebel,2,Luke Skywalker; Princess Leia
+P106,occupation,Q42909,reporter,2,Ernest Hemingway; Superman
+P106,occupation,Q1650915,researcher,2,Albus Dumbledore; Sheldon Cooper
+P106,occupation,Q3427922,restaurateur,2,Clint Eastwood; Sandra Bullock
+P106,occupation,Q3437279,roboticist,2,Lex Luthor; Riddler
+P106,occupation,Q104218554,rock singer,2,Kurt Cobain; Ozzy Osbourne
+P106,occupation,Q12800682,saxophonist,2,Bill Clinton; David Bowie
+P106,occupation,Q48942,schoolchild,2,Eric Cartman; Harley Quinn
+P106,occupation,Q849424,sea captain,2,Jack Sparrow; Monkey D. Luffy
+P106,occupation,Q2306091,sociologist,2,Florence Nightingale; Karl Marx
+P106,occupation,Q17221,spokesperson,2,Carrie Fisher; Michael Jordan
+P106,occupation,Q18545066,stand-up comedian,2,Jim Carrey; Robin Williams
+P106,occupation,Q60319535,starship pilot,2,Luke Skywalker; Princess Leia
+P106,occupation,Q13382533,taekwondo athlete,2,Chuck Norris; Jackie Chan
+P106,occupation,Q133253419,technology entrepreneur,2,Elon Musk; Steve Jobs
+P106,occupation,Q11613590,theatre designer,2,Pablo Picasso; Salvador Dalí
+P106,occupation,Q1776724,theatre manager,2,Johann Wolfgang von Goethe; Marlon Brando
+P106,occupation,Q1234713,theologian,2,Dante Alighieri; Johann Wolfgang von Goethe
+P106,occupation,Q1259323,traditional leader or chief,2,Genghis Khan; Tarzan
+P106,occupation,Q1259917,violinist,2,Johann Sebastian Bach; Wolfgang Amadeus Mozart
+P106,occupation,Q164236,war correspondent,2,Ernest Hemingway; John Steinbeck
+P106,occupation,Q11075015,war criminal,2,Henry Kissinger; Lord Voldemort
+P106,occupation,Q10373653,watercolorist,2,Johann Wolfgang von Goethe; Pablo Picasso
+P1080,from narrative universe,Q2246088,Earth-616,38,Beast; Black Cat; Black Panther; Captain America; Cyclops; Daredevil; Deadpool; Doctor Doom; Doctor Strange; Galactus; Gambit; Ghost Rider; Green Goblin; Gwen Stacy; Hulk; Iron Man; Jean Grey; Kingpin; Kitty Pryde; Magneto; Mary Jane Watson; Mystique; Nightcrawler; Professor X; Punisher; Quicksilver; Rogue (X-Men); Sabretooth; Scarlet Witch; Silver Surfer; Spider-Man; Storm (X-Men); Thanos; Thor; Ultron; Venom; Vision (Marvel); Wolverine
+P1080,from narrative universe,Q1152150,DC Universe,15,Aquaman; Bane; Batman; Catwoman; Darkseid; Dick Grayson; Harley Quinn; Lex Luthor; Martian Manhunter; Ra's al Ghul; Riddler; Superman; The Joker; Two-Face; Wonder Woman
+P1080,from narrative universe,Q5410773,Harry Potter universe,10,Albus Dumbledore; Draco Malfoy; Harry Potter; Hermione Granger; Lord Voldemort; Luna Lovegood; Minerva McGonagall; Ron Weasley; Severus Snape; Sirius Black
+P1080,from narrative universe,Q19786052,Star Wars universe,9,Darth Vader; Grogu; Kylo Ren; Luke Skywalker; Obi-Wan Kenobi; Padmé Amidala; Palpatine; Princess Leia; Yoda
+P1080,from narrative universe,Q81738,Tolkien's legendarium,8,Aragorn; Frodo Baggins; Galadriel; Gandalf; Gollum; Morgoth; Sauron; Tom Bombadil
+P1080,from narrative universe,Q109322855,Looney Tunes universe,3,Bugs Bunny; Daffy Duck; Foghorn Leghorn
+P1080,from narrative universe,Q3260246,Mickey Mouse universe,3,Donald Duck; Goofy; Mickey Mouse
+P1080,from narrative universe,Q16155078,Agatha Christie's fictional universe,2,Hercule Poirot; Miss Marple
+P1080,from narrative universe,Q124026512,Sherlock Holmes universe,2,Professor Moriarty; Sherlock Holmes
+P1080,from narrative universe,Q18043309,Star Trek universe,2,James T. Kirk; Spock
+P1080,from narrative universe,Q61468436,The Simpsons universe,2,Bart Simpson; Homer Simpson
+P1080,from narrative universe,Q124040835,Winnie the Pooh universe,2,Eeyore; Winnie-the-Pooh
+P1080,from narrative universe,Q2461698,World of Ice and Fire,2,Daenerys Targaryen; Jon Snow
+P1303,instrument,Q17172850,voice,68,Adele; Agnez Mo; Amitabh Bachchan; Amy Winehouse; Anne Hathaway; Ariana Grande; Avril Lavigne; Barbra Streisand; Billie Eilish; Bob Dylan; Bob Marley; Britney Spears; Bruce Willis; Bruno Mars; Carrie Fisher; Cher; Christopher Lee; Céline Dion; Daniel Radcliffe; David Bowie; Demi Lovato; Dolly Parton; Dua Lipa; Elton John; Elvis Presley; Freddie Mercury; George Harrison; Gwyneth Paltrow; Hugh Jackman; Jackie Chan; Jay Chou; Jennifer Lopez; Jim Morrison; Jimi Hendrix; John Lennon; John Travolta; Johnny Cash; Judy Garland; Justin Bieber; Justin Timberlake; Katy Perry; Keanu Reeves; Kevin Costner; Kurt Cobain; Kylie Minogue; Lady Gaga; Lana Del Rey; Madonna; Mariah Carey; Marilyn Monroe; Michael Jackson; Miley Cyrus; Nicole Kidman; Ozzy Osbourne; Prince (musician); Priyanka Chopra; Rihanna; Ringo Starr; Robert Downey Jr.; Russell Crowe; Scarlett Johansson; Selena Gomez; Shah Rukh Khan; Shakira; Tupac Shakur; Volodymyr Zelenskyy; Whitney Houston; Will Smith
+P1303,instrument,Q6607,guitar,25,Amy Winehouse; Billie Eilish; Bob Dylan; Bob Marley; Bruno Mars; David Bowie; Demi Lovato; Dolly Parton; Elton John; Elvis Presley; Freddie Mercury; George Harrison; Jimi Hendrix; John Lennon; Johnny Depp; Justin Timberlake; Keanu Reeves; Kurt Cobain; Madonna; Michael Jackson; Paul McCartney; Prince (musician); Ringo Starr; Shakira; Taylor Swift
+P1303,instrument,Q5994,piano,23,Agnez Mo; Bob Dylan; Britney Spears; Bruno Mars; Clint Eastwood; David Bowie; Demi Lovato; Elton John; Elvis Presley; Freddie Mercury; Friedrich Nietzsche; George Harrison; Jay Chou; John Lennon; Lady Gaga; Ludwig van Beethoven; Michael Jackson; Miley Cyrus; Paul McCartney; Prince (musician); Spock; Taylor Swift; Wolfgang Amadeus Mozart
+P1303,instrument,Q52954,keyboard instrument,10,Billie Eilish; Bruno Mars; David Bowie; Freddie Mercury; George Harrison; Jeremy Renner; Jim Morrison; John Lennon; Justin Timberlake; Paul McCartney
+P1303,instrument,Q128309,drum kit,9,Amy Winehouse; Bruno Mars; David Bowie; Demi Lovato; Madonna; Michael Jackson; Prince (musician); Ringo Starr; Selena Gomez
+P1303,instrument,Q133163,percussion instrument,8,Ariana Grande; Jim Morrison; Michael Jackson; Paul McCartney; Prince (musician); Ringo Starr; Selena Gomez; Shakira
+P1303,instrument,Q61285,ukulele,8,Billie Eilish; Bruno Mars; Frank Sinatra; George Harrison; Madonna; Marilyn Monroe; Paul McCartney; Taylor Swift
+P1303,instrument,Q8355,violin,8,Albert Einstein; George Harrison; Jay Chou; Johann Sebastian Bach; Ludwig van Beethoven; Paul McCartney; Thomas Jefferson; Wolfgang Amadeus Mozart
+P1303,instrument,Q46185,bass guitar,7,Bruno Mars; Elvis Presley; George Harrison; Jay Chou; John Lennon; Paul McCartney; Prince (musician)
+P1303,instrument,Q51290,harmonica,6,Bob Dylan; Bruce Willis; Jay Chou; Jim Morrison; John Lennon; Shakira
+P1303,instrument,Q11404,drum,3,Jay Chou; Ringo Starr; Selena Gomez
+P1303,instrument,Q81982,harpsichord,3,Johann Sebastian Bach; Spock; Wolfgang Amadeus Mozart
+P1303,instrument,Q1444,organ,3,Johann Sebastian Bach; Quicksilver; Wolfgang Amadeus Mozart
+P1303,instrument,Q258896,banjo,2,Dolly Parton; Taylor Swift
+P1303,instrument,Q8371,cello,2,Jay Chou; Paul McCartney
+P1303,instrument,Q901207,musical keyboard,2,David Bowie; Prince (musician)
+P1303,instrument,Q9798,saxophone,2,Bill Clinton; David Bowie
+P1303,instrument,Q229205,sitar,2,George Harrison; Paul McCartney
+P1303,instrument,Q80284,viola,2,Johann Sebastian Bach; Wolfgang Amadeus Mozart
+P166,award received,Q17985761,star on Hollywood Walk of Fame,85,Alfred Hitchcock; Anne Hathaway; Anthony Hopkins; Arnold Schwarzenegger; Audrey Hepburn; Barbra Streisand; Bob Marley; Britney Spears; Bruce Lee; Bruce Willis; Bugs Bunny; Cameron Diaz; Cate Blanchett; Charlie Chaplin; Charlize Theron; Chris Pratt; Chuck Norris; Céline Dion; Daniel Radcliffe; David Bowie; Dolly Parton; Donald Duck; Donald Trump; Dwayne Johnson; Elizabeth Taylor; Elton John; Elvis Presley; Frank Sinatra; George Harrison; Godzilla; Grace Kelly; Gwyneth Paltrow; Halle Berry; Harrison Ford; Hugh Jackman; Jack Nicholson; Jackie Chan; James Cameron; James Dean; Jason Bateman; Jennifer Aniston; Jennifer Lopez; Jimi Hendrix; Jodie Foster; John Lennon; John Travolta; John Wayne; Johnny Cash; Johnny Depp; Judy Garland; Kate Winslet; Keanu Reeves; Kevin Costner; Mariah Carey; Marilyn Monroe; Marlon Brando; Martin Scorsese; Matt Damon; Meryl Streep; Michael Jackson; Mickey Mouse; Miley Cyrus; Morgan Freeman; Muhammad Ali; Neil Armstrong; Nicole Kidman; Ozzy Osbourne; Paul McCartney; Paul Newman; Penélope Cruz; Quentin Tarantino; Ringo Starr; Robin Williams; Ronald Reagan; Russell Crowe; Sandra Bullock; Scarlett Johansson; Shakira; Snoopy; Steve Irwin; Steven Spielberg; Sylvester Stallone; Thomas Edison; Tom Cruise; Walt Disney
+P166,award received,Q604370,Time 100,40,Adele; Andrew Garfield; Beyoncé; Billie Eilish; Brad Pitt; Britney Spears; Demi Lovato; Demi Moore; Dolly Parton; Donald Trump; Elon Musk; Emma Watson; Emmanuel Macron; Hillary Clinton; Hugh Jackman; JD Vance; Jair Bolsonaro; Jeff Bezos; Jennifer Lopez; Joe Biden; Justin Trudeau; Kamala Harris; Kate Winslet; Keanu Reeves; Keir Starmer; Kim Jong-un; Malala Yousafzai; Mark Zuckerberg; Mila Kunis; Miley Cyrus; Narendra Modi; Nicole Kidman; Rafael Nadal; Rihanna; Roger Federer; Scarlett Johansson; Serena Williams; Shah Rukh Khan; Vladimir Putin; Xi Jinping
+P166,award received,Q17144,Presidential Medal of Freedom,35,Audrey Hepburn; Barbra Streisand; Bill Clinton; Bill Gates; Bob Dylan; Denzel Washington; Elvis Presley; Frank Sinatra; George H. W. Bush; Gerald Ford; Helen Keller; Henry Kissinger; Hillary Clinton; Jimmy Carter; Joe Biden; John F. Kennedy; John Steinbeck; John Wayne; Lionel Messi; Lyndon B. Johnson; Margaret Thatcher; Martin Luther King Jr.; Meryl Streep; Michael Jordan; Muhammad Ali; Neil Armstrong; Nelson Mandela; Robert De Niro; Ronald Reagan; Stephen Hawking; Steve Jobs; Steven Spielberg; Tom Hanks; Walt Disney; Warren Buffett
+P166,award received,Q1011547,Golden Globes,27,Alfred Hitchcock; Anthony Hopkins; Arnold Schwarzenegger; Audrey Hepburn; Clint Eastwood; Elton John; Frank Sinatra; Halle Berry; Jane Fonda; Jason Bateman; Jim Carrey; Jodie Foster; Johnny Depp; Judy Garland; Kevin Costner; Leonardo DiCaprio; Marilyn Monroe; Martin Scorsese; Morgan Freeman; Quentin Tarantino; Robert Downey Jr.; Sandra Bullock; Sean Connery; Steven Spielberg; Sylvester Stallone; Tom Cruise; Tom Hanks
+P166,award received,Q10855271,Knight of the Legion of Honour,26,Alfred Hitchcock; Amelia Earhart; Arnold Schwarzenegger; Bob Dylan; Céline Dion; Elizabeth Taylor; Elton John; George Lucas; Helen Keller; J. K. Rowling; J. Robert Oppenheimer; Jeff Bezos; Jodie Foster; Kylian Mbappé; Marie Curie; Martin Scorsese; Monica Bellucci; Pelé; Robert De Niro; Sean Connery; Shah Rukh Khan; Thomas Edison; Tom Hanks; Victor Hugo; Walt Disney; Zinedine Zidane
+P166,award received,Q1738793,Kennedy Center Honors,22,Al Pacino; Barbra Streisand; Bob Dylan; Cher; Clint Eastwood; Dolly Parton; Elizabeth Taylor; Elton John; Frank Sinatra; George Lucas; Jack Nicholson; Johnny Cash; Martin Scorsese; Meryl Streep; Morgan Freeman; Paul McCartney; Paul Newman; Robert De Niro; Sean Connery; Steven Spielberg; Sylvester Stallone; Tom Hanks
+P166,award received,Q10855226,Grand Cross of the Legion of Honour,20,"Bashar al-Assad; Charles III; Charles de Gaulle; Dwight D. Eisenhower; Edward VII; Edward VIII; Elizabeth II; Emmanuel Macron; George V; George VI; Harald V of Norway; Johann Wolfgang von Goethe; Napoleon; Narendra Modi; Nelson Mandela; Nicholas II of Russia; Prince Philip, Duke of Edinburgh; Queen Victoria; Vladimir Putin; Volodymyr Zelenskyy"
+P166,award received,Q103618,Academy Award for Best Actress,19,Audrey Hepburn; Barbra Streisand; Cate Blanchett; Charlize Theron; Cher; Elizabeth Taylor; Emma Stone; Grace Kelly; Gwyneth Paltrow; Halle Berry; Jane Fonda; Jennifer Lawrence; Jodie Foster; Julia Roberts; Kate Winslet; Meryl Streep; Natalie Portman; Nicole Kidman; Sandra Bullock
+P166,award received,Q640353,Golden Globe Cecil B. DeMille Award,19,Al Pacino; Alfred Hitchcock; Anthony Hopkins; Audrey Hepburn; Elizabeth Taylor; Frank Sinatra; George Clooney; Harrison Ford; Jack Nicholson; Jodie Foster; John Wayne; Judy Garland; Martin Scorsese; Meryl Streep; Robert De Niro; Robin Williams; Sean Connery; Tom Hanks; Walt Disney
+P166,award received,Q179191,Rock and Roll Hall of Fame,19,Bob Dylan; Bob Marley; Cher; David Bowie; Dolly Parton; Elton John; Elvis Presley; Eminem; George Harrison; John Lennon; Johnny Cash; Madonna; Michael Jackson; Ozzy Osbourne; Paul McCartney; Prince (musician); Ringo Starr; Tupac Shakur; Whitney Houston
+P166,award received,Q5020532,California Hall of Fame,18,Amelia Earhart; Barbra Streisand; Bruce Lee; Clint Eastwood; Elizabeth Taylor; George Lucas; Harrison Ford; Jack Nicholson; James Cameron; Jane Fonda; John Steinbeck; John Wayne; Mark Zuckerberg; Robert Downey Jr.; Ronald Reagan; Serena Williams; Steve Jobs; Walt Disney
+P166,award received,Q13452531,Commandeur des Arts et des Lettres,18,Audrey Hepburn; Bob Dylan; Bruce Willis; Christopher Lee; Clint Eastwood; David Bowie; Elizabeth Taylor; Jane Fonda; Meryl Streep; Michael Caine; Mikhail Gorbachev; Paul Newman; Quentin Tarantino; Ringo Starr; Robert De Niro; Sean Connery; Stanley Kubrick; Woody Allen
+P166,award received,Q292044,AFI Life Achievement Award,16,Al Pacino; Alfred Hitchcock; Barbra Streisand; Clint Eastwood; Elizabeth Taylor; George Lucas; Harrison Ford; Jack Nicholson; Jane Fonda; Martin Scorsese; Meryl Streep; Morgan Freeman; Robert De Niro; Sean Connery; Steven Spielberg; Tom Hanks
+P166,award received,Q12198181,Knight of the Garter,16,"Charles I of England; Charles III; Edward VII; Edward VIII; Elizabeth I of England; Elizabeth II; George III of Great Britain; George V; George VI; Harald V of Norway; Henry VIII of England; Margaret Thatcher; Nicholas II of Russia; Queen Victoria; William, Prince of Wales; Winston Churchill"
+P166,award received,Q105447,Saturn Awards,16,Alfred Hitchcock; Anthony Hopkins; Ben Affleck; Chris Pratt; Christopher Nolan; Jack Nicholson; Jennifer Lawrence; Jodie Foster; Natalie Portman; Quentin Tarantino; Robert Downey Jr.; Sandra Bullock; Sean Connery; Steven Spielberg; Sylvester Stallone; Tom Cruise
+P166,award received,Q207826,Time Person of the Year,16,Barack Obama; Donald Trump; Dwight D. Eisenhower; Elizabeth II; Elon Musk; Franklin Delano Roosevelt; Henry Kissinger; Jeff Bezos; John F. Kennedy; Mahatma Gandhi; Mark Zuckerberg; Martin Luther King Jr.; Nikita Khrushchev; Richard Nixon; Vladimir Putin; Volodymyr Zelenskyy
+P166,award received,Q52382875,Fellow of the American Academy of Arts and Sciences,15,Benjamin Franklin; Bill Clinton; Clint Eastwood; George Lucas; George Washington; Jeff Bezos; John Adams; Martin Luther King Jr.; Martin Scorsese; Meryl Streep; Paul McCartney; Quentin Tarantino; Thomas Jefferson; Woodrow Wilson; Woody Allen
+P166,award received,Q721743,Congressional Gold Medal,14,Andrew Jackson; Frank Sinatra; George Washington; Gerald Ford; Harry S. Truman; John Wayne; Martin Luther King Jr.; Neil Armstrong; Nelson Mandela; Ronald Reagan; Thomas Edison; Ulysses S. Grant; Walt Disney; Winston Churchill
+P166,award received,Q56085709,Crystal Award,14,Audrey Hepburn; Barbra Streisand; Cate Blanchett; Elizabeth Taylor; Gwyneth Paltrow; Halle Berry; Jane Fonda; Jennifer Aniston; Jennifer Lopez; Jodie Foster; Kate Winslet; Meryl Streep; Nicole Kidman; Sandra Bullock
+P166,award received,Q935843,Grammy Lifetime Achievement Award,14,Barbra Streisand; Bob Dylan; Bob Marley; David Bowie; Dolly Parton; Elvis Presley; Frank Sinatra; Freddie Mercury; Jimi Hendrix; John Lennon; Johnny Cash; Judy Garland; Michael Jackson; Paul McCartney
+P166,award received,Q103916,Academy Award for Best Actor,13,Al Pacino; Anthony Hopkins; Denzel Washington; Jack Nicholson; John Wayne; Leonardo DiCaprio; Marlon Brando; Nicolas Cage; Paul Newman; Robert De Niro; Russell Crowe; Tom Hanks; Will Smith
+P166,award received,Q4710826,Albert Medal,13,"Charles III; Edward VII; Edward VIII; Elizabeth II; Franklin Delano Roosevelt; George V; George VI; Marie Curie; Prince Philip, Duke of Edinburgh; Queen Victoria; Stephen Hawking; Thomas Edison; Winston Churchill"
+P166,award received,Q13452528,Chevalier des Arts et des Lettres,13,Cate Blanchett; Céline Dion; George Clooney; Jackie Chan; Jim Carrey; Julia Roberts; Kylie Minogue; Leonardo DiCaprio; Monica Bellucci; Penélope Cruz; Selena Gomez; Shakira; Tom Cruise
+P166,award received,Q12201477,Commander of the Order of the British Empire,13,Agatha Christie; Anthony Hopkins; Christopher Lee; Christopher Nolan; David Bowie; Elton John; Emmanuel Macron; J. R. R. Tolkien; Kate Winslet; Michael Caine; Rowan Atkinson; Sean Connery; Stephen Hawking
+P166,award received,Q908858,Donostia Award,13,Al Pacino; Anthony Hopkins; Denzel Washington; Hugh Jackman; John Travolta; Johnny Depp; Julia Roberts; Meryl Streep; Michael Caine; Monica Bellucci; Penélope Cruz; Robert De Niro; Woody Allen
+P166,award received,Q593098,Golden Globe Award for Best Actor – Motion Picture Drama,13,Al Pacino; Denzel Washington; George Clooney; Jack Nicholson; John Wayne; Leonardo DiCaprio; Marlon Brando; Nicolas Cage; Robert De Niro; Russell Crowe; Tom Cruise; Tom Hanks; Will Smith
+P166,award received,Q41254,Grammy Awards,13,Ariana Grande; Bill Clinton; Bradley Cooper; Cher; Elton John; Jack Nicholson; Jimmy Carter; Judy Garland; Mikhail Gorbachev; Paul McCartney; Prince (musician); Steven Spielberg; Whitney Houston
+P166,award received,Q10855195,Officer of the Legion of Honour,13,Amitabh Bachchan; Barbra Streisand; J. Robert Oppenheimer; Johann Wolfgang von Goethe; Martin Scorsese; Michael Schumacher; Paul McCartney; Robert De Niro; Steven Spielberg; Thomas Edison; Tom Hanks; Victor Hugo; Zinedine Zidane
+P166,award received,Q1131356,Theatre World Award,13,Al Pacino; Audrey Hepburn; Demi Moore; Grace Kelly; Hugh Jackman; James Dean; Jane Fonda; Marlon Brando; Meryl Streep; Nicole Kidman; Paul Newman; Scarlett Johansson; Tom Hanks
+P166,award received,Q106291,Academy Award for Best Supporting Actor,12,Brad Pitt; Denzel Washington; Frank Sinatra; George Clooney; Heath Ledger; Jack Nicholson; Michael Caine; Morgan Freeman; Robert De Niro; Robert Downey Jr.; Robin Williams; Sean Connery
+P166,award received,Q727282,Honorary César,12,Harrison Ford; Johnny Depp; Julia Roberts; Kevin Costner; Martin Scorsese; Meryl Streep; Penélope Cruz; Quentin Tarantino; Scarlett Johansson; Steven Spielberg; Sylvester Stallone; Walt Disney
+P166,award received,Q833163,Knight Bachelor,12,Anthony Hopkins; Christopher Lee; Christopher Nolan; David Beckham; Don Bradman; Elton John; Isaac Newton; Lewis Hamilton; Michael Caine; Paul McCartney; Ringo Starr; Sean Connery
+P166,award received,Q687123,BAFTA Award for Best Actress in a Leading Role,11,Cate Blanchett; Elizabeth Taylor; Emma Stone; Jane Fonda; Jodie Foster; Julia Roberts; Kate Winslet; Meryl Streep; Natalie Portman; Nicole Kidman; Scarlett Johansson
+P166,award received,Q5449677,Financial Times Person of the Year,11,Barack Obama; Bill Gates; Donald Trump; Elon Musk; George W. Bush; Henry Kissinger; Jimmy Carter; Margaret Thatcher; Mikhail Gorbachev; Steve Jobs; Volodymyr Zelenskyy
+P166,award received,Q181883,Golden Globe Award for Best Actor – Motion Picture Musical or Comedy,11,Andrew Garfield; George Clooney; Hugh Jackman; Jack Nicholson; John Travolta; Leonardo DiCaprio; Michael Caine; Robert Downey Jr.; Robin Williams; Tom Cruise; Tom Hanks
+P166,award received,Q1011564,Golden Globe Award for Best Actress in a Motion Picture – Musical or Comedy,11,Cher; Demi Moore; Emma Stone; Gwyneth Paltrow; Jennifer Lawrence; Judy Garland; Julia Roberts; Madonna; Marilyn Monroe; Meryl Streep; Nicole Kidman
+P166,award received,Q10294045,Hasty Pudding Woman of the Year,11,Anne Hathaway; Charlize Theron; Cher; Elizabeth Taylor; Halle Berry; Jane Fonda; Jodie Foster; Julia Roberts; Meryl Streep; Mila Kunis; Scarlett Johansson
+P166,award received,Q163700,Legion of Honour,11,"Edward VII; Edward VIII; Elton John; George V; George VI; Keir Starmer; Prince Philip, Duke of Edinburgh; Queen Victoria; Sean Connery; Sherlock Holmes; Steven Spielberg"
+P166,award received,Q1789030,National Medal of Arts,11,Al Pacino; Barbra Streisand; Bob Dylan; Clint Eastwood; Dolly Parton; George Lucas; Johnny Cash; Meryl Streep; Morgan Freeman; Stephen King; Steven Spielberg
+P166,award received,Q976544,Order of the Elephant,11,"Dwight D. Eisenhower; Edward VII; Edward VIII; Elizabeth II; George V; George VI; Harald V of Norway; Hirohito; Nelson Mandela; Prince Philip, Duke of Edinburgh; Winston Churchill"
+P166,award received,Q7182737,Philadelphia Liberty Medal,11,Bill Clinton; George H. W. Bush; George W. Bush; Hillary Clinton; Jimmy Carter; Malala Yousafzai; Mikhail Gorbachev; Muhammad Ali; Nelson Mandela; Steven Spielberg; Volodymyr Zelenskyy
+P166,award received,Q1129487,Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Leading Role,11,Cate Blanchett; Charlize Theron; Demi Moore; Gwyneth Paltrow; Halle Berry; Jennifer Lawrence; Jodie Foster; Julia Roberts; Meryl Streep; Natalie Portman; Sandra Bullock
+P166,award received,Q787148,BAFTA Fellowship,10,Alfred Hitchcock; Anthony Hopkins; Charlie Chaplin; Christopher Lee; Elizabeth Taylor; Martin Scorsese; Michael Caine; Sean Connery; Stanley Kubrick; Woody Allen
+P166,award received,Q5357263,Collar of the Supreme Order of the Chrysanthemum,10,Charles III; Dwight D. Eisenhower; Edward VII; Edward VIII; Elizabeth II; George V; George VI; Harald V of Norway; Hirohito; Nicholas II of Russia
+P166,award received,Q1150306,Disney Legends,10,Carrie Fisher; Elton John; George Lucas; Harrison Ford; James Cameron; Johnny Depp; Miley Cyrus; Robert Downey Jr.; Robin Williams; Steve Jobs
+P166,award received,Q1061233,L'Équipe Champion of Champions,10,Diego Maradona; Lewis Hamilton; Lionel Messi; Michael Jordan; Michael Schumacher; Rafael Nadal; Roger Federer; Serena Williams; Usain Bolt; Zinedine Zidane
+P166,award received,Q1789102,National Board of Review Award for Best Film,10,Charlie Chaplin; Clint Eastwood; George Clooney; Kevin Costner; Martin Scorsese; Quentin Tarantino; Roman Polanski; Stanley Kubrick; Steven Spielberg; Woody Allen
+P166,award received,Q14705795,New Jersey Hall of Fame,10,Albert Einstein; Bruce Willis; Frank Sinatra; George R. R. Martin; Jack Nicholson; John Travolta; Meryl Streep; Thomas Edison; Whitney Houston; Woodrow Wilson
+P166,award received,Q1331130,Royal Order of the Seraphim,10,"Catherine II of Russia; Charles III; Edward VII; Elizabeth II; George VI; Harald V of Norway; Hirohito; Nelson Mandela; Otto von Bismarck; Prince Philip, Duke of Edinburgh"
+P166,award received,Q103360,Academy Award for Best Director,9,Christopher Nolan; Clint Eastwood; James Cameron; Kevin Costner; Martin Scorsese; Mel Gibson; Roman Polanski; Steven Spielberg; Woody Allen
+P166,award received,Q102427,Academy Award for Best Picture,9,Ben Affleck; Brad Pitt; Christopher Nolan; Clint Eastwood; George Clooney; James Cameron; Kevin Costner; Mel Gibson; Steven Spielberg
+P166,award received,Q5365910,Ellis Island Medal of Honor,9,Bill Clinton; Donald Trump; George H. W. Bush; Henry Kissinger; Hillary Clinton; Jimmy Carter; Joe Biden; Malala Yousafzai; Richard Nixon
+P166,award received,Q15631401,Fellow of the Royal Society,9,Alan Turing; Charles Darwin; Elon Musk; Hirohito; Lord Byron; Margaret Thatcher; Stephen Hawking; Voltaire; Winston Churchill
+P166,award received,Q5513594,GLAAD Vanguard Award,9,Beyoncé; Britney Spears; Charlize Theron; Cher; Demi Lovato; Elizabeth Taylor; Jennifer Aniston; Jennifer Lopez; Taylor Swift
+P166,award received,Q463085,Golden Globe Award for Best Actress – Motion Picture Drama,9,Audrey Hepburn; Cate Blanchett; Elizabeth Taylor; Grace Kelly; Jodie Foster; Julia Roberts; Meryl Streep; Natalie Portman; Nicole Kidman
+P166,award received,Q822907,Golden Globe Award for Best Supporting Actress – Motion Picture,9,Angelina Jolie; Anne Hathaway; Cher; Grace Kelly; Jennifer Lawrence; Jodie Foster; Julia Roberts; Meryl Streep; Natalie Portman
+P166,award received,Q5361043,Grand Cordon of the Supreme Order of the Chrysanthemum,9,"Charles III; Edward VII; Edward VIII; George V; George VI; Hirohito; Luiz Inácio Lula da Silva; Prince Philip, Duke of Edinburgh; Ronald Reagan"
+P166,award received,Q1713744,Jupiter Awards,9,Charlize Theron; Jodie Foster; Julia Roberts; Kevin Costner; Mila Kunis; Nicolas Cage; Nicole Kidman; Sandra Bullock; Steven Spielberg
+P166,award received,Q56861795,Knight of the Order of the Elephant,9,"Charles III; Charles de Gaulle; Edward VIII; Emmanuel Macron; George VI; Luiz Inácio Lula da Silva; Napoleon; Nicholas II of Russia; Prince Philip, Duke of Edinburgh"
+P166,award received,Q15117228,Knight of the Order of the Golden Fleece,9,Edward VII; Edward VIII; Elizabeth II; George V; Henry VIII of England; Hirohito; Napoleon; Nicholas II of Russia; Otto von Bismarck
+P166,award received,Q35637,Nobel Peace Prize,9,Barack Obama; Henry Kissinger; Jimmy Carter; Malala Yousafzai; Martin Luther King Jr.; Mikhail Gorbachev; Nelson Mandela; Theodore Roosevelt; Woodrow Wilson
+P166,award received,Q506369,Order of the Bath,9,Charles III; Edward VII; Emmanuel Macron; George H. W. Bush; George V; George VI; Hirohito; Keir Starmer; Queen Victoria
+P166,award received,Q716909,Ordre des Arts et des Lettres,9,Anthony Hopkins; David Bowie; Jack Nicholson; Jim Carrey; Mikhail Gorbachev; Penélope Cruz; Quentin Tarantino; Robert De Niro; Steven Spielberg
+P166,award received,Q2079534,World War II Victory Medal,9,Dwight D. Eisenhower; George H. W. Bush; Gerald Ford; Harry S. Truman; Jimmy Carter; John F. Kennedy; Lyndon B. Johnson; Richard Nixon; Ronald Reagan
+P166,award received,Q400007,BAFTA Award for Best Actor in a Leading Role,8,Al Pacino; Anthony Hopkins; Jack Nicholson; Leonardo DiCaprio; Michael Caine; Robert Downey Jr.; Russell Crowe; Sean Connery
+P166,award received,Q723830,Golden Globe Award for Best Supporting Actor – Motion Picture,8,Brad Pitt; Denzel Washington; George Clooney; Heath Ledger; Jack Nicholson; Robert Downey Jr.; Sean Connery; Tom Cruise
+P166,award received,Q904528,Grammy Award for Album of the Year,8,Adele; Billie Eilish; Bob Dylan; Céline Dion; Frank Sinatra; Judy Garland; Michael Jackson; Taylor Swift
+P166,award received,Q2976730,Grammy Award for Best Music Video,8,Adele; Beyoncé; Lady Gaga; Madonna; Michael Jackson; Rihanna; Shakira; Taylor Swift
+P166,award received,Q10904959,Grand Cross Special Class of the Order of Merit of the Federal Republic of Germany,8,"Charles de Gaulle; Elizabeth II; George H. W. Bush; Harald V of Norway; Hirohito; Joe Biden; Mikhail Gorbachev; Prince Philip, Duke of Edinburgh"
+P166,award received,Q23769799,Grand Cross with Collar of the Order of the White Rose of Finland,8,Bashar al-Assad; Charles de Gaulle; Elizabeth II; Emmanuel Macron; Harald V of Norway; Hirohito; Nelson Mandela; Volodymyr Zelenskyy
+P166,award received,Q1062026,MTV Movie Award for Best Villain,8,Denzel Washington; Heath Ledger; Jack Nicholson; Jennifer Aniston; Jim Carrey; Johnny Depp; Meryl Streep; Mila Kunis
+P166,award received,Q2329411,Order of Zayed,8,Bashar al-Assad; Donald Trump; Emmanuel Macron; George W. Bush; Narendra Modi; Pervez Musharraf; Vladimir Putin; Xi Jinping
+P166,award received,Q1783222,Order of the Nile,8,Donald Trump; Elizabeth II; Emmanuel Macron; Fidel Castro; Jimmy Carter; Narendra Modi; Nelson Mandela; Nikita Khrushchev
+P166,award received,Q84020,Order of the White Eagle,8,Catherine II of Russia; Elizabeth II; Harald V of Norway; Hirohito; Marie Curie; Napoleon; Ronald Reagan; Woodrow Wilson
+P166,award received,Q93728,Order of the White Lion,8,Bill Clinton; George H. W. Bush; Margaret Thatcher; Mikhail Gorbachev; Muammar Gaddafi; Nikita Khrushchev; Nikola Tesla; Ronald Reagan
+P166,award received,Q7241175,Presidential Medal of Distinction,8,Barack Obama; Bill Clinton; Donald Trump; Henry Kissinger; Jair Bolsonaro; Joe Biden; Narendra Modi; Steven Spielberg
+P166,award received,Q39384825,honorary doctor of Harvard University,8,Bill Gates; George H. W. Bush; J. K. Rowling; Mark Zuckerberg; Meryl Streep; Stephen Hawking; Steven Spielberg; Tom Hanks
+P166,award received,Q112243,Academy Award for Best Original Song,7,Adele; Barbra Streisand; Billie Eilish; Bob Dylan; Elton John; Eminem; Lady Gaga
+P166,award received,Q518675,Actor Award for Outstanding Performance by a Cast in a Motion Picture,7,Ben Affleck; Brad Pitt; Bradley Cooper; Jennifer Lawrence; Jeremy Renner; Robin Williams; Tom Hanks
+P166,award received,Q2338107,American Campaign Medal,7,George H. W. Bush; Gerald Ford; Jimmy Carter; John F. Kennedy; Lyndon B. Johnson; Richard Nixon; Ronald Reagan
+P166,award received,Q787131,BAFTA Award for Best Direction,7,Ben Affleck; Christopher Nolan; Martin Scorsese; Roman Polanski; Stanley Kubrick; Steven Spielberg; Woody Allen
+P166,award received,Q630018,Bambi Award,7,Arnold Schwarzenegger; Bill Gates; Britney Spears; Cate Blanchett; Cher; Céline Dion; Kevin Costner
+P166,award received,Q174389,César Award,7,Ben Affleck; Cate Blanchett; Clint Eastwood; Penélope Cruz; Steven Spielberg; Sylvester Stallone; Woody Allen
+P166,award received,Q1111310,Directors Guild of America Award,7,Ben Affleck; Clint Eastwood; James Cameron; Kevin Costner; Martin Scorsese; Steven Spielberg; Woody Allen
+P166,award received,Q1472235,Golden Globe Award for Best Original Song,7,Adele; Billie Eilish; Elton John; Frank Sinatra; Lady Gaga; Madonna; Prince (musician)
+P166,award received,Q14900501,Grand Cordon of the Order of Leopold,7,Dwight D. Eisenhower; Elizabeth II; Emmanuel Macron; Harald V of Norway; Nicholas II of Russia; Winston Churchill; Xi Jinping
+P166,award received,Q20853482,Grand Cross of the Order of Merit of the Republic of Poland,7,"Elizabeth II; George H. W. Bush; Henry Kissinger; Hillary Clinton; Mahathir Mohamad; Prince Philip, Duke of Edinburgh; Ronald Reagan"
+P166,award received,Q22058319,Grand Cross of the Order of the Southern Cross,7,Benjamin Netanyahu; Charles III; Che Guevara; Dwight D. Eisenhower; Elizabeth II; Luiz Inácio Lula da Silva; Nicholas II of Russia
+P166,award received,Q2297608,Knight Grand Cross in the Order of the Netherlands Lion,7,Dwight D. Eisenhower; Edward VII; Elizabeth II; Emmanuel Macron; Nicholas II of Russia; Otto von Bismarck; Winston Churchill
+P166,award received,Q12192290,Knight Grand Cross of the Royal Victorian Order,7,"Charles de Gaulle; Edward VII; George V; George VI; Harald V of Norway; Nicholas II of Russia; Prince Philip, Duke of Edinburgh"
+P166,award received,Q13377517,Knight Grand Cross with Collar of the Order of Saint Olav,7,"Charles III; Edward VII; Elizabeth II; George V; Harald V of Norway; Prince Philip, Duke of Edinburgh; Winston Churchill"
+P166,award received,Q12201526,Member of the Order of the British Empire,7,Adele; George Harrison; Jackie Chan; John Lennon; Lewis Hamilton; Paul McCartney; Ringo Starr
+P166,award received,Q1991972,Order of José Martí,7,Fidel Castro; Indira Gandhi; Mahathir Mohamad; Muammar Gaddafi; Nelson Mandela; Vladimir Putin; Xi Jinping
+P166,award received,Q93923,Order of King Abdulaziz al Saud,7,Charles III; Elizabeth II; George H. W. Bush; Luiz Inácio Lula da Silva; Narendra Modi; Pervez Musharraf; Xi Jinping
+P166,award received,Q94056,Order of Merit,7,Charles III; Florence Nightingale; George VI; Margaret Thatcher; Nelson Mandela; Queen Victoria; Winston Churchill
+P166,award received,Q1126563,Order of St. Andrew,7,Catherine II of Russia; Edward VII; George V; Hirohito; Napoleon; Nicholas II of Russia; Otto von Bismarck
+P166,award received,Q94145,Order of the Black Eagle,7,Catherine II of Russia; Edward VII; George V; Napoleon; Nicholas II of Russia; Otto von Bismarck; Queen Victoria
+P166,award received,Q614661,Order of the Redeemer,7,Charles de Gaulle; Dwight D. Eisenhower; Elizabeth II; George V; George VI; Harald V of Norway; Nicholas II of Russia
+P166,award received,Q93911,Order of the Royal House of Chakri,7,Charles de Gaulle; Dwight D. Eisenhower; Edward VII; Elizabeth II; George VI; Nicholas II of Russia; Queen Victoria
+P166,award received,Q1259362,Saturn Award for Best Actor,7,Anthony Hopkins; David Bowie; George Clooney; Robert Downey Jr.; Robin Williams; Tom Cruise; Will Smith
+P166,award received,Q727328,Academy Honorary Award,6,Charlie Chaplin; Jackie Chan; Judy Garland; Paul Newman; Tom Cruise; Walt Disney
+P166,award received,Q1441929,American Music Award for Favorite Pop/Rock Female Artist,6,Céline Dion; Katy Perry; Lady Gaga; Mariah Carey; Selena Gomez; Taylor Swift
+P166,award received,Q787123,BAFTA Award for Best Actress in a Supporting Role,6,Anne Hathaway; Cate Blanchett; Jennifer Lawrence; Jodie Foster; Kate Winslet; Penélope Cruz
+P166,award received,Q10855212,Commander of the Legion of Honour,6,Arnold Schwarzenegger; Bill Gates; Charlie Chaplin; Clint Eastwood; Roman Polanski; Thomas Edison
+P166,award received,Q16947520,Companion of Honour,6,Elton John; George VI; J. K. Rowling; Paul McCartney; Stephen Hawking; Winston Churchill
+P166,award received,Q5211225,Dallas-Fort Worth Film Critics Association Award for Best Director,6,Clint Eastwood; James Cameron; Kevin Costner; Martin Scorsese; Quentin Tarantino; Steven Spielberg
+P166,award received,Q20203866,Four Freedoms Award – Freedom Medal,6,Bill Clinton; Hillary Clinton; Jimmy Carter; Luiz Inácio Lula da Silva; Mikhail Gorbachev; Nelson Mandela
+P166,award received,Q586356,Golden Globe Award for Best Director,6,Christopher Nolan; Clint Eastwood; James Cameron; Martin Scorsese; Mel Gibson; Steven Spielberg
+P166,award received,Q3241784,Golden Lion for Lifetime Achievement,6,Al Pacino; Charlie Chaplin; Robert De Niro; Stanley Kubrick; Steven Spielberg; Woody Allen
+P166,award received,Q602299,Golden Raspberry Award for Worst Actor,6,Ben Affleck; George W. Bush; Kevin Costner; LeBron James; Prince (musician); Sylvester Stallone
+P166,award received,Q740968,Grammy Award for Best Dance/Electronic Recording,6,Britney Spears; Dua Lipa; Justin Bieber; Lady Gaga; Madonna; Rihanna
+P166,award received,Q935283,Grammy Award for Best Female Pop Vocal Performance,6,Adele; Beyoncé; Céline Dion; Judy Garland; Lady Gaga; Mariah Carey
+P166,award received,Q1027891,Grammy Award for Best Pop Vocal Album,6,Adele; Billie Eilish; Dua Lipa; Lady Gaga; Madonna; Taylor Swift
+P166,award received,Q20966518,Grand cross of the Order of the White Lion,6,Bill Clinton; Dwight D. Eisenhower; Mikhail Gorbachev; Nikola Tesla; Volodymyr Zelenskyy; Winston Churchill
+P166,award received,Q28950956,Horatio Alger Award,6,Denzel Washington; Dwight D. Eisenhower; Gerald Ford; Johnny Cash; Leonardo DiCaprio; Ronald Reagan
+P166,award received,Q3414212,Hugo Award for Best Dramatic Presentation,6,George Lucas; J. R. R. Tolkien; James Cameron; Stanley Kubrick; Steven Spielberg; Woody Allen
+P166,award received,Q105308519,King Abdulaziz Medal,6,Barack Obama; Bashar al-Assad; Donald Trump; George W. Bush; Vladimir Putin; Xi Jinping
+P166,award received,Q13377518,Knight Grand Cross of the Order of St. Olav,6,"Charles de Gaulle; Emmanuel Macron; Luiz Inácio Lula da Silva; Nelson Mandela; Prince Philip, Duke of Edinburgh; Winston Churchill"
+P166,award received,Q14539990,Knight Grand Cross with Collar of the Order of Merit of the Italian Republic,6,Bashar al-Assad; Charles de Gaulle; Elizabeth II; Emmanuel Macron; Harald V of Norway; Hirohito
+P166,award received,Q1808301,Laureus World Sports Award for Sportsman of the Year,6,Lewis Hamilton; Lionel Messi; Michael Schumacher; Novak Djokovic; Rafael Nadal; Usain Bolt
+P166,award received,Q6542686,Library of Congress Living Legend,6,Barbra Streisand; Dolly Parton; Johnny Cash; Martin Scorsese; Muhammad Ali; Steven Spielberg
+P166,award received,Q1091031,MTV Video Music Award for Best Female Video,6,Beyoncé; Britney Spears; Katy Perry; Lady Gaga; Nicki Minaj; Taylor Swift
+P166,award received,Q1820710,Nishan-e-Pakistan,6,Dwight D. Eisenhower; Joe Biden; Mahathir Mohamad; Nelson Mandela; Richard Nixon; Xi Jinping
+P166,award received,Q14420,Order of the British Empire,6,George H. W. Bush; Jackie Chan; Kylie Minogue; Rowan Atkinson; Stephen Hawking; Steven Spielberg
+P166,award received,Q696246,Order of the Chrysanthemum,6,"Charles III; Edward VII; Edward VIII; George V; Prince Philip, Duke of Edinburgh; Ronald Reagan"
+P166,award received,Q23058979,"Order of the Cross of Terra Mariana, 1st Class",6,Bill Clinton; George H. W. Bush; George W. Bush; Gerald Ford; Hillary Clinton; Joe Biden
+P166,award received,Q2452975,Order of the Liberator,6,Bashar al-Assad; Fidel Castro; Mahathir Mohamad; Muammar Gaddafi; Vladimir Putin; Xi Jinping
+P166,award received,Q721030,Order of the Thistle,6,"Charles III; Edward VII; George V; George VI; Queen Victoria; William, Prince of Wales"
+P166,award received,Q2171187,Royal Victorian Chain,6,"Charles de Gaulle; Edward VIII; George V; George VI; Harald V of Norway; Prince Philip, Duke of Edinburgh"
+P166,award received,Q1631998,SAG-AFTRA Life Achievement Award,6,Audrey Hepburn; Clint Eastwood; Elizabeth Taylor; Frank Sinatra; Paul Newman; Robert De Niro
+P166,award received,Q48961500,Science Fiction and Fantasy Hall of Fame,6,David Bowie; George Lucas; J. R. R. Tolkien; James Cameron; Stanley Kubrick; Steven Spielberg
+P166,award received,Q654620,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Leading Role,6,Jack Nicholson; Johnny Depp; Leonardo DiCaprio; Nicolas Cage; Russell Crowe; Tom Hanks
+P166,award received,Q708135,Silver Bear,6,Halle Berry; Kevin Costner; Leonardo DiCaprio; Morgan Freeman; Tom Hanks; Woody Allen
+P166,award received,Q101242891,honorary doctor of the Hofstra University,6,Bill Clinton; Dwight D. Eisenhower; George H. W. Bush; Gerald Ford; Margaret Thatcher; Martin Luther King Jr.
+P166,award received,Q42309226,honorary doctorate from Princeton University,6,Albert Einstein; Bob Dylan; J. Robert Oppenheimer; Martin Scorsese; Meryl Streep; Stephen Hawking
+P166,award received,Q106301,Academy Award for Best Supporting Actress,5,Angelina Jolie; Anne Hathaway; Cate Blanchett; Meryl Streep; Penélope Cruz
+P166,award received,Q19020,Academy Awards,5,Al Pacino; Anthony Hopkins; Elton John; Robert De Niro; Sean Connery
+P166,award received,Q19858055,American Music Award for Artist of the Year,5,Ariana Grande; Bruno Mars; Justin Bieber; Madonna; Taylor Swift
+P166,award received,Q2338071,Asiatic-Pacific Campaign Medal,5,George H. W. Bush; Gerald Ford; John F. Kennedy; Lyndon B. Johnson; Richard Nixon
+P166,award received,Q4824396,Australian National Living Treasure,5,Cathy Freeman; Don Bradman; Kylie Minogue; Nicole Kidman; Russell Crowe
+P166,award received,Q139184,BAFTA Award for Best Film,5,Brad Pitt; George Clooney; Martin Scorsese; Steven Spielberg; Woody Allen
+P166,award received,Q16985325,BRIT Award for International Female Solo Artist,5,Billie Eilish; Katy Perry; Kylie Minogue; Rihanna; Taylor Swift
+P166,award received,Q4896696,Best International Athlete ESPY Award,5,Cristiano Ronaldo; Lionel Messi; Rafael Nadal; Roger Federer; Usain Bolt
+P166,award received,Q849771,Britannia Awards,5,Elizabeth Taylor; Martin Scorsese; Michael Caine; Quentin Tarantino; Tom Hanks
+P166,award received,Q152337,Charlemagne Prize,5,Bill Clinton; Emmanuel Macron; Henry Kissinger; Volodymyr Zelenskyy; Winston Churchill
+P166,award received,Q20966612,Collar of the Order of the White Lion,5,Che Guevara; Elizabeth II; Fidel Castro; Mikhail Gorbachev; Ronald Reagan
+P166,award received,Q9680541,Companion of the Order of Australia,5,Cate Blanchett; Cathy Freeman; Don Bradman; Hugh Jackman; Nicole Kidman
+P166,award received,Q106517969,Crystal Award,5,Cate Blanchett; Elton John; Leonardo DiCaprio; Shah Rukh Khan; Shakira
+P166,award received,Q5300150,Doublespeak Award,5,Bill Clinton; Donald Trump; George H. W. Bush; George W. Bush; Ronald Reagan
+P166,award received,Q48965436,Global Citizen Awards,5,Emmanuel Macron; Henry Kissinger; Justin Trudeau; Robert De Niro; Volodymyr Zelenskyy
+P166,award received,Q15279719,Gold Olympic Order,5,Emmanuel Macron; Harald V of Norway; Indira Gandhi; Nelson Mandela; Xi Jinping
+P166,award received,Q673229,Golden Globe Award for Best Actress – Miniseries or Television Film,5,Angelina Jolie; Jodie Foster; Lady Gaga; Meryl Streep; Nicole Kidman
+P166,award received,Q28663097,Golden Plate Award,5,Bill Clinton; Helen Keller; Henry Kissinger; John Wayne; Mikhail Gorbachev
+P166,award received,Q1453643,Grammy Award for Best New Artist,5,Adele; Amy Winehouse; Billie Eilish; Dua Lipa; Mariah Carey
+P166,award received,Q428808,Grammy Award for Best Song Written for Visual Media,5,Adele; Billie Eilish; Lady Gaga; Madonna; Taylor Swift
+P166,award received,Q843219,Grammy Award for Record of the Year,5,Adele; Billie Eilish; Céline Dion; Michael Jackson; Miley Cyrus
+P166,award received,Q1027904,Grammy Award for Song of the Year,5,Adele; Beyoncé; Billie Eilish; Bruno Mars; Michael Jackson
+P166,award received,Q1542347,Grammy Legend Award,5,Barbra Streisand; Elton John; Frank Sinatra; Johnny Cash; Michael Jackson
+P166,award received,Q15280177,Grand Cross of the National Order of Mali,5,Elizabeth II; Fidel Castro; Mahathir Mohamad; Muammar Gaddafi; Nelson Mandela
+P166,award received,Q20866649,Grand Cross of the Order of Charles III,5,"Charles III; Edward VII; Elizabeth II; Prince Philip, Duke of Edinburgh; Salvador Dalí"
+P166,award received,Q121359767,Great Immigrants Award,5,Albert Einstein; Arnold Schwarzenegger; Charlize Theron; Elon Musk; Henry Kissinger
+P166,award received,Q1321674,Honorary Palme d'Or,5,Barbra Streisand; Denzel Washington; George Lucas; John Travolta; Tom Cruise
+P166,award received,Q113068,Hungarian Order of Merit,5,Elizabeth II; George H. W. Bush; George W. Bush; Jimmy Carter; Quentin Tarantino
+P166,award received,Q2544851,Independent Spirit Award for Best Female Lead,5,Cate Blanchett; Jennifer Aniston; Jennifer Lawrence; Jodie Foster; Natalie Portman
+P166,award received,Q2454427,Inter-Allied Victory Medals,5,Charles de Gaulle; Dwight D. Eisenhower; Edward VIII; George VI; Winston Churchill
+P166,award received,Q133176391,Jane Fonda Humanitarian Award,5,Denzel Washington; Elizabeth Taylor; George Lucas; Jane Fonda; Robin Williams
+P166,award received,Q3295156,Jawaharlal Nehru Award for International Understanding,5,Indira Gandhi; Luiz Inácio Lula da Silva; Mahathir Mohamad; Martin Luther King Jr.; Nelson Mandela
+P166,award received,Q202051,Jean Hersholt Humanitarian Award,5,Angelina Jolie; Audrey Hepburn; Elizabeth Taylor; Frank Sinatra; Paul Newman
+P166,award received,Q14539974,Knight Grand Cross of the Order of Merit of the Italian Republic,5,"Henry Kissinger; Martin Scorsese; Prince Philip, Duke of Edinburgh; Richard Nixon; Steven Spielberg"
+P166,award received,Q12177451,Knight Grand Cross of the Order of the Bath,5,Charles III; Dwight D. Eisenhower; Edward VII; George H. W. Bush; Ronald Reagan
+P166,award received,Q308907,Lenin Peace Prize,5,Fidel Castro; Indira Gandhi; Nelson Mandela; Nikita Khrushchev; Pablo Picasso
+P166,award received,Q734036,MTV Movie Award for Best Fight,5,Beyoncé; Jennifer Lawrence; Jeremy Renner; Will Smith; Yoda
+P166,award received,Q4220901,MTV Movie Award for Best Male Performance,5,Arnold Schwarzenegger; Jim Carrey; Johnny Depp; Keanu Reeves; Leonardo DiCaprio
+P166,award received,Q617869,MTV Video Music Award for Best Pop Video,5,Beyoncé; Justin Bieber; Lady Gaga; Selena Gomez; Taylor Swift
+P166,award received,Q2611552,National Defense Service Medal,5,Dwight D. Eisenhower; George W. Bush; Jimmy Carter; Neil Armstrong; Richard Nixon
+P166,award received,Q37922,Nobel Prize in Literature,5,Albert Camus; Bob Dylan; Ernest Hemingway; John Steinbeck; Winston Churchill
+P166,award received,Q13452524,Officer of Arts and Letters,5,Alfred Hitchcock; Bruce Willis; Elton John; Shah Rukh Khan; Sylvester Stallone
+P166,award received,Q2469017,Order of Liberty,5,Elon Musk; Joe Biden; Justin Trudeau; Keir Starmer; Luiz Inácio Lula da Silva
+P166,award received,Q1059569,Order of Merit of the Italian Republic,5,"John F. Kennedy; Prince Philip, Duke of Edinburgh; Richard Nixon; Robert De Niro; Steven Spielberg"
+P166,award received,Q864037,Order of Mubarak the Great,5,Bill Clinton; Charles III; Elizabeth II; Mahathir Mohamad; Narendra Modi
+P166,award received,Q28481165,"Order of Prince Yaroslav the Wise, 1st class",5,Bashar al-Assad; Fidel Castro; Luiz Inácio Lula da Silva; Muammar Gaddafi; Nelson Mandela
+P166,award received,Q93956,Order of the Aztec Eagle,5,Bill Gates; Charles III; Elizabeth II; Emmanuel Macron; Walt Disney
+P166,award received,Q727815,Order of the Companions of O. R. Tambo,5,Fidel Castro; Luiz Inácio Lula da Silva; Mahatma Gandhi; Martin Luther King Jr.; Nelson Mandela
+P166,award received,Q1399663,Order of the Star of Ghana,5,Charles III; Elizabeth II; Luiz Inácio Lula da Silva; Narendra Modi; Nelson Mandela
+P166,award received,Q950604,Order of the Star of Romania,5,George V; George W. Bush; Harald V of Norway; Muammar Gaddafi; Nicholas II of Russia
+P166,award received,Q501058,People's Choice Awards,5,Angelina Jolie; Britney Spears; Jennifer Aniston; Jennifer Lawrence; Johnny Depp
+P166,award received,Q989447,Primetime Emmy Award for Outstanding Lead Actress in a Miniseries or a Movie,5,Halle Berry; Jane Fonda; Kate Winslet; Meryl Streep; Nicole Kidman
+P166,award received,Q194540,Queen Elizabeth II Diamond Jubilee Medal,5,"Charles III; Céline Dion; Justin Bieber; Justin Trudeau; William, Prince of Wales"
+P166,award received,Q2462064,Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Miniseries or Television Movie,5,Angelina Jolie; Halle Berry; Kate Winslet; Meryl Streep; Nicole Kidman
+P166,award received,Q391629,Teen Choice Awards,5,Daniel Radcliffe; Dwayne Johnson; Jennifer Aniston; Jennifer Lawrence; Kendall Jenner
+P166,award received,Q17355204,World Cup Golden Ball,5,Diego Maradona; Lionel Messi; Pelé; Ronaldo Nazário; Zinedine Zidane
+P166,award received,Q40683907,honorary doctor of the University of St Andrews,5,Benjamin Franklin; Bob Dylan; Hillary Clinton; J. K. Rowling; Sean Connery
+P166,award received,Q11415564,honorary doctorate,5,Arnold Schwarzenegger; Charles III; Elon Musk; Nelson Mandela; Prince (musician)
+P166,award received,Q488651,Academy Award for Best Original Score,4,George Harrison; John Lennon; Paul McCartney; Ringo Starr
+P166,award received,Q41417,"Academy Award for Best Writing, Original Screenplay",4,Ben Affleck; Matt Damon; Quentin Tarantino; Woody Allen
+P166,award received,Q451842,Amadeus Austrian Music Awards,4,Britney Spears; Kylie Minogue; Madonna; Shakira
+P166,award received,Q4743376,American Choreography Awards,4,Jackie Chan; Michael Jackson; Quentin Tarantino; Walt Disney
+P166,award received,Q743122,Associated Press Athlete of the Year,4,LeBron James; Michael Jordan; Muhammad Ali; Serena Williams
+P166,award received,Q31838295,Axel Springer Award,4,Elon Musk; Jeff Bezos; Mark Zuckerberg; Volodymyr Zelenskyy
+P166,award received,Q548389,BAFTA Award for Best Actor in a Supporting Role,4,Brad Pitt; Heath Ledger; Jack Nicholson; Robert Downey Jr.
+P166,award received,Q16153104,BBC 100 Women,4,Billie Eilish; Jane Fonda; Malala Yousafzai; Priyanka Chopra
+P166,award received,Q3494048,BBC World Sport Star of the Year,4,Pelé; Rafael Nadal; Roger Federer; Ronaldo Nazário
+P166,award received,Q166177,Ballon d'Or,4,Cristiano Ronaldo; Lionel Messi; Ronaldo Nazário; Zinedine Zidane
+P166,award received,Q28454102,Billboard Music Award for Top Female Artist,4,Billie Eilish; Britney Spears; Katy Perry; Mariah Carey
+P166,award received,Q2906822,Blockbuster Entertainment Awards,4,Britney Spears; Céline Dion; Mariah Carey; Nicolas Cage
+P166,award received,Q857933,Canada's Walk of Fame,4,Céline Dion; James Cameron; Jim Carrey; Pamela Anderson
+P166,award received,Q2393205,Centenary Medal,4,Cate Blanchett; Cathy Freeman; Kylie Minogue; Russell Crowe
+P166,award received,Q2990283,Companion of the Liberation,4,Charles de Gaulle; Dwight D. Eisenhower; George VI; Winston Churchill
+P166,award received,Q28003,Copley Medal,4,Albert Einstein; Benjamin Franklin; Charles Darwin; Stephen Hawking
+P166,award received,Q3404523,David di Donatello for Best Foreign Actor,4,Anthony Hopkins; John Travolta; Sylvester Stallone; Woody Allen
+P166,award received,Q18080682,Dostyk Order of grade I,4,George H. W. Bush; Hillary Clinton; Mahathir Mohamad; Margaret Thatcher
+P166,award received,Q833154,Edgar Awards,4,Alfred Hitchcock; Christopher Nolan; Quentin Tarantino; Stephen King
+P166,award received,Q123737,Emmy Award,4,Frank Sinatra; Halle Berry; Jane Fonda; Steven Spielberg
+P166,award received,Q233454,European Golden Shoe,4,Cristiano Ronaldo; Kylian Mbappé; Lionel Messi; Ronaldo Nazário
+P166,award received,Q182529,FIFA World Player of the Year,4,Cristiano Ronaldo; Lionel Messi; Ronaldo Nazário; Zinedine Zidane
+P166,award received,Q39477935,Fellow of the Royal Society of Literature,4,Agatha Christie; Charles III; J. K. Rowling; J. R. R. Tolkien
+P166,award received,Q1453512,Freedom Award,4,Angelina Jolie; Bill Clinton; George H. W. Bush; Winston Churchill
+P166,award received,Q602866,Golden Raspberry Award for Worst Actress,4,Britney Spears; Halle Berry; Madonna; Mariah Carey
+P166,award received,Q1542172,Grammy Award for Best Melodic Rap Performance,4,Beyoncé; Eminem; Justin Timberlake; Rihanna
+P166,award received,Q1459443,Grammy Award for Best R&B Song,4,Beyoncé; Kanye West; Mariah Carey; Michael Jackson
+P166,award received,Q5593916,Grammy Trustees Award,4,Frank Sinatra; Steve Jobs; Thomas Edison; Walt Disney
+P166,award received,Q43388249,Grand Cross of the Order of the White Double Cross,4,Elizabeth II; Harald V of Norway; Narendra Modi; Volodymyr Zelenskyy
+P166,award received,Q66580078,Grand Cross of the Sash of the Three Orders,4,Edward VII; Elizabeth II; George V; George VI
+P166,award received,Q105339055,Honorary Fellow of the Royal College of Surgeons,4,"Edward VIII; George V; Prince Philip, Duke of Edinburgh; Winston Churchill"
+P166,award received,Q184253,Ig Nobel Prize,4,Donald Trump; Jair Bolsonaro; Narendra Modi; Vladimir Putin
+P166,award received,Q2687578,Inkpot Award,4,Arnold Schwarzenegger; George Lucas; George R. R. Martin; Steven Spielberg
+P166,award received,Q844273,Irving G. Thalberg Memorial Award,4,Alfred Hitchcock; Clint Eastwood; Steven Spielberg; Walt Disney
+P166,award received,Q6565314,J. William Fulbright Prize,4,Bill Clinton; Bill Gates; Jimmy Carter; Nelson Mandela
+P166,award received,Q61669648,Johnny Mercer Award,4,Dolly Parton; Elton John; Frank Sinatra; Michael Jackson
+P166,award received,Q12201445,Knight Commander of the Order of the British Empire,4,Alfred Hitchcock; Bill Gates; Charlie Chaplin; Henry Kissinger
+P166,award received,Q60649416,Knight Grand Commander of the Order of the Dannebrog,4,Edward VII; George VI; Harald V of Norway; Nicholas II of Russia
+P166,award received,Q115440099,Knight of the Seraphim,4,Edward VIII; Emmanuel Macron; Napoleon; Nicholas II of Russia
+P166,award received,Q4220900,MTV Movie Award for Best On-Screen Duo,4,Cameron Diaz; Keanu Reeves; Nicolas Cage; Sean Connery
+P166,award received,Q905413,MTV Movie Award for Best Performance,4,Cameron Diaz; Jennifer Lawrence; Johnny Depp; Will Smith
+P166,award received,Q1161114,MTV Video Music Award for Best Collaboration,4,Beyoncé; Katy Perry; Lady Gaga; Taylor Swift
+P166,award received,Q6718939,MTV Video Music Award for Best Video with a Social Message,4,Beyoncé; Billie Eilish; Lady Gaga; Taylor Swift
+P166,award received,Q1065651,MTV Video Music Award for Video of the Year,4,Beyoncé; Katy Perry; Lady Gaga; Taylor Swift
+P166,award received,Q821861,Michael Jackson Video Vanguard Award,4,Beyoncé; Katy Perry; Nicki Minaj; Shakira
+P166,award received,Q1790292,National Board of Review Award for Best Actor,4,Al Pacino; Anthony Hopkins; Nicolas Cage; Robin Williams
+P166,award received,Q1366018,National Inventors Hall of Fame,4,Nikola Tesla; Steve Jobs; Thomas Edison; Walt Disney
+P166,award received,Q1967731,National Society of Film Critics Award for Best Actor,4,Al Pacino; Brad Pitt; Jeremy Renner; Nicolas Cage
+P166,award received,Q10762848,Officer of the Order of the British Empire,4,Alan Turing; David Beckham; J. K. Rowling; Kylie Minogue
+P166,award received,Q791135,Order of Friendship,4,Bashar al-Assad; Mahathir Mohamad; Muammar Gaddafi; Nelson Mandela
+P166,award received,Q185493,Order of Lenin,4,Fidel Castro; Mikhail Gorbachev; Nelson Mandela; Nikita Khrushchev
+P166,award received,Q93982,Order of Merit of the Republic of Poland,4,"George H. W. Bush; Muammar Gaddafi; Prince Philip, Duke of Edinburgh; Ronald Reagan"
+P166,award received,Q3885395,Order of Ojaswi Rajanya,4,Charles III; Elizabeth II; George VI; Hirohito
+P166,award received,Q699459,Order of Saint Hubert,4,Edward VII; George V; Napoleon; Nicholas II of Russia
+P166,award received,Q1465984,Order of Saint John,4,Edward VII; George V; Margaret Thatcher; Queen Victoria
+P166,award received,Q2029016,Order of Saint-Charles,4,Emmanuel Macron; George VI; Grace Kelly; Vladimir Putin
+P166,award received,Q980578,Order of Sikatuna,4,Barack Obama; Dwight D. Eisenhower; George W. Bush; Hirohito
+P166,award received,Q2794660,Order of Solomon,4,Elizabeth II; George V; Nicholas II of Russia; Queen Victoria
+P166,award received,Q1326038,Order of St Patrick,4,Edward VII; George V; George VI; Queen Victoria
+P166,award received,Q831282,Order of St. George,4,Catherine II of Russia; Edward VIII; George V; Nicholas II of Russia
+P166,award received,Q1517792,Order of St. Sava,4,Helen Keller; Nicholas II of Russia; Novak Djokovic; Queen Victoria
+P166,award received,Q465774,Order of the Golden Fleece,4,Edward VII; Edward VIII; George V; Nicholas II of Russia
+P166,award received,Q55697,Order of the Smile,4,J. K. Rowling; Malala Yousafzai; Nelson Mandela; Steven Spielberg
+P166,award received,Q1330936,Order of the Star of India,4,Edward VII; George V; George VI; Queen Victoria
+P166,award received,Q762844,Order pro Merito Melitensi,4,George H. W. Bush; George W. Bush; Grace Kelly; Ronald Reagan
+P166,award received,Q15056034,Pour le Mérite for Sciences and Arts order,4,Albert Einstein; Charles Darwin; Otto von Bismarck; Voltaire
+P166,award received,Q3319305,Princess of Asturias Award for the Arts,4,Bob Dylan; Martin Scorsese; Meryl Streep; Woody Allen
+P166,award received,Q219070,Profile in Courage Award,4,Barack Obama; George H. W. Bush; Gerald Ford; Volodymyr Zelenskyy
+P166,award received,Q1581457,Queen Elizabeth II Golden Jubilee Medal,4,"Charles III; Céline Dion; Nelson Mandela; William, Prince of Wales"
+P166,award received,Q1801104,Ronald Reagan Freedom Award,4,George H. W. Bush; Margaret Thatcher; Mikhail Gorbachev; Volodymyr Zelenskyy
+P166,award received,Q1413741,Saturn Award for Best Actress,4,Angelina Jolie; Charlize Theron; Jennifer Lawrence; Jodie Foster
+P166,award received,Q1258647,Saturn Award for Best Supporting Actor,4,Brad Pitt; Heath Ledger; Nicolas Cage; Robin Williams
+P166,award received,Q1320315,Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting Role,4,Angelina Jolie; Anne Hathaway; Cate Blanchett; Kate Winslet
+P166,award received,Q1260789,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Supporting Role,4,Heath Ledger; Michael Caine; Morgan Freeman; Robin Williams
+P166,award received,Q376834,Silver Bear for Best Actress,4,Elizabeth Taylor; Halle Berry; Meryl Streep; Nicole Kidman
+P166,award received,Q24051551,Sitges Film Festival Best Actor award,4,Christopher Lee; Daniel Radcliffe; Nicolas Cage; Robert Downey Jr.
+P166,award received,Q4335924,Star of the Socialist Republic of Romania,4,Elizabeth II; Fidel Castro; Muammar Gaddafi; Nikita Khrushchev
+P166,award received,Q7781991,Theodore Roosevelt Award,4,Dwight D. Eisenhower; George H. W. Bush; Gerald Ford; Ronald Reagan
+P166,award received,Q1187699,UEFA Club Footballer of the Year,4,Cristiano Ronaldo; David Beckham; Lionel Messi; Ronaldo Nazário
+P166,award received,Q27028,United Nations Prize in the Field of Human Rights,4,Jimmy Carter; Malala Yousafzai; Martin Luther King Jr.; Nelson Mandela
+P166,award received,Q2089918,Volpi Cup for Best Actress,4,Cate Blanchett; Emma Stone; Nicole Kidman; Penélope Cruz
+P166,award received,Q63072513,honorary doctor of Yale University,4,Elon Musk; Hillary Clinton; Mark Twain; Paul McCartney
+P166,award received,Q42293686,honorary doctor of the Bar-Ilan University,4,Benjamin Netanyahu; George H. W. Bush; Hillary Clinton; Margaret Thatcher
+P166,award received,Q768855,"orders, decorations, and medals of the United Kingdom",4,Edward VII; George V; George VI; Queen Victoria
+P166,award received,Q2701827,Africa Star,3,Christopher Lee; Dwight D. Eisenhower; Winston Churchill
+P166,award received,Q1667571,Al-Gaddafi International Prize for Human Rights,3,Fidel Castro; Mahathir Mohamad; Nelson Mandela
+P166,award received,Q674359,All-NBA Team,3,Kobe Bryant; LeBron James; Michael Jordan
+P166,award received,Q2842905,American Defense Service Medal,3,Dwight D. Eisenhower; John F. Kennedy; Ronald Reagan
+P166,award received,Q107183707,American Library Association Honorary Membership,3,Bill Gates; Dolly Parton; Jimmy Carter
+P166,award received,Q19858088,American Music Award for Favorite Rap/Hip-Hop Artist,3,Kanye West; Nicki Minaj; Tupac Shakur
+P166,award received,Q1527196,American Music Award for New Artist of the Year,3,Ariana Grande; Billie Eilish; Justin Bieber
+P166,award received,Q4793010,Armed Forces Reserve Medal,3,Harry S. Truman; Richard Nixon; Ronald Reagan
+P166,award received,Q2493731,Arthur Ashe Courage Award,3,Cathy Freeman; Muhammad Ali; Nelson Mandela
+P166,award received,Q101116082,Ballon d'Or Dream Team,3,Lionel Messi; Pelé; Ronaldo Nazário
+P166,award received,Q943106,Best NBA Player ESPY Award,3,Kobe Bryant; LeBron James; Michael Jordan
+P166,award received,Q322132,Bharat Ratna,3,Indira Gandhi; Jawaharlal Nehru; Nelson Mandela
+P166,award received,Q739499,Bill Russell NBA Finals Most Valuable Player Award,3,Kobe Bryant; LeBron James; Michael Jordan
+P166,award received,Q111952120,Billboard 21 Under 21,3,Billie Eilish; Justin Bieber; Taylor Swift
+P166,award received,Q16879031,Billboard Millennium Award,3,Beyoncé; Britney Spears; Whitney Houston
+P166,award received,Q894591,Boston Society of Film Critics Award for Best Actor,3,Brad Pitt; Jeremy Renner; Nicolas Cage
+P166,award received,Q554495,Bravo Award,3,Cristiano Ronaldo; Lionel Messi; Ronaldo Nazário
+P166,award received,Q840286,Cannes Film Festival Award for Best Actress,3,Meryl Streep; Penélope Cruz; Selena Gomez
+P166,award received,Q211692,Catalonia International Prize,3,Jimmy Carter; Luiz Inácio Lula da Silva; Malala Yousafzai
+P166,award received,Q1071903,Chicago Film Critics Association Award for Best Actor,3,Anthony Hopkins; Jeremy Renner; Nicolas Cage
+P166,award received,Q15278107,Companion of the Order of Canada,3,Charles III; Céline Dion; James Cameron
+P166,award received,Q7585305,Critics' Choice Awards,3,Cate Blanchett; Jack Nicholson; Tom Cruise
+P166,award received,Q13634272,David di Donatello Award for Lifetime Achievement,3,Martin Scorsese; Monica Bellucci; Steven Spielberg
+P166,award received,Q3404521,David di Donatello for Best Foreign Actress,3,Audrey Hepburn; Elizabeth Taylor; Jodie Foster
+P166,award received,Q5254719,Delta Prize for Global Understanding,3,Jimmy Carter; Mikhail Gorbachev; Nelson Mandela
+P166,award received,Q5282987,Distinguished Eagle Scout Award,3,Gerald Ford; Neil Armstrong; Steven Spielberg
+P166,award received,Q3046356,Eagle Scout,3,Gerald Ford; Neil Armstrong; Steven Spielberg
+P166,award received,Q135992929,Echo Pop Award for the Best International Rock/Pop Female Artist,3,Britney Spears; Cher; Mariah Carey
+P166,award received,Q4905728,Fellow of the Royal Society of Arts,3,Charles Dickens; Karl Marx; Stephen Hawking
+P166,award received,Q311836,Film Independent Spirit Awards,3,Jennifer Lawrence; Natalie Portman; Quentin Tarantino
+P166,award received,Q14906020,Foreign Member of the Royal Society,3,Albert Einstein; J. Robert Oppenheimer; Sigmund Freud
+P166,award received,Q5480301,Francis Boyer Award,3,Gerald Ford; Henry Kissinger; Ronald Reagan
+P166,award received,Q3141777,Franklin Medal,3,Albert Einstein; Stephen Hawking; Thomas Edison
+P166,award received,Q1447533,Franz Josef Strauss Award,3,George H. W. Bush; Henry Kissinger; Mikhail Gorbachev
+P166,award received,Q1479435,Félix Houphouët-Boigny Peace Prize,3,Jimmy Carter; Luiz Inácio Lula da Silva; Nelson Mandela
+P166,award received,Q5520192,Gaming Hall of Fame,3,Céline Dion; Donald Trump; Frank Sinatra
+P166,award received,Q1426204,Golden Apple Award,3,Arnold Schwarzenegger; Daniel Radcliffe; Kevin Costner
+P166,award received,Q154590,Golden Bear,3,Martin Scorsese; Steven Spielberg; Walt Disney
+P166,award received,Q670282,Golden Globe Award for Best Motion Picture – Musical or Comedy,3,Quentin Tarantino; Robin Williams; Woody Allen
+P166,award received,Q849124,Golden Globe Award for Best Screenplay,3,Ben Affleck; Quentin Tarantino; Woody Allen
+P166,award received,Q209459,Golden Lion,3,Clint Eastwood; Robert De Niro; Sean Connery
+P166,award received,Q1420891,Golden Raspberry Award for Worst Original Song,3,Dolly Parton; Prince (musician); Will Smith
+P166,award received,Q1535145,Golden Raspberry Award for Worst Screen Couple/Ensemble,3,Bradley Cooper; George W. Bush; Madonna
+P166,award received,Q1421666,Golden Raspberry Award for Worst Screenplay,3,Bruce Willis; James Cameron; Sylvester Stallone
+P166,award received,Q641316,Golden Raspberry Award for Worst Supporting Actor - Razzie Award,3,Donald Trump; Marlon Brando; Will Smith
+P166,award received,Q977915,Golden Raspberry Award for Worst Supporting Actress,3,Jessica Alba; Kim Kardashian; Madonna
+P166,award received,Q5593890,"Grammy Award for Best Audio Book, Narration & Storytelling Recording",3,Barack Obama; Hillary Clinton; Jimmy Carter
+P166,award received,Q4992254,Grammy Award for Best Music Film,3,Madonna; Martin Scorsese; Michael Jackson
+P166,award received,Q5593866,Grammy Award for Best Pop Solo Performance,3,Adele; Lady Gaga; Miley Cyrus
+P166,award received,Q81180,Grammy Hall of Fame,3,David Bowie; Dolly Parton; Judy Garland
+P166,award received,Q15279677,Grand Collar of the Order of Good Hope,3,Bill Clinton; Elizabeth II; Fidel Castro
+P166,award received,Q20859482,Grand Collar of the Order of Prince Henry,3,"Harald V of Norway; Nelson Mandela; Prince Philip, Duke of Edinburgh"
+P166,award received,Q10905105,Grand Cross 1st class of the Order of Merit of the Federal Republic of Germany,3,Charles III; Henry Kissinger; Ronald Reagan
+P166,award received,Q15715257,Grand Cross of the Order of Polonia Restituta,3,Charles de Gaulle; Dwight D. Eisenhower; Fidel Castro
+P166,award received,Q10993583,Grand Cross of the Order of Vytautas the Great,3,George W. Bush; Hillary Clinton; Margaret Thatcher
+P166,award received,Q42312684,Grand Cross of the Order of the Aztec Eagle,3,Fidel Castro; Mahathir Mohamad; Nelson Mandela
+P166,award received,Q15042145,Grand Cross of the Order of the Oak Crown,3,Charles III; Dwight D. Eisenhower; Winston Churchill
+P166,award received,Q25755314,Grand Cross of the Order of the Sun of Peru,3,Edward VIII; Mahathir Mohamad; Paul McCartney
+P166,award received,Q23058092,Grand Cross with collar of the Order of Vytautas the Great,3,Elizabeth II; Joe Biden; Volodymyr Zelenskyy
+P166,award received,Q10855216,Grand Officer of the Legion of Honour,3,"Keir Starmer; Martin Scorsese; William, Prince of Wales"
+P166,award received,Q14539884,Grand Officer of the Order of Merit of the Italian Republic,3,Charlie Chaplin; John F. Kennedy; Robert De Niro
+P166,award received,Q624463,Grand Order of Mugunghwa,3,Donald Trump; Elizabeth II; Emmanuel Macron
+P166,award received,Q17409133,Grand Star of the Decoration for Services to the Republic of Austria,3,"Elizabeth II; Harald V of Norway; Prince Philip, Duke of Edinburgh"
+P166,award received,Q1534911,Henrietta Award,3,James Dean; Marilyn Monroe; Sean Connery
+P166,award received,Q125121451,Honorary Fellow of the Royal Society Te Apārangi,3,Albert Einstein; Charles Darwin; Marie Curie
+P166,award received,Q97556388,Honorary doctor of Leiden University,3,Charles Darwin; Nelson Mandela; Winston Churchill
+P166,award received,Q1056240,"Hugo Award for Best Dramatic Presentation, Long Form",3,Christopher Nolan; George R. R. Martin; J. R. R. Tolkien
+P166,award received,Q33232596,Humanitarian of the Year,3,Malala Yousafzai; Martin Luther King Jr.; Rihanna
+P166,award received,Q3241794,Indira Gandhi Peace Prize,3,Jimmy Carter; Luiz Inácio Lula da Silva; Mikhail Gorbachev
+P166,award received,Q572227,International Boxing Hall of Fame,3,Mike Tyson; Muhammad Ali; Sylvester Stallone
+P166,award received,Q5412594,Jameson People's Choice Award for Best Actress,3,Jodie Foster; Kate Winslet; Penélope Cruz
+P166,award received,Q3332215,John Scott Award,3,Marie Curie; Nikola Tesla; Thomas Edison
+P166,award received,Q12177423,Knight Grand Cross of the Order of St Michael and St George,3,Edward VII; George V; George VI
+P166,award received,Q607354,Locus Award for Best Fantasy Novel,3,George R. R. Martin; J. K. Rowling; J. R. R. Tolkien
+P166,award received,Q257235,MTV Movie Award for Best Kiss,3,Jennifer Lawrence; Jim Carrey; Will Smith
+P166,award received,Q917698,MTV Video Music Award for Best Art Direction,3,Beyoncé; Katy Perry; Lady Gaga
+P166,award received,Q847813,MTV Video Music Award for Best Editing,3,Beyoncé; Billie Eilish; Lady Gaga
+P166,award received,Q1419938,Matteucci Medal,3,Albert Einstein; Marie Curie; Thomas Edison
+P166,award received,Q326482,MusiCares Person of the Year,3,Barbra Streisand; Elton John; Paul McCartney
+P166,award received,Q1465181,NBA All-Defensive Team,3,Kobe Bryant; LeBron James; Michael Jordan
+P166,award received,Q31391,NBA All-Star Game Kobe Bryant Most Valuable Player Award,3,Kobe Bryant; LeBron James; Michael Jordan
+P166,award received,Q222047,NBA Most Valuable Player Award,3,Kobe Bryant; LeBron James; Michael Jordan
+P166,award received,Q1419495,National Board of Review Award for Best Actress,3,Elizabeth Taylor; Grace Kelly; Halle Berry
+P166,award received,Q1789544,National Board of Review Award for Best Supporting Actor,3,Al Pacino; Anthony Hopkins; Sean Connery
+P166,award received,Q1967852,National Women's Hall of Fame,3,Amelia Earhart; Helen Keller; Hillary Clinton
+P166,award received,Q1790281,New York Film Critics Circle Award for Best Actor,3,Anthony Hopkins; Brad Pitt; Nicolas Cage
+P166,award received,Q163569,Nickelodeon Kids' Choice Awards,3,Ariana Grande; Arnold Schwarzenegger; Britney Spears
+P166,award received,Q38104,Nobel Prize in Physics,3,Albert Einstein; Marie Curie; Sheldon Cooper
+P166,award received,Q16141090,Order of Agostinho Neto,3,Fidel Castro; Nelson Mandela; Vladimir Putin
+P166,award received,Q104858002,Order of Freedom,3,Bill Clinton; Donald Trump; George W. Bush
+P166,award received,Q2037015,Order of Good Hope,3,Bill Clinton; Margaret Thatcher; Muammar Gaddafi
+P166,award received,Q786914,Order of Logohu,3,Bill Clinton; Charles III; Narendra Modi
+P166,award received,Q264771,Order of Ludwig I,3,Napoleon; Nicholas II of Russia; Otto von Bismarck
+P166,award received,Q2803223,Order of Manuel Amador Guerrero,3,Dwight D. Eisenhower; Elizabeth II; Jimmy Carter
+P166,award received,Q3885165,Order of Merit,3,Emmanuel Macron; Helen Keller; Mahathir Mohamad
+P166,award received,Q21164,Order of Merit of the Federal Republic of Germany,3,George H. W. Bush; Mikhail Gorbachev; Steven Spielberg
+P166,award received,Q123270269,Order of Palestine,3,Muammar Gaddafi; Narendra Modi; Xi Jinping
+P166,award received,Q1635106,Order of Prince Danilo I,3,Nicholas II of Russia; Nikola Tesla; Queen Victoria
+P166,award received,Q10514065,Order of Saint Alexander Nevsky,3,Catherine II of Russia; Nicholas II of Russia; Otto von Bismarck
+P166,award received,Q15972369,"Order of Saint Anna, 1st class",3,Johann Wolfgang von Goethe; Napoleon; Nicholas II of Russia
+P166,award received,Q1026769,Order of St. Andrew the Apostle the First-Called,3,Mikhail Gorbachev; Narendra Modi; Xi Jinping
+P166,award received,Q93976,Order of the Gold Lion of the House of Nassau,3,Elizabeth II; Emmanuel Macron; Nelson Mandela
+P166,award received,Q93710,Order of the Indian Empire,3,Edward VII; George V; Queen Victoria
+P166,award received,Q567417,Order of the Most Holy Annunciation,3,Edward VII; Hirohito; Otto von Bismarck
+P166,award received,Q93713,Order of the Southern Cross,3,Hirohito; Narendra Modi; Walt Disney
+P166,award received,Q104773180,Order of the Star of Palestine,3,Muammar Gaddafi; Narendra Modi; Xi Jinping
+P166,award received,Q14605606,Order of the Umayyads,3,Bashar al-Assad; Luiz Inácio Lula da Silva; Muammar Gaddafi
+P166,award received,Q400287,Order of the White Elephant,3,Mahathir Mohamad; Neil Armstrong; Queen Victoria
+P166,award received,Q63436645,Order of the Yugoslavian Great Star,3,Elizabeth II; Fidel Castro; Muammar Gaddafi
+P166,award received,Q974736,Osgar,3,Bill Clinton; George H. W. Bush; Mikhail Gorbachev
+P166,award received,Q30132541,Padma Shri in arts,3,Amitabh Bachchan; Priyanka Chopra; Shah Rukh Khan
+P166,award received,Q179808,Palme d'Or,3,Cher; Martin Scorsese; Quentin Tarantino
+P166,award received,Q104595803,"Person of the Year in Organized Crime and Corruption (Ironic denominación, not a real award)",3,Bashar al-Assad; Jair Bolsonaro; Vladimir Putin
+P166,award received,Q729513,Pichichi Trophy,3,Cristiano Ronaldo; Lionel Messi; Ronaldo Nazário
+P166,award received,Q7240451,Premios Oye!,3,Avril Lavigne; Paul McCartney; Shakira
+P166,award received,Q4377021,Primetime Emmy Award for Individual Performance in a Variety or Music Program,3,Barbra Streisand; Robin Williams; Whitney Houston
+P166,award received,Q989453,Primetime Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie,3,Al Pacino; Anthony Hopkins; Kevin Costner
+P166,award received,Q3321940,Princess of Asturias Award for International Cooperation,3,Luiz Inácio Lula da Silva; Mikhail Gorbachev; Nelson Mandela
+P166,award received,Q3320370,Princess of Asturias Award for Sports,3,Lionel Messi; Michael Schumacher; Rafael Nadal
+P166,award received,Q26456321,QQ Music Awards,3,Bruno Mars; Jay Chou; Justin Timberlake
+P166,award received,Q48786,Sakharov Prize,3,Malala Yousafzai; Nelson Mandela; Volodymyr Zelenskyy
+P166,award received,Q5122602,Sergio Vieira de Mello Citizen of the World,3,Angelina Jolie; Bill Clinton; Nicole Kidman
+P166,award received,Q48781665,Sitges Grand Honorary Award,3,Jodie Foster; Nicolas Cage; Stanley Kubrick
+P166,award received,Q2028158,St. George's Order of Victory,3,Bill Clinton; George W. Bush; Joe Biden
+P166,award received,Q191874,Tony Awards,3,Elton John; Judy Garland; Steven Spielberg
+P166,award received,Q1146578,UEFA Team of the Year,3,Cristiano Ronaldo; David Beckham; Lionel Messi
+P166,award received,Q36001,WWE Hall of Fame,3,Arnold Schwarzenegger; Donald Trump; Mike Tyson
+P166,award received,Q375990,World Music Awards,3,Agnez Mo; Britney Spears; Will Smith
+P166,award received,Q126418747,doctor honoris causa from the University of Paris,3,Albert Einstein; Nikola Tesla; Woodrow Wilson
+P166,award received,Q60658956,doctor honoris causa of Keiō University,3,Gerald Ford; Jawaharlal Nehru; Mahathir Mohamad
+P166,award received,Q15124573,honorary citizen of Berlin,3,George H. W. Bush; Mikhail Gorbachev; Ronald Reagan
+P166,award received,Q66827449,honorary citizen of Brussels,3,Charles de Gaulle; Dwight D. Eisenhower; Winston Churchill
+P166,award received,Q58402380,honorary citizen of Gdańsk,3,George H. W. Bush; Margaret Thatcher; Ronald Reagan
+P166,award received,Q42309521,honorary doctor of Waseda University,3,Henry Kissinger; Indira Gandhi; Mahathir Mohamad
+P166,award received,Q112241213,honorary doctor of the Berklee College of Music,3,Céline Dion; David Bowie; Ringo Starr
+P166,award received,Q20853550,honorary doctor of the Jagiellonian University of Krakow,3,Marie Curie; Steven Spielberg; Woodrow Wilson
+P166,award received,Q42307030,honorary doctor of the Ohio State University,3,George H. W. Bush; George W. Bush; Gerald Ford
+P166,award received,Q63091960,honorary doctor of the Tsinghua University,3,Bill Gates; Mahathir Mohamad; Vladimir Putin
+P166,award received,Q96233293,honorary doctor of the University of Calcutta,3,Carl Jung; J. Robert Oppenheimer; Nelson Mandela
+P166,award received,Q63072128,honorary doctor of the University of Hong Kong,3,Edward VIII; Nelson Mandela; Yao Ming
+P166,award received,Q50621171,honorary doctor of the University of Madrid Complutense,3,Albert Einstein; Mikhail Gorbachev; Nelson Mandela
+P166,award received,Q126416227,honorary doctor of the University of Paris 1 Pantheon-Sorbonne,3,Mikhail Gorbachev; Nelson Mandela; Pablo Picasso
+P166,award received,Q2309070,1939–45 Star,2,Christopher Lee; Winston Churchill
+P166,award received,Q2118888,2011 Teen Choice Awards,2,Angelina Jolie; Selena Gomez
+P166,award received,Q917808,Academy Award for Best Animated Short Film,2,Kobe Bryant; Walt Disney
+P166,award received,Q17182806,Ahimsa Award,2,Charles III; Nelson Mandela
+P166,award received,Q980090,Air Medal,2,George H. W. Bush; Neil Armstrong
+P166,award received,Q894841,Ambassador of Conscience Award,2,Malala Yousafzai; Nelson Mandela
+P166,award received,Q1441539,American Music Award for Favorite Country Album,2,Dolly Parton; Taylor Swift
+P166,award received,Q19858080,American Music Award for Favorite Pop/Rock Album,2,Taylor Swift; Will Smith
+P166,award received,Q16974858,American Music Award for Favorite Rap/Hip-Hop Album,2,Kanye West; Nicki Minaj
+P166,award received,Q19858107,American Music Award for Favorite Soul/R&B Album,2,Beyoncé; Will Smith
+P166,award received,Q16943561,American Music Award for Single of the Year,2,Katy Perry; Taylor Swift
+P166,award received,Q48800562,American Music Award for Tour of the Year,2,Beyoncé; Taylor Swift
+P166,award received,Q28136414,Amir Amanullah Khan Award,2,George W. Bush; Narendra Modi
+P166,award received,Q4765305,Anisfield-Wolf Book Awards,2,Malcolm X; Martin Luther King Jr.
+P166,award received,Q572811,Anthony Award,2,Agatha Christie; J. K. Rowling
+P166,award received,Q47009634,Audubon Medal,2,Jimmy Carter; Walt Disney
+P166,award received,Q1649458,Australian Sports Medal,2,Cathy Freeman; Don Bradman
+P166,award received,Q41375,BAFTA Award for Best Original Screenplay,2,Quentin Tarantino; Woody Allen
+P166,award received,Q2267946,BBC Sports Personality of the Year Award,2,David Beckham; Lewis Hamilton
+P166,award received,Q2911692,BBC Sports Personality of the Year Lifetime Achievement Award,2,David Beckham; Pelé
+P166,award received,Q4835465,BET Award for Athlete of the Century,2,Kobe Bryant; LeBron James
+P166,award received,Q4835473,BET Award for Best New Artist,2,Kanye West; Nicki Minaj
+P166,award received,Q4835475,BET Award for Video of the Year,2,Kanye West; Lady Gaga
+P166,award received,Q223313,BRIT Awards,2,Billie Eilish; Madonna
+P166,award received,Q131577793,Bancarella Selection Prize,2,Anne Frank; John Steinbeck
+P166,award received,Q4896724,Best Male Athlete ESPY Award,2,LeBron James; Michael Jordan
+P166,award received,Q16889162,Billboard Music Award for Icon,2,Céline Dion; Jennifer Lopez
+P166,award received,Q392565,Billboard Music Awards,2,Ariana Grande; George Harrison
+P166,award received,Q3910469,Bram Stoker Award for Lifetime Achievement,2,Christopher Lee; Stephen King
+P166,award received,Q28407246,Brit Award for British Female Solo Artist,2,Adele; Dua Lipa
+P166,award received,Q2925701,British Academy Television Award for Best Actor,2,Andrew Garfield; Anthony Hopkins
+P166,award received,Q159661,British Academy of Film and Television Arts,2,Bradley Cooper; Penélope Cruz
+P166,award received,Q922396,Broadcast Film Critics Association Award for Best Cast,2,Brad Pitt; Jennifer Lawrence
+P166,award received,Q922348,Broadcast Film Critics Association Award for Best Supporting Actor,2,Anthony Hopkins; Robert Downey Jr.
+P166,award received,Q928314,Bronze Star Medal,2,Ernest Hemingway; Henry Kissinger
+P166,award received,Q31696,Bruno Kreisky Award for Services to Human Rights,2,Luiz Inácio Lula da Silva; Nelson Mandela
+P166,award received,Q5013123,CNN-News18 Indian of the Year,2,Amitabh Bachchan; Narendra Modi
+P166,award received,Q20266950,Chatham House Prize,2,Hillary Clinton; Luiz Inácio Lula da Silva
+P166,award received,Q2332080,Civil Order of Oman,2,Elizabeth II; Narendra Modi
+P166,award received,Q17366068,Collar of the Order of Isabella the Catholic,2,Luiz Inácio Lula da Silva; Nelson Mandela
+P166,award received,Q20857526,Collar of the Order of the Star of Romania,2,Elizabeth II; George W. Bush
+P166,award received,Q1192712,Confucius Peace Prize,2,Fidel Castro; Vladimir Putin
+P166,award received,Q28382637,Country Music Association Award for Female Vocalist of the Year,2,Dolly Parton; Taylor Swift
+P166,award received,Q85754272,Country Music Association Award for International Achievement,2,Dolly Parton; Taylor Swift
+P166,award received,Q2727598,Croix de guerre 1914–1918,2,Charles de Gaulle; Edward VIII
+P166,award received,Q2547676,Croix de guerre 1939–1945,2,"Charles de Gaulle; Prince Philip, Duke of Edinburgh"
+P166,award received,Q2167384,Dadasaheb Phalke Award,2,Amitabh Bachchan; Shah Rukh Khan
+P166,award received,Q5211221,Dallas-Fort Worth Film Critics Association Award for Best Actor,2,Anthony Hopkins; Nicolas Cage
+P166,award received,Q12201434,Dame Commander of the Order of the British Empire,2,Agatha Christie; Elizabeth Taylor
+P166,award received,Q3703457,David di Donatello for Best International Film,2,Quentin Tarantino; Steven Spielberg
+P166,award received,Q20716439,Decoration for Exceptional Merits,2,Elizabeth II; Harald V of Norway
+P166,award received,Q13047252,Decoration of the National Flag,2,George W. Bush; Hillary Clinton
+P166,award received,Q94340,Decoration of the Royal Red Cross,2,Florence Nightingale; Queen Victoria
+P166,award received,Q524516,Defence Medal,2,Christopher Lee; Elizabeth II
+P166,award received,Q61942967,Diamond Play Button,2,Justin Bieber; Rowan Atkinson
+P166,award received,Q1754110,Distinguished Flying Cross,2,Amelia Earhart; George H. W. Bush
+P166,award received,Q1774648,Distinguished Service Medal,2,Dwight D. Eisenhower; Winston Churchill
+P166,award received,Q615838,Distinguished Service Order,2,George VI; Queen Victoria
+P166,award received,Q5295360,Donaldson Awards,2,Audrey Hepburn; Marlon Brando
+P166,award received,Q5305701,Drama Desk Award for Outstanding Actor in a Play,2,Andrew Garfield; Anthony Hopkins
+P166,award received,Q4167639,Drama League Award,2,Elton John; Hugh Jackman
+P166,award received,Q113080784,Echo Pop Award for the Hit of the Year,2,Lady Gaga; Madonna
+P166,award received,Q1332315,Elliott Cresson Medal,2,Marie Curie; Nikola Tesla
+P166,award received,Q3724813,Empire Award for Best Actress,2,Cate Blanchett; Jennifer Lawrence
+P166,award received,Q24616,Empire Awards,2,Jennifer Lawrence; Tom Holland
+P166,award received,Q836057,Equestrian Order of the Holy Sepulchre,2,Grace Kelly; Nicholas II of Russia
+P166,award received,Q969644,Eric M. Warburg Award,2,George H. W. Bush; Henry Kissinger
+P166,award received,Q514445,European Film Academy Lifetime Achievement Award,2,Roman Polanski; Sean Connery
+P166,award received,Q932281,European Film Award for Best Actor,2,Anthony Hopkins; Michael Caine
+P166,award received,Q1377738,European Film Award for Best Actress,2,Kate Winslet; Penélope Cruz
+P166,award received,Q586458,FIBA Hall of Fame,2,Michael Jordan; Yao Ming
+P166,award received,Q2291862,FIFA Ballon d'Or,2,Cristiano Ronaldo; Lionel Messi
+P166,award received,Q1996160,FIFA Player of the Century,2,Diego Maradona; Pelé
+P166,award received,Q4311712,FWA Tribute Award,2,David Beckham; Pelé
+P166,award received,Q19858108,Favorite Adult Contemporary New Artiste,2,Katy Perry; Taylor Swift
+P166,award received,Q5438598,Fellow of the Royal Society of Edinburgh,2,Edward VII; J. K. Rowling
+P166,award received,Q2354625,France and Germany Star,2,Christopher Lee; Winston Churchill
+P166,award received,Q2085686,Free Your Mind,2,Mikhail Gorbachev; Shakira
+P166,award received,Q127240561,Freedom of the Royal Borough of Greenwich,2,"Nelson Mandela; Prince Philip, Duke of Edinburgh"
+P166,award received,Q5530024,Geffen Award,2,George R. R. Martin; J. K. Rowling
+P166,award received,Q135498,Genesis Award,2,Michael Jackson; Paul McCartney
+P166,award received,Q2422622,Gershwin Prize,2,Elton John; Paul McCartney
+P166,award received,Q21112714,Godfather promotion of Special Military School of Saint-Cyr,2,Charles de Gaulle; Joan of Arc
+P166,award received,Q3753203,Gold Medal of Merit in the Fine Arts,2,Penélope Cruz; Salvador Dalí
+P166,award received,Q753072,Gold Medal of the Royal Astronomical Society,2,Albert Einstein; Stephen Hawking
+P166,award received,Q3110027,Golden Boot Awards,2,Chuck Norris; Clint Eastwood
+P166,award received,Q1588911,Golden Boy,2,Kylian Mbappé; Lionel Messi
+P166,award received,Q251542,Golden Globe Award for Best Actor – Miniseries or Television Film,2,Al Pacino; Michael Caine
+P166,award received,Q1255210,Golden Globe Award for Best Actress – Television Series Musical or Comedy,2,Cher; Jennifer Aniston
+P166,award received,Q51889745,Golden Key of Madrid,2,Muammar Gaddafi; Xi Jinping
+P166,award received,Q1238714,Golden Raspberry Award for Worst Director,2,Prince (musician); Sylvester Stallone
+P166,award received,Q367484,Golden Rose,2,"Henry VIII of England; Mary, Queen of Scots"
+P166,award received,Q538661,Goldene Kamera,2,Arnold Schwarzenegger; Nicolas Cage
+P166,award received,Q5593741,Grammy Award for Best Album for Children,2,Michael Jackson; Robin Williams
+P166,award received,Q1542136,Grammy Award for Best Contemporary R&B Album,2,Beyoncé; Mariah Carey
+P166,award received,Q5593789,Grammy Award for Best Country Song,2,Dolly Parton; Taylor Swift
+P166,award received,Q1542147,Grammy Award for Best Dance/Electronic Album,2,Lady Gaga; Madonna
+P166,award received,Q5593802,Grammy Award for Best Female Country Vocal Performance,2,Dolly Parton; Taylor Swift
+P166,award received,Q1934625,Grammy Award for Best Female R&B Vocal Performance,2,Beyoncé; Mariah Carey
+P166,award received,Q947090,Grammy Award for Best Male Pop Vocal Performance,2,Frank Sinatra; Michael Jackson
+P166,award received,Q953746,Grammy Award for Best Male Rock Vocal Performance,2,Bob Dylan; Michael Jackson
+P166,award received,Q5593896,Grammy Award for Best Progressive R&B Album,2,Beyoncé; Rihanna
+P166,award received,Q1367988,Grammy Award for Best Rap Album,2,Eminem; Kanye West
+P166,award received,Q2709112,Grammy Award for Best Rap Solo Performance,2,Kanye West; Will Smith
+P166,award received,Q1123766,Grammy Award for Best Rap Song,2,Kanye West; Rihanna
+P166,award received,Q3113382,Grammy Award for Best Spoken Word Album for Children,2,Audrey Hepburn; Mikhail Gorbachev
+P166,award received,Q20886603,Grand Collar of the Military Order of Saint James of the Sword,2,Elizabeth II; Harald V of Norway
+P166,award received,Q67155304,Grand Collar of the Order of Liberty,2,Luiz Inácio Lula da Silva; Volodymyr Zelenskyy
+P166,award received,Q20857709,Grand Cordon of the National Order of the Cedar,2,Bashar al-Assad; Charles de Gaulle
+P166,award received,Q59189509,Grand Cross of the Military Order of Avis,2,"Harald V of Norway; Prince Philip, Duke of Edinburgh"
+P166,award received,Q15042103,Grand Cross of the Military Order of the Tower and Sword,2,"Luiz Inácio Lula da Silva; Prince Philip, Duke of Edinburgh"
+P166,award received,Q13422143,Grand Cross of the National Order of Merit,2,Charles de Gaulle; Emmanuel Macron
+P166,award received,Q26242431,Grand Cross of the National Order of the Lion,2,Elizabeth II; Emmanuel Macron
+P166,award received,Q73136954,Grand Cross of the Order of Boyacá,2,Joe Biden; Luiz Inácio Lula da Silva
+P166,award received,Q67155293,Grand Cross of the Order of Liberty,2,Mikhail Gorbachev; Nelson Mandela
+P166,award received,Q15042392,Grand Cross of the Order of Saint-Charles,2,"Prince Philip, Duke of Edinburgh; Vladimir Putin"
+P166,award received,Q101522111,Grand Cross of the Order of the Legion of Honour (Philippines),2,Franklin Delano Roosevelt; Hillary Clinton
+P166,award received,Q104170787,Grand Cross of the Order of the Liberator General San Martín,2,Harald V of Norway; Mahathir Mohamad
+P166,award received,Q21450802,Grand Cross of the Order of the Redeemer,2,"Emmanuel Macron; Prince Philip, Duke of Edinburgh"
+P166,award received,Q47086409,Grand Cross with Collar of the Order of the Three Stars,2,Elizabeth II; George W. Bush
+P166,award received,Q20856048,Grand Master of the Legion of Honour,2,Charles de Gaulle; Napoleon
+P166,award received,Q20859673,Grand Officer of the Order of Prince Henry,2,Cristiano Ronaldo; José Mourinho
+P166,award received,Q94121,Grand Order of King Tomislav,2,Elizabeth II; George W. Bush
+P166,award received,Q113161450,Grand Star of People's Friendship,2,Fidel Castro; Nelson Mandela
+P166,award received,Q948940,Great Chain of Badr,2,Bill Clinton; Muammar Gaddafi
+P166,award received,Q12410738,Heinlein Prize for Advances in Space Commercialization,2,Elon Musk; Jeff Bezos
+P166,award received,Q178473,Hero of the Soviet Union,2,Fidel Castro; Nikita Khrushchev
+P166,award received,Q18681625,Hollywood Film Awards,2,Angelina Jolie; Jennifer Aniston
+P166,award received,Q15280138,Honorary Companion of the Order of Australia,2,"Nelson Mandela; Prince Philip, Duke of Edinburgh"
+P166,award received,Q86503339,Honorary Doctor at Karolinska Institutet,2,Bill Gates; Nelson Mandela
+P166,award received,Q104783495,Honorary Knight Commander of the Order of the British Empire,2,Pelé; Steven Spielberg
+P166,award received,Q104615859,Honorary Knight Grand Cross of the Order of the Bath,2,Luiz Inácio Lula da Silva; Nicholas II of Russia
+P166,award received,Q105687604,Honorary Lumière Award,2,Monica Bellucci; Roman Polanski
+P166,award received,Q41977694,Honorary doctor at the Nanjing University,2,George H. W. Bush; Jimmy Carter
+P166,award received,Q17132005,Hoover Medal,2,Dwight D. Eisenhower; Jimmy Carter
+P166,award received,Q4287207,Hubbard Medal,2,James Cameron; Neil Armstrong
+P166,award received,Q549884,Hugo Award for Best Novella,2,George Orwell; George R. R. Martin
+P166,award received,Q27677315,IAS Freedom Medal,2,John Travolta; Tom Cruise
+P166,award received,Q1810753,Imperial Service Order,2,George V; George VI
+P166,award received,Q16058281,Indiana Film Journalists Association Award for Best Actor,2,Bradley Cooper; George Clooney
+P166,award received,Q99951011,International Space Hall of Fame,2,Galileo Galilei; Neil Armstrong
+P166,award received,Q6151082,Jane Addams Children's Book Award,2,John F. Kennedy; Malala Yousafzai
+P166,award received,Q6234290,John Fritz Medal,2,Elon Musk; Thomas Edison
+P166,award received,Q1710778,"Jubilee Medal ""In Commemoration of the 100th Anniversary of the Birth of Vladimir Ilyich Lenin""",2,Muammar Gaddafi; Nikita Khrushchev
+P166,award received,Q6314207,Juno Fan Choice,2,Avril Lavigne; Justin Bieber
+P166,award received,Q93963,King George VI Coronation Medal,2,Elizabeth II; Winston Churchill
+P166,award received,Q12177470,Knight Commander of the Order of the Bath,2,Dwight D. Eisenhower; Keir Starmer
+P166,award received,Q2424158,Knight Grand Cross of the Military Order of William,2,Franklin Delano Roosevelt; George VI
+P166,award received,Q35793416,Knight Grand Cross of the Order of Saint Stephen of Hungary,2,Edward VII; Nicholas II of Russia
+P166,award received,Q20888823,Knight Grand Cross of the Order of Saints Maurice and Lazarus,2,George V; Nicholas II of Russia
+P166,award received,Q17552952,Knight Grand Cross of the Order of the White Eagle,2,George VI; Nikola Tesla
+P166,award received,Q14865244,Knight grand cross of the order of the crown of Italy,2,George V; Nicholas II of Russia
+P166,award received,Q9684031,Knight of the Order of Australia,2,"Charles III; Prince Philip, Duke of Edinburgh"
+P166,award received,Q15831432,Knight of the Order of St. Alexander Nevsky,2,Catherine II of Russia; Napoleon
+P166,award received,Q56855000,Knight of the Order of the Most Holy Annunciation,2,George V; Nicholas II of Russia
+P166,award received,Q15474655,La Liga Player of the Month,2,Cristiano Ronaldo; Lionel Messi
+P166,award received,Q17277947,Labor Hall of Honor,2,Helen Keller; Ronald Reagan
+P166,award received,Q1800135,Laetare Medal,2,Joe Biden; John F. Kennedy
+P166,award received,Q136699,Lasker-Bloomberg Public Service Award,2,Bill Gates; Lyndon B. Johnson
+P166,award received,Q17135175,Latin Grammy Award for Best Urban Fusion/Performance,2,Justin Bieber; Shakira
+P166,award received,Q680221,Laureus World Sports Award for Breakthrough of the Year,2,Lewis Hamilton; Rafael Nadal
+P166,award received,Q918534,Laureus World Sports Award for Comeback of the Year,2,Rafael Nadal; Serena Williams
+P166,award received,Q724443,Legion of Merit,2,Emmanuel Macron; Narendra Modi
+P166,award received,Q17231624,Legionnaire of Legion of Merit,2,Dwight D. Eisenhower; George VI
+P166,award received,Q10568200,Livingstone Medal,2,"Neil Armstrong; Prince Philip, Duke of Edinburgh"
+P166,award received,Q54824268,Locus Award for Best Collection,2,George R. R. Martin; Stephen King
+P166,award received,Q1868950,London Film Critics Circle Award for Actor of the Year,2,Anthony Hopkins; Sean Connery
+P166,award received,Q503034,Los Angeles Film Critics Association Award for Best Actor,2,Anthony Hopkins; Nicolas Cage
+P166,award received,Q1082986,Los Premios MTV Latinoamérica,2,Britney Spears; Shakira
+P166,award received,Q31155,MTV Europe Music Award for Best Song,2,Billie Eilish; Britney Spears
+P166,award received,Q1062019,MTV Movie Award for Best Breakthrough Performance,2,George Clooney; Jim Carrey
+P166,award received,Q905247,MTV Movie Award for Best Comedic Performance,2,Jim Carrey; Robin Williams
+P166,award received,Q849435,MTV Video Music Award for Best Choreography,2,Beyoncé; Lady Gaga
+P166,award received,Q915665,MTV Video Music Award for Best Direction,2,Beyoncé; Lady Gaga
+P166,award received,Q595693,MTV Video Music Award for Best New Artist,2,Billie Eilish; Lady Gaga
+P166,award received,Q372123,MTV Video Music Award for Best Visual Effects,2,Lady Gaga; Taylor Swift
+P166,award received,Q56325319,MTV Video Music Awards/Artist of the Year,2,Justin Bieber; Lady Gaga
+P166,award received,Q3820035,Marca Leyenda,2,Lionel Messi; Pelé
+P166,award received,Q1060024,Marcello Mastroianni Award,2,Jennifer Lawrence; Mila Kunis
+P166,award received,Q6759868,Margaret Sanger Awards,2,Hillary Clinton; Martin Luther King Jr.
+P166,award received,Q2359180,"Medal ""For Labour Valour""",2,Mikhail Gorbachev; Nikita Khrushchev
+P166,award received,Q16665736,Medal of the City of Paris,2,Johnny Depp; Michael Jackson
+P166,award received,Q15278101,Member of the Order of Canada,2,Avril Lavigne; Elizabeth II
+P166,award received,Q571117,Merit Order of the Bavarian Crown,2,Johann Wolfgang von Goethe; Napoleon
+P166,award received,Q1465214,Médaille militaire,2,Franklin Delano Roosevelt; Winston Churchill
+P166,award received,Q6952077,NAACP Image Award – President's Award,2,Bill Clinton; Serena Williams
+P166,award received,Q1418009,NBA All-Rookie Team,2,LeBron James; Michael Jordan
+P166,award received,Q644357,NBA Rookie of the Year Award,2,LeBron James; Michael Jordan
+P166,award received,Q488005,National Aviation Hall of Fame,2,Amelia Earhart; Neil Armstrong
+P166,award received,Q572316,National Book Award,2,Henry Kissinger; Stephen King
+P166,award received,Q1571938,National Humanities Medal,2,Elton John; Steven Spielberg
+P166,award received,Q1342777,National Maltese Order of Merit,2,Elizabeth II; Muammar Gaddafi
+P166,award received,Q737051,National Medal of Science,2,Barack Obama; Elon Musk
+P166,award received,Q937629,National Medal of Technology and Innovation,2,Bill Gates; Steve Jobs
+P166,award received,Q16668262,National Order of Benin,2,George W. Bush; Muammar Gaddafi
+P166,award received,Q112269,National Order of the Ivory Coast,2,Elizabeth II; Emmanuel Macron
+P166,award received,Q2399188,National Order of the Lion of Senegal,2,Emmanuel Macron; Xi Jinping
+P166,award received,Q1086458,Navy Distinguished Service Medal,2,Thomas Edison; Tom Cruise
+P166,award received,Q577755,North–South Prize,2,Luiz Inácio Lula da Silva; Mikhail Gorbachev
+P166,award received,Q19339,O. Henry Award,2,Stephen King; Woody Allen
+P166,award received,Q1049896,Onze d'Or,2,Cristiano Ronaldo; Lionel Messi
+P166,award received,Q2448945,Order of Aeronautical Merit,2,Dwight D. Eisenhower; Luiz Inácio Lula da Silva
+P166,award received,Q16141095,Order of Augusto César Sandino,2,Che Guevara; Nelson Mandela
+P166,award received,Q2758023,Order of Boyacá,2,Charles III; Elizabeth II
+P166,award received,Q144853,Order of Carol I,2,George VI; Nicholas II of Russia
+P166,award received,Q751275,Order of Charles III,2,Napoleon; Queen Victoria
+P166,award received,Q840941,Order of Christ,2,Nicholas II of Russia; Queen Victoria
+P166,award received,Q118545254,"Order of Eduardo Mondlane, 1st class",2,Fidel Castro; Nelson Mandela
+P166,award received,Q474336,Order of Fidelity,2,Napoleon; Nicholas II of Russia
+P166,award received,Q2028781,Order of Georgi Dimitrov,2,Fidel Castro; Nikita Khrushchev
+P166,award received,Q4335976,Order of Glory and Honor,2,Fidel Castro; Vladimir Putin
+P166,award received,Q2268261,Order of Honour,2,Mikhail Gorbachev; Vladimir Putin
+P166,award received,Q4335906,Order of Honour and Glory,2,Bashar al-Assad; Vladimir Putin
+P166,award received,Q2390786,Order of Hồ Chí Minh,2,Fidel Castro; Vladimir Putin
+P166,award received,Q16140640,Order of Independence,2,Elizabeth II; George W. Bush
+P166,award received,Q2029246,Order of Jamaica,2,Fidel Castro; Nelson Mandela
+P166,award received,Q694401,Order of Karl Marx,2,Fidel Castro; Nikita Khrushchev
+P166,award received,Q22949228,Order of Kuwait,2,Elizabeth II; George W. Bush
+P166,award received,Q3355657,Order of La Pléiade,2,Céline Dion; Justin Trudeau
+P166,award received,Q690262,Order of Lakandula,2,Hillary Clinton; Mahathir Mohamad
+P166,award received,Q743230,Order of Liberty,2,Emmanuel Macron; Mikhail Gorbachev
+P166,award received,Q122904437,"Order of Manas, 1st class",2,Vladimir Putin; Xi Jinping
+P166,award received,Q1714745,Order of Merit,2,Bob Marley; Fidel Castro
+P166,award received,Q3885451,Order of Merit of Benin,2,George W. Bush; Muammar Gaddafi
+P166,award received,Q1176043,Order of Merlin,2,Albus Dumbledore; Minerva McGonagall
+P166,award received,Q2663492,Order of Mohammed,2,Donald Trump; Emmanuel Macron
+P166,award received,Q16141182,Order of Omar Torrijos Herrera,2,Fidel Castro; Luiz Inácio Lula da Silva
+P166,award received,Q1882991,Order of Osmanieh,2,George V; Nicholas II of Russia
+P166,award received,Q2628946,Order of Rio Branco,2,Luiz Inácio Lula da Silva; Pelé
+P166,award received,Q1814133,Order of Saint Alexander,2,Mustafa Kemal Atatürk; Nicholas II of Russia
+P166,award received,Q512272,Order of Saint Catherine,2,Catherine II of Russia; Queen Victoria
+P166,award received,Q585087,Order of Saint Michael and Saint George,2,Angelina Jolie; Queen Victoria
+P166,award received,Q19344746,"Order of Saint Stanislaus, 1st class",2,Nicholas II of Russia; Otto von Bismarck
+P166,award received,Q285071,Order of Saint Stephen of Hungary,2,George V; Napoleon
+P166,award received,Q1551843,Order of Saints Cyril and Methodius Equal-to-apostles,2,George VI; Nicholas II of Russia
+P166,award received,Q14905809,"Order of St. George, 3rd class",2,Edward VIII; George V
+P166,award received,Q94345,Order of St. Olav,2,Charles III; Edward VIII
+P166,award received,Q2522577,Order of Stara Planina,2,Muammar Gaddafi; Nelson Mandela
+P166,award received,Q6077245,Order of State of Republic of Turkey,2,Bill Clinton; Elizabeth II
+P166,award received,Q21292820,"Order of Suvorov, 1st class",2,Dwight D. Eisenhower; Nikita Khrushchev
+P166,award received,Q3885425,Order of Vasco Núñez de Balboa,2,Dwight D. Eisenhower; Jimmy Carter
+P166,award received,Q768999,Order of Vytautas the Great,2,George W. Bush; Margaret Thatcher
+P166,award received,Q2010500,Order of al-Hussein bin Ali,2,Elizabeth II; George VI
+P166,award received,Q960966,Order of the Badge of Honour,2,Mikhail Gorbachev; Vladimir Putin
+P166,award received,Q1137694,Order of the Companions of Honour,2,George VI; Stephen Hawking
+P166,award received,Q60476,Order of the Cross of Terra Mariana,2,Bill Clinton; George W. Bush
+P166,award received,Q568857,Order of the Crown,2,Napoleon; Otto von Bismarck
+P166,award received,Q1068636,Order of the Crown,2,Jimmy Carter; Steven Spielberg
+P166,award received,Q2272104,Order of the Crown (Netherlands),2,"Charles III; Diana, Princess of Wales"
+P166,award received,Q1635491,Order of the Crown of India,2,Elizabeth II; Queen Victoria
+P166,award received,Q94405,Order of the Crown of the Realm,2,Elizabeth II; Fidel Castro
+P166,award received,Q3885350,Order of the Equatorial Star,2,Elizabeth II; Luiz Inácio Lula da Silva
+P166,award received,Q215248,Order of the Garter,2,Edward VIII; Hirohito
+P166,award received,Q1045784,Order of the Golden Eagle,2,Vladimir Putin; Xi Jinping
+P166,award received,Q2028166,Order of the Golden Fleece,2,Elizabeth II; Hillary Clinton
+P166,award received,Q1783970,Order of the Liberator General San Martín,2,Jimmy Carter; Xi Jinping
+P166,award received,Q384437,Order of the Lion,2,Charles III; Nelson Mandela
+P166,award received,Q728960,Order of the October Revolution,2,Fidel Castro; Mikhail Gorbachev
+P166,award received,Q1748113,Order of the Pioneers of Liberia,2,Elizabeth II; George W. Bush
+P166,award received,Q582930,Order of the Rajamitrabhorn,2,Barack Obama; Hirohito
+P166,award received,Q478850,Order of the Red Banner of Labour,2,Mikhail Gorbachev; Nikita Khrushchev
+P166,award received,Q2304559,Order of the Republic,2,Elizabeth II; Emmanuel Macron
+P166,award received,Q2054765,Order of the Republic,2,Charles III; Che Guevara
+P166,award received,Q4335955,Order of the Republic,2,Emmanuel Macron; Volodymyr Zelenskyy
+P166,award received,Q12756733,Order of the Republic of Serbia,2,Vladimir Putin; Xi Jinping
+P166,award received,Q1670454,Order of the Republic of The Gambia,2,Elizabeth II; Muammar Gaddafi
+P166,award received,Q10901470,"Order of the Rising Sun, 1st class",2,Mahathir Mohamad; Nicholas II of Russia
+P166,award received,Q2308158,Order of the Star and Key of the Indian Ocean,2,Emmanuel Macron; Narendra Modi
+P166,award received,Q2545753,Order of the Star of Karađorđe,2,George VI; Novak Djokovic
+P166,award received,Q94053,Order of the Supreme Sun,2,Elizabeth II; George VI
+P166,award received,Q913910,Order of the Three Stars,2,George W. Bush; Joe Biden
+P166,award received,Q22303943,"Order of the Three Stars, 2nd Class",2,Hillary Clinton; Joe Biden
+P166,award received,Q1143095,Order of the Tribute to the Republic,2,Elizabeth II; Muammar Gaddafi
+P166,award received,Q3885362,Order of the Virtues,2,"Diana, Princess of Wales; Elizabeth II"
+P166,award received,Q94030,Order of the Wendish Crown,2,George V; Nicholas II of Russia
+P166,award received,Q94445,Order of the White Eagle,2,George VI; Queen Victoria
+P166,award received,Q314209,Otto Hahn Peace Medal,2,Mikhail Gorbachev; Muhammad Ali
+P166,award received,Q3910622,Owen Wister Award,2,Clint Eastwood; John Wayne
+P166,award received,Q2044044,PFA Team of the Year,2,Cristiano Ronaldo; David Beckham
+P166,award received,Q2009646,PFA Young Player of the Year,2,Cristiano Ronaldo; David Beckham
+P166,award received,Q973645,Pacem in Terris Award,2,John F. Kennedy; Martin Luther King Jr.
+P166,award received,Q932650,Padma Bhushan,2,Amitabh Bachchan; Bill Gates
+P166,award received,Q16965899,People's Choice Award for Favorite Female Artist,2,Jennifer Aniston; Nicki Minaj
+P166,award received,Q17010139,People's Choice Award for Favorite Movie Actress,2,Jennifer Aniston; Jennifer Lawrence
+P166,award received,Q63307285,Pioneer of Reform,2,Tu Youyou; Yao Ming
+P166,award received,Q2100712,Point Alpha Prize,2,George H. W. Bush; Mikhail Gorbachev
+P166,award received,Q754841,Polar Music Prize,2,Bob Dylan; Paul McCartney
+P166,award received,Q890790,Premier League Player of the Month,2,Cristiano Ronaldo; David Beckham
+P166,award received,Q1582967,Presidential Citizens Medal,2,Elizabeth Taylor; Muhammad Ali
+P166,award received,Q1044427,Primetime Emmy Award,2,Elton John; Hugh Jackman
+P166,award received,Q583972,Primetime Emmy Award for Outstanding Directing for a Drama Series,2,Jason Bateman; Martin Scorsese
+P166,award received,Q530923,Primetime Emmy Award for Outstanding Guest Actor in a Comedy Series,2,Bruce Willis; Justin Timberlake
+P166,award received,Q17048589,Primetime Emmy Award for Outstanding Narrator,2,Barack Obama; Meryl Streep
+P166,award received,Q945887,Primetime Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie,2,Marlon Brando; Paul Newman
+P166,award received,Q3323440,Princess of Asturias Award for Concord,2,J. K. Rowling; Stephen Hawking
+P166,award received,Q329157,Princess of Asturias Awards,2,Mikhail Gorbachev; Stephen Hawking
+P166,award received,Q19360203,Prometheus Award - Hall of Fame,2,George Orwell; J. R. R. Tolkien
+P166,award received,Q94793,Queen Elizabeth II Coronation Medal,2,Charles III; Winston Churchill
+P166,award received,Q104878100,Queen Elizabeth II Platinum Jubilee Medal,2,"Keir Starmer; William, Prince of Wales"
+P166,award received,Q2469664,Queen's South Africa Medal,2,Mahatma Gandhi; Winston Churchill
+P166,award received,Q7374168,Royal Fellow of the Royal Society,2,"Charles III; William, Prince of Wales"
+P166,award received,Q2124237,Royal Order of Francis I,2,Bashar al-Assad; Margaret Thatcher
+P166,award received,Q961142,Royal Order of the Polar Star,2,Mahathir Mohamad; Narendra Modi
+P166,award received,Q94050,Royal Victorian Order,2,Hirohito; Queen Victoria
+P166,award received,Q2665878,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie,2,Al Pacino; Kevin Costner
+P166,award received,Q7502282,Shorty Awards,2,Agnez Mo; Britney Spears
+P166,award received,Q819973,Silver Bear for Best Actor,2,Denzel Washington; Leonardo DiCaprio
+P166,award received,Q7515877,Silver Buffalo Award,2,Bill Gates; Neil Armstrong
+P166,award received,Q3483987,Silver Clef Award,2,Elton John; Paul McCartney
+P166,award received,Q21877402,Silver Cross of the Virtuti Militari,2,Charles de Gaulle; Dwight D. Eisenhower
+P166,award received,Q15279723,Silver Olympic Order,2,Cathy Freeman; Pelé
+P166,award received,Q2986505,Sir Matt Busby Player of the Year,2,Cristiano Ronaldo; David Beckham
+P166,award received,Q259724,South American Footballer of the Year,2,Neymar; Pelé
+P166,award received,Q2308234,Special Tony Award,2,Audrey Hepburn; Judy Garland
+P166,award received,Q1653207,Sports Illustrated Sportsperson of the Year,2,LeBron James; Michael Jordan
+P166,award received,Q2340171,Star of the Republic of Indonesia,2,Elizabeth II; Mahathir Mohamad
+P166,award received,Q7634895,Sugar Ray Robinson Award,2,Mike Tyson; Muhammad Ali
+P166,award received,Q18154825,Teen Choice Award for Choice Movie Actress - Sci-Fi/Fantasy,2,Emma Watson; Jennifer Lawrence
+P166,award received,Q131745738,The Cross of Good Neighbourliness,2,Hillary Clinton; Volodymyr Zelenskyy
+P166,award received,Q19833279,The James Smithson Bicentennial Medal,2,Jeff Bezos; Stephen Hawking
+P166,award received,Q3853851,The Life Career Award,2,Arnold Schwarzenegger; Sylvester Stallone
+P166,award received,Q137999446,The Ring World Heavyweight Champion,2,Mike Tyson; Muhammad Ali
+P166,award received,Q929175,The Ring magazine Fighter of the Year,2,Mike Tyson; Muhammad Ali
+P166,award received,Q28007416,Theatre World Special Award,2,Elizabeth Taylor; Robert De Niro
+P166,award received,Q1445521,Tony Award for Best Actor in a Play,2,Al Pacino; Denzel Washington
+P166,award received,Q1808491,Trofeo Alfredo Di Stéfano,2,Cristiano Ronaldo; Lionel Messi
+P166,award received,Q373232,UEFA Club Football Awards,2,David Beckham; Lionel Messi
+P166,award received,Q260117,UEFA Men's Player of the Year Award,2,Cristiano Ronaldo; Lionel Messi
+P166,award received,Q4335903,Uatsamonga Order,2,Bashar al-Assad; Vladimir Putin
+P166,award received,Q2089923,Volpi Cup for Best Actor,2,Ben Affleck; Brad Pitt
+P166,award received,Q137999411,WBA World Heavyweight Champion,2,Mike Tyson; Muhammad Ali
+P166,award received,Q137999385,WBC World Heavyweight Champion,2,Mike Tyson; Muhammad Ali
+P166,award received,Q684444,War Medal 1939–1945,2,Christopher Lee; Elizabeth II
+P166,award received,Q1411891,Webby Award,2,Britney Spears; Kendall Jenner
+P166,award received,Q19833602,Webby Lifetime Achievement Award,2,David Bowie; Prince (musician)
+P166,award received,Q17125405,Willie Nelson Lifetime Achievement Award,2,Dolly Parton; Johnny Cash
+P166,award received,Q258851,World Golf Hall of Fame,2,Dwight D. Eisenhower; George H. W. Bush
+P166,award received,Q130426086,World Space Award,2,Elon Musk; Jeff Bezos
+P166,award received,Q494588,Young Artist Awards,2,Tom Holland; Will Smith
+P166,award received,Q2001689,anniversary medal at the occasion of the 2500th anniversary of the founding of the Iranian Empire,2,"Grace Kelly; Prince Philip, Duke of Edinburgh"
+P166,award received,Q56872155,diamond Konex award,2,Diego Maradona; Lionel Messi
+P166,award received,Q498339,honorary Canadian citizenship,2,Malala Yousafzai; Nelson Mandela
+P166,award received,Q4375531,honorary citizen of Kazan,2,Vladimir Lenin; Vladimir Putin
+P166,award received,Q121160302,honorary citizen of Mons,2,Charles de Gaulle; Winston Churchill
+P166,award received,Q58382530,honorary citizen of Sarajevo,2,Angelina Jolie; Michael Schumacher
+P166,award received,Q105672762,honorary doctor of Paris 8 University,2,Luiz Inácio Lula da Silva; Nelson Mandela
+P166,award received,Q101422305,honorary doctor of the Howard University,2,Kamala Harris; Nelson Mandela
+P166,award received,Q63089015,honorary doctor of the Peking University,2,Henry Kissinger; Nelson Mandela
+P166,award received,Q99025668,honorary doctor of the Royal College of Music,2,Charles III; Elizabeth II
+P166,award received,Q110471679,honorary doctor of the University of Miami,2,George H. W. Bush; Winston Churchill
+P166,award received,Q49802084,honorary doctorate of the National University of San Marcos,2,Fidel Castro; Luiz Inácio Lula da Silva
+P166,award received,Q959154,weapon of honor,2,Vladimir Putin; Volodymyr Zelenskyy
+P170,creator,Q181900,Stan Lee,20,Beast; Black Panther; Cyclops; Daredevil; Doctor Doom; Doctor Strange; Galactus; Green Goblin; Gwen Stacy; Hulk; Iron Man; Jean Grey; Kingpin; Magneto; Mary Jane Watson; Professor X; Quicksilver; Scarlet Witch; Spider-Man; Thor
+P170,creator,Q311607,Jack Kirby,14,Beast; Black Panther; Captain America; Cyclops; Darkseid; Doctor Doom; Galactus; Hulk; Iron Man; Magneto; Quicksilver; Scarlet Witch; Silver Surfer; Thor
+P170,creator,Q34660,J. K. Rowling,10,Albus Dumbledore; Draco Malfoy; Harry Potter; Hermione Granger; Lord Voldemort; Luna Lovegood; Minerva McGonagall; Ron Weasley; Severus Snape; Sirius Black
+P170,creator,Q38222,George Lucas,8,Darth Vader; Indiana Jones; Luke Skywalker; Obi-Wan Kenobi; Padmé Amidala; Palpatine; Princess Leia; Yoda
+P170,creator,Q892,J. R. R. Tolkien,7,Aragorn; Frodo Baggins; Galadriel; Gandalf; Morgoth; Sauron; Tom Bombadil
+P170,creator,Q464282,Bill Finger,6,Batman; Catwoman; Dick Grayson; Riddler; The Joker; Two-Face
+P170,creator,Q631369,Chris Claremont,6,Gambit; Kitty Pryde; Mystique; Nightcrawler; Rogue (X-Men); Sabretooth
+P170,creator,Q313048,Bob Kane,5,Batman; Catwoman; Dick Grayson; The Joker; Two-Face
+P170,creator,Q1484216,John Romita Sr.,4,Kingpin; Mary Jane Watson; Punisher; Wolverine
+P170,creator,Q355652,Steve Ditko,4,Doctor Strange; Green Goblin; Gwen Stacy; Spider-Man
+P170,creator,Q902536,Dave Cockrum,3,Mystique; Nightcrawler; Storm (X-Men)
+P170,creator,Q207036,A. A. Milne,2,Eeyore; Winnie-the-Pooh
+P170,creator,Q35064,Agatha Christie,2,Hercule Poirot; Miss Marple
+P170,creator,Q35610,Arthur Conan Doyle,2,Professor Moriarty; Sherlock Holmes
+P170,creator,Q36184,Bram Stoker,2,Abraham Van Helsing; Count Dracula
+P170,creator,Q1189414,Dennis O'Neil,2,Bane; Ra's al Ghul
+P170,creator,Q191716,Gene Roddenberry,2,James T. Kirk; Spock
+P170,creator,Q181677,George R. R. Martin,2,Daenerys Targaryen; Jon Snow
+P170,creator,Q380113,Jerry Siegel,2,Lex Luthor; Superman
+P170,creator,Q471619,Joe Shuster,2,Lex Luthor; Superman
+P170,creator,Q1395905,John Buscema,2,Ultron; Vision (Marvel)
+P170,creator,Q475618,John Byrne,2,Kitty Pryde; Sabretooth
+P170,creator,Q2009797,Larry Lieber,2,Iron Man; Thor
+P170,creator,Q51057,Len Wein,2,Storm (X-Men); Wolverine
+P170,creator,Q43994,Matt Groening,2,Bart Simpson; Homer Simpson
+P170,creator,Q981976,Roy Thomas,2,Ultron; Vision (Marvel)
+P170,creator,Q319723,Tex Avery,2,Bugs Bunny; Daffy Duck
+P170,creator,Q8704,Walt Disney,2,Donald Duck; Mickey Mouse
+P39,position held,Q11696,President of the United States,24,Abraham Lincoln; Andrew Jackson; Barack Obama; Bill Clinton; Donald Trump; Dwight D. Eisenhower; Franklin Delano Roosevelt; George H. W. Bush; George W. Bush; George Washington; Gerald Ford; Harry S. Truman; James A. Garfield; Jimmy Carter; Joe Biden; John Adams; John F. Kennedy; Lyndon B. Johnson; Richard Nixon; Ronald Reagan; Theodore Roosevelt; Thomas Jefferson; Ulysses S. Grant; Woodrow Wilson
+P39,position held,Q1467287,President-elect of the United States,19,Abraham Lincoln; Andrew Jackson; Barack Obama; Bill Clinton; Dwight D. Eisenhower; Franklin Delano Roosevelt; George H. W. Bush; George W. Bush; George Washington; James A. Garfield; Jimmy Carter; Joe Biden; John Adams; John F. Kennedy; Richard Nixon; Ronald Reagan; Thomas Jefferson; Ulysses S. Grant; Woodrow Wilson
+P39,position held,Q19969187,UNICEF Goodwill Ambassador,14,Audrey Hepburn; David Beckham; Jackie Chan; Katy Perry; Lionel Messi; Michael Schumacher; Novak Djokovic; Priyanka Chopra; Roger Federer; Selena Gomez; Serena Williams; Shah Rukh Khan; Shakira; Zinedine Zidane
+P39,position held,Q1255921,president,14,"Abraham Lincoln; Bill Clinton; Charles de Gaulle; Dwight D. Eisenhower; Franklin Delano Roosevelt; George W. Bush; Jimmy Carter; Mao Zedong; Mustafa Kemal Atatürk; Prince Philip, Duke of Edinburgh; Richard Nixon; Ronald Reagan; Theodore Roosevelt; Woodrow Wilson"
+P39,position held,Q4416090,United States senator,11,Andrew Jackson; Barack Obama; Bernie Sanders; Harry S. Truman; Hillary Clinton; JD Vance; Joe Biden; John F. Kennedy; Kamala Harris; Lyndon B. Johnson; Richard Nixon
+P39,position held,Q11699,Vice President of the United States,11,George H. W. Bush; Gerald Ford; Harry S. Truman; JD Vance; Joe Biden; John Adams; Kamala Harris; Lyndon B. Johnson; Richard Nixon; Theodore Roosevelt; Thomas Jefferson
+P39,position held,Q13218630,United States representative,9,Abraham Lincoln; Andrew Jackson; Bernie Sanders; George H. W. Bush; Gerald Ford; James A. Garfield; John F. Kennedy; Lyndon B. Johnson; Richard Nixon
+P39,position held,Q28841847,Member of the Privy Council of the United Kingdom,7,"Edward VII; George V; Keir Starmer; Margaret Thatcher; Prince Philip, Duke of Edinburgh; William, Prince of Wales; Winston Churchill"
+P39,position held,Q23958341,President of the Jury at the Cannes Festival,7,Cate Blanchett; Clint Eastwood; Martin Scorsese; Quentin Tarantino; Robert De Niro; Roman Polanski; Steven Spielberg
+P39,position held,Q484876,chief executive officer,7,Bill Gates; Elon Musk; Gwyneth Paltrow; Jeff Bezos; Mark Zuckerberg; Steve Jobs; Warren Buffett
+P39,position held,Q14931511,monarch of Canada,6,Edward VII; Edward VIII; Elizabeth II; George V; George VI; Queen Victoria
+P39,position held,Q121594,professor,6,Albert Einstein; Friedrich Nietzsche; Marie Curie; René Descartes; Sigmund Freud; Tu Youyou
+P39,position held,Q5352166,Emperor of India,5,Edward VII; Edward VIII; George V; George VI; Queen Victoria
+P39,position held,Q1542521,Governor-General of the Philippines,5,Franklin Delano Roosevelt; Harry S. Truman; Hirohito; Theodore Roosevelt; Woodrow Wilson
+P39,position held,Q9134365,Monarch of the United Kingdom,5,Charles III; Edward VIII; Elizabeth II; George V; George VI
+P39,position held,Q16658189,fictional king,5,Aslan; Black Panther; Conan the Barbarian; Doctor Doom; Morgoth
+P39,position held,Q18952564,member of the House of Lords,5,"Edward VII; George V; Lord Byron; Margaret Thatcher; Prince Philip, Duke of Edinburgh"
+P39,position held,Q337222,Duke of York,4,Charles I of England; George V; George VI; Henry VIII of England
+P39,position held,Q19808845,French co-prince of Andorra,4,Charles de Gaulle; Emmanuel Macron; Louis XIV of France; Napoleon
+P39,position held,Q2646546,Hogwarts prefect,4,Albus Dumbledore; Draco Malfoy; Hermione Granger; Ron Weasley
+P39,position held,Q18810066,King of Ireland,4,Charles I of England; Elizabeth I of England; George III of Great Britain; Henry VIII of England
+P39,position held,Q16556694,Member of the Lok Sabha,4,Amitabh Bachchan; Indira Gandhi; Jawaharlal Nehru; Narendra Modi
+P39,position held,Q18810062,Monarch of England,4,Charles I of England; Elizabeth I of England; Henry VIII of England; William the Conqueror
+P39,position held,Q140686,chairperson,4,Elon Musk; Emmanuel Macron; George Washington; Hillary Clinton
+P39,position held,Q111722535,monarch of the United Kingdom of Great Britain and Ireland,4,Edward VII; George III of Great Britain; George V; Queen Victoria
+P39,position held,Q15686806,senator,4,Harry S. Truman; Padmé Amidala; Palpatine; Princess Leia
+P39,position held,Q2473303,Headmaster of Hogwarts,3,Albus Dumbledore; Minerva McGonagall; Severus Snape
+P39,position held,Q2741536,Leader of the Opposition,3,Keir Starmer; Margaret Thatcher; Winston Churchill
+P39,position held,Q1809853,Lord Warden of the Cinque Ports,3,George V; Henry VIII of England; Winston Churchill
+P39,position held,Q192711,Prime Minister of India,3,Indira Gandhi; Jawaharlal Nehru; Narendra Modi
+P39,position held,Q14211,Prime Minister of the United Kingdom,3,Keir Starmer; Margaret Thatcher; Winston Churchill
+P39,position held,Q180729,Prince of Wales,3,Edward VII; Edward VIII; Henry VIII of England
+P39,position held,Q40779,Roman consul,3,Augustus; Julius Caesar; Marcus Aurelius
+P39,position held,Q15647601,Secretary General of the Non-Aligned Movement,3,Fidel Castro; Mahathir Mohamad; Nelson Mandela
+P39,position held,Q106090755,United States Ambassador to France,3,Benjamin Franklin; John Adams; Thomas Jefferson
+P39,position held,Q14213,United States Secretary of State,3,Henry Kissinger; Hillary Clinton; Thomas Jefferson
+P39,position held,Q20056508,ancient Roman senator,3,Augustus; Julius Caesar; Marcus Aurelius
+P39,position held,Q14931517,monarch of New Zealand,3,Edward VIII; Elizabeth II; George VI
+P39,position held,Q34519042,monarch of the Union of South Africa,3,Edward VIII; Elizabeth II; George VI
+P39,position held,Q4809034,Assistant Secretary of the Navy,2,Franklin Delano Roosevelt; Theodore Roosevelt
+P39,position held,Q5070795,Chancellor of the College of William & Mary,2,Henry Kissinger; Margaret Thatcher
+P39,position held,Q1115127,Commanding General of the United States Army,2,George Washington; Ulysses S. Grant
+P39,position held,Q127639560,Delegate to the United States Constitutional Convention,2,Benjamin Franklin; George Washington
+P39,position held,Q2618625,Emperor of all the Russias,2,Catherine II of Russia; Nicholas II of Russia
+P39,position held,Q7166256,First Lady of the United States,2,Hillary Clinton; Melania Trump
+P39,position held,Q609884,First Lord of the Treasury,2,Keir Starmer; Margaret Thatcher
+P39,position held,Q1048744,General Secretary of the Communist Party of the Soviet Union,2,Mikhail Gorbachev; Nikita Khrushchev
+P39,position held,Q887010,Governor of California,2,Arnold Schwarzenegger; Ronald Reagan
+P39,position held,Q2347975,Governor of New York,2,Franklin Delano Roosevelt; Theodore Roosevelt
+P39,position held,Q113879628,Heir Apparent of the United Kingdom,2,"Edward VIII; William, Prince of Wales"
+P39,position held,Q3303456,Leader of the Conservative Party,2,Margaret Thatcher; Winston Churchill
+P39,position held,Q16153574,Lord High Admiral,2,"Elizabeth II; Prince Philip, Duke of Edinburgh"
+P39,position held,Q865664,Lucasian Professor of Mathematics,2,Isaac Newton; Stephen Hawking
+P39,position held,Q18705668,Member of the Académie française,2,Victor Hugo; Voltaire
+P39,position held,Q108495011,Member of the Politburo of the CPSU Central Committee,2,Leon Trotsky; Vladimir Lenin
+P39,position held,Q28837708,Member of the Privy Council of Ireland,2,Edward VII; George V
+P39,position held,Q3315116,Minister for the Civil Service,2,Keir Starmer; Margaret Thatcher
+P39,position held,Q3533315,Minister of Defence,2,Indira Gandhi; Jawaharlal Nehru
+P39,position held,Q313465,Minister of External Affairs,2,Indira Gandhi; Jawaharlal Nehru
+P39,position held,Q1416501,Minister of Finance,2,Indira Gandhi; Jawaharlal Nehru
+P39,position held,Q12716207,Monarch of Scotland,2,"Charles I of England; Mary, Queen of Scots"
+P39,position held,Q5176750,President of Brazil,2,Jair Bolsonaro; Luiz Inácio Lula da Silva
+P39,position held,Q191954,President of the French Republic,2,Charles de Gaulle; Emmanuel Macron
+P39,position held,Q655407,President of the People's Republic of China,2,Mao Zedong; Xi Jinping
+P39,position held,Q34797717,Queen Consort of France,2,"Marie Antoinette; Mary, Queen of Scots"
+P39,position held,Q842606,Roman emperor,2,Augustus; Marcus Aurelius
+P39,position held,Q121998,ambassador,2,Spock; Wonder Woman
+P39,position held,Q11247470,commanding officer,2,Ali Khamenei; Bashar al-Assad
+P39,position held,Q2762318,heir apparent,2,"George III of Great Britain; William, Prince of Wales"
+P39,position held,Q486839,member of parliament,2,Otto von Bismarck; Winston Churchill
+P39,position held,Q41582606,member of the 42nd Parliament of the United Kingdom,2,Margaret Thatcher; Winston Churchill
+P39,position held,Q51078983,member of the National Committee of the Chinese People's Political Consultative Conference,2,Jackie Chan; Yao Ming
+P39,position held,Q42327067,member of the Politburo Standing Committee of the Chinese Communist Party,2,Mao Zedong; Xi Jinping
+P39,position held,Q20065408,member of the Virginia House of Delegates,2,George Washington; Thomas Jefferson
+P39,position held,Q14931512,monarch of Australia,2,Elizabeth II; George VI
+P39,position held,Q34518803,monarch of the Dominion of Ceylon,2,Elizabeth II; George VI
+P39,position held,Q34518933,monarch of the Dominion of Pakistan,2,Elizabeth II; George VI
+P39,position held,Q1861571,moneyer,2,Augustus; Julius Caesar
+P39,position held,Q37110,pharaoh,2,Alexander the Great; Cleopatra
+P39,position held,Q212943,pontifex maximus,2,Augustus; Julius Caesar
+P39,position held,Q189430,quaestor,2,Julius Caesar; Marcus Aurelius
+P54,member of sports team,Q8682,Real Madrid Club de Fútbol,4,David Beckham; Kylian Mbappé; Ronaldo Nazário; Zinedine Zidane
+P54,member of sports team,Q1543,AC Milan,2,David Beckham; Ronaldo Nazário
+P54,member of sports team,Q83459,Brazil men's national football team,2,Pelé; Ronaldo Nazário
+P54,member of sports team,Q7156,FC Barcelona,2,Diego Maradona; Ronaldo Nazário
+P54,member of sports team,Q4833247,Gryffindor quidditch team,2,Harry Potter; Ron Weasley
+P54,member of sports team,Q121783,Los Angeles Lakers,2,Kobe Bryant; LeBron James
+P54,member of sports team,Q172721,Mercedes F1 Team,2,Lewis Hamilton; Michael Schumacher
+P54,member of sports team,Q80955,Santos F.C.,2,Neymar; Pelé
+P54,member of sports team,Q169898,Scuderia Ferrari,2,Lewis Hamilton; Michael Schumacher
+P54,member of sports team,Q56850085,Tune Squad,2,Bugs Bunny; Daffy Duck
+P641,sport,Q2736,association football,13,"Albert Camus; Cristiano Ronaldo; David Beckham; Diego Maradona; José Mourinho; Kylian Mbappé; Lionel Messi; Neymar; Pelé; Ronaldo Nazário; Sean Connery; William, Prince of Wales; Zinedine Zidane"
+P641,sport,Q11419,karate,7,Batman; Chuck Norris; Daredevil; Dick Grayson; Elvis Presley; SpongeBob SquarePants; Wolverine
+P641,sport,Q32112,boxing,6,Batman; Chuck Norris; Dick Grayson; Mike Tyson; Muhammad Ali; Sylvester Stallone
+P641,sport,Q41323,American football,5,Dwayne Johnson; George H. W. Bush; Gerald Ford; Joe Biden; John Wayne
+P641,sport,Q5372,basketball,5,Foghorn Leghorn; Kobe Bryant; LeBron James; Michael Jordan; Yao Ming
+P641,sport,Q11420,judo,5,Batman; Chuck Norris; Dick Grayson; James T. Kirk; Vladimir Putin
+P641,sport,Q847,tennis,5,George VI; Novak Djokovic; Rafael Nadal; Roger Federer; Serena Williams
+P641,sport,Q5386,auto racing,4,James Dean; Lewis Hamilton; Michael Schumacher; Paul Newman
+P641,sport,Q36389,taekwondo,4,Batman; Chuck Norris; Dick Grayson; Nightcrawler
+P641,sport,Q542,athletics,3,Alan Turing; Cathy Freeman; Usain Bolt
+P641,sport,Q718,chess,3,Benjamin Franklin; James T. Kirk; Stanley Kubrick
+P641,sport,Q106500,sambo,3,Batman; Dick Grayson; Vladimir Putin
+P641,sport,Q271277,savate,3,Batman; Dick Grayson; Lord Byron
+P641,sport,Q189336,Brazilian jiu-jitsu,2,Batman; Chuck Norris
+P641,sport,Q188923,Jeet Kune Do,2,Batman; Dick Grayson
+P641,sport,Q539067,Ninjutsu,2,Batman; Dick Grayson
+P641,sport,Q305561,Quidditch,2,Harry Potter; Ron Weasley
+P641,sport,Q43114,aikido,2,Batman; Dick Grayson
+P641,sport,Q752190,arnis,2,Batman; Dick Grayson
+P641,sport,Q124100,bodybuilding,2,Arnold Schwarzenegger; Sean Connery
+P641,sport,Q159452,capoeira,2,Batman; Dick Grayson
+P641,sport,Q5375,cricket,2,Charles III; Don Bradman
+P641,sport,Q5377,golf,2,Donald Trump; Franklin Delano Roosevelt
+P641,sport,Q200333,hapkido,2,Batman; Dick Grayson
+P641,sport,Q208607,kung fu,2,Dick Grayson; Jackie Chan
+P641,sport,Q134211,polo,2,"Charles III; William, Prince of Wales"
+P641,sport,Q5378,rugby,2,George W. Bush; Mahathir Mohamad
+P69,educated at,Q174097,Hogwarts,10,Albus Dumbledore; Draco Malfoy; Harry Potter; Hermione Granger; Lord Voldemort; Luna Lovegood; Minerva McGonagall; Ron Weasley; Severus Snape; Sirius Black
+P69,educated at,Q13371,Harvard University,9,Barack Obama; Helen Keller; Henry Kissinger; J. Robert Oppenheimer; John Adams; Judy Garland; Mark Zuckerberg; Matt Damon; Natalie Portman
+P69,educated at,Q1542213,Lee Strasberg Theatre and Film Institute,7,Al Pacino; Angelina Jolie; Barbra Streisand; Julia Roberts; Lady Gaga; Robert De Niro; Scarlett Johansson
+P69,educated at,Q332342,Trinity College,7,Charles III; Edward VII; George V; George VI; Isaac Newton; Jawaharlal Nehru; Lord Byron
+P69,educated at,Q35794,University of Cambridge,7,Batman; Charles Darwin; Iron Man; Isaac Newton; J. Robert Oppenheimer; Lord Byron; Stephen Hawking
+P69,educated at,Q49123,Harvard College,6,Bill Gates; Franklin Delano Roosevelt; J. Robert Oppenheimer; John Adams; John F. Kennedy; Theodore Roosevelt
+P69,educated at,Q174710,"University of California, Los Angeles",6,Arnold Schwarzenegger; James Dean; Jim Morrison; Marilyn Monroe; Mila Kunis; Nicolas Cage
+P69,educated at,Q216458,Actors Studio,5,Al Pacino; Jack Nicholson; Jane Fonda; Marilyn Monroe; Marlon Brando
+P69,educated at,Q7721887,The Center for Early Education,5,Barbra Streisand; Cher; Denzel Washington; Jack Nicholson; Jodie Foster
+P69,educated at,Q49112,Yale University,5,George H. W. Bush; Gerald Ford; JD Vance; Jodie Foster; Meryl Streep
+P69,educated at,Q49088,Columbia University,4,Amelia Earhart; Barack Obama; Daredevil; Theodore Roosevelt
+P69,educated at,Q622039,Empire State University,4,Black Cat; Gwen Stacy; Mary Jane Watson; Spider-Man
+P69,educated at,Q21578,Princeton University,4,Alan Turing; Jeff Bezos; John F. Kennedy; Woodrow Wilson
+P69,educated at,Q1143289,Yale Law School,4,Bill Clinton; Gerald Ford; Hillary Clinton; JD Vance
+P69,educated at,Q796940,BRIT School for Performing Arts and Technology,3,Adele; Amy Winehouse; Tom Holland
+P69,educated at,Q1185037,Beverly Hills High School,3,Angelina Jolie; Carrie Fisher; Nicolas Cage
+P69,educated at,Q1795492,Britannia Royal Naval College,3,"Charles III; Edward VIII; Prince Philip, Duke of Edinburgh"
+P69,educated at,Q1149089,Columbia Law School,3,Daredevil; Franklin Delano Roosevelt; Theodore Roosevelt
+P69,educated at,Q192088,Eton College,3,"George Orwell; James Bond; William, Prince of Wales"
+P69,educated at,Q3072747,Fiorello H. LaGuardia High School,3,Al Pacino; Jennifer Aniston; Nicki Minaj
+P69,educated at,Q130965,Fordham University,3,Denzel Washington; Donald Trump; Lana Del Rey
+P69,educated at,Q5629067,HB Studio,3,Al Pacino; Barbra Streisand; Robert De Niro
+P69,educated at,Q1247373,Harrow School,3,Jawaharlal Nehru; Lord Byron; Winston Churchill
+P69,educated at,Q49108,Massachusetts Institute of Technology,3,Benjamin Netanyahu; Iron Man; Lex Luthor
+P69,educated at,Q49210,New York University,3,Angelina Jolie; Anne Hathaway; Woody Allen
+P69,educated at,Q797078,New York University Tisch School of the Arts,3,Lady Gaga; Martin Scorsese; Woody Allen
+P69,educated at,Q1033692,Santa Monica College,3,Arnold Schwarzenegger; James Dean; Muhammad Ali
+P69,educated at,Q1329269,The Wharton School,3,Donald Trump; Elon Musk; Warren Buffett
+P69,educated at,Q7864046,"UCLA School of Theater, Film and Television",3,James Dean; Jim Morrison; Nicolas Cage
+P69,educated at,Q9219,United States Military Academy,3,Dwight D. Eisenhower; Edgar Allan Poe; Ulysses S. Grant
+P69,educated at,Q170027,University of London,3,Alfred Hitchcock; Elton John; Nelson Mandela
+P69,educated at,Q209842,University of Paris,3,Batman; Marie Curie; Victor Hugo
+P69,educated at,Q49117,University of Pennsylvania,3,Donald Trump; Elon Musk; Warren Buffett
+P69,educated at,Q4614,University of Southern California,3,George Lucas; John Wayne; Neil Armstrong
+P69,educated at,Q2093794,Vassar College,3,Anne Hathaway; Jane Fonda; Meryl Streep
+P69,educated at,Q389336,American Academy of Dramatic Arts,2,Anne Hathaway; Grace Kelly
+P69,educated at,Q97013303,Byron House School,2,Elizabeth Taylor; Stephen Hawking
+P69,educated at,Q161562,California Institute of Technology,2,Sheldon Cooper; Walter White
+P69,educated at,Q1026925,"California State University, Fullerton",2,James Cameron; Kevin Costner
+P69,educated at,Q5025512,Cambridge Rindge and Latin School,2,Ben Affleck; Matt Damon
+P69,educated at,Q31519,Charles University,2,Franz Kafka; Nikola Tesla
+P69,educated at,Q5088830,Cheam School,2,"Charles III; Prince Philip, Duke of Edinburgh"
+P69,educated at,Q1093910,City College of New York,2,Henry Kissinger; Stanley Kubrick
+P69,educated at,Q5123253,City Law School,2,Jawaharlal Nehru; Margaret Thatcher
+P69,educated at,Q5230230,Davenport College,2,George H. W. Bush; George W. Bush
+P69,educated at,Q66626470,Dovedale Primary School,2,George Harrison; John Lennon
+P69,educated at,Q4534839,"Faculty of Law, Saint Petersburg State University",2,Vladimir Lenin; Vladimir Putin
+P69,educated at,Q2565243,Fairfax High School,2,Demi Moore; Mila Kunis
+P69,educated at,Q1538148,Gordonstoun,2,"Charles III; Prince Philip, Duke of Edinburgh"
+P69,educated at,Q5059890,Johns Hopkins Center for Talented Youth,2,Lady Gaga; Mark Zuckerberg
+P69,educated at,Q28482293,Kazan Imperial University,2,Leo Tolstoy; Vladimir Lenin
+P69,educated at,Q154804,Leipzig University,2,Friedrich Nietzsche; Johann Wolfgang von Goethe
+P69,educated at,Q15242531,Liverpool Institute High School for Boys,2,George Harrison; Paul McCartney
+P69,educated at,Q6681997,Los Angeles Center for Enriched Studies,2,Leonardo DiCaprio; Mila Kunis
+P69,educated at,Q1727138,Los Angeles City College,2,Clint Eastwood; Morgan Freeman
+P69,educated at,Q1059546,Lycée Louis-le-Grand,2,Victor Hugo; Voltaire
+P69,educated at,Q81162,Magdalen College,2,Edward VIII; Oscar Wilde
+P69,educated at,Q6736358,Maine East High School,2,Harrison Ford; Hillary Clinton
+P69,educated at,Q6889228,Modesto Junior College,2,George Lucas; Jeremy Renner
+P69,educated at,Q6904590,Montclair College Preparatory School,2,Cher; Michael Jackson
+P69,educated at,Q1815371,National Institute of Dramatic Art,2,Cate Blanchett; Mel Gibson
+P69,educated at,Q1346110,Occidental College,2,Barack Obama; Ben Affleck
+P69,educated at,Q7117077,P.S. 41,2,Robert De Niro; Scarlett Johansson
+P69,educated at,Q1432645,Phillips Academy,2,George H. W. Bush; George W. Bush
+P69,educated at,Q7247941,Professional Children's School,2,Carrie Fisher; Scarlett Johansson
+P69,educated at,Q1322403,Royal Academy of Fine Arts of San Fernando,2,Pablo Picasso; Salvador Dalí
+P69,educated at,Q7373601,Royal Air Force College Cranwell,2,"Charles III; William, Prince of Wales"
+P69,educated at,Q981195,Royal Central School of Speech and Drama,2,Andrew Garfield; Carrie Fisher
+P69,educated at,Q774489,Somerville College,2,Indira Gandhi; Margaret Thatcher
+P69,educated at,Q41506,Stanford University,2,Elon Musk; John Steinbeck
+P69,educated at,Q2451409,Starfleet Academy,2,James T. Kirk; Spock
+P69,educated at,Q7607037,Stella Adler Studio of Acting,2,Marlon Brando; Robert De Niro
+P69,educated at,Q653693,Sylvia Young Theatre School,2,Amy Winehouse; Dua Lipa
+P69,educated at,Q599316,The New School,2,Bradley Cooper; Marlon Brando
+P69,educated at,Q193196,University College London,2,Christopher Nolan; Mahatma Gandhi
+P69,educated at,Q81087,"University College, Oxford",2,Bill Clinton; Stephen Hawking
+P69,educated at,Q152171,University of Bonn,2,Friedrich Nietzsche; Karl Marx
+P69,educated at,Q131252,University of Chicago,2,Bernie Sanders; Indiana Jones
+P69,educated at,Q665105,University of Delhi,2,Narendra Modi; Shah Rukh Khan
+P69,educated at,Q160302,University of Edinburgh,2,Charles Darwin; Edward VII
+P69,educated at,Q820887,University of Florence,2,Michelangelo; Niccolò Machiavelli
+P69,educated at,Q152838,University of Göttingen,2,J. Robert Oppenheimer; Otto von Bismarck
+P69,educated at,Q738258,University of Miami,2,Dwayne Johnson; Sylvester Stallone
+P69,educated at,Q7895891,University of Nebraska High School,2,Britney Spears; Justin Timberlake
+P69,educated at,Q213439,University of Virginia,2,Edgar Allan Poe; Woodrow Wilson
+P69,educated at,Q114306,Wellington College,2,Christopher Lee; George Orwell
+P69,educated at,Q2599077,Yale College,2,George W. Bush; Jodie Foster
+P69,educated at,Q8047423,Yale School of Drama,2,Meryl Streep; Paul Newman
+P69,educated at,Q8057887,Young Actors Space,2,Emma Stone; Leonardo DiCaprio
+P8345,media franchise,Q30739117,Wizarding World,10,Albus Dumbledore; Draco Malfoy; Harry Potter; Hermione Granger; Lord Voldemort; Luna Lovegood; Minerva McGonagall; Ron Weasley; Severus Snape; Sirius Black
+P8345,media franchise,Q462,Star Wars,9,Darth Vader; Grogu; Kylo Ren; Luke Skywalker; Obi-Wan Kenobi; Padmé Amidala; Palpatine; Princess Leia; Yoda
+P8345,media franchise,Q28859760,Godzilla,2,Godzilla; King Ghidorah
+P8345,media franchise,Q1092,Star Trek,2,James T. Kirk; Spock
+P8345,media franchise,Q7764350,The Simpsons,2,Bart Simpson; Homer Simpson

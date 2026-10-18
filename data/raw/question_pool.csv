@@ -1,0 +1,52 @@
+attribute,question,sources,add,remove,unknown,gate,keywords,notes
+occupation_physicist,Is this person a physicist?,P106=Q169470;P106=Q19350898,Isaac Newton,,Leonardo da Vinci;Nikola Tesla,all,physicist,Newton is listed only as mathematician/philosopher on Wikidata; da Vinci and Tesla are borderline
+occupation_mathematician,Is this person known as a mathematician?,P106=Q170790,Alan Turing,,Albert Einstein;Leonardo da Vinci,all,mathematician,Turing is listed only as computer scientist/cryptographer on Wikidata
+occupation_chemist,Is this person a chemist?,P106=Q593644,,Leonardo da Vinci,,all,chemist,Players would not call da Vinci a chemist
+occupation_inventor,Is this person or character known as an inventor?,P106=Q205375,,Ada Lovelace;Albert Einstein;Tu Youyou,Galileo Galilei;Spider-Man;Elon Musk;Steve Jobs,real,inventor,Wikidata uses inventor for anyone with a patent or discovery; Jobs holds patents but is known as a businessman
+occupation_computer_scientist,Is this person known for computer science or programming?,P106=Q82594,,,Steve Jobs,real,computer scientist;programmer;software,Jobs was a businessman and designer rather than a programmer
+occupation_engineer,Is this person an engineer?,P106=Q81096;P106=Q1326886,Neil Armstrong,Ada Lovelace;Galileo Galilei,Leonardo da Vinci,real,engineer,Armstrong was an aerospace engineer; Tesla comes from electrical engineer
+occupation_philosopher,Is this person a philosopher?,P106=Q4964182,,Charles Darwin;Isaac Newton;Li Bai;Galileo Galilei,Albert Einstein;Mahatma Gandhi,real,philosopher,Wikidata counts natural philosophers; players think of Confucius
+occupation_poet,Is this person a poet?,P106=Q49757,,Ada Lovelace;Julius Caesar;Pablo Picasso,John Lennon;Lu Xun,real,poet,Lennon wrote lyrics; Lu Xun wrote some poetry
+occupation_novelist,Is this person a novelist?,P106=Q6625963,,,Lu Xun,real,novelist;writer;author,Lu Xun wrote mainly short stories and essays
+occupation_singer,Is this person a singer?,P106=Q177220,,,Hugh Jackman;Marilyn Monroe,real,singer;vocalist,Both sang but are known mainly as actors
+occupation_martial_artist,Is this person or character known for martial arts?,P106=Q11124885,Jackie Chan,,Lara Croft;Wonder Woman;Naruto Uzumaki,real,martial art,"Jackie Chan is missing from Wikidata martial artists; Lara Croft, Wonder Woman and Naruto fight but are not known mainly for martial arts"
+occupation_superhero,Is this character a superhero?,P106=Q188784,Hulk;Captain America;Thor;Doctor Strange;Deadpool;Professor X;Ghost Rider,Lex Luthor;Mystique,Catwoman;Harley Quinn;Black Cat,,,Generated Marvel heroes added where Wikidata lacks the occupation; villains removed; antiheroes unknown.
+occupation_lawyer,Did this person work as a lawyer?,P106=Q40348,,,,real,lawyer;attorney;jurist,
+occupation_military_leader,Is this person known as a military commander?,P106=Q1402561,,,Qin Shi Huang;Winston Churchill;Darth Vader,real,military;general;conqueror;commander;warlord;conquistador,Qin Shi Huang and Churchill led wars as rulers rather than as commanders; Vader commands in-universe forces
+occupation_wizard,Is this character a wizard or witch?,P69=Q174097;P106=Q148401,,Count Dracula,Palpatine,,,Hogwarts students plus Wikidata magicians; Dracula is a vampire Palpatine is a Sith Lord rather than a wizard.
+occupation_nurse,Was this person a nurse?,P106=Q186360,,Wonder Woman,,,,Diana Prince worked as a nurse only in early comics
+occupation_comedian,Is this person known for comedy?,P106=Q245068,,,,real,comedian;comic actor,
+occupation_emperor,Was this person an emperor?,P106=Q39018,,,Genghis Khan;Julius Caesar,real,emperor,Genghis Khan was Great Khan; many people wrongly think Caesar was an emperor
+occupation_activist,Is this person known as an independence or civil-rights activist?,P106=Q30242234,,,,real,activist;independence;civil rights,
+occupation_conservationist,Is this person known for wildlife or environmental conservation?,P106=Q3578589,,,Leonardo DiCaprio,real,conservation;environment;wildlife,DiCaprio is an activist but known mainly as an actor
+occupation_detective,Is this character a detective?,P106=Q1058617;P106=Q842782,,,Batman,all,detective;investigator,Batman is called a detective in the comics
+occupation_spy,Is this character a spy?,P106=Q9352089,,,,all,spy;secret agent;espionage,
+occupation_pirate,Is this character a pirate?,P106=Q10729326,,,,,,
+sport_basketball,Is this person a basketball player?,P641=Q5372;P106=Q3665646,,,,,,
+sport_tennis,Is this person a tennis player?,P641=Q847;P106=Q10833314,,George VI,,,,George VI played at Wimbledon once but is not known as a tennis player.
+sport_athletics,Is this person a track-and-field athlete (for example a sprinter)?,P641=Q542,,Alan Turing,,,,Turing ran marathons as an amateur
+sport_cricket,Is this person a cricketer?,P641=Q5375,,,,,,
+instrument_piano,Is this person known for playing the piano?,P1303=Q5994,,,John Lennon;Taylor Swift;Michael Jackson,all,pianist;piano,These play piano but are known for other instruments or singing
+instrument_guitar,Is this person known for playing the guitar?,P1303=Q6607,,Michael Jackson,Jay Chou,all,guitarist;guitar,Michael Jackson is listed on Wikidata but is not known for guitar; Jay Chou plays guitar but is known for piano
+position_us_president,Has this person been President of the United States?,P39=Q11696,,,,,,
+studied_at_cambridge,Did this person study at the University of Cambridge?,P69=Q35794,Alan Turing,Batman;Iron Man,,,,"Turing's Wikidata entry lists King's College (a Cambridge college); the Batman claim comes from one adaptation Iron Man's Cambridge claim refers to MIT in Cambridge, Massachusetts."
+universe_harry_potter,Is this character from the Harry Potter series?,P1080=Q5410773,,,,,,
+universe_dc,Is this character from DC Comics?,P1080=Q1152150,,,,,,
+universe_tolkien,Is this character from The Hobbit or The Lord of the Rings?,P1080=Q81738,,,,,,
+award_nobel_peace,Has this person won the Nobel Peace Prize?,P166=Q35637,,,,,,
+award_nobel_physics,Has this person won the Nobel Prize in Physics?,P166=Q38104,,,,,,
+award_oscar,Has this person won an Oscar (Academy Award)?,P166=Q103916;P166=Q22235329;P166=Q727328;P166=Q488651;P166=Q103618;P166=Q106291;P166=Q106301;P166=Q103360;P166=Q112243;P166=Q19020;P166=Q102427,,,John Lennon,,,Lennon shared the Beatles' 1971 Oscar for Let It Be but few players know this
+award_grammy,Has this person won a Grammy Award?,P166=Q904528;P166=Q843219;P166=Q935843;P166=Q41254;P166=Q2976730;P166=Q935283;P166=Q1027891;P166=Q740968;P166=Q1453643;P166=Q428808,,,Barack Obama;Hugh Jackman;Bill Clinton;Jimmy Carter;Jack Nicholson;Bradley Cooper,,,"Obama won Grammys for audiobooks and Jackman for a soundtrack; players would not expect it Bill Clinton, Jimmy Carter and Jack Nicholson won spoken-word or children's Grammys and Bradley Cooper one for a soundtrack; players would not expect it."
+award_olympic_gold,Has this person won an Olympic gold medal?,P166=Q15243387,Usain Bolt;Serena Williams;Michael Jordan,,Roger Federer;Lionel Messi,,,Wikidata records only Freeman; Federer (2008 doubles) and Messi (2008 football) won gold but few players know
+franchise_disney,Is this a Disney character?,,Mickey Mouse;Elsa;Simba;Jack Sparrow;Donald Duck;Goofy,,Winnie-the-Pooh;Darth Vader;Spider-Man;Alice,,,"Manual: created by Disney; Pooh and Alice come from books with famous Disney films; Vader and Spider-Man were created elsewhere and later owned by Disney Generated Disney characters added: Donald Duck, Goofy."
+franchise_nintendo,Is this a Nintendo character?,,Mario;Pikachu,,,,,Manual: Pokemon is co-owned by Nintendo; Sonic belongs to Sega
+universe_marvel,Is this character from Marvel Comics?,P1080=Q2246088,Miles Morales,,,,,Earth-616 is the main Marvel Comics universe; Miles Morales comes from another Marvel universe
+universe_star_wars,Is this character from Star Wars?,P1080=Q19786052,,,,,,
+award_golden_globe,Has this person won a Golden Globe Award?,P166=Q1011547;P166=Q593098;P166=Q181883;P166=Q1011564;P166=Q463085;P166=Q822907;P166=Q723830;P166=Q586356;P166=Q673229;P166=Q1472235;P166=Q640353,,,,,,"Any Golden Globe category, including the Cecil B. DeMille lifetime award"
+position_us_vice_president,Has this person been Vice President of the United States?,P39=Q11699,,,,,,
+position_uk_prime_minister,Has this person been Prime Minister of the United Kingdom?,P39=Q14211,,,,,,
+occupation_rapper,Is this person a rapper?,P106=Q2252262,,,Jay Chou,real,rapper;hip hop;hip-hop,Jay Chou raps but is known mainly as a singer
+sport_boxing,Is this person a boxer?,P106=Q11338576,,,,,,
+sport_racing,Is this person a racing driver?,P106=Q10841764,,,,,,
+franchise_x_men,Is this character from the X-Men comics or films?,,Wolverine;Jean Grey;Cyclops;Storm (X-Men);Rogue (X-Men);Gambit;Nightcrawler;Kitty Pryde;Professor X;Magneto;Mystique;Sabretooth,,Quicksilver;Deadpool,,,Manual: X-Men members and their best-known foes; Quicksilver and Deadpool are linked to the X-Men but better known elsewhere
+franchise_avengers,Is this character a member of the Avengers?,,Iron Man;Captain America;Hulk;Thor;Scarlet Witch;Vision (Marvel);Black Panther;Doctor Strange;Spider-Man;Quicksilver,,Wolverine;Storm (X-Men),,,Manual: core Avengers in comics and films; Wolverine and Storm joined only in some comic runs
