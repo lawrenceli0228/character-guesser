@@ -46,6 +46,11 @@ def test_2a_normalise_rejects_weights_that_sum_to_zero():
         probability.normalise({"a": 0.0, "b": 0.0})
 
 
+def test_2a_normalise_allows_some_zero_weights():
+    # A single zero weight is fine (e.g. a ruled-out character); only a zero TOTAL is a problem.
+    assert probability.normalise({"a": 0.0, "b": 1.0}) == pytest.approx({"a": 0.0, "b": 1.0})
+
+
 # --- 2b: group_medians -----------------------------------------------------------
 
 def test_2b_group_medians_for_real_and_fictional():
