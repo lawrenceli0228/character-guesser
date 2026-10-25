@@ -6,7 +6,7 @@
 |---|---|
 | Rows | **500**: 350 real people, 150 fictional characters |
 | Of which | 91 hand-curated and reviewed entry by entry (`roster.csv`); 409 generated from Wikidata by fixed rules (`roster_auto.csv`) |
-| Attributes | **107** Yes/No attributes: 56 hand-designed core questions + 51 questions in the reviewed question pool. Each value is `true`, `false` or `unknown` |
+| Attributes | **106** Yes/No attributes: 56 hand-designed core questions + 50 questions in the reviewed question pool. Each value is `true`, `false` or `unknown` |
 | Popularity | `sitelinks`: number of Wikipedia/Wikimedia language editions with an article (26–340) |
 | Game file | `../dataset/characters.csv` (plus `questions.csv`) (generated; do not edit by hand) |
 | Wikidata snapshot | `raw/wikidata_snapshot.json`, retrieved 2026-10-17 |
@@ -52,7 +52,7 @@ characters = load_characters()                 # tuple of Character (500)
 characters[0].name                             # "Albert Einstein"
 characters[0].attributes["is_fictional"]       # True / False / None (unknown)
 characters[0].sitelinks                        # 322 (popularity)
-QUESTIONS["is_fictional"]                      # player-facing question text (107 questions)
+QUESTIONS["is_fictional"]                      # player-facing question text (106 questions)
 FIRST_QUESTION                                 # "is_fictional": always ask this first
 ```
 
@@ -236,11 +236,11 @@ A greedy information-gain split over all 500 entries, with "Is this a
 fictional character?" first and **every answer matching the data**, after 10
 questions:
 
-| | Core questions only | Core + pool (107) |
+| | Core questions only | Core + pool (106) |
 |---|---|---|
-| Entry isolated (1 candidate left) | 41% | **57%** |
-| 3 or fewer candidates left | 73% | **88%** |
-| Pairs no question can separate | 519 | 202 |
+| Entry isolated (1 candidate left) | 46% | **62%** |
+| 3 or fewer candidates left | 80% | **93%** |
+| Pairs no question can separate | 341 | 147 |
 
 The remaining inseparable pairs are entries with almost no public difference
 the questions capture: Homer and Bart Simpson, Bugs Bunny and Daffy Duck,

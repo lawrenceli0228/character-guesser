@@ -24,6 +24,12 @@ from question_pool import POOL_COLUMNS, POOL_PATH
 # every entry, and is the most natural opening for players.
 FIRST_QUESTION = "is_fictional"
 
+
+def _place(place):
+    """A "where from" question that says what it means for fictional characters."""
+    return "Is this person from %s? (For a fictional character: was it created there?)" % place
+
+
 CORE_QUESTIONS = {
     # What kind of entity
     "is_fictional": "Is this a fictional character (not a real person)?",
@@ -42,25 +48,25 @@ CORE_QUESTIONS = {
     "origin_1970_or_later": "Was this person born (or this character created) in 1970 or later?",
     "origin_1980_or_later": "Was this person born (or this character created) in 1980 or later?",
     "origin_1995_or_later": "Was this person born (or this character created) in 1995 or later?",
-    # Where
-    "from_asia": "Is this person or character from Asia?",
-    "from_europe": "Is this person or character from Europe?",
-    "from_north_america": "Is this person or character from North America?",
-    "from_south_america": "Is this person or character from South America?",
-    "from_africa": "Is this person or character from Africa?",
-    "from_oceania": "Is this person or character from Australia or Oceania?",
-    "from_chinese_speaking_world": "Is this person or character from the Chinese-speaking world (mainland China, Hong Kong or Taiwan)?",
-    "from_usa": "Is this person or character from the United States?",
-    "from_uk": "Is this person or character from the United Kingdom?",
-    "from_japan": "Is this person or character from Japan?",
-    "from_france": "Is this person or character from France?",
-    "from_germany": "Is this person or character from Germany?",
-    "from_italy": "Is this person or character from Italy?",
-    "from_spain": "Is this person or character from Spain?",
-    "from_russia": "Is this person or character from Russia (including the Soviet Union)?",
-    "from_india": "Is this person or character from India?",
-    "from_canada": "Is this person or character from Canada?",
-    "from_brazil": "Is this person or character from Brazil?",
+    # Where (spelled out because players otherwise answer for the story world, e.g. Darth Vader)
+    "from_asia": _place("Asia"),
+    "from_europe": _place("Europe"),
+    "from_north_america": _place("North America, including Mexico, Central America and the Caribbean"),
+    "from_south_america": _place("South America"),
+    "from_africa": _place("Africa"),
+    "from_oceania": _place("Australia or Oceania"),
+    "from_chinese_speaking_world": _place("the Chinese-speaking world (mainland China, Hong Kong or Taiwan)"),
+    "from_usa": _place("the United States"),
+    "from_uk": _place("the United Kingdom"),
+    "from_japan": _place("Japan"),
+    "from_france": _place("France"),
+    "from_germany": _place("Germany"),
+    "from_italy": _place("Italy"),
+    "from_spain": _place("Spain"),
+    "from_russia": _place("Russia (including the Soviet Union)"),
+    "from_india": _place("India"),
+    "from_canada": _place("Canada"),
+    "from_brazil": _place("Brazil"),
     # What they are known for
     "known_for_science_or_medicine": "Is this person or character known for science or medicine?",
     "known_for_technology": "Is this person or character known for technology, computing or inventions?",

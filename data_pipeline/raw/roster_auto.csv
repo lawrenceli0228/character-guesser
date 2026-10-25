@@ -1,119 +1,119 @@
 name,wikidata_id,popularity_wikidata_id,kind,gender,species,origin_year,alive,age_at_death,region,country,domains,media,tags,overrides,notes
 Doctor Doom,Q430178,,fictional,male,unknown,1962,na,,north_america,USA,,comic,powers;royal;ruler;villain,,fictional character in Marvel Comics
 Jean Grey,Q5350072,,fictional,female,human,1963,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Wolverine,Q186422,,fictional,male,human,,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
+Wolverine,Q186422,,fictional,male,human,1974,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Hulk,Q188760,,fictional,male,human,1962,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Iron Man,Q180704,,fictional,male,human,1963,na,,north_america,USA,,comic,,has_superpowers_or_magic=unknown,fictional character in Marvel Comics
 Captain America,Q190679,,fictional,male,human,1940,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Hannibal Lecter,Q211013,,fictional,male,human,1981,na,,north_america,USA,,book,villain,,fictional character created by Thomas Harris
 Godzilla,Q6567,,fictional,unknown,unknown,1954,na,,asia,Japan,,live_action,powers,is_villain=unknown,fictional giant monster
-Martian Manhunter,Q675179,,fictional,male,unknown,,na,,north_america,USA,,comic,powers,,fictional superhero that appears in DC Comics' publications
+Martian Manhunter,Q675179,,fictional,male,unknown,1955,na,,north_america,USA,,comic,powers,,fictional superhero that appears in DC Comics' publications
 Hello Kitty,Q191794,,fictional,female,unknown,1974,na,,asia,Japan,,unknown,,,fictional character by Sanrio
 Bugs Bunny,Q183102,,fictional,male,animal,1930,na,,north_america,USA,,animation,,,Warner Bros. cartoon character
-Deadpool,Q1631090,,fictional,male,human,,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Hercule Poirot,Q170534,,fictional,male,human,,na,,europe,UK,,book,,,fictional Belgian detective by Agatha Christie
+Deadpool,Q1631090,,fictional,male,human,1991,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
+Hercule Poirot,Q170534,,fictional,male,human,1920,na,,europe,UK,,book,,,fictional Belgian detective by Agatha Christie
 Punisher,Q729150,,fictional,male,human,1974,na,,north_america,USA,,comic,,,fictional character in Marvel Comics
-Thanos,Q2276627,,fictional,male,other,,na,,north_america,USA,,comic,powers;villain,has_ruled_a_country=unknown,fictional character in Marvel Comics
-Rogue (X-Men),Q838097,,fictional,female,human,,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
+Thanos,Q2276627,,fictional,male,other,1973,na,,north_america,USA,,comic,powers;villain,has_ruled_a_country=unknown,fictional character in Marvel Comics
+Rogue (X-Men),Q838097,,fictional,female,human,1981,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Albus Dumbledore,Q712548,,fictional,male,human,1997,na,,europe,UK,,book,powers,,fictional character from Harry Potter
 Popeye,Q199796,,fictional,male,human,1919,na,,unknown,,,comic,,has_superpowers_or_magic=unknown,cartoon fictional character
 The Joker,Q217533,,fictional,male,human,1940,na,,north_america,USA,,unknown,villain,,fictional character throughout the DC Universe
 Scarlet Witch,Q929285,,fictional,female,human,1964,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Sauron,Q2281,,fictional,male,other,1937,na,,europe,UK,,book,powers;villain,has_ruled_a_country=unknown,fictional character from J.R.R. Tolkien's legendarium
 Cthulhu,Q12038,,fictional,male,other,1928,na,,north_america,USA,,book,powers,is_villain=unknown,fictional cosmic entity
-Optimus Prime,Q151583,,fictional,male,other,,na,,north_america,USA,,animation,robot,has_superpowers_or_magic=unknown,character from the Transformers franchise
+Optimus Prime,Q151583,,fictional,male,other,1984,na,,north_america,USA,,animation,robot,has_superpowers_or_magic=unknown,character from the Transformers franchise
 Severus Snape,Q176772,,fictional,male,human,1997,na,,europe,UK,,book,powers,is_villain=unknown,fictional character in the Harry Potter series
 Freddy Krueger,Q329466,,fictional,male,unknown,1984,na,,north_america,USA,,live_action,powers;villain,,the main antagonist of the A Nightmare on Elm Street film series
 Michael Myers,Q1426891,,fictional,male,human,1978,na,,north_america,USA,,live_action,villain,has_superpowers_or_magic=unknown,fictional character in the Halloween franchise
 Donald Duck,Q6550,,fictional,male,animal,1934,na,,north_america,USA,,animation,,,Disney cartoon character
 Jason Voorhees,Q366957,,fictional,male,unknown,1980,na,,north_america,USA,,live_action,villain,has_superpowers_or_magic=unknown,main character of the Friday the 13th series
 Aragorn,Q180322,,fictional,male,human,1954,na,,europe,UK,,book,royal;ruler,,fictional character from J.R.R. Tolkien's legendarium
-Pennywise,Q3899150,,fictional,unknown,other,,na,,north_america,USA,,book,powers;villain,,main antagonist of Stephen King's novel It
+Pennywise,Q3899150,,fictional,unknown,other,1986,na,,north_america,USA,,book,powers;villain,,main antagonist of Stephen King's novel It
 Walter White,Q23554,,fictional,male,human,2008,na,,north_america,USA,,live_action,,is_villain=unknown,fictional character in the television drama series Breaking Bad
 Doctor Strange,Q907767,,fictional,male,human,1963,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Tarzan,Q170241,,fictional,male,human,1914,na,,north_america,USA,,book,,,fictional character by Edgar Rice Burroughs
-Snoopy,Q207369,,fictional,male,animal,,na,,north_america,USA,,comic,,,fictional dog from the comic strip ''Peanuts'' by Charles m. Schulz
-Daenerys Targaryen,Q2708078,,fictional,female,human,,na,,north_america,USA,,book,royal;ruler,has_superpowers_or_magic=unknown;is_villain=unknown,character in A Song of Ice and Fire
+Snoopy,Q207369,,fictional,male,animal,1950,na,,north_america,USA,,comic,,,fictional dog from the comic strip ''Peanuts'' by Charles m. Schulz
+Daenerys Targaryen,Q2708078,,fictional,female,human,1996,na,,north_america,USA,,book,royal;ruler,has_superpowers_or_magic=unknown;is_villain=unknown,character in A Song of Ice and Fire
 Palpatine,Q51770,,fictional,male,human,1980,na,,north_america,USA,,live_action,powers;royal;ruler;villain,,fictional character from Star Wars
 Magneto,Q840291,,fictional,male,human,1963,na,,north_america,USA,,comic,powers;villain,has_ruled_a_country=unknown,fictional character in Marvel Comics
-Sabretooth,Q431862,,fictional,male,human,,na,,north_america,USA,,comic,powers;villain,,fictional character in Marvel Comics
+Sabretooth,Q431862,,fictional,male,human,1977,na,,north_america,USA,,comic,powers;villain,,fictional character in Marvel Comics
 Gollum,Q15007,,fictional,male,other,1937,na,,europe,UK,,book,,is_villain=unknown,fictional character from The Hobbit
-Venom,Q1621261,,fictional,male,other,,na,,north_america,USA,,comic,powers,is_villain=unknown,fictional character in Marvel Comics
-Pinocchio,Q6502703,,fictional,male,other,,na,,europe,Italy,,book,,has_superpowers_or_magic=unknown,"fictional character of The Adventures of Pinocchio, by Carlo Collodi"
+Venom,Q1621261,,fictional,male,other,1988,na,,north_america,USA,,comic,powers,is_villain=unknown,fictional character in Marvel Comics
+Pinocchio,Q6502703,,fictional,male,other,1881,na,,europe,Italy,,book,,has_superpowers_or_magic=unknown,"fictional character of The Adventures of Pinocchio, by Carlo Collodi"
 Bart Simpson,Q5480,,fictional,male,human,1987,na,,north_america,USA,,animation,,,fictional character from The Simpsons
-Catwoman,Q158952,,fictional,female,human,,na,,north_america,USA,,comic,,is_villain=unknown,fictional character associated with DC Comics' Batman franchise
-Daredevil,Q327553,,fictional,male,human,,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
+Catwoman,Q158952,,fictional,female,human,1940,na,,north_america,USA,,comic,,is_villain=unknown,fictional character associated with DC Comics' Batman franchise
+Daredevil,Q327553,,fictional,male,human,1964,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Draco Malfoy,Q179641,,fictional,male,human,1997,na,,europe,UK,,book,powers,is_villain=unknown,fictional character of the Harry Potter series
 Harley Quinn,Q849477,,fictional,female,unknown,1992,na,,north_america,USA,,animation,,is_villain=unknown,fictional character in DC Comics
-Miles Morales,Q59826,,fictional,male,human,,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
+Miles Morales,Q59826,,fictional,male,human,2011,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Nightcrawler,Q5342183,,fictional,male,human,1975,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Betty Boop,Q583810,,fictional,female,human,1930,na,,north_america,USA,,animation,,,animated cartoon character
-Gambit,Q2639150,,fictional,male,human,,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
+Gambit,Q2639150,,fictional,male,human,1990,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Grogu,Q77001957,,fictional,male,other,2019,na,,north_america,USA,,live_action,powers,,character from the Star Wars universe
 Cyclops,Q857921,,fictional,male,human,1963,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Mystique,Q737236,,fictional,female,human,,na,,north_america,USA,,comic,powers;villain,,fictional character in Marvel Comics
+Mystique,Q737236,,fictional,female,human,1978,na,,north_america,USA,,comic,powers;villain,,fictional character in Marvel Comics
 Pippi Longstocking,Q6668,,fictional,female,human,1945,na,,europe,Sweden,,book,powers,,fictional character created by Astrid Lindgren
 Princess Leia,Q51797,,fictional,female,unknown,1977,na,,north_america,USA,,live_action,royal,has_superpowers_or_magic=unknown,fictional character from Star Wars
 Professor X,Q838076,,fictional,male,human,1963,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Galactus,Q1429836,,fictional,male,other,,na,,north_america,USA,,comic,powers;villain,,fictional character in Marvel Comics
-Sheldon Cooper,Q629583,,fictional,male,human,,na,,north_america,USA,,live_action,,,fictional character in The Big Bang Theory and Young Sheldon
-Vito Corleone,Q745077,,fictional,male,human,,na,,north_america,USA,,book,,is_villain=unknown,fictional character from Mario Puzo's 1969 novel The Godfather
-Bane,Q158940,,fictional,male,unknown,,na,,north_america,USA,,comic,villain,has_superpowers_or_magic=unknown,"fictional character in the DC Comics universe, a supervillain"
+Galactus,Q1429836,,fictional,male,other,1966,na,,north_america,USA,,comic,powers;villain,,fictional character in Marvel Comics
+Sheldon Cooper,Q629583,,fictional,male,human,2007,na,,north_america,USA,,live_action,,,fictional character in The Big Bang Theory and Young Sheldon
+Vito Corleone,Q745077,,fictional,male,human,1969,na,,north_america,USA,,book,,is_villain=unknown,fictional character from Mario Puzo's 1969 novel The Godfather
+Bane,Q158940,,fictional,male,unknown,1993,na,,north_america,USA,,comic,villain,has_superpowers_or_magic=unknown,"fictional character in the DC Comics universe, a supervillain"
 Daffy Duck,Q319918,,fictional,male,animal,1937,na,,north_america,USA,,animation,,,Fictional Warner Bros. character
-Conan the Barbarian,Q189169,,fictional,male,human,,na,,north_america,USA,,book,royal;ruler,,fictional character created by Robert E. Howard
+Conan the Barbarian,Q189169,,fictional,male,human,1932,na,,north_america,USA,,book,royal;ruler,,fictional character created by Robert E. Howard
 Storm (X-Men),Q632212,,fictional,female,human,1975,na,,north_america,USA,,comic,powers,is_monarch_or_royal=unknown,fictional character in Marvel Comics
 Zorro,Q226822,,fictional,male,human,1919,na,,north_america,USA,,book,,,fictional character
 Ophelia,Q1800888,,fictional,female,human,1602,na,,europe,UK,,unknown,,,character from Hamlet
 Ron Weasley,Q173998,,fictional,male,human,1997,na,,europe,UK,,book,powers,,fictional character of Harry Potter series
-Thor,Q717588,,fictional,male,other,,na,,north_america,USA,,comic,powers;royal,has_ruled_a_country=unknown,fictional character in Marvel Comics
+Thor,Q717588,,fictional,male,other,1962,na,,north_america,USA,,comic,powers;royal,has_ruled_a_country=unknown,fictional character in Marvel Comics
 Peter Pan,Q107190,,fictional,male,human,1902,na,,europe,UK,,book,powers,,fictional character created by J. M. Barrie
 Goofy,Q111135,,fictional,male,animal,1932,na,,north_america,USA,,animation,,,Disney cartoon character
-Riddler,Q836789,,fictional,male,human,,na,,north_america,USA,,comic,villain,,"fictional character, a comic book supervillain who appears in comic books published by DC Comics"
+Riddler,Q836789,,fictional,male,human,1948,na,,north_america,USA,,comic,villain,,"fictional character, a comic book supervillain who appears in comic books published by DC Comics"
 Professor Moriarty,Q283111,,fictional,male,human,1893,na,,europe,UK,,book,villain,,fictional character from Sherlock Holmes
 Obi-Wan Kenobi,Q51740,,fictional,male,human,1977,na,,north_america,USA,,live_action,powers,,fictional character from Star Wars
 Sirius Black,Q713701,,fictional,male,human,1999,na,,europe,UK,,book,powers,,fictional character in J. K. Rowling's Harry Potter novels
-Monkey D. Luffy,Q477948,,fictional,male,human,,na,,asia,Japan,,comic,powers,,fictional character from One Piece
+Monkey D. Luffy,Q477948,,fictional,male,human,1997,na,,asia,Japan,,comic,powers,,fictional character from One Piece
 Kitty Pryde,Q547306,,fictional,female,human,1979,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Foghorn Leghorn,Q1339544,,fictional,male,animal,,na,,north_america,USA,,animation,,,Warner Bros. theatrical cartoon character
+Foghorn Leghorn,Q1339544,,fictional,male,animal,1946,na,,north_america,USA,,animation,,,Warner Bros. theatrical cartoon character
 Yoda,Q51730,,fictional,male,other,1980,na,,north_america,USA,,live_action,powers,,fictional character from Star Wars
 Silver Surfer,Q95153,,fictional,male,other,1966,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 King Kong,Q216810,,fictional,male,unknown,1933,na,,north_america,USA,,live_action,,is_villain=unknown,"fictional character, a giant ape monster"
 Luke Skywalker,Q51746,,fictional,male,unknown,1977,na,,north_america,USA,,live_action,powers,,fictional character from Star Wars
-Ghost Rider,Q868958,,fictional,unknown,unknown,,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Jon Snow,Q3183235,,fictional,male,human,,na,,north_america,USA,,book,,,character in A Song of Ice and Fire
-Ultron,Q2474195,,fictional,male,other,,na,,north_america,USA,,comic,robot;villain,has_superpowers_or_magic=unknown,Marvel Comics character
-Black Panther,Q998220,,fictional,male,human,,na,,north_america,USA,,comic,powers;royal;ruler,,fictional character in Marvel Comics
-Paddington Bear,Q632908,,fictional,male,animal,,na,,europe,UK,,book,,,children's book character created by Michael Bond
+Ghost Rider,Q868958,,fictional,unknown,unknown,1972,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
+Jon Snow,Q3183235,,fictional,male,human,1996,na,,north_america,USA,,book,,,character in A Song of Ice and Fire
+Ultron,Q2474195,,fictional,male,other,1968,na,,north_america,USA,,comic,robot;villain,has_superpowers_or_magic=unknown,Marvel Comics character
+Black Panther,Q998220,,fictional,male,human,1966,na,,north_america,USA,,comic,powers;royal;ruler,,fictional character in Marvel Comics
+Paddington Bear,Q632908,,fictional,male,animal,1958,na,,europe,UK,,book,,,children's book character created by Michael Bond
 Peter Griffin,Q28465,,fictional,male,human,1999,na,,north_america,USA,,animation,,,fictional character from the Family Guy franchise
-Long John Silver,Q1428628,,fictional,male,human,,na,,europe,UK,,book,villain,,fictional character from Treasure Island
-Galadriel,Q204274,,fictional,female,other,,na,,europe,UK,,book,powers;royal,has_ruled_a_country=unknown,fictional character from J.R.R. Tolkien's legendarium
-Two-Face,Q295599,,fictional,male,human,,na,,north_america,USA,,comic,villain,,villain in the DC Comics universe
+Long John Silver,Q1428628,,fictional,male,human,1881,na,,europe,UK,,book,villain,,fictional character from Treasure Island
+Galadriel,Q204274,,fictional,female,other,1954,na,,europe,UK,,book,powers;royal,has_ruled_a_country=unknown,fictional character from J.R.R. Tolkien's legendarium
+Two-Face,Q295599,,fictional,male,human,1942,na,,north_america,USA,,comic,villain,,villain in the DC Comics universe
 Leon S. Kennedy,Q1138965,,fictional,male,human,1998,na,,asia,Japan,,video_game,,,fictional character from Resident Evil
-Ra's al Ghul,Q158931,,fictional,male,human,,na,,north_america,USA,,comic,villain,has_superpowers_or_magic=unknown,"fictional character, a supervillain who appears in comic books published by DC Comics"
+Ra's al Ghul,Q158931,,fictional,male,human,1971,na,,north_america,USA,,comic,villain,has_superpowers_or_magic=unknown,"fictional character, a supervillain who appears in comic books published by DC Comics"
 Aquaman,Q623059,,fictional,male,unknown,1935,na,,north_america,USA,,comic,powers;royal;ruler,,comic book superhero
 Gwen Stacy,Q945817,,fictional,female,human,1965,na,,north_america,USA,,comic,,,fictional character in Marvel Comics
-Lex Luthor,Q694790,,fictional,male,human,,na,,north_america,USA,,comic,villain,,fictional character in DC Comics
-Black Cat,Q912640,,fictional,female,human,,na,,north_america,USA,,comic,,has_superpowers_or_magic=unknown;is_villain=unknown,fictional character in Marvel Comics
+Lex Luthor,Q694790,,fictional,male,human,1940,na,,north_america,USA,,comic,villain,,fictional character in DC Comics
+Black Cat,Q912640,,fictional,female,human,1979,na,,north_america,USA,,comic,,has_superpowers_or_magic=unknown;is_villain=unknown,fictional character in Marvel Comics
 Morgoth,Q80453,,fictional,male,other,,na,,europe,UK,,book,powers;villain,has_ruled_a_country=unknown,fictional character from J.R.R. Tolkien's legendarium; one of the godlike Valar
-Vision (Marvel),Q2307071,,fictional,male,other,,na,,north_america,USA,,comic,powers;robot,,fictional character in Marvel Comics
-Miss Marple,Q193531,,fictional,female,human,,na,,europe,UK,,book,,,fictional character appearing in Agatha Christie's crime novels
+Vision (Marvel),Q2307071,,fictional,male,other,1968,na,,north_america,USA,,comic,powers;robot,,fictional character in Marvel Comics
+Miss Marple,Q193531,,fictional,female,human,1927,na,,europe,UK,,book,,,fictional character appearing in Agatha Christie's crime novels
 King Ghidorah,Q1470558,,fictional,male,other,1964,na,,asia,Japan,,live_action,powers;villain,,fictional character/Kaiju
-Darkseid,Q430698,,fictional,male,other,,na,,north_america,USA,,comic,powers;royal;ruler;villain,,fictional character in DC Comics
-Eric Cartman,Q47352,,fictional,male,human,,na,,north_america,USA,,animation,,is_villain=unknown,fictional character from South Park
+Darkseid,Q430698,,fictional,male,other,1970,na,,north_america,USA,,comic,powers;royal;ruler;villain,,fictional character in DC Comics
+Eric Cartman,Q47352,,fictional,male,human,1995,na,,north_america,USA,,animation,,is_villain=unknown,fictional character from South Park
 Kingpin,Q1753322,,fictional,male,human,1967,na,,north_america,USA,,comic,villain,,"fictional character in Marvel Comics, introduced in 1967"
-The Doctor (Doctor Who),Q34358,,fictional,unknown,other,,na,,europe,UK,,live_action,,has_superpowers_or_magic=unknown,fictional character from the television series Doctor Who
-James T. Kirk,Q16311,,fictional,male,human,,na,,north_america,USA,,live_action,,,fictional character from Star Trek
-Spock,Q16341,,fictional,male,unknown,,na,,north_america,USA,,live_action,,has_superpowers_or_magic=unknown,fictional character in Star Trek
-Abraham Van Helsing,Q1622359,,fictional,male,human,,na,,europe,UK,,book,,,fictional character from Bram Stoker's Dracula
+The Doctor (Doctor Who),Q34358,,fictional,unknown,other,1963,na,,europe,UK,,live_action,,has_superpowers_or_magic=unknown,fictional character from the television series Doctor Who
+James T. Kirk,Q16311,,fictional,male,human,1966,na,,north_america,USA,,live_action,,,fictional character from Star Trek
+Spock,Q16341,,fictional,male,unknown,1966,na,,north_america,USA,,live_action,,has_superpowers_or_magic=unknown,fictional character in Star Trek
+Abraham Van Helsing,Q1622359,,fictional,male,human,1897,na,,europe,UK,,book,,,fictional character from Bram Stoker's Dracula
 Tom Bombadil,Q280608,,fictional,male,unknown,1937,na,,europe,UK,,book,powers,,Middle-earth character
 Kylo Ren,Q21515016,,fictional,male,human,2015,na,,north_america,USA,,live_action,powers;villain,is_monarch_or_royal=unknown;has_ruled_a_country=unknown,"Star Wars character, former Supreme Leader of the First Order and former King of Naboo"
-Green Goblin,Q735721,,fictional,male,unknown,,na,,north_america,USA,,comic,powers;villain,,name used by numerous fictional characters in Marvel Comics
+Green Goblin,Q735721,,fictional,male,unknown,1964,na,,north_america,USA,,comic,powers;villain,,name used by numerous fictional characters in Marvel Comics
 Minerva McGonagall,Q192179,,fictional,female,human,1997,na,,europe,UK,,book,powers,,fictional character in the Harry Potter universe
 Indiana Jones,Q148659,,fictional,male,human,1981,na,,north_america,USA,,live_action,,,fictional archaeologist
-Eeyore,Q1799013,,fictional,male,animal,,na,,europe,UK,,book,,,character from Milne's Winnie-the-Pooh-books
+Eeyore,Q1799013,,fictional,male,animal,1926,na,,europe,UK,,book,,,character from Milne's Winnie-the-Pooh-books
 Padmé Amidala,Q51789,,fictional,female,human,1999,na,,north_america,USA,,live_action,royal;ruler,,fictional character from Star Wars
-Dick Grayson,Q660051,,fictional,male,human,,na,,north_america,USA,,comic,,,one of several fictional characters using the identity Robin
-Aslan,Q762731,,fictional,male,unknown,,na,,europe,UK,,book,powers;royal;ruler,,"fictional lion, a deity in The Chronicles of Narnia"
+Dick Grayson,Q660051,,fictional,male,human,1940,na,,north_america,USA,,comic,,,one of several fictional characters using the identity Robin
+Aslan,Q762731,,fictional,male,unknown,1950,na,,europe,UK,,book,powers;royal;ruler,,"fictional lion, a deity in The Chronicles of Narnia"
 Mary Jane Watson,Q27810,,fictional,female,human,1965,na,,north_america,USA,,comic,,,fictional character in Marvel Comics
 Luna Lovegood,Q190282,,fictional,female,human,2003,na,,europe,UK,,book,powers,,fictional character in the Harry Potter universe
 Quicksilver,Q929273,,fictional,male,human,1964,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
@@ -146,7 +146,7 @@ Scarlett Johansson,Q34436,,real,female,human,1984,yes,,north_america,USA,acting,
 Christopher Columbus,Q7322,,real,male,human,1451,no,55,europe,Italy,exploration,,,,"Italian navigator, explorer, and colonist (1451–1506)"
 Freddie Mercury,Q15869,,real,male,human,1946,no,45,africa;europe,Tanzania;UK,music,,,,"British singer, songwriter and musician, frontman of the rock band Queen (1946–1991)"
 Tupac Shakur,Q6107,,real,male,human,1971,no,25,north_america,USA,acting;music,,,,American rapper and actor (1971–1996)
-Xi Jinping,Q15031,,real,male,human,1953,yes,,asia,China,politics,,ruler,,General Secretary of the Chinese Communist Party since 2012 (born 1953)
+Xi Jinping,Q15031,,real,male,human,1953,yes,,asia,China,politics,,ruler,occupation_military_leader=false,General Secretary of the Chinese Communist Party since 2012 (born 1953)
 Sylvester Stallone,Q40026,,real,male,human,1946,yes,,north_america,USA,acting;film,,,,American actor and filmmaker (born 1946)
 Andrew Garfield,Q23891,,real,male,human,1983,yes,,europe;north_america,UK;USA,acting,,,,English and American actor (born 1983)
 "Diana, Princess of Wales",Q9685,,real,female,human,1961,no,36,europe,UK,politics,,royal,,member of the British royal family and Princess of Wales (1961–1997)
@@ -244,7 +244,7 @@ George V,Q269412,,real,male,human,1865,no,70,asia;europe,India;UK,politics,,roya
 Jack Nicholson,Q39792,,real,male,human,1937,yes,,north_america,USA,acting;film,,,,American actor and filmmaker (born 1937)
 Walt Disney,Q8704,,real,male,human,1901,no,65,north_america,USA,acting;business;film,,,,"American animator, producer, director, screenwriter, voice actor and entrepreneur, founder of The Walt Disney Company (1901–1966)"
 JD Vance,Q28935729,,real,male,human,1984,yes,,north_america,USA,politics,,,,Vice President of the United States since 2025
-Helen Keller,Q38203,,real,female,human,1880,no,87,north_america,USA,politics;writing,,,,"American deafblind author, political activist, lecturer, scholar (1880-1968)"
+Helen Keller,Q38203,,real,female,human,1880,no,87,north_america,USA,writing,,,occupation_novelist=false,"American deafblind author, political activist, lecturer, scholar (1880-1968)"
 Emmanuel Macron,Q3052772,,real,male,human,1977,yes,,europe,France,politics,,ruler,,President of France and Co-Prince of Andorra since 2017
 Jennifer Lopez,Q40715,,real,female,human,1969,yes,,north_america,USA,acting;music,,,,American singer and actress (born 1969)
 Edward VIII,Q590227,,real,male,human,1894,no,77,europe,UK,politics,,royal;ruler,,King of the United Kingdom in 1936
@@ -306,7 +306,7 @@ Michelangelo,Q5592,,real,male,human,1475,no,88,europe,Italy,art,,,,Italian artis
 Elton John,Q2808,,real,male,human,1947,yes,,europe,UK,music,,,,"British singer, songwriter and musician (born 1947)"
 Carrie Fisher,Q108941,,real,female,human,1956,no,60,north_america,USA,acting;film;writing,,,,"American actress, writer and screenwriter (1956–2016)"
 Gerald Ford,Q9582,,real,male,human,1913,no,93,north_america,USA,politics,,ruler,,president of the United States from 1974 to 1977 (1913–2006)
-Fidel Castro,Q11256,,real,male,human,1926,no,90,north_america,Cuba,politics;writing,,ruler,,"Cuban politician, author and revolutionary (1926–2016)"
+Fidel Castro,Q11256,,real,male,human,1926,no,90,north_america,Cuba,politics,,ruler,occupation_novelist=false,"Cuban politician, author and revolutionary (1926–2016)"
 Demi Moore,Q43044,,real,female,human,1962,yes,,north_america,USA,acting,,,,American actress and producer (born 1962)
 Kamala Harris,Q10853588,,real,female,human,1964,yes,,north_america,USA,politics,,,,Vice President of the United States from 2021 to 2025
 Thomas Edison,Q8743,,real,male,human,1847,no,84,north_america,USA,business;technology,,,,American inventor and businessman (1847–1931)
@@ -336,7 +336,7 @@ Russell Crowe,Q129817,,real,male,human,1964,yes,,oceania,Australia;New Zealand,a
 Henry Kissinger,Q66107,,real,male,human,1923,no,100,europe;north_america,Germany;USA,politics,,nobel,,"American diplomat and geopolitical advisor, served as U.S. Secretary of State from 1973 to 1977 (1923–2023)"
 Kate Winslet,Q202765,,real,female,human,1975,yes,,europe,UK,acting,,,,English actress (born 1975)
 Immanuel Kant,Q9312,,real,male,human,1724,no,79,europe,Germany,writing,,,,German philosopher (1724-1804)
-Dante Alighieri,Q1067,,real,male,human,1265,no,56,europe,Italy,writing,,,,"Florentine poet, writer, and philosopher (c. 1265–1321)"
+Dante Alighieri,Q1067,,real,male,human,1265,no,56,europe,Italy,writing,,,occupation_novelist=false,"Florentine poet, writer, and philosopher (c. 1265–1321)"
 George III of Great Britain,Q127318,,real,male,human,1738,no,81,europe,UK,politics,,royal;ruler,,King of Great Britain and Ireland from 1760 to 1820 (1738–1820)
 Catherine II of Russia,Q36450,,real,female,human,1729,no,67,europe,Germany;Russia,politics,,royal;ruler,,"eighth Emperor of Russia, called the Great, r. 1762–1796 (lived 1729-1796)"
 Mariah Carey,Q41076,,real,female,human,1969,yes,,north_america,USA,music,,,,American singer (born 1969)

@@ -4,9 +4,59 @@ Q9439,Victoria,name=Queen Victoria,display name: ambiguous label
 Q7542,Prince,name=Prince (musician),display name: ambiguous label
 Q529207,Ronaldo,name=Ronaldo Nazário,display name: easily confused with Cristiano Ronaldo
 Q632212,Storm,name=Storm (X-Men),display name: ambiguous label
-Q2307071,Vision,name=Vision (Marvel),display name: ambiguous label
-Q838097,Rogue,name=Rogue (X-Men),display name: ambiguous label
-Q34358,The Doctor,name=The Doctor (Doctor Who),display name: ambiguous label
+Q2307071,Vision,name=Vision (Marvel);;origin_year=1968,display name: ambiguous label; first appeared in 1968; Wikidata has no inception or first-appearance date
+Q838097,Rogue,name=Rogue (X-Men);;origin_year=1981,display name: ambiguous label; first appeared in 1981; Wikidata has no inception or first-appearance date
+Q34358,The Doctor,name=The Doctor (Doctor Who);;origin_year=1963,display name: ambiguous label; first appeared in 1963; Wikidata has no inception or first-appearance date
 Q107190,Peter Pan,region=europe;;country=UK,created by J. M. Barrie in the UK; Wikidata gives the country of a later US adaptation
-Q2708078,Daenerys Targaryen,media=book,first appeared in the novel A Game of Thrones (1996)
+Q2708078,Daenerys Targaryen,media=book;;origin_year=1996,first appeared in the novel A Game of Thrones (1996)
 Q47365,Marie Antoinette,tags=royal,"queen consort of France, not a ruling monarch"
+Q186422,Wolverine,origin_year=1974,first appeared in 1974; Wikidata has no inception or first-appearance date
+Q675179,Martian Manhunter,origin_year=1955,first appeared in 1955; Wikidata has no inception or first-appearance date
+Q1631090,Deadpool,origin_year=1991,first appeared in 1991; Wikidata has no inception or first-appearance date
+Q170534,Hercule Poirot,origin_year=1920,first appeared in 1920; Wikidata has no inception or first-appearance date
+Q2276627,Thanos,origin_year=1973,first appeared in 1973; Wikidata has no inception or first-appearance date
+Q151583,Optimus Prime,origin_year=1984,first appeared in 1984; Wikidata has no inception or first-appearance date
+Q3899150,Pennywise,origin_year=1986,first appeared in 1986; Wikidata has no inception or first-appearance date
+Q207369,Snoopy,origin_year=1950,first appeared in 1950; Wikidata has no inception or first-appearance date
+Q431862,Sabretooth,origin_year=1977,first appeared in 1977; Wikidata has no inception or first-appearance date
+Q1621261,Venom,origin_year=1988,first appeared in 1988; Wikidata has no inception or first-appearance date
+Q6502703,Pinocchio,origin_year=1881,first appeared in 1881; Wikidata has no inception or first-appearance date
+Q158952,Catwoman,origin_year=1940,first appeared in 1940; Wikidata has no inception or first-appearance date
+Q327553,Daredevil,origin_year=1964,first appeared in 1964; Wikidata has no inception or first-appearance date
+Q59826,Miles Morales,origin_year=2011,first appeared in 2011; Wikidata has no inception or first-appearance date
+Q2639150,Gambit,origin_year=1990,first appeared in 1990; Wikidata has no inception or first-appearance date
+Q737236,Mystique,origin_year=1978,first appeared in 1978; Wikidata has no inception or first-appearance date
+Q1429836,Galactus,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
+Q629583,Sheldon Cooper,origin_year=2007,first appeared in 2007; Wikidata has no inception or first-appearance date
+Q745077,Vito Corleone,origin_year=1969,first appeared in 1969; Wikidata has no inception or first-appearance date
+Q158940,Bane,origin_year=1993,first appeared in 1993; Wikidata has no inception or first-appearance date
+Q189169,Conan the Barbarian,origin_year=1932,first appeared in 1932; Wikidata has no inception or first-appearance date
+Q717588,Thor,origin_year=1962,first appeared in 1962; Wikidata has no inception or first-appearance date
+Q836789,Riddler,origin_year=1948,first appeared in 1948; Wikidata has no inception or first-appearance date
+Q477948,Monkey D. Luffy,origin_year=1997,first appeared in 1997; Wikidata has no inception or first-appearance date
+Q1339544,Foghorn Leghorn,origin_year=1946,first appeared in 1946; Wikidata has no inception or first-appearance date
+Q868958,Ghost Rider,origin_year=1972,first appeared in 1972; Wikidata has no inception or first-appearance date
+Q3183235,Jon Snow,origin_year=1996,first appeared in 1996; Wikidata has no inception or first-appearance date
+Q2474195,Ultron,origin_year=1968,first appeared in 1968; Wikidata has no inception or first-appearance date
+Q998220,Black Panther,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
+Q632908,Paddington Bear,origin_year=1958,first appeared in 1958; Wikidata has no inception or first-appearance date
+Q1428628,Long John Silver,origin_year=1881,first appeared in 1881; Wikidata has no inception or first-appearance date
+Q204274,Galadriel,origin_year=1954,first appeared in 1954; Wikidata has no inception or first-appearance date
+Q295599,Two-Face,origin_year=1942,first appeared in 1942; Wikidata has no inception or first-appearance date
+Q158931,Ra's al Ghul,origin_year=1971,first appeared in 1971; Wikidata has no inception or first-appearance date
+Q694790,Lex Luthor,origin_year=1940,first appeared in 1940; Wikidata has no inception or first-appearance date
+Q912640,Black Cat,origin_year=1979,first appeared in 1979; Wikidata has no inception or first-appearance date
+Q193531,Miss Marple,origin_year=1927,first appeared in 1927; Wikidata has no inception or first-appearance date
+Q430698,Darkseid,origin_year=1970,first appeared in 1970; Wikidata has no inception or first-appearance date
+Q47352,Eric Cartman,origin_year=1995,first appeared in 1995; Wikidata has no inception or first-appearance date
+Q16311,James T. Kirk,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
+Q16341,Spock,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
+Q1622359,Abraham Van Helsing,origin_year=1897,first appeared in 1897; Wikidata has no inception or first-appearance date
+Q735721,Green Goblin,origin_year=1964,first appeared in 1964; Wikidata has no inception or first-appearance date
+Q1799013,Eeyore,origin_year=1926,first appeared in 1926; Wikidata has no inception or first-appearance date
+Q660051,Dick Grayson,origin_year=1940,first appeared in 1940; Wikidata has no inception or first-appearance date
+Q762731,Aslan,origin_year=1950,first appeared in 1950; Wikidata has no inception or first-appearance date
+Q11256,Fidel Castro,domains=politics;;overrides=occupation_novelist=false,"known as a revolutionary and head of state, not a writer; the keyword 'author' made him a novelist"
+Q38203,Helen Keller,domains=writing;;overrides=occupation_novelist=false,"known as an author and disability activist, not for politics or leading a nation; she wrote memoirs and essays, not novels"
+Q1067,Dante Alighieri,overrides=occupation_novelist=false,the keyword 'writer' made him a novelist; he wrote poetry
+Q15031,Xi Jinping,overrides=occupation_military_leader=false,'General Secretary' matched the keyword 'general'; players would not call him a military commander

@@ -14,24 +14,24 @@ origin_1960_or_later,Was this person born (or this character created) in 1960 or
 origin_1970_or_later,Was this person born (or this character created) in 1970 or later?,core
 origin_1980_or_later,Was this person born (or this character created) in 1980 or later?,core
 origin_1995_or_later,Was this person born (or this character created) in 1995 or later?,core
-from_asia,Is this person or character from Asia?,core
-from_europe,Is this person or character from Europe?,core
-from_north_america,Is this person or character from North America?,core
-from_south_america,Is this person or character from South America?,core
-from_africa,Is this person or character from Africa?,core
-from_oceania,Is this person or character from Australia or Oceania?,core
-from_chinese_speaking_world,"Is this person or character from the Chinese-speaking world (mainland China, Hong Kong or Taiwan)?",core
-from_usa,Is this person or character from the United States?,core
-from_uk,Is this person or character from the United Kingdom?,core
-from_japan,Is this person or character from Japan?,core
-from_france,Is this person or character from France?,core
-from_germany,Is this person or character from Germany?,core
-from_italy,Is this person or character from Italy?,core
-from_spain,Is this person or character from Spain?,core
-from_russia,Is this person or character from Russia (including the Soviet Union)?,core
-from_india,Is this person or character from India?,core
-from_canada,Is this person or character from Canada?,core
-from_brazil,Is this person or character from Brazil?,core
+from_asia,Is this person from Asia? (For a fictional character: was it created there?),core
+from_europe,Is this person from Europe? (For a fictional character: was it created there?),core
+from_north_america,"Is this person from North America, including Mexico, Central America and the Caribbean? (For a fictional character: was it created there?)",core
+from_south_america,Is this person from South America? (For a fictional character: was it created there?),core
+from_africa,Is this person from Africa? (For a fictional character: was it created there?),core
+from_oceania,Is this person from Australia or Oceania? (For a fictional character: was it created there?),core
+from_chinese_speaking_world,"Is this person from the Chinese-speaking world (mainland China, Hong Kong or Taiwan)? (For a fictional character: was it created there?)",core
+from_usa,Is this person from the United States? (For a fictional character: was it created there?),core
+from_uk,Is this person from the United Kingdom? (For a fictional character: was it created there?),core
+from_japan,Is this person from Japan? (For a fictional character: was it created there?),core
+from_france,Is this person from France? (For a fictional character: was it created there?),core
+from_germany,Is this person from Germany? (For a fictional character: was it created there?),core
+from_italy,Is this person from Italy? (For a fictional character: was it created there?),core
+from_spain,Is this person from Spain? (For a fictional character: was it created there?),core
+from_russia,Is this person from Russia (including the Soviet Union)? (For a fictional character: was it created there?),core
+from_india,Is this person from India? (For a fictional character: was it created there?),core
+from_canada,Is this person from Canada? (For a fictional character: was it created there?),core
+from_brazil,Is this person from Brazil? (For a fictional character: was it created there?),core
 known_for_science_or_medicine,Is this person or character known for science or medicine?,core
 known_for_technology,"Is this person or character known for technology, computing or inventions?",core
 known_for_politics_or_leadership,Is this person or character known for politics or leading a nation?,core
@@ -60,7 +60,6 @@ occupation_mathematician,Is this person known as a mathematician?,pool
 occupation_chemist,Is this person a chemist?,pool
 occupation_inventor,Is this person or character known as an inventor?,pool
 occupation_computer_scientist,Is this person known for computer science or programming?,pool
-occupation_engineer,Is this person an engineer?,pool
 occupation_philosopher,Is this person a philosopher?,pool
 occupation_poet,Is this person a poet?,pool
 occupation_novelist,Is this person a novelist?,pool
