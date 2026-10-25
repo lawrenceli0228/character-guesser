@@ -87,6 +87,29 @@ def test_3b_sheets_mostly_match_the_character():
     assert sum(sheet["from_uk"] == "yes" for sheet in sheets) / 2000 == pytest.approx(0.85, abs=0.03)
 
 
+def test_3b_year_questions_are_often_answered_not_sure():
+    # players rarely know exact birth years, so origin_* questions use YEAR_MODEL
+    character = make_character("Ada", origin_before_1900=True, from_uk=True)
+    rng = random.Random(5)
+
+    sheets = [simulate.make_sheet(character, rng)[0] for _ in range(4000)]
+
+    year_answers = Counter(sheet["origin_before_1900"] for sheet in sheets)
+    assert year_answers["unknown"] / 4000 == pytest.approx(0.40, abs=0.03)
+    assert year_answers["yes"] / 4000 == pytest.approx(0.50, abs=0.03)
+    assert sum(sheet["from_uk"] == "unknown" for sheet in sheets) / 4000 == pytest.approx(0.10, abs=0.03)
+
+
+def test_3b_year_model_is_a_valid_answer_model():
+    for value in (True, False, None):
+        assert sum(simulate.YEAR_MODEL[value].values()) == pytest.approx(1.0)
+
+
+def test_3b_answer_model_picks_the_year_model_for_year_questions():
+    assert simulate.answer_model("origin_before_1900") is simulate.YEAR_MODEL
+    assert simulate.answer_model("is_male") is simulate.ANSWER_MODEL
+
+
 # --- 3c: sheet_counts -------------------------------------------------------------
 
 def test_3c_counts_follow_the_prior():

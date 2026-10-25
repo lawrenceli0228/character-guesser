@@ -7,12 +7,19 @@ ANSWER_MODEL = {
     False: {"yes": 0.05, "no": 0.85, "unknown": 0.10},
     None: {"yes": 0.30, "no": 0.30, "unknown": 0.40},
 }
+# Players rarely know exact birth years, so year questions get "not sure" far more often.
+YEAR_MODEL = {
+    True: {"yes": 0.50, "no": 0.10, "unknown": 0.40},
+    False: {"yes": 0.10, "no": 0.50, "unknown": 0.40},
+    None: {"yes": 0.30, "no": 0.30, "unknown": 0.40},
+}
 
 
-def simulate_answer(value, rng):
+def simulate_answer(value, rng, model=None):
     """Draw "yes", "no" or "unknown" for an attribute whose true value is value."""
-
-    answer = ANSWER_MODEL[value]
+    if model is None:
+        model = ANSWER_MODEL
+    answer = model[value]
     draw = rng.random()
     if draw < answer["yes"]:
         return "yes"
@@ -21,11 +28,17 @@ def simulate_answer(value, rng):
     else:
         return "unknown"
 
+def answer_model(attribute):
+    """The answer model for this question: YEAR_MODEL for birth-year questions, else ANSWER_MODEL."""
+    if attribute.startswith("origin_"):
+        return YEAR_MODEL
+    return ANSWER_MODEL
+
 def make_sheet(character, rng):
     """One simulated answer sheet: (attribute -> answer, character name)."""
     answer_sheet = {}
     for key,value in character["attributes"].items():
-        answer_sheet[key] = simulate_answer(value, rng)
+        answer_sheet[key] = simulate_answer(value, rng, answer_model(key))
 
     return answer_sheet, character["name"]
 
