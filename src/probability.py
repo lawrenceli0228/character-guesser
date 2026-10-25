@@ -28,7 +28,6 @@ def group_medians(characters):
 
 def popularity_prior(characters):
     """Starting probability of each character: sqrt(sitelinks / median of its group), normalised."""
-
     medians = group_medians(characters)
     weights = {}
     for character in characters:
