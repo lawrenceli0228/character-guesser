@@ -13,6 +13,14 @@ YEAR_MODEL = {
     False: {"yes": 0.10, "no": 0.50, "unknown": 0.40},
     None: {"yes": 0.30, "no": 0.30, "unknown": 0.40},
 }
+# Players often do not know (or misremember) who won an award: playtests had "not sure"
+# for the Golden Globe and Oscar, and "no" for Taylor Swift's Grammys.
+AWARD_MODEL = {
+    True: {"yes": 0.55, "no": 0.15, "unknown": 0.30},
+    False: {"yes": 0.05, "no": 0.65, "unknown": 0.30},
+    None: {"yes": 0.30, "no": 0.30, "unknown": 0.40},
+}
+AWARD_QUESTIONS = {"award_oscar", "award_golden_globe", "award_grammy", "award_olympic_gold"}
 
 
 def simulate_answer(value, rng, model=None):
@@ -29,9 +37,11 @@ def simulate_answer(value, rng, model=None):
         return "unknown"
 
 def answer_model(question):
-    """The answer model for this question: YEAR_MODEL for birth-year questions, else ANSWER_MODEL."""
+    """The answer model for this question: YEAR_MODEL for birth years, AWARD_MODEL for awards, else ANSWER_MODEL."""
     if question.startswith("origin_"):
         return YEAR_MODEL
+    if question in AWARD_QUESTIONS:
+        return AWARD_MODEL
     return ANSWER_MODEL
 
 def make_sheet(character, rng):

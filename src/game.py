@@ -1,3 +1,5 @@
+import difflib
+
 from decision_tree import DecisionTree
 from display import Display
 from probability import popularity_prior
@@ -11,34 +13,161 @@ class Game:
             "n": "no", "no": "no",
             "u": "unknown",
             "unknown": "unknown",
-            "?": "unknown",
+            "?": "unknown", "？": "unknown",   # full-width ? from a Chinese keyboard
             "not sure": "unknown",
-            "dont know": "unknown",
+            "dont know": "unknown", "don't know": "unknown", "maybe": "unknown",
         }
     FOCUS_BELOW = 1000
     TOP_N = 20
     MAX_QUESTIONS = 15
+    FOLLOW_UP_SLACK = 0.1     # a follow-up of a Yes may leave this many more bits of uncertainty than the best question
+    LEAD_RATIO = 20           # guess early once the leader is this many times as likely as the runner-up
+    MIN_QUESTIONS = 5         # never guess before this many questions
+    # birth / first-appearance years are hard to know, especially for fictional characters
+    MAX_YEAR_QUESTIONS = {"yes": 1, "no": 2}   # keyed by the answer to "is this a fictional character?"
 
     @staticmethod
     def play():
         tree = DecisionTree.load_dst("../model/tree.json")
         questions = dataset.load_questions("../dataset/questions.csv")
+        parents = dataset.load_parents("../dataset/questions.csv")
         characters = dataset.load_characters("../dataset/characters.csv")
         prior = popularity_prior(characters)
         print(Display.title(Game.MAX_QUESTIONS, len(characters)))
         while True:
-            Game.play_round(tree, questions, characters, prior)
-            if Game.ask(Display.play_again()) != "yes":
+            Game.play_round(tree, questions, characters, prior, parents)
+            if Game.ask_yes_no(Display.play_again()) != "yes":
                 break
         print(Display.goodbye())
 
     @staticmethod
-    def choose_question(node, characters, prior, asked):
+    def choose_question(node, characters, prior, asked, parents=None):
         """The tree's question while its node has plenty of sheets, otherwise the focus question."""
-        if node is not None and not node["leaf"] and sum(node["counts"].values()) >= Game.FOCUS_BELOW:
+        parents = parents or {}
+        if (node is not None and not node["leaf"] and sum(node["counts"].values()) >= Game.FOCUS_BELOW
+                and not Game.ruled_out(node["question"], dict(asked), parents)
+                and not Game.over_limit(node["question"], dict(asked))):
             return node["question"]
         else:
-            return Game.focus_question(characters, prior, asked, Game.TOP_N)
+            return Game.focus_question(characters, prior, asked, Game.TOP_N, parents)
+
+    @staticmethod
+    def ruled_out(question, answers, parents):
+        """True if the answer already follows from earlier answers, so asking would waste a question.
+
+        A broader question above was answered No (Europe No -> UK is No), or a narrower
+        question below was answered Yes (US President Yes -> has ruled a country is Yes).
+        Countries are not treated as exclusive: a wrong country answer is the most common
+        player mistake, and asking another country is how the game recovers from it.
+        """
+        parent = parents.get(question)
+        while parent is not None:
+            if answers.get(parent) == "no":
+                return True
+            parent = parents.get(parent)
+        for other, answer in answers.items():
+            if answer != "yes":
+                continue
+            ancestor = parents.get(other)
+            while ancestor is not None:
+                if ancestor == question:
+                    return True
+                ancestor = parents.get(ancestor)
+        return False
+
+    @staticmethod
+    def over_limit(question, answers):
+        """True for a year question once this game has had its share of them (1 for fictional, 2 for real)."""
+        if not question.startswith("origin_"):
+            return False
+        limit = Game.MAX_YEAR_QUESTIONS.get(answers.get("is_fictional"), 2)
+        asked = sum(1 for other in answers if other.startswith("origin_"))
+        return asked >= limit
+
+    @staticmethod
+    def confident(guesses):
+        """True once the leader is far ahead of the runner-up, so more questions would not change the guess."""
+        if len(guesses) < 2:
+            return True
+        return guesses[0][1] >= Game.LEAD_RATIO * guesses[1][1]
+
+    @staticmethod
+    def find_character(characters, name):
+        """The character the player named, or None if it is not in the dataset.
+
+        Forgiving like a person would be: case and spaces are ignored, a middle name or a
+        surname alone is enough (the better-known one wins, so "trump" is Donald), and a
+        small typo is accepted ("albert einstien").
+        """
+        wanted = " ".join(name.split()).lower()
+        if not wanted:
+            return None
+        by_name = {character["name"].lower(): character for character in characters}
+        if wanted in by_name:
+            return by_name[wanted]
+        words = set(wanted.split())
+        partial = [character for character in characters
+                   if set(character["name"].lower().split()) <= words or words <= set(character["name"].lower().split())]
+        if partial:
+            return max(partial, key=lambda character: character["sitelinks"])
+        close = difflib.get_close_matches(wanted, list(by_name), n=1, cutoff=0.8)
+        return by_name[close[0]] if close else None
+
+    @staticmethod
+    def read_confirm(reply):
+        """The answer to "Is it X?": ("yes" / "no" / "again", name the player typed or None)."""
+        answer = Game.parse_user_input(reply)
+        if answer in ("yes", "no"):
+            return answer, None
+        if answer == "unknown" or not reply.strip():
+            return "again", None
+        return "no", reply.strip()      # a name: "no, it was this person"
+
+    @staticmethod
+    def ask_yes_no(text):
+        """Ask until the player answers yes or no (used where "not sure" makes no sense)."""
+        while True:
+            verdict, _ = Game.read_confirm(input(Display.prompt_yes_no(text)))
+            if verdict != "again":
+                return verdict
+            print(Display.yes_or_no())
+
+    @staticmethod
+    def disagreements(character, asked):
+        """(question, player's answer, data's answer) where a definite answer contradicts the data."""
+        data_answer = {True: "yes", False: "no", None: "unknown"}
+        rows = []
+        for question, answer in asked:
+            expected = data_answer[character["attributes"][question]]
+            if "unknown" not in (answer, expected) and answer != expected:
+                rows.append((question, answer, expected))
+        return rows
+
+    @staticmethod
+    def explain_miss(characters, prior, questions, asked, name=None):
+        """After a wrong guess: ask who it was (unless already typed) and show which answers disagreed with the data."""
+        if name is None:
+            name = input(Display.ask_name()).strip()
+        if not name:
+            return
+        character = Game.find_character(characters, name)
+        if character is None:
+            print(Display.unknown_character(name, len(characters)))
+            return
+        ranked = [n for n, _ in Game.score_guesses(characters, prior, asked, len(characters))]
+        rows = [(questions[q], said, data) for q, said, data in Game.disagreements(character, asked)]
+        print(Display.explanation(character["name"], ranked.index(character["name"]) + 1, rows))
+
+    @staticmethod
+    def sibling_said_yes(question, answers, parents):
+        """True if another question under the same parent was answered Yes (basketball Yes -> skip football)."""
+        parent = parents.get(question)
+        if parent is None:
+            return False
+        for other, answer in answers.items():
+            if other != question and answer == "yes" and parents.get(other) == parent:
+                return True
+        return False
 
     @staticmethod
     def parse_user_input(user_in):
@@ -91,15 +220,15 @@ class Game:
             print(Display.invalid())
 
     @staticmethod
-    def play_round(tree, questions, characters, prior):
+    def play_round(tree, questions, characters, prior, parents=None):
         """One game: the tree picks the questions, then all answers pick the top 3 guesses."""
 
 
         node = tree
         asked = []
-        for count in range(1, Game.MAX_QUESTIONS + 1):     # count = 1, 2, ..., 10
+        for count in range(1, Game.MAX_QUESTIONS + 1):     # count = 1, 2, ..., 15
             # 1. question = 用 choose_question 决定这题问什么（返回的是问题名）
-            question = Game.choose_question(node, characters, prior, asked)
+            question = Game.choose_question(node, characters, prior, asked, parents)
             question_ = questions.get(question)
             answer = Game.ask(Display.question(count, Game.MAX_QUESTIONS, question_))
             asked.append((question, answer))
@@ -107,31 +236,52 @@ class Game:
                 node = Game.next_quest(node, answer)
             else:
                 node = None
+            # stop early when one character is already far ahead (like akinator.dev)
+            if count >= Game.MIN_QUESTIONS and Game.confident(Game.score_guesses(characters, prior, asked, 2)):
+                break
         ge_names = Game.score_guesses(characters, prior, asked, 3)
         print(Display.result(ge_names, len(asked)))
         # one guess only: the runners-up are already on screen
-        if Game.ask(Display.confirm(ge_names[0][0])) == "yes":
+        guess = ge_names[0][0]
+        while True:
+            verdict, name = Game.read_confirm(input(Display.prompt_yes_no(Display.confirm(guess))))
+            if verdict != "again":
+                break
+            print(Display.yes_or_no())
+        named = Game.find_character(characters, name) if name else None
+        if verdict == "yes" or (named is not None and named["name"] == guess):
             print(Display.win(len(asked)))
         else:
             print(Display.lose())
+            Game.explain_miss(characters, prior, questions, asked, name)
 
     @staticmethod
-    def focus_question(characters, prior, asked, top_n):
-        """The unasked question that best tells the current top candidates apart."""
+    def focus_question(characters, prior, asked, top_n, parents=None):
+        """The unasked question that best tells the current top candidates apart.
+
+        Linked questions: children of a No are skipped, and a child of a Yes is preferred
+        when it is nearly as good as the best question, so the questions follow on.
+        """
+        parents = parents or {}
         candidates = Game.score_guesses(characters, prior, asked, top_n)
         attributes = {}
-        res_mini = float("inf")
-        res_mini_name = None
         for character in characters:
             attributes[character["name"]] = character["attributes"]
-        ask_done = set(question for question, answer in asked)
+        answers = dict(asked)
+        entropies = {}
         for question in characters[0]["attributes"]:
-            if question in ask_done:
+            if question in answers or Game.ruled_out(question, answers, parents) or Game.over_limit(question, answers):
                 continue
-            res = DecisionTree.expected_entropy(candidates,attributes,question)
-            if res < res_mini:
-                res_mini = res
-                res_mini_name = question
+            entropies[question] = DecisionTree.expected_entropy(candidates, attributes, question)
+        if not entropies:
+            return None
+        res_mini_name = min(entropies, key=entropies.get)
+        follow_ups = [question for question in entropies
+                      if answers.get(parents.get(question)) == "yes"
+                      and not Game.sibling_said_yes(question, answers, parents)
+                      and entropies[question] <= entropies[res_mini_name] + Game.FOLLOW_UP_SLACK]
+        if follow_ups:
+            return min(follow_ups, key=entropies.get)
         return res_mini_name
 
 

@@ -154,3 +154,15 @@ def test_3d_different_seeds_give_different_sheets():
     second = simulate.make_sheets(characters, prior, total=50, minimum=1, seed=2)
 
     assert first != second
+
+
+def test_3b_award_questions_use_the_award_model():
+    # players often do not know who won an Oscar or a Grammy
+    assert simulate.answer_model("award_oscar") is simulate.AWARD_MODEL
+    assert simulate.answer_model("award_grammy") is simulate.AWARD_MODEL
+    assert simulate.answer_model("won_nobel_prize") is simulate.ANSWER_MODEL
+
+
+def test_3b_award_model_is_a_valid_answer_model():
+    for value in (True, False, None):
+        assert sum(simulate.AWARD_MODEL[value].values()) == pytest.approx(1.0)

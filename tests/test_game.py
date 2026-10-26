@@ -27,12 +27,12 @@ def test_5a_no(text):
     assert game.Game.parse_user_input(text) == "no"
 
 
-@pytest.mark.parametrize("text", ["u", "unknown", "?", "not sure", "dont know"])
+@pytest.mark.parametrize("text", ["u", "unknown", "?", "？", "not sure", "dont know", "don't know", "maybe"])
 def test_5a_not_sure(text):
     assert game.Game.parse_user_input(text) == "unknown"
 
 
-@pytest.mark.parametrize("text", ["", "maybe", "yess", "123"])
+@pytest.mark.parametrize("text", ["", "yess", "123"])
 def test_5a_anything_else_is_none(text):
     assert game.Game.parse_user_input(text) is None
 
@@ -220,3 +220,172 @@ def test_5h_focus_question_after_the_tree_has_ended():
 
     assert game.Game.choose_question(None, [a, b], {"A": 0.5, "B": 0.5}, []) == "is_wizard"
 
+
+
+# --- 5j: linked questions ------------------------------------------------------------
+# PARENTS: a narrower question -> the broader question it belongs to.
+
+PARENTS = {"from_uk": "from_europe", "from_london": "from_uk", "is_wizard": "has_magic"}
+
+
+def test_5j_child_of_a_no_is_ruled_out():
+    answers = {"from_europe": "no"}
+
+    assert game.Game.ruled_out("from_uk", answers, PARENTS)
+    assert game.Game.ruled_out("from_london", answers, PARENTS)      # grandparent No counts too
+
+
+def test_5j_parent_of_a_yes_is_ruled_out():
+    # UK Yes already means Europe Yes; London Yes means UK and Europe Yes
+    assert game.Game.ruled_out("from_europe", {"from_uk": "yes"}, PARENTS)
+    assert game.Game.ruled_out("from_europe", {"from_london": "yes"}, PARENTS)
+    assert not game.Game.ruled_out("from_europe", {"from_uk": "no"}, PARENTS)
+
+
+def test_5j_child_of_a_yes_or_unanswered_parent_is_not_ruled_out():
+    assert not game.Game.ruled_out("from_uk", {"from_europe": "yes"}, PARENTS)
+    assert not game.Game.ruled_out("from_uk", {"from_europe": "unknown"}, PARENTS)
+    assert not game.Game.ruled_out("from_uk", {}, PARENTS)
+
+
+def test_5j_focus_question_skips_children_of_a_no():
+    # from_uk would split A and B, but Europe was already answered No
+    a = make_character("A", from_europe=False, from_uk=True, is_male=True)
+    b = make_character("B", from_europe=False, from_uk=False, is_male=False)
+
+    question = game.Game.focus_question([a, b], {"A": 0.5, "B": 0.5}, [("from_europe", "no")], 20, PARENTS)
+
+    assert question == "is_male"
+
+
+def test_5j_focus_question_follows_up_a_yes_when_nearly_as_good():
+    # is_male and is_wizard split A and B equally well; has_magic was just answered Yes
+    a = make_character("A", has_magic=True, is_wizard=True, is_male=True)
+    b = make_character("B", has_magic=True, is_wizard=False, is_male=False)
+
+    question = game.Game.focus_question([a, b], {"A": 0.5, "B": 0.5}, [("has_magic", "yes")], 20, PARENTS)
+
+    assert question == "is_wizard"
+
+
+def test_5j_focus_question_does_not_follow_up_a_much_worse_question():
+    # is_wizard is the same for A and B, so following up has_magic would waste a question
+    a = make_character("A", has_magic=True, is_wizard=True, is_male=True)
+    b = make_character("B", has_magic=True, is_wizard=True, is_male=False)
+
+    question = game.Game.focus_question([a, b], {"A": 0.5, "B": 0.5}, [("has_magic", "yes")], 20, PARENTS)
+
+    assert question == "is_male"
+
+
+def test_5j_choose_question_skips_a_tree_question_that_is_ruled_out():
+    a = make_character("A", from_europe=False, from_uk=True, is_male=True)
+    b = make_character("B", from_europe=False, from_uk=False, is_male=False)
+    node = {"leaf": False, "counts": {"A": 3000, "B": 3000}, "question": "from_uk", "branches": {}}
+
+    question = game.Game.choose_question(node, [a, b], {"A": 0.5, "B": 0.5}, [("from_europe", "no")], PARENTS)
+
+    assert question == "is_male"
+
+
+def test_5j_no_follow_up_to_a_sibling_of_a_yes():
+    # sport Yes, then basketball Yes: asking about football next would be wasted
+    # (plays_football splits A and B exactly as well as is_male, so only the sibling rule stops it)
+    parents = {"plays_basketball": "sport", "plays_football": "sport"}
+    a = make_character("A", is_male=True, sport=True, plays_basketball=True, plays_football=True)
+    b = make_character("B", is_male=False, sport=True, plays_basketball=True, plays_football=False)
+    asked = [("sport", "yes"), ("plays_basketball", "yes")]
+
+    assert game.Game.focus_question([a, b], {"A": 0.5, "B": 0.5}, asked, 20, parents) == "is_male"
+
+
+# --- 5k: early guess --------------------------------------------------------------------
+# Stop asking once the leader is many times more likely than the runner-up (like akinator.dev).
+
+def test_5k_confident_once_the_leader_is_far_ahead_of_the_runner_up():
+    assert game.Game.confident([("Kobe", 0.92), ("LeBron", 0.04)])     # 23x
+
+
+def test_5k_not_confident_while_the_runner_up_is_close():
+    assert not game.Game.confident([("Snape", 0.6), ("Dumbledore", 0.3)])
+
+
+def test_5k_confident_with_a_single_candidate():
+    assert game.Game.confident([("Snape", 1.0)])
+
+
+# --- 5l: after a wrong guess ----------------------------------------------------------
+# The player says who it was; the game shows which answers disagreed with its data.
+
+def test_5l_find_character_ignores_case_and_spaces():
+    assert game.Game.find_character(CHARACTERS, "  ada ") is ADA
+    assert game.Game.find_character(CHARACTERS, "Grace Hopper") is None
+
+
+def test_5l_disagreements_list_answers_that_differ_from_the_data():
+    asked = [("is_male", "yes"), ("origin_before_1900", "yes")]
+
+    assert game.Game.disagreements(ADA, asked) == [("is_male", "yes", "no")]
+
+
+def test_5l_not_sure_answers_are_not_disagreements():
+    assert game.Game.disagreements(ADA, [("is_male", "unknown")]) == []
+
+
+# --- 5m: no wasted questions ------------------------------------------------------------
+
+def test_5m_fictional_characters_get_one_year_question_at_most():
+    asked_one = {"is_fictional": "yes", "origin_before_1950": "unknown"}
+
+    assert game.Game.over_limit("origin_1960_or_later", asked_one)
+    assert not game.Game.over_limit("origin_1960_or_later", {"is_fictional": "yes"})
+    assert not game.Game.over_limit("is_male", asked_one)
+
+
+def test_5m_real_people_get_two_year_questions_at_most():
+    assert not game.Game.over_limit("origin_1960_or_later", {"is_fictional": "no", "origin_before_1950": "no"})
+    assert game.Game.over_limit("origin_1970_or_later",
+                                {"is_fictional": "no", "origin_before_1950": "no", "origin_1960_or_later": "yes"})
+
+
+def test_5m_focus_question_respects_the_year_limit():
+    # the year question would split A and B best, but one was already asked
+    a = make_character("A", is_fictional=True, origin_before_1950=True, origin_1960_or_later=False, is_male=True)
+    b = make_character("B", is_fictional=True, origin_before_1950=True, origin_1960_or_later=True, is_male=False)
+    asked = [("is_fictional", "yes"), ("origin_before_1950", "yes")]
+
+    assert game.Game.focus_question([a, b], {"A": 0.5, "B": 0.5}, asked, 20) == "is_male"
+
+
+def test_5l_find_character_with_a_middle_name_or_surname_only():
+    mark = {"name": "Mark Zuckerberg", "attributes": {}, "sitelinks": 100}
+    donald = {"name": "Donald Trump", "attributes": {}, "sitelinks": 300}
+    melania = {"name": "Melania Trump", "attributes": {}, "sitelinks": 90}
+    people = [mark, donald, melania]
+
+    assert game.Game.find_character(people, "Mark Elliot Zuckerberg") is mark
+    assert game.Game.find_character(people, "zuckerberg") is mark
+    assert game.Game.find_character(people, "trump") is donald          # the better-known Trump
+
+
+def test_5l_find_character_forgives_a_typo():
+    einstein = {"name": "Albert Einstein", "attributes": {}, "sitelinks": 300}
+
+    assert game.Game.find_character([einstein], "albert einstien") is einstein
+
+
+# --- 5n: answering the final "Is it X?" -------------------------------------------------
+# Only yes or no counts; typing a name means "no, it was this person".
+
+def test_5n_yes_and_no_are_read_as_usual():
+    assert game.Game.read_confirm("y") == ("yes", None)
+    assert game.Game.read_confirm("No") == ("no", None)
+
+
+def test_5n_not_sure_is_asked_again():
+    assert game.Game.read_confirm("?") == ("again", None)
+    assert game.Game.read_confirm("  ") == ("again", None)
+
+
+def test_5n_a_typed_name_means_no_and_who_it_was():
+    assert game.Game.read_confirm("Donald Trump") == ("no", "Donald Trump")

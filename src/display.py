@@ -23,6 +23,17 @@ class Display:
         return f"{text}\n  (y / n / ?) > "
 
     @staticmethod
+    def prompt_yes_no(text):
+        """Like prompt, for questions where only yes or no makes sense ("Is it X?", "Play again?")."""
+        if not Display.FANCY:
+            return f"{text} (y/n) "
+        return f"{text}\n  (y / n) > "
+
+    @staticmethod
+    def yes_or_no():
+        return "Please answer y or n (or type who it was)" if not Display.FANCY else "  Please answer y or n (or type who it was)"
+
+    @staticmethod
     def title(max_questions, character_count):
         """The opening screen: game name, what to do and how to answer."""
         if not Display.FANCY:
@@ -103,6 +114,29 @@ class Display:
         if not Display.FANCY:
             return "You win! I couldn't guess who it was."
         return "\n  You beat me! I couldn't guess who it was."
+
+    @staticmethod
+    def ask_name():
+        return "Who were you thinking of? (press Enter to skip) " if not Display.FANCY else \
+            "\n  Who were you thinking of? (press Enter to skip) > "
+
+    @staticmethod
+    def unknown_character(name, character_count):
+        indent = "  " if Display.FANCY else ""
+        return f"{indent}I don't know {name} yet: they are not one of my {character_count} characters."
+
+    @staticmethod
+    def explanation(name, rank, rows):
+        """Why the guess missed: where the player's answers and the data disagreed."""
+        indent = "  " if Display.FANCY else ""
+        lines = [f"{indent}{name} was my number {rank} guess."]
+        if not rows:
+            lines.append(f"{indent}All your answers matched my data; {name} was just less likely than my guess.")
+        else:
+            lines.append(f"{indent}These answers did not match my data:")
+            for question, said, data in rows:
+                lines.append(f"{indent}  - {question} (you said {said}, my data says {data})")
+        return "\n".join(lines)
 
     @staticmethod
     def play_again():

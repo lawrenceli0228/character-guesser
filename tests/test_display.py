@@ -104,3 +104,19 @@ def test_plain_result_lists_the_answer_and_the_others():
         "  2. Albus Dumbledore (21%)\n"
         "  3. Harry Potter (15%)"
     )
+
+
+def test_plain_explanation_lists_each_disagreement():
+    text = display.Display.explanation("Taylor Swift", 3, [("Has this person won a Grammy Award?", "no", "yes")])
+
+    assert "Taylor Swift" in text and "3" in text
+    assert "Has this person won a Grammy Award?" in text
+    assert "you said no" in text and "my data says yes" in text
+
+
+def test_plain_explanation_when_every_answer_matched():
+    assert "matched" in display.Display.explanation("Taylor Swift", 2, [])
+
+
+def test_unknown_character_says_it_is_not_in_the_dataset():
+    assert "Grace Hopper" in display.Display.unknown_character("Grace Hopper", 500)

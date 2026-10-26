@@ -42,3 +42,14 @@ def load_questions(path):
         for row in csv_reader:
             questions[row["attribute"]] = row["question"]
     return questions
+
+
+def load_parents(path):
+    """Read narrower question -> broader parent question from questions.csv (rows without a parent are skipped)."""
+    parents = {}
+    with open(path, mode='r', newline="", encoding='utf-8') as file:
+        csv_reader = csv.DictReader(file)
+        for row in csv_reader:
+            if row.get("parent"):
+                parents[row["attribute"]] = row["parent"]
+    return parents
