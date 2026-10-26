@@ -76,3 +76,12 @@ look_wears_mask,Is this a fictional character who usually wears a mask or a helm
 look_green_skin,Is this a fictional character with green skin?,,Hulk;Yoda;Martian Manhunter;Green Goblin;Grogu,,Godzilla,,,Separates Hulk from Spider-Man and Iron Man
 role_very_rich,Is this a fictional character who is very rich (for example a billionaire)?,,Batman;Iron Man;Lex Luthor;Black Panther;Kingpin,,Professor X;Vito Corleone;Daenerys Targaryen;Doctor Doom,,,
 look_bird,Is this character a bird (for example a duck)?,,Daffy Duck;Donald Duck;Foghorn Leghorn,,,,,"Separates Bugs Bunny from Daffy Duck, and Donald Duck from Goofy"
+real_football_manager,Is this a real person famous as a football (soccer) coach or manager?,,José Mourinho;Zinedine Zidane,,Diego Maradona,,,Zidane is famous as a player and as Real Madrid's coach
+work_simpsons,Is this character from The Simpsons?,,Homer Simpson;Bart Simpson,,,,,
+look_clown,Is this a fictional character who looks like a clown (for example the Joker)?,,The Joker;Pennywise,,Harley Quinn,,,Harley Quinn dresses as a jester
+look_blue,Is this a fictional character who is blue (blue skin or fur)?,,Nightcrawler;Mystique;Beast;Sonic the Hedgehog;Doraemon,,,,,
+look_red_hair,Is this a fictional character with red hair?,,Mary Jane Watson;Jean Grey;Ron Weasley;Pippi Longstocking,,Rogue (X-Men);Scarlet Witch,,,
+real_social_network,Is this a real person who created a social network (for example Facebook)?,,Mark Zuckerberg,,Elon Musk,,,Musk bought Twitter rather than creating it
+real_western_star,Is this an actor famous for Western (cowboy) films?,,John Wayne;Clint Eastwood,,Kevin Costner,,,
+real_godfather_actor,Is this an actor who starred in The Godfather films?,,Marlon Brando;Al Pacino;Robert De Niro,,,,,
+real_disney_channel_star,Is this a real person who became famous as a Disney Channel star?,,Selena Gomez;Miley Cyrus;Demi Lovato,,Britney Spears;Justin Timberlake,,,Britney and Timberlake began on The Mickey Mouse Club

@@ -121,7 +121,7 @@ def test_1d_every_attribute_has_a_question():
     characters = dataset.load_characters(CHARACTERS_CSV)
     questions = dataset.load_questions(QUESTIONS_CSV)
 
-    assert len(questions) == 125
+    assert len(questions) == 134
     assert list(questions) == list(characters[0]["attributes"])
 
 
@@ -139,7 +139,9 @@ def test_1d_new_questions_tell_common_look_alikes_apart():
     characters = {c["name"]: c["attributes"] for c in dataset.load_characters(CHARACTERS_CSV)}
 
     for a, b in [("Donald Trump", "George W. Bush"), ("Richard Nixon", "Gerald Ford"), ("Bugs Bunny", "Daffy Duck"),
-                 ("Tarzan", "Zorro"), ("Hulk", "Spider-Man"), ("Dwight D. Eisenhower", "Ulysses S. Grant")]:
+                 ("Tarzan", "Zorro"), ("Hulk", "Spider-Man"), ("Dwight D. Eisenhower", "Ulysses S. Grant"),
+                 ("Cristiano Ronaldo", "José Mourinho"), ("Homer Simpson", "Peter Griffin"), ("The Joker", "Two-Face"),
+                 ("Jeff Bezos", "Mark Zuckerberg"), ("Selena Gomez", "Jennifer Lopez"), ("Brad Pitt", "Robert De Niro")]:
         assert any(characters[a][q] is not None and characters[b][q] is not None and characters[a][q] != characters[b][q]
                    for q in characters[a]), (a, b)
 
