@@ -42,12 +42,3 @@ def load_questions(path):
         for row in csv_reader:
             questions[row["attribute"]] = row["question"]
     return questions
-
-
-def main():
-    pass
-
-
-
-if __name__ == "__main__":
-    main()

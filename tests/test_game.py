@@ -2,6 +2,7 @@
 
 import pytest
 
+import decision_tree
 import game
 
 LEAF_EINSTEIN = {"leaf": True, "counts": {"Einstein": 4}}
@@ -127,3 +128,95 @@ def test_5e_prior_breaks_ties_between_matching_answers():
 
 def test_5e_returns_at_most_k():
     assert len(game.Game.score_guesses(CHARACTERS, EQUAL_PRIOR, [("is_male", "yes")], 1)) == 1
+
+
+# --- 5f: DecisionTree.expected_entropy-------------------------------------------------
+# Average uncertainty left among the top candidates after asking one question,
+# weighted by how likely each answer is (the same idea as T2 in ID3).
+
+TWO_EQUAL = [("Ada", 0.5), ("Alan", 0.5)]
+ATTRIBUTES_OF = {"Ada": ADA["attributes"], "Alan": ALAN["attributes"]}
+
+
+def test_5f_question_with_the_same_answer_leaves_all_uncertainty():
+    ada_twin = {"is_male": False, "origin_before_1900": True}
+
+    entropy = decision_tree.DecisionTree.expected_entropy(TWO_EQUAL, {"Ada": ADA["attributes"], "Alan": ada_twin}, "is_male")
+
+    # both answer "no", so whatever the player says, it is still 50/50: 1 bit
+    assert entropy == pytest.approx(1.0)
+
+
+def test_5f_question_that_splits_the_candidates_removes_most_uncertainty():
+    entropy = decision_tree.DecisionTree.expected_entropy(TWO_EQUAL, ATTRIBUTES_OF, "is_male")
+
+    # yes -> mostly Alan, no -> mostly Ada; only "not sure" (10%) stays 50/50
+    assert entropy < 0.5
+
+
+def test_5f_splitting_question_beats_non_splitting_question():
+    same = {"Ada": {"is_male": False}, "Alan": {"is_male": False}}
+
+    assert decision_tree.DecisionTree.expected_entropy(TWO_EQUAL, ATTRIBUTES_OF, "is_male") < \
+        decision_tree.DecisionTree.expected_entropy(TWO_EQUAL, same, "is_male")
+
+
+# --- 5g: Game.focus_question --------------------------------------------------------
+
+def test_5g_focus_question_picks_the_question_that_splits_the_leaders():
+    a = make_character("A", is_male=True, is_wizard=True)
+    b = make_character("B", is_male=True, is_wizard=False)
+    prior = {"A": 0.5, "B": 0.5}
+
+    # is_male is the same for both, is_wizard tells them apart
+    assert game.Game.focus_question([a, b], prior, [], 20) == "is_wizard"
+
+
+def test_5g_focus_question_never_repeats_a_question():
+    a = make_character("A", is_male=True, is_wizard=True)
+    b = make_character("B", is_male=False, is_wizard=False)
+    prior = {"A": 0.5, "B": 0.5}
+
+    assert game.Game.focus_question([a, b], prior, [("is_wizard", "yes")], 20) == "is_male"
+
+
+def test_5g_focus_question_only_looks_at_the_top_candidates():
+    # over all six, splits_leaders_from_rest is better; among the top two (A, B)
+    # only splits_a_from_b helps, so top_n=2 must pick it
+    a = make_character("A", splits_a_from_b=True, splits_leaders_from_rest=True)
+    b = make_character("B", splits_a_from_b=False, splits_leaders_from_rest=True)
+    rest = [make_character(n, splits_a_from_b=True, splits_leaders_from_rest=False) for n in "CDEF"]
+    prior = {"A": 0.3, "B": 0.3, "C": 0.1, "D": 0.1, "E": 0.1, "F": 0.1}
+
+    assert game.Game.focus_question([a, b] + rest, prior, [], 6) == "splits_leaders_from_rest"
+    assert game.Game.focus_question([a, b] + rest, prior, [], 2) == "splits_a_from_b"
+
+
+# --- 5h: Game.choose_question -------------------------------------------------------
+# The tree asks while its node still has plenty of training sheets; after that
+# (or once the tree has run out), focus mode picks the question.
+
+BIG_NODE = {"leaf": False, "counts": {"A": 3000, "B": 2000}, "question": "is_male", "branches": {}}
+SMALL_NODE = {"leaf": False, "counts": {"A": 30, "B": 20}, "question": "is_male", "branches": {}}
+
+
+def test_5h_tree_question_while_the_node_has_many_sheets():
+    a = make_character("A", is_male=True, is_wizard=True)
+    b = make_character("B", is_male=True, is_wizard=False)
+
+    assert game.Game.choose_question(BIG_NODE, [a, b], {"A": 0.5, "B": 0.5}, []) == "is_male"
+
+
+def test_5h_focus_question_once_the_node_has_few_sheets():
+    a = make_character("A", is_male=True, is_wizard=True)
+    b = make_character("B", is_male=True, is_wizard=False)
+
+    assert game.Game.choose_question(SMALL_NODE, [a, b], {"A": 0.5, "B": 0.5}, []) == "is_wizard"
+
+
+def test_5h_focus_question_after_the_tree_has_ended():
+    a = make_character("A", is_male=True, is_wizard=True)
+    b = make_character("B", is_male=True, is_wizard=False)
+
+    assert game.Game.choose_question(None, [a, b], {"A": 0.5, "B": 0.5}, []) == "is_wizard"
+

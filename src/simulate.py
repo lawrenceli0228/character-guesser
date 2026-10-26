@@ -28,9 +28,9 @@ def simulate_answer(value, rng, model=None):
     else:
         return "unknown"
 
-def answer_model(attribute):
+def answer_model(question):
     """The answer model for this question: YEAR_MODEL for birth-year questions, else ANSWER_MODEL."""
-    if attribute.startswith("origin_"):
+    if question.startswith("origin_"):
         return YEAR_MODEL
     return ANSWER_MODEL
 

@@ -1,4 +1,5 @@
-from decision_tree import load_dst
+from decision_tree import DecisionTree
+from display import Display
 from probability import popularity_prior
 from simulate import answer_model
 import dataset
@@ -14,17 +15,30 @@ class Game:
             "not sure": "unknown",
             "dont know": "unknown",
         }
+    FOCUS_BELOW = 1000
+    TOP_N = 20
+    MAX_QUESTIONS = 15
+
     @staticmethod
     def play():
-        tree = load_dst("../model/tree.json")
+        tree = DecisionTree.load_dst("../model/tree.json")
         questions = dataset.load_questions("../dataset/questions.csv")
         characters = dataset.load_characters("../dataset/characters.csv")
         prior = popularity_prior(characters)
+        print(Display.title(Game.MAX_QUESTIONS, len(characters)))
         while True:
             Game.play_round(tree, questions, characters, prior)
-            if Game.ask("Play again?") != "yes":
+            if Game.ask(Display.play_again()) != "yes":
                 break
-        print("Thanks for playing!")
+        print(Display.goodbye())
+
+    @staticmethod
+    def choose_question(node, characters, prior, asked):
+        """The tree's question while its node has plenty of sheets, otherwise the focus question."""
+        if node is not None and not node["leaf"] and sum(node["counts"].values()) >= Game.FOCUS_BELOW:
+            return node["question"]
+        else:
+            return Game.focus_question(characters, prior, asked, Game.TOP_N)
 
     @staticmethod
     def parse_user_input(user_in):
@@ -70,31 +84,58 @@ class Game:
     @staticmethod
     def ask(text):
         while True:
-            user_in = input(text + " (y/n/?) ")
+            user_in = input(Display.prompt(text))
             answer = Game.parse_user_input(user_in)
             if answer is not None:
                 return answer
-            print("Invalid input, please try again must yes,no,unknown")
+            print(Display.invalid())
 
     @staticmethod
     def play_round(tree, questions, characters, prior):
         """One game: the tree picks the questions, then all answers pick the top 3 guesses."""
-        node = tree
-        count = 0
-        asked = []
-        while not node["leaf"]:
-            count += 1
-            question = questions.get(node["question"])
-            answer = Game.ask(f"Q{count}: {question}")
-            asked.append((node["question"], answer))
-            node = Game.next_quest(node, answer)
-        ge_names = Game.score_guesses(characters, prior, asked, 3)
 
-        for name, prob in ge_names:
-            if Game.ask(f"Is it {name}?") == "yes":
-                print(f"I got it in {count} questions!")
-                return
-        print("You win! I couldn't guess who it was.")
+
+        node = tree
+        asked = []
+        for count in range(1, Game.MAX_QUESTIONS + 1):     # count = 1, 2, ..., 10
+            # 1. question = 用 choose_question 决定这题问什么（返回的是问题名）
+            question = Game.choose_question(node, characters, prior, asked)
+            question_ = questions.get(question)
+            answer = Game.ask(Display.question(count, Game.MAX_QUESTIONS, question_))
+            asked.append((question, answer))
+            if node is not None and not node["leaf"] and question == node["question"]:
+                node = Game.next_quest(node, answer)
+            else:
+                node = None
+        ge_names = Game.score_guesses(characters, prior, asked, 3)
+        print(Display.result(ge_names, len(asked)))
+        # one guess only: the runners-up are already on screen
+        if Game.ask(Display.confirm(ge_names[0][0])) == "yes":
+            print(Display.win(len(asked)))
+        else:
+            print(Display.lose())
+
+    @staticmethod
+    def focus_question(characters, prior, asked, top_n):
+        """The unasked question that best tells the current top candidates apart."""
+        candidates = Game.score_guesses(characters, prior, asked, top_n)
+        attributes = {}
+        res_mini = float("inf")
+        res_mini_name = None
+        for character in characters:
+            attributes[character["name"]] = character["attributes"]
+        ask_done = set(question for question, answer in asked)
+        for question in characters[0]["attributes"]:
+            if question in ask_done:
+                continue
+            res = DecisionTree.expected_entropy(candidates,attributes,question)
+            if res < res_mini:
+                res_mini = res
+                res_mini_name = question
+        return res_mini_name
+
+
+
 
 
 
