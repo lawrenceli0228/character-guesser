@@ -44,8 +44,8 @@ Jackie Chan,Q36970,,real,male,human,1954,yes,,asia,Hong Kong,acting,,,,
 Bruce Lee,Q16397,,real,male,human,1940,no,32,asia,Hong Kong,acting,,,from_usa=unknown;from_north_america=unknown;known_for_sport=unknown,Born in San Francisco; raised in Hong Kong; martial artist
 Leonardo DiCaprio,Q38111,,real,male,human,1974,yes,,north_america,USA,acting,,,,
 Hugh Jackman,Q129591,,real,male,human,1968,yes,,oceania,Australia,acting,,,known_for_music=unknown,Also known for musicals
-Steve Irwin,Q126513,,real,male,human,1962,no,44,oceania,Australia,acting,,,,Wildlife TV presenter
-Michael Jordan,Q41421,,real,male,human,1963,yes,,north_america,USA,sport,,,,
+Steve Irwin,Q126513,,real,male,human,1962,no,44,oceania,Australia,acting,,,known_for_acting_or_tv=false,Wildlife TV presenter
+Michael Jordan,Q41421,,real,male,human,1963,yes,,north_america,USA,sport,,,known_for_acting_or_tv=unknown,"Starred in Space Jam, so players may say he is known for films"
 Lionel Messi,Q615,,real,male,human,1987,yes,,south_america,Argentina,sport;football,,,,
 Cristiano Ronaldo,Q11571,,real,male,human,1985,yes,,europe,Portugal,sport;football,,,,
 Serena Williams,Q11459,,real,female,human,1981,yes,,north_america,USA,sport,,,,
@@ -59,14 +59,14 @@ Bill Gates,Q5284,,real,male,human,1955,yes,,north_america,USA,business;technolog
 Elon Musk,Q317521,,real,male,human,1971,yes,,north_america,USA,business;technology,,,from_africa=unknown,Born in South Africa
 Florence Nightingale,Q37103,,real,female,human,1820,no,90,europe,UK,science,,,,Founder of modern nursing
 Neil Armstrong,Q1615,,real,male,human,1930,no,82,north_america,USA,science;exploration,,,,Astronaut and engineer
-Harry Potter,Q3244512,,fictional,male,human,1997,na,,europe,UK,,book,powers,,
-Hermione Granger,Q174009,,fictional,female,human,1997,na,,europe,UK,,book,powers,,
-Lord Voldemort,Q176132,,fictional,male,human,1997,na,,europe,UK,,book,powers;villain,,
+Harry Potter,Q3244512,,fictional,male,human,1997,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,
+Hermione Granger,Q174009,,fictional,female,human,1997,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,
+Lord Voldemort,Q176132,,fictional,male,human,1997,na,,europe,UK,,book,powers;villain,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,
 Sherlock Holmes,Q4653,,fictional,male,human,1887,na,,europe,UK,,book,,,
-Frodo Baggins,Q177329,,fictional,male,other,1954,na,,europe,UK,,book,,,A hobbit
-Gandalf,Q177499,,fictional,male,unknown,1937,na,,europe,UK,,book,powers,is_animal=false,A wizard (Maia); human-like
-Alice,Q1269082,,fictional,female,human,1865,na,,europe,UK,,book,,,Alice's Adventures in Wonderland
-Winnie-the-Pooh,Q188574,,fictional,male,animal,1926,na,,europe,UK,,book,,,
+Frodo Baggins,Q177329,,fictional,male,other,1954,na,,europe,UK,,book,,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,A hobbit
+Gandalf,Q177499,,fictional,male,unknown,1937,na,,europe,UK,,book,powers,is_animal=false;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,A wizard (Maia); human-like
+Alice,Q1269082,,fictional,female,human,1865,na,,europe,UK,,book,,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,Alice's Adventures in Wonderland
+Winnie-the-Pooh,Q188574,,fictional,male,animal,1926,na,,europe,UK,,book,,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,
 James Bond,Q2009573,,fictional,male,human,1953,na,,europe,UK,,book,,,
 Sun Wukong,Q11773777,,fictional,male,animal,1592,na,,asia,China,,book,powers,is_monarch_or_royal=unknown;origin_before_1500=unknown,Novel Journey to the West (c. 1592); the Monkey King appears in earlier tales and drama; calls himself the Monkey King
 Count Dracula,Q3266236,,fictional,male,unknown,1897,na,,europe,UK,,book,powers;villain,,A vampire who can turn into a bat

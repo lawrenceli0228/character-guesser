@@ -14,31 +14,31 @@ origin_1960_or_later,Was this person born (or this character created) in 1960 or
 origin_1970_or_later,Was this person born (or this character created) in 1970 or later?,core
 origin_1980_or_later,Was this person born (or this character created) in 1980 or later?,core
 origin_1995_or_later,Was this person born (or this character created) in 1995 or later?,core
-from_asia,Is this person from Asia? (For a fictional character: was it created there?),core
-from_europe,Is this person from Europe? (For a fictional character: was it created there?),core
-from_north_america,"Is this person from North America, including Mexico, Central America and the Caribbean? (For a fictional character: was it created there?)",core
-from_south_america,Is this person from South America? (For a fictional character: was it created there?),core
-from_africa,Is this person from Africa? (For a fictional character: was it created there?),core
-from_oceania,Is this person from Australia or Oceania? (For a fictional character: was it created there?),core
-from_chinese_speaking_world,"Is this person from the Chinese-speaking world (mainland China, Hong Kong or Taiwan)? (For a fictional character: was it created there?)",core
-from_usa,Is this person from the United States? (For a fictional character: was it created there?),core
-from_uk,Is this person from the United Kingdom? (For a fictional character: was it created there?),core
-from_japan,Is this person from Japan? (For a fictional character: was it created there?),core
-from_france,Is this person from France? (For a fictional character: was it created there?),core
-from_germany,Is this person from Germany? (For a fictional character: was it created there?),core
-from_italy,Is this person from Italy? (For a fictional character: was it created there?),core
-from_spain,Is this person from Spain? (For a fictional character: was it created there?),core
-from_russia,Is this person from Russia (including the Soviet Union)? (For a fictional character: was it created there?),core
-from_india,Is this person from India? (For a fictional character: was it created there?),core
-from_canada,Is this person from Canada? (For a fictional character: was it created there?),core
-from_brazil,Is this person from Brazil? (For a fictional character: was it created there?),core
+from_asia,Is this person from Asia? (For a fictional character: was the original story created there?),core
+from_europe,Is this person from Europe? (For a fictional character: was the original story created there?),core
+from_north_america,"Is this person from North America, including Mexico, Central America and the Caribbean? (For a fictional character: was the original story created there?)",core
+from_south_america,Is this person from South America? (For a fictional character: was the original story created there?),core
+from_africa,Is this person from Africa? (For a fictional character: was the original story created there?),core
+from_oceania,Is this person from Australia or Oceania? (For a fictional character: was the original story created there?),core
+from_chinese_speaking_world,"Is this person from the Chinese-speaking world (mainland China, Hong Kong or Taiwan)? (For a fictional character: was the original story created there?)",core
+from_usa,Is this person from the United States? (For a fictional character: was the original story created there?),core
+from_uk,Is this person from the United Kingdom? (For a fictional character: was the original story created there?),core
+from_japan,Is this person from Japan? (For a fictional character: was the original story created there?),core
+from_france,Is this person from France? (For a fictional character: was the original story created there?),core
+from_germany,Is this person from Germany? (For a fictional character: was the original story created there?),core
+from_italy,Is this person from Italy? (For a fictional character: was the original story created there?),core
+from_spain,Is this person from Spain? (For a fictional character: was the original story created there?),core
+from_russia,Is this person from Russia (including the Soviet Union)? (For a fictional character: was the original story created there?),core
+from_india,Is this person from India? (For a fictional character: was the original story created there?),core
+from_canada,Is this person from Canada? (For a fictional character: was the original story created there?),core
+from_brazil,Is this person from Brazil? (For a fictional character: was the original story created there?),core
 known_for_science_or_medicine,Is this person or character known for science or medicine?,core
 known_for_technology,"Is this person or character known for technology, computing or inventions?",core
 known_for_politics_or_leadership,Is this person or character known for politics or leading a nation?,core
 known_for_sport,Is this person or character known for sport?,core
 known_for_football,Is this person known for football (soccer)?,core
 known_for_music,Is this person or character known for music?,core
-known_for_acting_or_tv,Is this person known for acting in films or appearing on television?,core
+known_for_acting_or_tv,Is this person known as an actor (in films or TV shows)?,core
 known_for_filmmaking,Is this person known for directing or producing films?,core
 known_for_writing,"Is this person known for writing, poetry or philosophy?",core
 known_for_visual_art,Is this person known for painting or other visual art?,core
@@ -105,3 +105,11 @@ sport_boxing,Is this person a boxer?,pool
 sport_racing,Is this person a racing driver?,pool
 franchise_x_men,Is this character from the X-Men comics or films?,pool
 franchise_avengers,Is this character a member of the Avengers?,pool
+role_main_hero,Is this a fictional character who is the main hero of their own story (not a sidekick or a villain)?,pool
+age_child_or_teen,Is this a fictional character who is a child or teenager in their best-known story?,pool
+occupation_teacher,Is this a fictional character who works as a teacher or professor?,pool
+age_elderly,Is this a fictional character who is elderly (an old man or woman) in their best-known story?,pool
+real_assassinated_or_executed,Is this a real person who was assassinated or executed?,pool
+real_led_revolution,Is this a real person known for leading a revolution or an independence movement?,pool
+real_crime_or_horror_storyteller,"Is this a writer or filmmaker known for crime, mystery or horror stories?",pool
+real_played_superhero,Is this an actor who played a superhero or supervillain in a film (for example Marvel or DC)?,pool

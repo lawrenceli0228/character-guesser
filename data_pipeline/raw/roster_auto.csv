@@ -15,19 +15,19 @@ Hercule Poirot,Q170534,,fictional,male,human,1920,na,,europe,UK,,book,,,fictiona
 Punisher,Q729150,,fictional,male,human,1974,na,,north_america,USA,,comic,,,fictional character in Marvel Comics
 Thanos,Q2276627,,fictional,male,other,1973,na,,north_america,USA,,comic,powers;villain,has_ruled_a_country=unknown,fictional character in Marvel Comics
 Rogue (X-Men),Q838097,,fictional,female,human,1981,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Albus Dumbledore,Q712548,,fictional,male,human,1997,na,,europe,UK,,book,powers,,fictional character from Harry Potter
+Albus Dumbledore,Q712548,,fictional,male,human,1997,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character from Harry Potter
 Popeye,Q199796,,fictional,male,human,1919,na,,unknown,,,comic,,has_superpowers_or_magic=unknown,cartoon fictional character
 The Joker,Q217533,,fictional,male,human,1940,na,,north_america,USA,,unknown,villain,,fictional character throughout the DC Universe
 Scarlet Witch,Q929285,,fictional,female,human,1964,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Sauron,Q2281,,fictional,male,other,1937,na,,europe,UK,,book,powers;villain,has_ruled_a_country=unknown,fictional character from J.R.R. Tolkien's legendarium
+Sauron,Q2281,,fictional,male,other,1937,na,,europe,UK,,book,powers;villain,has_ruled_a_country=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character from J.R.R. Tolkien's legendarium
 Cthulhu,Q12038,,fictional,male,other,1928,na,,north_america,USA,,book,powers,is_villain=unknown,fictional cosmic entity
 Optimus Prime,Q151583,,fictional,male,other,1984,na,,north_america,USA,,animation,robot,has_superpowers_or_magic=unknown,character from the Transformers franchise
-Severus Snape,Q176772,,fictional,male,human,1997,na,,europe,UK,,book,powers,is_villain=unknown,fictional character in the Harry Potter series
+Severus Snape,Q176772,,fictional,male,human,1997,na,,europe,UK,,book,powers,is_villain=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character in the Harry Potter series
 Freddy Krueger,Q329466,,fictional,male,unknown,1984,na,,north_america,USA,,live_action,powers;villain,,the main antagonist of the A Nightmare on Elm Street film series
 Michael Myers,Q1426891,,fictional,male,human,1978,na,,north_america,USA,,live_action,villain,has_superpowers_or_magic=unknown,fictional character in the Halloween franchise
 Donald Duck,Q6550,,fictional,male,animal,1934,na,,north_america,USA,,animation,,,Disney cartoon character
 Jason Voorhees,Q366957,,fictional,male,unknown,1980,na,,north_america,USA,,live_action,villain,has_superpowers_or_magic=unknown,main character of the Friday the 13th series
-Aragorn,Q180322,,fictional,male,human,1954,na,,europe,UK,,book,royal;ruler,,fictional character from J.R.R. Tolkien's legendarium
+Aragorn,Q180322,,fictional,male,human,1954,na,,europe,UK,,book,royal;ruler,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character from J.R.R. Tolkien's legendarium
 Pennywise,Q3899150,,fictional,unknown,other,1986,na,,north_america,USA,,book,powers;villain,,main antagonist of Stephen King's novel It
 Walter White,Q23554,,fictional,male,human,2008,na,,north_america,USA,,live_action,,is_villain=unknown,fictional character in the television drama series Breaking Bad
 Doctor Strange,Q907767,,fictional,male,human,1963,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
@@ -37,13 +37,13 @@ Daenerys Targaryen,Q2708078,,fictional,female,human,1996,na,,north_america,USA,,
 Palpatine,Q51770,,fictional,male,human,1980,na,,north_america,USA,,live_action,powers;royal;ruler;villain,,fictional character from Star Wars
 Magneto,Q840291,,fictional,male,human,1963,na,,north_america,USA,,comic,powers;villain,has_ruled_a_country=unknown,fictional character in Marvel Comics
 Sabretooth,Q431862,,fictional,male,human,1977,na,,north_america,USA,,comic,powers;villain,,fictional character in Marvel Comics
-Gollum,Q15007,,fictional,male,other,1937,na,,europe,UK,,book,,is_villain=unknown,fictional character from The Hobbit
+Gollum,Q15007,,fictional,male,other,1937,na,,europe,UK,,book,,is_villain=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character from The Hobbit
 Venom,Q1621261,,fictional,male,other,1988,na,,north_america,USA,,comic,powers,is_villain=unknown,fictional character in Marvel Comics
-Pinocchio,Q6502703,,fictional,male,other,1881,na,,europe,Italy,,book,,has_superpowers_or_magic=unknown,"fictional character of The Adventures of Pinocchio, by Carlo Collodi"
+Pinocchio,Q6502703,,fictional,male,other,1881,na,,europe,Italy,,book,,has_superpowers_or_magic=unknown;from_europe=unknown;from_italy=unknown;from_north_america=unknown;from_usa=unknown,"fictional character of The Adventures of Pinocchio, by Carlo Collodi"
 Bart Simpson,Q5480,,fictional,male,human,1987,na,,north_america,USA,,animation,,,fictional character from The Simpsons
 Catwoman,Q158952,,fictional,female,human,1940,na,,north_america,USA,,comic,,is_villain=unknown,fictional character associated with DC Comics' Batman franchise
 Daredevil,Q327553,,fictional,male,human,1964,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
-Draco Malfoy,Q179641,,fictional,male,human,1997,na,,europe,UK,,book,powers,is_villain=unknown,fictional character of the Harry Potter series
+Draco Malfoy,Q179641,,fictional,male,human,1997,na,,europe,UK,,book,powers,is_villain=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character of the Harry Potter series
 Harley Quinn,Q849477,,fictional,female,unknown,1992,na,,north_america,USA,,animation,,is_villain=unknown,fictional character in DC Comics
 Miles Morales,Q59826,,fictional,male,human,2011,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Nightcrawler,Q5342183,,fictional,male,human,1975,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
@@ -64,14 +64,14 @@ Conan the Barbarian,Q189169,,fictional,male,human,1932,na,,north_america,USA,,bo
 Storm (X-Men),Q632212,,fictional,female,human,1975,na,,north_america,USA,,comic,powers,is_monarch_or_royal=unknown,fictional character in Marvel Comics
 Zorro,Q226822,,fictional,male,human,1919,na,,north_america,USA,,book,,,fictional character
 Ophelia,Q1800888,,fictional,female,human,1602,na,,europe,UK,,unknown,,,character from Hamlet
-Ron Weasley,Q173998,,fictional,male,human,1997,na,,europe,UK,,book,powers,,fictional character of Harry Potter series
+Ron Weasley,Q173998,,fictional,male,human,1997,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character of Harry Potter series
 Thor,Q717588,,fictional,male,other,1962,na,,north_america,USA,,comic,powers;royal,has_ruled_a_country=unknown,fictional character in Marvel Comics
-Peter Pan,Q107190,,fictional,male,human,1902,na,,europe,UK,,book,powers,,fictional character created by J. M. Barrie
+Peter Pan,Q107190,,fictional,male,human,1902,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character created by J. M. Barrie
 Goofy,Q111135,,fictional,male,animal,1932,na,,north_america,USA,,animation,,,Disney cartoon character
 Riddler,Q836789,,fictional,male,human,1948,na,,north_america,USA,,comic,villain,,"fictional character, a comic book supervillain who appears in comic books published by DC Comics"
 Professor Moriarty,Q283111,,fictional,male,human,1893,na,,europe,UK,,book,villain,,fictional character from Sherlock Holmes
 Obi-Wan Kenobi,Q51740,,fictional,male,human,1977,na,,north_america,USA,,live_action,powers,,fictional character from Star Wars
-Sirius Black,Q713701,,fictional,male,human,1999,na,,europe,UK,,book,powers,,fictional character in J. K. Rowling's Harry Potter novels
+Sirius Black,Q713701,,fictional,male,human,1999,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character in J. K. Rowling's Harry Potter novels
 Monkey D. Luffy,Q477948,,fictional,male,human,1997,na,,asia,Japan,,comic,powers,,fictional character from One Piece
 Kitty Pryde,Q547306,,fictional,female,human,1979,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Foghorn Leghorn,Q1339544,,fictional,male,animal,1946,na,,north_america,USA,,animation,,,Warner Bros. theatrical cartoon character
@@ -86,7 +86,7 @@ Black Panther,Q998220,,fictional,male,human,1966,na,,north_america,USA,,comic,po
 Paddington Bear,Q632908,,fictional,male,animal,1958,na,,europe,UK,,book,,,children's book character created by Michael Bond
 Peter Griffin,Q28465,,fictional,male,human,1999,na,,north_america,USA,,animation,,,fictional character from the Family Guy franchise
 Long John Silver,Q1428628,,fictional,male,human,1881,na,,europe,UK,,book,villain,,fictional character from Treasure Island
-Galadriel,Q204274,,fictional,female,other,1954,na,,europe,UK,,book,powers;royal,has_ruled_a_country=unknown,fictional character from J.R.R. Tolkien's legendarium
+Galadriel,Q204274,,fictional,female,other,1954,na,,europe,UK,,book,powers;royal,has_ruled_a_country=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character from J.R.R. Tolkien's legendarium
 Two-Face,Q295599,,fictional,male,human,1942,na,,north_america,USA,,comic,villain,,villain in the DC Comics universe
 Leon S. Kennedy,Q1138965,,fictional,male,human,1998,na,,asia,Japan,,video_game,,,fictional character from Resident Evil
 Ra's al Ghul,Q158931,,fictional,male,human,1971,na,,north_america,USA,,comic,villain,has_superpowers_or_magic=unknown,"fictional character, a supervillain who appears in comic books published by DC Comics"
@@ -94,7 +94,7 @@ Aquaman,Q623059,,fictional,male,unknown,1935,na,,north_america,USA,,comic,powers
 Gwen Stacy,Q945817,,fictional,female,human,1965,na,,north_america,USA,,comic,,,fictional character in Marvel Comics
 Lex Luthor,Q694790,,fictional,male,human,1940,na,,north_america,USA,,comic,villain,,fictional character in DC Comics
 Black Cat,Q912640,,fictional,female,human,1979,na,,north_america,USA,,comic,,has_superpowers_or_magic=unknown;is_villain=unknown,fictional character in Marvel Comics
-Morgoth,Q80453,,fictional,male,other,,na,,europe,UK,,book,powers;villain,has_ruled_a_country=unknown,fictional character from J.R.R. Tolkien's legendarium; one of the godlike Valar
+Morgoth,Q80453,,fictional,male,other,,na,,europe,UK,,book,powers;villain,has_ruled_a_country=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character from J.R.R. Tolkien's legendarium; one of the godlike Valar
 Vision (Marvel),Q2307071,,fictional,male,other,1968,na,,north_america,USA,,comic,powers;robot,,fictional character in Marvel Comics
 Miss Marple,Q193531,,fictional,female,human,1927,na,,europe,UK,,book,,,fictional character appearing in Agatha Christie's crime novels
 King Ghidorah,Q1470558,,fictional,male,other,1964,na,,asia,Japan,,live_action,powers;villain,,fictional character/Kaiju
@@ -105,26 +105,26 @@ The Doctor (Doctor Who),Q34358,,fictional,unknown,other,1963,na,,europe,UK,,live
 James T. Kirk,Q16311,,fictional,male,human,1966,na,,north_america,USA,,live_action,,,fictional character from Star Trek
 Spock,Q16341,,fictional,male,unknown,1966,na,,north_america,USA,,live_action,,has_superpowers_or_magic=unknown,fictional character in Star Trek
 Abraham Van Helsing,Q1622359,,fictional,male,human,1897,na,,europe,UK,,book,,,fictional character from Bram Stoker's Dracula
-Tom Bombadil,Q280608,,fictional,male,unknown,1937,na,,europe,UK,,book,powers,,Middle-earth character
+Tom Bombadil,Q280608,,fictional,male,unknown,1937,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,Middle-earth character
 Kylo Ren,Q21515016,,fictional,male,human,2015,na,,north_america,USA,,live_action,powers;villain,is_monarch_or_royal=unknown;has_ruled_a_country=unknown,"Star Wars character, former Supreme Leader of the First Order and former King of Naboo"
 Green Goblin,Q735721,,fictional,male,unknown,1964,na,,north_america,USA,,comic,powers;villain,,name used by numerous fictional characters in Marvel Comics
-Minerva McGonagall,Q192179,,fictional,female,human,1997,na,,europe,UK,,book,powers,,fictional character in the Harry Potter universe
+Minerva McGonagall,Q192179,,fictional,female,human,1997,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character in the Harry Potter universe
 Indiana Jones,Q148659,,fictional,male,human,1981,na,,north_america,USA,,live_action,,,fictional archaeologist
-Eeyore,Q1799013,,fictional,male,animal,1926,na,,europe,UK,,book,,,character from Milne's Winnie-the-Pooh-books
+Eeyore,Q1799013,,fictional,male,animal,1926,na,,europe,UK,,book,,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,character from Milne's Winnie-the-Pooh-books
 Padmé Amidala,Q51789,,fictional,female,human,1999,na,,north_america,USA,,live_action,royal;ruler,,fictional character from Star Wars
 Dick Grayson,Q660051,,fictional,male,human,1940,na,,north_america,USA,,comic,,,one of several fictional characters using the identity Robin
-Aslan,Q762731,,fictional,male,unknown,1950,na,,europe,UK,,book,powers;royal;ruler,,"fictional lion, a deity in The Chronicles of Narnia"
+Aslan,Q762731,,fictional,male,unknown,1950,na,,europe,UK,,book,powers;royal;ruler,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"fictional lion, a deity in The Chronicles of Narnia"
 Mary Jane Watson,Q27810,,fictional,female,human,1965,na,,north_america,USA,,comic,,,fictional character in Marvel Comics
-Luna Lovegood,Q190282,,fictional,female,human,2003,na,,europe,UK,,book,powers,,fictional character in the Harry Potter universe
+Luna Lovegood,Q190282,,fictional,female,human,2003,na,,europe,UK,,book,powers,from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,fictional character in the Harry Potter universe
 Quicksilver,Q929273,,fictional,male,human,1964,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Beast,Q302186,,fictional,male,human,1963,na,,north_america,USA,,comic,powers,,fictional character in Marvel Comics
 Dolly Parton,Q180453,,real,female,human,1946,no,80,north_america,USA,music,,,,American singer-songwriter (1946–2026)
-Donald Trump,Q22686,,real,male,human,1946,yes,,north_america,USA,politics,,ruler,,President of the United States (2017–2021; since 2025)
+Donald Trump,Q22686,,real,male,human,1946,yes,,north_america,USA,politics;business,,ruler,,President of the United States (2017–2021; since 2025)
 Jeff Bezos,Q312556,,real,male,human,1964,yes,,north_america,USA,business,,,,American business magnate (born 1964)
 Vladimir Putin,Q7747,,real,male,human,1952,yes,,europe,Russia,politics,,ruler,,President of the Russian Federation
 George W. Bush,Q207,,real,male,human,1946,yes,,north_america,USA,politics,,ruler,,43rd President of the United States (2001–2009)
-Madonna,Q1744,,real,female,human,1958,yes,,north_america,USA,acting;music,,,,"American singer, songwriter, and actress (born 1958)"
-Lady Gaga,Q19848,,real,female,human,1986,yes,,north_america,USA,acting;music,,,,American singer-songwriter and actress (born 1986)
+Madonna,Q1744,,real,female,human,1958,yes,,north_america,USA,acting;music,,,known_for_acting_or_tv=unknown,"American singer, songwriter, and actress (born 1958)"
+Lady Gaga,Q19848,,real,female,human,1986,yes,,north_america,USA,acting;music,,,known_for_acting_or_tv=unknown,American singer-songwriter and actress (born 1986)
 John F. Kennedy,Q9696,,real,male,human,1917,no,46,north_america,USA,politics,,ruler,,president of the United States from 1961 to 1963 (1917–1963)
 Sandra Bullock,Q40791,,real,female,human,1964,yes,,europe;north_america,Germany;USA,acting;film,,,,American actress and film producer
 Charles III,Q43274,,real,male,human,1948,yes,,europe,UK,politics,,royal;ruler,,King of the United Kingdom since 2022 (born 1948)
@@ -135,7 +135,7 @@ George Washington,Q23,,real,male,human,1732,no,67,europe;north_america,UK;USA,po
 Anne Hathaway,Q36301,,real,female,human,1982,yes,,north_america,USA,acting,,,,American actress (born 1982)
 Harald V of Norway,Q57287,,real,male,human,1937,no,89,europe,Norway,politics,,royal;ruler,,King of Norway from 1991 to 2026 (1937–2026)
 Joe Biden,Q6279,,real,male,human,1942,yes,,north_america,USA,politics,,ruler,,46th President of the United States (2021–2025)
-Elvis Presley,Q303,,real,male,human,1935,no,42,north_america,USA,acting;music,,,,American singer and actor (1935–1977)
+Elvis Presley,Q303,,real,male,human,1935,no,42,north_america,USA,acting;music,,,known_for_acting_or_tv=unknown,American singer and actor (1935–1977)
 Tom Cruise,Q37079,,real,male,human,1962,yes,,north_america,USA,acting;film,,,,American actor and film producer (born 1962)
 Franklin Delano Roosevelt,Q8007,,real,male,human,1882,no,63,north_america,USA,politics,,ruler,,president of the United States from 1933 to 1945 (1882–1945)
 Queen Victoria,Q9439,,real,female,human,1819,no,81,europe,UK,politics,,royal;ruler,,Queen of the United Kingdom from 1837 to 1901 (1819-1901)
@@ -145,7 +145,7 @@ Alexander the Great,Q8409,,real,male,human,-356,no,33,europe,Greece,politics,,ro
 Scarlett Johansson,Q34436,,real,female,human,1984,yes,,north_america,USA,acting,,,,American actress (born 1984)
 Christopher Columbus,Q7322,,real,male,human,1451,no,55,europe,Italy,exploration,,,,"Italian navigator, explorer, and colonist (1451–1506)"
 Freddie Mercury,Q15869,,real,male,human,1946,no,45,africa;europe,Tanzania;UK,music,,,,"British singer, songwriter and musician, frontman of the rock band Queen (1946–1991)"
-Tupac Shakur,Q6107,,real,male,human,1971,no,25,north_america,USA,acting;music,,,,American rapper and actor (1971–1996)
+Tupac Shakur,Q6107,,real,male,human,1971,no,25,north_america,USA,acting;music,,,known_for_acting_or_tv=unknown,American rapper and actor (1971–1996)
 Xi Jinping,Q15031,,real,male,human,1953,yes,,asia,China,politics,,ruler,occupation_military_leader=false,General Secretary of the Chinese Communist Party since 2012 (born 1953)
 Sylvester Stallone,Q40026,,real,male,human,1946,yes,,north_america,USA,acting;film,,,,American actor and filmmaker (born 1946)
 Andrew Garfield,Q23891,,real,male,human,1983,yes,,europe;north_america,UK;USA,acting,,,,English and American actor (born 1983)
@@ -165,7 +165,7 @@ Vladimir Lenin,Q1394,,real,male,human,1870,no,53,europe,Russia,politics,,ruler,,
 Céline Dion,Q5105,,real,female,human,1968,yes,,north_america,Canada,music,,,,French Canadian singer (born 1968)
 Dwight D. Eisenhower,Q9916,,real,male,human,1890,no,78,north_america,USA,politics,,ruler,,president of the United States from 1953 to 1961 (1890–1969)
 Paul McCartney,Q2599,,real,male,human,1942,yes,,europe,UK,music,,,,English musician and member of the Beatles (born 1942)
-Agnez Mo,Q1362169,,real,female,human,1986,yes,,asia,Indonesia,acting;music,,,,Indonesian singer and actress
+Agnez Mo,Q1362169,,real,female,human,1986,yes,,asia,Indonesia,acting;music,,,known_for_acting_or_tv=unknown,Indonesian singer and actress
 Mao Zedong,Q5816,,real,male,human,1893,no,82,asia,China,politics,,ruler,,1st chairman of the Chinese Communist Party and founder of the People's Republic of China (1893–1976)
 Angelina Jolie,Q13909,,real,female,human,1975,yes,,asia;north_america,Cambodia;USA,acting,,,,American actress (born 1975)
 Henry VIII of England,Q38370,,real,male,human,1491,no,55,europe,UK,politics,,royal;ruler,,King of England from 1509 to 1547 (1491–1547)
@@ -187,20 +187,20 @@ Steven Spielberg,Q8877,,real,male,human,1946,yes,,north_america,USA,film,,,,Amer
 Al Pacino,Q41163,,real,male,human,1940,yes,,north_america,USA,acting,,,,American actor (born 1940)
 John Steinbeck,Q39212,,real,male,human,1902,no,66,north_america,USA,writing,,nobel,,American writer (1902–1968)
 Dua Lipa,Q21914464,,real,female,human,1995,yes,,europe,Albania;Kosovo;UK,music,,,,British singer-songwriter
-Eminem,Q5608,,real,male,human,1972,yes,,north_america,USA,acting;music,,,,"American rapper, record producer and actor"
+Eminem,Q5608,,real,male,human,1972,yes,,north_america,USA,acting;music,,,known_for_acting_or_tv=unknown,"American rapper, record producer and actor"
 Narendra Modi,Q1058,,real,male,human,1950,yes,,unknown,,politics,,ruler,,Prime Minister of India since 2014
 Muhammad Ali,Q36107,,real,male,human,1942,no,74,north_america,USA,sport,,,,American boxer (1942–2016)
 Christopher Nolan,Q25191,,real,male,human,1970,yes,,europe;north_america,UK;USA,film,,,,English and American filmmaker (born 1970)
 Morgan Freeman,Q48337,,real,male,human,1937,yes,,north_america,USA,acting,,,,American actor and producer (born 1937)
 Mark Zuckerberg,Q36215,,real,male,human,1984,yes,,north_america,USA,business,,,,American Internet entrepreneur
-Whitney Houston,Q34389,,real,female,human,1963,no,48,north_america,USA,acting;film;music,,,,"American singer, actress, and film producer (1963–2012)"
+Whitney Houston,Q34389,,real,female,human,1963,no,48,north_america,USA,acting;film;music,,,known_for_acting_or_tv=unknown,"American singer, actress, and film producer (1963–2012)"
 Thomas Jefferson,Q11812,,real,male,human,1743,no,83,north_america,USA,politics,,ruler,,"Founding Father, U.S. president from 1801 to 1809 (1743–1826)"
 Augustus,Q1405,,real,male,human,-63,no,76,europe,Italy,politics,,royal;ruler,,first emperor of the Roman Empire and founder of the Julio-Claudian dynasty
 Kylian Mbappé,Q21621995,,real,male,human,1998,yes,,europe,France,football;sport,,,,French association football player (born 1998)
 Martin Luther King Jr.,Q8027,,real,male,human,1929,no,39,north_america,USA,politics,,nobel,,American Baptist minister and civil rights leader (1929–1968)
 Lewis Hamilton,Q9673,,real,male,human,1985,yes,,europe,UK,sport,,,,British racing driver
 Natalie Portman,Q37876,,real,female,human,1981,yes,,asia;north_america,Israel;USA,acting,,,,Israeli-American actress (born 1981)
-David Bowie,Q5383,,real,male,human,1947,no,69,europe,UK,acting;music,,,,English musician and actor (1947–2016)
+David Bowie,Q5383,,real,male,human,1947,no,69,europe,UK,acting;music,,,known_for_acting_or_tv=unknown,English musician and actor (1947–2016)
 Edgar Allan Poe,Q16867,,real,male,human,1809,no,40,north_america,USA,writing,,,,American writer and literary critic (1809–1849)
 George VI,Q280856,,real,male,human,1895,no,56,europe,UK,politics,,royal;ruler,,King of the United Kingdom from 1936 to 1952
 Richard Nixon,Q9588,,real,male,human,1913,no,81,north_america,USA,politics,,ruler,,president of the United States from 1969 to 1974 (1913–1994)
@@ -242,7 +242,7 @@ Oscar Wilde,Q30875,,real,male,human,1854,no,46,europe,France;Ireland;UK,writing,
 Prince (musician),Q7542,,real,male,human,1958,no,57,north_america,USA,music,,,,American musician (1958–2016)
 George V,Q269412,,real,male,human,1865,no,70,asia;europe,India;UK,politics,,royal;ruler,,King of the United Kingdom from 1910 to 1936
 Jack Nicholson,Q39792,,real,male,human,1937,yes,,north_america,USA,acting;film,,,,American actor and filmmaker (born 1937)
-Walt Disney,Q8704,,real,male,human,1901,no,65,north_america,USA,acting;business;film,,,,"American animator, producer, director, screenwriter, voice actor and entrepreneur, founder of The Walt Disney Company (1901–1966)"
+Walt Disney,Q8704,,real,male,human,1901,no,65,north_america,USA,acting;business;film,,,known_for_acting_or_tv=false,"American animator, producer, director, screenwriter, voice actor and entrepreneur, founder of The Walt Disney Company (1901–1966)"
 JD Vance,Q28935729,,real,male,human,1984,yes,,north_america,USA,politics,,,,Vice President of the United States since 2025
 Helen Keller,Q38203,,real,female,human,1880,no,87,north_america,USA,writing,,,occupation_novelist=false,"American deafblind author, political activist, lecturer, scholar (1880-1968)"
 Emmanuel Macron,Q3052772,,real,male,human,1977,yes,,europe,France,politics,,ruler,,President of France and Co-Prince of Andorra since 2017
@@ -251,12 +251,12 @@ Edward VIII,Q590227,,real,male,human,1894,no,77,europe,UK,politics,,royal;ruler,
 Kurt Cobain,Q8446,,real,male,human,1967,no,27,north_america,USA,music,,,,"American rock musician, singer and songwriter (1967–1994)"
 Megan Fox,Q80069,,real,female,human,1986,yes,,north_america,USA,acting,,,,American actress and model (born 1986)
 Elizabeth Taylor,Q34851,,real,female,human,1932,no,79,europe;north_america,UK;USA,acting,,,,British-American actress (1932–2011)
-Kim Kardashian,Q186304,,real,female,human,1980,yes,,north_america,USA,acting;business,,,,"American media personality, businesswoman, model and actress (born 1980)"
-Britney Spears,Q11975,,real,female,human,1981,yes,,north_america,USA,acting;music,,,,"American singer, songwriter, actress and model (born 1981)"
+Kim Kardashian,Q186304,,real,female,human,1980,yes,,north_america,USA,acting;business,,,known_for_acting_or_tv=false,"American media personality, businesswoman, model and actress (born 1980)"
+Britney Spears,Q11975,,real,female,human,1981,yes,,north_america,USA,acting;music,,,known_for_acting_or_tv=unknown,"American singer, songwriter, actress and model (born 1981)"
 Harrison Ford,Q81328,,real,male,human,1942,yes,,north_america,USA,acting,,,,American actor (born 1942)
 Muammar Gaddafi,Q19878,,real,male,human,1942,no,69,africa,Libya,politics,,ruler,,Military officer and former Brotherly Leader and Guide of the Revolution of Libya (1969-2011)
 Chris Pratt,Q503706,,real,male,human,1979,yes,,north_america,USA,acting,,,,American actor (born 1979)
-Mike Tyson,Q79031,,real,male,human,1966,yes,,north_america,USA,acting;sport,,,,American boxer and media personality (born 1966)
+Mike Tyson,Q79031,,real,male,human,1966,yes,,north_america,USA,acting;sport,,,known_for_acting_or_tv=false,American boxer and media personality (born 1966)
 Kanye West,Q15935,,real,male,human,1977,yes,,north_america,USA,music,,,,American rapper and record producer
 Mikhail Gorbachev,Q30487,,real,male,human,1931,no,91,europe,Russia,politics,,nobel;ruler,,leader of the Soviet Union from 1985 to 1991 (1931–2022)
 George Harrison,Q2643,,real,male,human,1943,no,58,europe,UK,music,,,,English musician and member of the Beatles (1943–2001)
@@ -290,7 +290,7 @@ Judy Garland,Q11637,,real,female,human,1922,no,47,north_america,USA,acting;music
 Emma Stone,Q147077,,real,female,human,1988,yes,,north_america,USA,acting,,,,American actress (born 1988)
 Warren Buffett,Q47213,,real,male,human,1930,yes,,north_america,USA,business,,,,"American investor, entrepreneur and businessman"
 Denzel Washington,Q42101,,real,male,human,1954,yes,,north_america,USA,acting,,,,American actor (born 1954)
-Quentin Tarantino,Q3772,,real,male,human,1963,yes,,north_america,USA,acting;film,,,,American filmmaker and actor (born 1963)
+Quentin Tarantino,Q3772,,real,male,human,1963,yes,,north_america,USA,acting;film,,,known_for_acting_or_tv=false,American filmmaker and actor (born 1963)
 Halle Berry,Q1033016,,real,female,human,1966,yes,,north_america,USA,acting,,,,American actress (born 1966)
 Marcus Aurelius,Q1430,,real,male,human,121,no,58,europe,Italy,writing,,,,16th Roman Emperor from 161 to 180 and Stoic philosopher
 Katy Perry,Q42493,,real,female,human,1984,yes,,north_america,USA,music,,,,American singer
@@ -384,7 +384,7 @@ Voltaire,Q9068,,real,male,human,1694,no,83,europe,France,writing,,,,"French writ
 Justin Timberlake,Q43432,,real,male,human,1981,yes,,north_america,USA,acting;music,,,,American singer and actor (born 1981)
 Jawaharlal Nehru,Q1047,,real,male,human,1889,no,74,asia,India,politics,,ruler,,Prime Minister of India from 1947 to 1964
 Hirohito,Q34479,,real,male,human,1901,no,87,asia,Japan,politics,,royal;ruler,,emperor of Japan from 1926 to 1989
-Kendall Jenner,Q1375057,,real,female,human,1995,yes,,north_america,USA,acting,,,,American media personality and model (born 1995)
+Kendall Jenner,Q1375057,,real,female,human,1995,yes,,north_america,USA,acting,,,known_for_acting_or_tv=false,American media personality and model (born 1995)
 Jeremy Renner,Q23365,,real,male,human,1971,yes,,north_america,USA,acting,,,,American actor (born 1971)
 James Cameron,Q42574,,real,male,human,1954,yes,,north_america;oceania,Canada;New Zealand,exploration;film,,,,Canadian filmmaker and explorer (born 1954)
 Jason Bateman,Q284636,,real,male,human,1969,yes,,north_america,USA,acting,,,,American actor (born 1969)

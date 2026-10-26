@@ -27,7 +27,7 @@ FIRST_QUESTION = "is_fictional"
 
 def _place(place):
     """A "where from" question that says what it means for fictional characters."""
-    return "Is this person from %s? (For a fictional character: was it created there?)" % place
+    return "Is this person from %s? (For a fictional character: was the original story created there?)" % place
 
 
 CORE_QUESTIONS = {
@@ -74,7 +74,7 @@ CORE_QUESTIONS = {
     "known_for_sport": "Is this person or character known for sport?",
     "known_for_football": "Is this person known for football (soccer)?",
     "known_for_music": "Is this person or character known for music?",
-    "known_for_acting_or_tv": "Is this person known for acting in films or appearing on television?",
+    "known_for_acting_or_tv": "Is this person known as an actor (in films or TV shows)?",
     "known_for_filmmaking": "Is this person known for directing or producing films?",
     "known_for_writing": "Is this person known for writing, poetry or philosophy?",
     "known_for_visual_art": "Is this person known for painting or other visual art?",

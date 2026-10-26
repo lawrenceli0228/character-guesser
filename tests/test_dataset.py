@@ -121,7 +121,7 @@ def test_1d_every_attribute_has_a_question():
     characters = dataset.load_characters(CHARACTERS_CSV)
     questions = dataset.load_questions(QUESTIONS_CSV)
 
-    assert len(questions) == 106
+    assert len(questions) == 114
     assert list(questions) == list(characters[0]["attributes"])
 
 
@@ -133,3 +133,13 @@ def test_1d_fictional_characters_have_a_known_origin_year():
     assert characters["Wolverine"]["attributes"]["origin_1980_or_later"] is False
     unknown = [name for name, c in characters.items() if c["attributes"]["origin_before_1900"] is None]
     assert unknown == ["Morgoth"]
+
+
+def test_1d_main_harry_potter_characters_can_be_told_apart():
+    # before the role/age/teacher questions, Harry, Ron, Dumbledore and Sirius had identical answers
+    characters = {c["name"]: c for c in dataset.load_characters(CHARACTERS_CSV)}
+    names = ["Harry Potter", "Ron Weasley", "Albus Dumbledore", "Severus Snape", "Sirius Black"]
+
+    answer_sets = {tuple(characters[name]["attributes"].values()) for name in names}
+
+    assert len(answer_sets) == len(names)
