@@ -12,3 +12,19 @@ def test_first_question_is_known_for_every_character_and_splits_roster():
 
     assert None not in values
     assert True in values and False in values
+
+
+def test_parent_links_use_existing_questions():
+    from questions import PARENTS, QUESTIONS
+
+    assert all(child in QUESTIONS and parent in QUESTIONS for child, parent in PARENTS.items())
+
+
+def test_a_yes_to_a_child_question_is_never_a_no_to_its_parent():
+    # the game skips a child once its parent is answered No, so the data must agree
+    from questions import PARENTS
+
+    broken = [(c.name, child, parent) for c in load_characters() for child, parent in PARENTS.items()
+              if c.attributes[child] is True and c.attributes[parent] is False]
+
+    assert broken == []

@@ -27,7 +27,7 @@ from data_loader import find_inconsistencies, violated_implications
 from question_pool import (
     POOL_PATH, PoolQuestion, check_pool, claim_set, load_pool, pool_value, required_properties,
 )
-from questions import CORE_QUESTIONS, QUESTIONS
+from questions import CORE_QUESTIONS, PARENTS, QUESTIONS
 from roster import (  # noqa: F401  (parse_roster_row and load_roster are re-exported for callers)
     AUTO_ROSTER_PATH, COUNTRY_FEATURES, DOMAIN_FEATURES, MEDIA_FEATURES, REGION_FEATURES,
     ROSTER_PATH, SPECIES_TO_HUMAN_ANIMAL, TAG_FEATURES, UNKNOWN,
@@ -40,17 +40,10 @@ DATASET_DIR = ROOT.parent / "dataset"  # the finished dataset the game reads
 OUTPUT_PATH = DATASET_DIR / "characters.csv"
 QUESTIONS_OUTPUT_PATH = DATASET_DIR / "questions.csv"
 
-# (feature, threshold year, True if the feature means "before" the threshold)
+# (feature, first year, first year after): the character's origin year falls in [first, after).
+# One easy question only: players rarely know birth decades, but they know if someone is historical.
 YEAR_FEATURES = (
-    ("origin_bce", 1, True),
-    ("origin_before_1500", 1500, True),
-    ("origin_before_1800", 1800, True),
-    ("origin_before_1900", 1900, True),
-    ("origin_before_1950", 1950, True),
-    ("origin_1960_or_later", 1960, False),
-    ("origin_1970_or_later", 1970, False),
-    ("origin_1980_or_later", 1980, False),
-    ("origin_1995_or_later", 1995, False),
+    ("origin_before_1900", None, 1900),
 )
 YOUNG_DEATH_AGE = 40
 VALUE_TEXT = {True: "true", False: "false", None: "unknown"}
@@ -85,8 +78,8 @@ def _time_attributes(entry):
     if year is None:
         return {feature: None for feature, _, _ in YEAR_FEATURES}
     return {
-        feature: (year < threshold) if is_before else (year >= threshold)
-        for feature, threshold, is_before in YEAR_FEATURES
+        feature: (first is None or year >= first) and year < after
+        for feature, first, after in YEAR_FEATURES
     }
 
 
@@ -263,16 +256,17 @@ def build_dataset(
 
 
 def question_rows() -> List[Dict[str, str]]:
-    """One row per attribute: column name, player-facing text and whether it is a core or pool question."""
+    """One row per attribute: column name, player-facing text, core or pool, and its broader parent question."""
     return [
-        {"attribute": attribute, "question": text, "group": "core" if attribute in CORE_QUESTIONS else "pool"}
+        {"attribute": attribute, "question": text, "group": "core" if attribute in CORE_QUESTIONS else "pool",
+         "parent": PARENTS.get(attribute, "")}
         for attribute, text in QUESTIONS.items()
     ]
 
 
 def write_questions(path=QUESTIONS_OUTPUT_PATH):
     with open(path, "w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["attribute", "question", "group"])
+        writer = csv.DictWriter(handle, fieldnames=["attribute", "question", "group", "parent"])
         writer.writeheader()
         writer.writerows(question_rows())
 

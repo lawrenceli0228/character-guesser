@@ -121,7 +121,7 @@ def test_1d_every_attribute_has_a_question():
     characters = dataset.load_characters(CHARACTERS_CSV)
     questions = dataset.load_questions(QUESTIONS_CSV)
 
-    assert len(questions) == 114
+    assert len(questions) == 125
     assert list(questions) == list(characters[0]["attributes"])
 
 
@@ -129,10 +129,19 @@ def test_1d_fictional_characters_have_a_known_origin_year():
     # first-appearance years were filled in by hand where Wikidata had none (Wolverine: 1974)
     characters = {c["name"]: c for c in dataset.load_characters(CHARACTERS_CSV)}
 
-    assert characters["Wolverine"]["attributes"]["origin_1970_or_later"] is True
-    assert characters["Wolverine"]["attributes"]["origin_1980_or_later"] is False
+    assert characters["Wolverine"]["attributes"]["origin_before_1900"] is False
     unknown = [name for name, c in characters.items() if c["attributes"]["origin_before_1900"] is None]
     assert unknown == ["Morgoth"]
+
+
+def test_1d_new_questions_tell_common_look_alikes_apart():
+    # event, work and look questions added instead of birth decades
+    characters = {c["name"]: c["attributes"] for c in dataset.load_characters(CHARACTERS_CSV)}
+
+    for a, b in [("Donald Trump", "George W. Bush"), ("Richard Nixon", "Gerald Ford"), ("Bugs Bunny", "Daffy Duck"),
+                 ("Tarzan", "Zorro"), ("Hulk", "Spider-Man"), ("Dwight D. Eisenhower", "Ulysses S. Grant")]:
+        assert any(characters[a][q] is not None and characters[b][q] is not None and characters[a][q] != characters[b][q]
+                   for q in characters[a]), (a, b)
 
 
 def test_1d_main_harry_potter_characters_can_be_told_apart():
@@ -143,3 +152,21 @@ def test_1d_main_harry_potter_characters_can_be_told_apart():
     answer_sets = {tuple(characters[name]["attributes"].values()) for name in names}
 
     assert len(answer_sets) == len(names)
+
+
+# --- parent questions (linked questions) ------------------------------------------
+
+def test_load_parents_reads_only_rows_with_a_parent(tmp_path):
+    path = write_csv(tmp_path / "questions.csv", ["attribute", "question", "group", "parent"], [
+        ["from_europe", "Europe?", "core", ""],
+        ["from_uk", "UK?", "core", "from_europe"],
+    ])
+
+    assert dataset.load_parents(path) == {"from_uk": "from_europe"}
+
+
+def test_real_dataset_links_countries_to_regions():
+    parents = dataset.load_parents(QUESTIONS_CSV)
+
+    assert parents["from_uk"] == "from_europe"
+    assert parents["universe_harry_potter"] == "first_appeared_in_book"

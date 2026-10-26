@@ -252,8 +252,8 @@ def test_gate_and_keywords_must_be_given_together(tmp_path):
         load_pool(path, NAMES)
 
 
-def test_new_year_thresholds_are_consistent():
+def test_pool_sport_questions_imply_sport():
     from data_loader import find_inconsistencies
 
-    assert find_inconsistencies({"origin_1980_or_later": True, "origin_1970_or_later": False}) != []
-    assert find_inconsistencies({"origin_before_1950": True, "origin_1960_or_later": True}) != []
+    assert find_inconsistencies({"sport_tennis": True, "known_for_sport": False}) != []
+    assert find_inconsistencies({"sport_tennis": True, "known_for_sport": True}) == []

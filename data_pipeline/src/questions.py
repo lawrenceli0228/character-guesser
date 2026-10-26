@@ -39,15 +39,7 @@ CORE_QUESTIONS = {
     "is_alive": "Is this person still alive today?",
     "died_before_age_40": "Did this person die before the age of 40?",
     # When
-    "origin_bce": "Was this person born (or this character created) before the Common Era (BCE)?",
-    "origin_before_1500": "Was this person born (or this character created) before the year 1500?",
-    "origin_before_1800": "Was this person born (or this character created) before 1800?",
     "origin_before_1900": "Was this person born (or this character created) before 1900?",
-    "origin_before_1950": "Was this person born (or this character created) before 1950?",
-    "origin_1960_or_later": "Was this person born (or this character created) in 1960 or later?",
-    "origin_1970_or_later": "Was this person born (or this character created) in 1970 or later?",
-    "origin_1980_or_later": "Was this person born (or this character created) in 1980 or later?",
-    "origin_1995_or_later": "Was this person born (or this character created) in 1995 or later?",
     # Where (spelled out because players otherwise answer for the story world, e.g. Darth Vader)
     "from_asia": _place("Asia"),
     "from_europe": _place("Europe"),
@@ -88,7 +80,7 @@ CORE_QUESTIONS = {
     "is_villain": "Is this a fictional villain?",
     "is_robot_or_machine": "Is this character a robot or machine?",
     # Original medium (false for real people)
-    "first_appeared_in_book": "Is this a fictional character who first appeared in a book?",
+    "first_appeared_in_book": "Is this a fictional character who first appeared in a novel or other book (not a comic book)?",
     "first_appeared_in_comic": "Is this a fictional character who first appeared in a comic or manga?",
     "first_appeared_in_animation": "Is this a fictional character who first appeared in an animated film or cartoon?",
     "first_appeared_in_video_game": "Is this a fictional character who first appeared in a video game?",
@@ -133,3 +125,35 @@ def _read_pool_questions(reader):
 
 POOL_QUESTIONS = load_pool_questions()
 QUESTIONS = {**CORE_QUESTIONS, **POOL_QUESTIONS}
+
+# Narrower question -> broader question it belongs to: a Yes to the child always
+# means a Yes to the parent (tests check the data). The game uses this to skip a
+# child once its parent is answered No, and to follow up a Yes with its children.
+PARENTS = {
+    # where: a country lies inside its region
+    "from_uk": "from_europe", "from_france": "from_europe", "from_germany": "from_europe",
+    "from_italy": "from_europe", "from_spain": "from_europe",
+    "from_usa": "from_north_america", "from_canada": "from_north_america",
+    "from_japan": "from_asia", "from_india": "from_asia", "from_chinese_speaking_world": "from_asia",
+    "from_brazil": "from_south_america",
+    # what they are known for
+    "known_for_football": "known_for_sport", "sport_basketball": "known_for_sport",
+    "sport_tennis": "known_for_sport", "sport_athletics": "known_for_sport", "sport_cricket": "known_for_sport",
+    "sport_boxing": "known_for_sport", "sport_racing": "known_for_sport",
+    "occupation_singer": "known_for_music", "occupation_rapper": "known_for_music",
+    "instrument_piano": "known_for_music", "instrument_guitar": "known_for_music",
+    "real_played_superhero": "known_for_acting_or_tv",
+    "occupation_physicist": "known_for_science_or_medicine", "occupation_chemist": "known_for_science_or_medicine",
+    "award_nobel_physics": "known_for_science_or_medicine",
+    "occupation_novelist": "known_for_writing", "occupation_poet": "known_for_writing",
+    "occupation_computer_scientist": "known_for_technology",
+    "position_us_president": "has_ruled_a_country", "occupation_emperor": "has_ruled_a_country",
+    "award_nobel_peace": "won_nobel_prize",
+    # fictional worlds: a franchise lies inside the medium it started in
+    # (not DC: Harley Quinn first appeared in an animated series)
+    "universe_harry_potter": "first_appeared_in_book", "universe_tolkien": "first_appeared_in_book",
+    "universe_marvel": "first_appeared_in_comic",
+    "franchise_x_men": "universe_marvel", "franchise_avengers": "universe_marvel",
+    "franchise_nintendo": "first_appeared_in_video_game", "universe_star_wars": "first_appeared_in_live_action",
+    "occupation_wizard": "has_superpowers_or_magic",
+}

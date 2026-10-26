@@ -63,9 +63,7 @@ def test_real_person_identity_and_time_attributes():
     assert attributes["is_human"] is True
     assert attributes["is_animal"] is False
     assert attributes["is_alive"] is False
-    assert attributes["origin_before_1500"] is False
     assert attributes["origin_before_1900"] is True
-    assert attributes["origin_1970_or_later"] is False
 
 
 def test_real_person_place_domain_and_media_attributes():
@@ -92,7 +90,7 @@ def test_fictional_character_attributes():
     assert attributes["first_appeared_in_book"] is False
     assert attributes["has_superpowers_or_magic"] is True
     assert attributes["from_japan"] is True
-    assert attributes["origin_1995_or_later"] is True
+    assert attributes["origin_before_1900"] is False
 
 
 @pytest.mark.parametrize("species, expected_human, expected_animal", [
@@ -108,20 +106,14 @@ def test_species_maps_to_human_and_animal(species, expected_human, expected_anim
     assert attributes["is_animal"] is expected_animal
 
 
-@pytest.mark.parametrize("year, feature, expected", [
-    ("1499", "origin_before_1500", True),
-    ("1500", "origin_before_1500", False),
-    ("1969", "origin_1970_or_later", False),
-    ("1970", "origin_1970_or_later", True),
-    ("-551", "origin_before_1500", True),
-])
-def test_year_thresholds_at_boundaries(year, feature, expected):
-    assert attributes_for(make_row(origin_year=year))[feature] is expected
+@pytest.mark.parametrize("year, expected", [("1899", True), ("1900", False), ("-551", True), ("2019", False)])
+def test_before_1900_at_the_boundary(year, expected):
+    # the only year question left: players know if someone is historical, not their birth decade
+    assert attributes_for(make_row(origin_year=year))["origin_before_1900"] is expected
 
 
-@pytest.mark.parametrize("year, expected", [("-1", True), ("1", False), ("-551", True)])
-def test_origin_bce(year, expected):
-    assert attributes_for(make_row(origin_year=year))["origin_bce"] is expected
+def test_there_is_a_single_year_question():
+    assert [f for f in attributes_for(make_row(origin_year="1946")) if f.startswith("origin_")] == ["origin_before_1900"]
 
 
 @pytest.mark.parametrize("changes, expected", [
@@ -327,9 +319,9 @@ def test_override_that_changes_nothing_is_rejected():
 
 
 def test_override_that_contradicts_other_attributes_is_rejected():
-    entry = parse_roster_row(make_row(overrides="origin_before_1500=true"), line_number=2)
+    entry = parse_roster_row(make_row(overrides="known_for_football=true"), line_number=2)
 
-    with pytest.raises(RosterError, match="origin_before_1800"):
+    with pytest.raises(RosterError, match="known_for_sport"):
         derive_attributes(entry)
 
 
@@ -351,7 +343,7 @@ def test_load_roster_accepts_utf8_bom(tmp_path):
 def test_empty_origin_year_makes_every_year_attribute_unknown():
     attributes = attributes_for(make_row(origin_year=""))
 
-    assert all(attributes[f] is None for f in ("origin_bce", "origin_before_1900", "origin_1995_or_later"))
+    assert attributes["origin_before_1900"] is None
 
 
 def test_unknown_age_at_death_makes_died_young_unknown():

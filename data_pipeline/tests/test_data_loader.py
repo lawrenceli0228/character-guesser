@@ -238,8 +238,8 @@ def test_utf8_bom_is_accepted(tmp_path, small_csv):
 
 
 def test_find_inconsistencies_ignores_unknown_values():
-    assert find_inconsistencies({"origin_before_1500": True, "origin_before_1800": None}) == []
-    assert find_inconsistencies({"origin_before_1500": True, "origin_before_1800": False}) != []
+    assert find_inconsistencies({"known_for_football": True, "known_for_sport": None}) == []
+    assert find_inconsistencies({"known_for_football": True, "known_for_sport": False}) != []
 
 
 @pytest.mark.parametrize("unknown_value", [0.0, 1.0])

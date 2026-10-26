@@ -6,7 +6,7 @@
 |---|---|
 | Rows | **500**: 350 real people, 150 fictional characters |
 | Of which | 91 hand-curated and reviewed entry by entry (`roster.csv`); 409 generated from Wikidata by fixed rules (`roster_auto.csv`) |
-| Attributes | **114** Yes/No attributes: 56 hand-designed core questions + 58 questions in the reviewed question pool. Each value is `true`, `false` or `unknown` |
+| Attributes | **125** Yes/No attributes: 48 hand-designed core questions + 77 questions in the reviewed question pool. Each value is `true`, `false` or `unknown` |
 | Popularity | `sitelinks`: number of Wikipedia/Wikimedia language editions with an article (26–340) |
 | Game file | `../dataset/characters.csv` (plus `questions.csv`) (generated; do not edit by hand) |
 | Wikidata snapshot | `raw/wikidata_snapshot.json`, retrieved 2026-10-17 |
@@ -52,7 +52,7 @@ characters = load_characters()                 # tuple of Character (500)
 characters[0].name                             # "Albert Einstein"
 characters[0].attributes["is_fictional"]       # True / False / None (unknown)
 characters[0].sitelinks                        # 322 (popularity)
-QUESTIONS["is_fictional"]                      # player-facing question text (114 questions)
+QUESTIONS["is_fictional"]                      # player-facing question text (125 questions)
 FIRST_QUESTION                                 # "is_fictional": always ask this first
 ```
 
@@ -236,11 +236,16 @@ A greedy information-gain split over all 500 entries, with "Is this a
 fictional character?" first and **every answer matching the data**, after 10
 questions:
 
-| | Core questions only | Core + pool (114) |
+| | Core questions only | Core + pool (125) |
 |---|---|---|
-| Entry isolated (1 candidate left) | 46% | **72%** |
-| 3 or fewer candidates left | 81% | **96%** |
-| Pairs no question can separate | 338 | 86 |
+| Entry isolated (1 candidate left) | 29% | **58%** |
+| 3 or fewer candidates left | 58% | **89%** |
+| Pairs no question can separate | 1074 | 208 |
+
+The birth-year questions were replaced by a single "born before 1900?" question plus
+event and work questions (founded a tech company, World Cup, Looney Tunes, wears a mask, ...),
+because players rarely know birth decades. This report assumes every answer is right, so it
+counts the lost year information; replays of real playtests and black-box games did not get worse.
 
 The remaining inseparable pairs are entries with almost no public difference
 the questions capture: Homer and Bart Simpson, Bugs Bunny and Daffy Duck,

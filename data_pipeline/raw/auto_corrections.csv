@@ -7,11 +7,11 @@ Q632212,Storm,name=Storm (X-Men),display name: ambiguous label
 Q2307071,Vision,name=Vision (Marvel);;origin_year=1968,display name: ambiguous label; first appeared in 1968; Wikidata has no inception or first-appearance date
 Q838097,Rogue,name=Rogue (X-Men);;origin_year=1981,display name: ambiguous label; first appeared in 1981; Wikidata has no inception or first-appearance date
 Q34358,The Doctor,name=The Doctor (Doctor Who);;origin_year=1963,display name: ambiguous label; first appeared in 1963; Wikidata has no inception or first-appearance date
-Q107190,Peter Pan,region=europe;;country=UK;;overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"created by J. M. Barrie in the UK; Wikidata gives the country of a later US adaptation; best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
+Q107190,Peter Pan,region=europe;;country=UK;;overrides=from_north_america=unknown;from_usa=unknown;franchise_disney=true,"created by J. M. Barrie in the UK; Wikidata gives the country of a later US adaptation; best known through Hollywood films, so players may answer the USA questions for the Hollywood film; player survey (80 popular characters, answers given without the data): best known from the Disney film"
 Q2708078,Daenerys Targaryen,media=book;;origin_year=1996,first appeared in the novel A Game of Thrones (1996)
 Q47365,Marie Antoinette,tags=royal,"queen consort of France, not a ruling monarch"
 Q186422,Wolverine,origin_year=1974,first appeared in 1974; Wikidata has no inception or first-appearance date
-Q675179,Martian Manhunter,origin_year=1955,first appeared in 1955; Wikidata has no inception or first-appearance date
+Q675179,Martian Manhunter,origin_year=1955;;overrides=is_animal=false;is_human=false,first appeared in 1955; Wikidata has no inception or first-appearance date; a Martian
 Q1631090,Deadpool,origin_year=1991,first appeared in 1991; Wikidata has no inception or first-appearance date
 Q170534,Hercule Poirot,origin_year=1920,first appeared in 1920; Wikidata has no inception or first-appearance date
 Q2276627,Thanos,origin_year=1973,first appeared in 1973; Wikidata has no inception or first-appearance date
@@ -20,7 +20,7 @@ Q3899150,Pennywise,origin_year=1986,first appeared in 1986; Wikidata has no ince
 Q207369,Snoopy,origin_year=1950,first appeared in 1950; Wikidata has no inception or first-appearance date
 Q431862,Sabretooth,origin_year=1977,first appeared in 1977; Wikidata has no inception or first-appearance date
 Q1621261,Venom,origin_year=1988,first appeared in 1988; Wikidata has no inception or first-appearance date
-Q6502703,Pinocchio,origin_year=1881;;overrides=has_superpowers_or_magic=unknown;from_europe=unknown;from_italy=unknown;from_north_america=unknown;from_usa=unknown,"first appeared in 1881; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
+Q6502703,Pinocchio,origin_year=1881;;overrides=has_superpowers_or_magic=unknown;from_north_america=unknown;from_usa=unknown;franchise_disney=true,"first appeared in 1881; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer the USA questions for the Hollywood film; player survey (80 popular characters, answers given without the data): best known from the Disney film"
 Q158952,Catwoman,origin_year=1940,first appeared in 1940; Wikidata has no inception or first-appearance date
 Q327553,Daredevil,origin_year=1964,first appeared in 1964; Wikidata has no inception or first-appearance date
 Q59826,Miles Morales,origin_year=2011,first appeared in 2011; Wikidata has no inception or first-appearance date
@@ -29,38 +29,38 @@ Q737236,Mystique,origin_year=1978,first appeared in 1978; Wikidata has no incept
 Q1429836,Galactus,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
 Q629583,Sheldon Cooper,origin_year=2007,first appeared in 2007; Wikidata has no inception or first-appearance date
 Q745077,Vito Corleone,origin_year=1969,first appeared in 1969; Wikidata has no inception or first-appearance date
-Q158940,Bane,origin_year=1993,first appeared in 1993; Wikidata has no inception or first-appearance date
+Q158940,Bane,origin_year=1993;;overrides=has_superpowers_or_magic=unknown;is_human=true;is_animal=false,first appeared in 1993; Wikidata has no inception or first-appearance date; human; species was missing
 Q189169,Conan the Barbarian,origin_year=1932,first appeared in 1932; Wikidata has no inception or first-appearance date
 Q717588,Thor,origin_year=1962,first appeared in 1962; Wikidata has no inception or first-appearance date
 Q836789,Riddler,origin_year=1948,first appeared in 1948; Wikidata has no inception or first-appearance date
 Q477948,Monkey D. Luffy,origin_year=1997,first appeared in 1997; Wikidata has no inception or first-appearance date
 Q1339544,Foghorn Leghorn,origin_year=1946,first appeared in 1946; Wikidata has no inception or first-appearance date
-Q868958,Ghost Rider,origin_year=1972,first appeared in 1972; Wikidata has no inception or first-appearance date
+Q868958,Ghost Rider,origin_year=1972;;overrides=is_animal=false,first appeared in 1972; Wikidata has no inception or first-appearance date; not an animal
 Q3183235,Jon Snow,origin_year=1996,first appeared in 1996; Wikidata has no inception or first-appearance date
 Q2474195,Ultron,origin_year=1968,first appeared in 1968; Wikidata has no inception or first-appearance date
 Q998220,Black Panther,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
 Q632908,Paddington Bear,origin_year=1958,first appeared in 1958; Wikidata has no inception or first-appearance date
 Q1428628,Long John Silver,origin_year=1881,first appeared in 1881; Wikidata has no inception or first-appearance date
-Q204274,Galadriel,origin_year=1954;;overrides=has_ruled_a_country=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"first appeared in 1954; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
+Q204274,Galadriel,origin_year=1954;;overrides=has_ruled_a_country=unknown;from_north_america=unknown;from_usa=unknown,"first appeared in 1954; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
 Q295599,Two-Face,origin_year=1942,first appeared in 1942; Wikidata has no inception or first-appearance date
 Q158931,Ra's al Ghul,origin_year=1971,first appeared in 1971; Wikidata has no inception or first-appearance date
 Q694790,Lex Luthor,origin_year=1940,first appeared in 1940; Wikidata has no inception or first-appearance date
 Q912640,Black Cat,origin_year=1979,first appeared in 1979; Wikidata has no inception or first-appearance date
-Q193531,Miss Marple,origin_year=1927,first appeared in 1927; Wikidata has no inception or first-appearance date
+Q193531,Miss Marple,origin_year=1927;;overrides=occupation_detective=true,first appeared in 1927; Wikidata has no inception or first-appearance date; Agatha Christie's amateur detective
 Q430698,Darkseid,origin_year=1970,first appeared in 1970; Wikidata has no inception or first-appearance date
 Q47352,Eric Cartman,origin_year=1995,first appeared in 1995; Wikidata has no inception or first-appearance date
 Q16311,James T. Kirk,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
-Q16341,Spock,origin_year=1966,first appeared in 1966; Wikidata has no inception or first-appearance date
+Q16341,Spock,origin_year=1966;;overrides=has_superpowers_or_magic=unknown;is_animal=false,first appeared in 1966; Wikidata has no inception or first-appearance date; not an animal
 Q1622359,Abraham Van Helsing,origin_year=1897,first appeared in 1897; Wikidata has no inception or first-appearance date
-Q735721,Green Goblin,origin_year=1964,first appeared in 1964; Wikidata has no inception or first-appearance date
-Q1799013,Eeyore,origin_year=1926;;overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"first appeared in 1926; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
+Q735721,Green Goblin,origin_year=1964;;overrides=is_human=true;is_animal=false,first appeared in 1964; Wikidata has no inception or first-appearance date; human (Norman Osborn); species was missing
+Q1799013,Eeyore,origin_year=1926;;overrides=from_north_america=unknown;from_usa=unknown,"first appeared in 1926; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
 Q660051,Dick Grayson,origin_year=1940,first appeared in 1940; Wikidata has no inception or first-appearance date
-Q762731,Aslan,origin_year=1950;;overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"first appeared in 1950; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
+Q762731,Aslan,origin_year=1950;;overrides=from_north_america=unknown;from_usa=unknown;is_human=false;is_animal=true,"first appeared in 1950; Wikidata has no inception or first-appearance date; best known through Hollywood films, so players may answer the USA questions for the Hollywood film; a lion"
 Q11256,Fidel Castro,domains=politics;;overrides=occupation_novelist=false,"known as a revolutionary and head of state, not a writer; the keyword 'author' made him a novelist"
 Q38203,Helen Keller,domains=writing;;overrides=occupation_novelist=false,"known as an author and disability activist, not for politics or leading a nation; she wrote memoirs and essays, not novels"
 Q1067,Dante Alighieri,overrides=occupation_novelist=false,the keyword 'writer' made him a novelist; he wrote poetry
 Q15031,Xi Jinping,overrides=occupation_military_leader=false,'General Secretary' matched the keyword 'general'; players would not call him a military commander
-Q22686,Donald Trump,domains=politics;business,real-estate businessman before politics; hosted The Apprentice but is not an actor
+Q22686,Donald Trump,domains=politics;business;;overrides=known_for_business=unknown,"real-estate businessman before politics; hosted The Apprentice but is not an actor; known as a businessman before politics, but many players now answer no"
 Q8704,Walt Disney,overrides=known_for_acting_or_tv=false,"known as a TV personality, model, director or for a cameo, not as an actor"
 Q186304,Kim Kardashian,overrides=known_for_acting_or_tv=false,"known as a TV personality, model, director or for a cameo, not as an actor"
 Q1375057,Kendall Jenner,overrides=known_for_acting_or_tv=false,"known as a TV personality, model, director or for a cameo, not as an actor"
@@ -75,15 +75,98 @@ Q34389,Whitney Houston,overrides=known_for_acting_or_tv=unknown,known mainly as 
 Q5383,David Bowie,overrides=known_for_acting_or_tv=unknown,known mainly as a singer but also starred in films
 Q11975,Britney Spears,overrides=known_for_acting_or_tv=unknown,known mainly as a singer but also starred in films
 Q1362169,Agnez Mo,overrides=known_for_acting_or_tv=unknown,known mainly as a singer but also starred in films
-Q173998,Ron Weasley,overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q712548,Albus Dumbledore,overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q176772,Severus Snape,overrides=is_villain=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q179641,Draco Malfoy,overrides=is_villain=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q713701,Sirius Black,overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q192179,Minerva McGonagall,overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q190282,Luna Lovegood,overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q180322,Aragorn,overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q15007,Gollum,overrides=is_villain=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q2281,Sauron,overrides=has_ruled_a_country=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q280608,Tom Bombadil,overrides=from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
-Q80453,Morgoth,overrides=has_ruled_a_country=unknown;from_europe=unknown;from_north_america=unknown;from_uk=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer where-from questions for the film instead of the original story"
+Q173998,Ron Weasley,overrides=from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q712548,Albus Dumbledore,overrides=from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q176772,Severus Snape,overrides=is_villain=unknown;from_north_america=unknown;from_usa=unknown;occupation_spy=true,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film; a double agent"
+Q179641,Draco Malfoy,overrides=is_villain=unknown;from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q713701,Sirius Black,overrides=from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q192179,Minerva McGonagall,overrides=from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q190282,Luna Lovegood,overrides=from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q180322,Aragorn,overrides=from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q15007,Gollum,overrides=is_villain=unknown;from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q2281,Sauron,overrides=has_ruled_a_country=unknown;from_north_america=unknown;from_usa=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q80453,Morgoth,overrides=has_ruled_a_country=unknown,"best known through Hollywood films, so players may answer the USA questions for the Hollywood film"
+Q1430,Marcus Aurelius,domains=politics;writing;;tags=royal;ruler,"Roman emperor who ruled the empire (161-180), not only a Stoic writer"
+Q217533,The Joker,media=comic;;overrides=occupation_chemist=false,"first appeared in Batman #1 (1940); player survey (80 popular characters, answers given without the data)"
+Q40791,Sandra Bullock,overrides=from_europe=false;from_north_america=true;from_usa=true;from_germany=false;known_for_filmmaking=unknown,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them; known mainly as an actor who also directs or produces; players answer no"
+Q23,George Washington,overrides=from_europe=false;from_north_america=true;from_usa=true;from_uk=false;occupation_military_leader=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them; commanded the Continental Army"
+Q37459,Nicole Kidman,overrides=from_oceania=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q15869,Freddie Mercury,overrides=from_europe=true;from_uk=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q23891,Andrew Garfield,overrides=from_europe=true;from_uk=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q36949,Robert De Niro,overrides=from_europe=false;from_north_america=true;from_usa=true;from_italy=false,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q5809,Che Guevara,overrides=from_south_america=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q34424,Shakira,overrides=from_europe=false;from_south_america=true;from_spain=false,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q2685,Arnold Schwarzenegger,overrides=from_europe=true;from_north_america=true;from_usa=true,Austrian-born US governor: players say yes to both
+Q13909,Angelina Jolie,overrides=from_asia=false;from_north_america=true;from_usa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q868,Aristotle,overrides=from_asia=false;from_europe=true;from_north_america=false;from_south_america=false;from_africa=false;from_oceania=false;from_chinese_speaking_world=false;from_usa=false;from_uk=false;from_japan=false;from_france=false;from_germany=false;from_italy=false;from_spain=false;from_russia=false;from_india=false;from_canada=false;from_brazil=false,ancient Greek philosopher; Wikidata gives no modern country
+Q1058,Narendra Modi,overrides=from_asia=true;from_europe=false;from_north_america=false;from_south_america=false;from_africa=false;from_oceania=false;from_chinese_speaking_world=false;from_usa=false;from_uk=false;from_japan=false;from_france=false;from_germany=false;from_italy=false;from_spain=false;from_russia=false;from_india=true;from_canada=false;from_brazil=false,Prime Minister of India; Wikidata country was missing
+Q25191,Christopher Nolan,overrides=from_europe=true;from_uk=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q37876,Natalie Portman,overrides=from_north_america=true;from_usa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q2001,Stanley Kubrick,overrides=from_north_america=true;from_usa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q2263,Tom Hanks,overrides=from_europe=false;from_north_america=true;from_usa=true;known_for_filmmaking=unknown,American actor; the Greek citizenship is honorary; known mainly as an actor who also directs or produces; players answer no
+Q40912,Frank Sinatra,overrides=from_europe=false;from_north_america=true;from_usa=true;from_italy=false,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q269412,George V,overrides=from_asia=false;from_europe=true;from_uk=true;from_india=false,British king; India was a colony he reigned over
+Q34851,Elizabeth Taylor,overrides=from_north_america=true;from_usa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q80046,Charlize Theron,overrides=from_africa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q23844,George Clooney,overrides=from_europe=false;from_north_america=true;from_usa=true;from_france=false;known_for_filmmaking=unknown,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them; known mainly as an actor who also directs or produces; players answer no"
+Q42229,Mel Gibson,overrides=from_europe=false;from_north_america=true;from_oceania=unknown;from_usa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q41148,Martin Scorsese,overrides=from_europe=false;from_north_america=true;from_usa=true;from_italy=false,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q7374,Alfred Hitchcock,overrides=from_europe=true;from_uk=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q11998,Kylie Minogue,overrides=from_oceania=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q65932,Anthony Hopkins,overrides=from_europe=true;from_uk=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q66107,Henry Kissinger,overrides=from_north_america=true;from_usa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q432473,Melania Trump,overrides=from_europe=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q30449,Avril Lavigne,overrides=from_europe=false;from_north_america=true;from_france=false;from_canada=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q37594,William the Conqueror,overrides=from_asia=false;from_europe=true;from_north_america=false;from_south_america=false;from_africa=false;from_oceania=false;from_chinese_speaking_world=false;from_usa=false;from_japan=false;from_france=true;from_germany=false;from_italy=false;from_spain=false;from_russia=false;from_india=false;from_canada=false;from_brazil=false,Duke of Normandy who became King of England
+Q33391,Leon Trotsky,overrides=from_europe=true;from_russia=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q80966,Cate Blanchett,overrides=from_north_america=false;from_oceania=true;from_usa=false,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q13424289,Edward Snowden,overrides=from_north_america=true;from_usa=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q42574,James Cameron,overrides=from_north_america=true;from_usa=unknown;from_canada=true,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q44077,Jessica Alba,overrides=from_europe=false;from_north_america=true;from_usa=true;from_france=false;from_canada=false,"Wikidata lists several citizenships, which made every region unknown; set to the country players associate with them"
+Q3925,Grace Kelly,overrides=from_north_america=true;from_usa=true,American actress who became Princess of Monaco
+Q4235,Miley Cyrus,overrides=is_male=false,female; Wikidata gender missing
+Q41173,Demi Lovato,overrides=is_male=false,players answer not male
+Q3355,Amelia Earhart,overrides=known_for_writing=false;occupation_novelist=false;known_for_exploration=true,famous as an aviator; 'author' in her description made her a novelist
+Q34460,Gwyneth Paltrow,overrides=occupation_novelist=false,'author' in her description made her a novelist
+Q2673,Chuck Norris,overrides=occupation_martial_artist=true,a martial artist before acting
+Q51746,Luke Skywalker,overrides=is_human=true;is_animal=false,human; species was missing
+Q51797,Princess Leia,overrides=has_superpowers_or_magic=unknown;is_human=true;is_animal=false,human; species was missing
+Q849477,Harley Quinn,overrides=is_villain=unknown;is_human=true;is_animal=false,human; species was missing
+Q430178,Doctor Doom,overrides=is_human=true;is_animal=false,human; species was missing
+Q216810,King Kong,overrides=is_villain=unknown;is_human=false;is_animal=true,a giant ape
+Q37079,Tom Cruise,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q39792,Jack Nicholson,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q23760,Rowan Atkinson,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q205707,Bradley Cooper,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q40096,Will Smith,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q108941,Carrie Fisher,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q38119,Daniel Radcliffe,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q41351,Jodie Foster,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q11930,Kevin Costner,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q40026,Sylvester Stallone,overrides=known_for_filmmaking=unknown,known mainly as an actor who also directs or produces; players answer no
+Q191794,Hello Kitty,overrides=is_animal=true;is_human=false,a cartoon cat
+Q6567,Godzilla,overrides=is_villain=unknown;is_animal=true;is_human=false,a giant reptile-like monster
+Q329466,Freddy Krueger,overrides=is_animal=false,not an animal
+Q366957,Jason Voorhees,overrides=has_superpowers_or_magic=unknown;is_animal=false,not an animal
+Q623059,Aquaman,overrides=is_animal=false,not an animal
+Q280608,Tom Bombadil,overrides=is_animal=false,not an animal
+Q36215,Mark Zuckerberg,overrides=known_for_technology=true;occupation_inventor=unknown,founded Facebook: players answer yes to technology
+Q312556,Jeff Bezos,overrides=known_for_technology=true;occupation_inventor=unknown,founded Amazon: players answer yes to technology
+Q199796,Popeye,overrides=has_superpowers_or_magic=true;from_asia=false;from_europe=false;from_north_america=true;from_south_america=false;from_africa=false;from_oceania=false;from_chinese_speaking_world=false;from_usa=true;from_uk=false;from_japan=false;from_france=false;from_germany=false;from_italy=false;from_spain=false;from_russia=false;from_india=false;from_canada=false;from_brazil=false;;origin_year=1929,American comic strip (1929); spinach gives him super strength; Popeye first appeared in 1929 (the Thimble Theatre strip began in 1919)
+Q1339,Johann Sebastian Bach,overrides=from_germany=true,German composer; Wikidata gave the Holy Roman Empire
+Q535,Victor Hugo,overrides=known_for_politics_or_leadership=false,"player survey (80 popular characters, answers given without the data): known as a writer"
+Q5879,Johann Wolfgang von Goethe,overrides=known_for_politics_or_leadership=false;known_for_science_or_medicine=false;known_for_visual_art=false;occupation_poet=true;occupation_physicist=false,"player survey (80 popular characters, answers given without the data): known as a poet and writer"
+Q9061,Karl Marx,overrides=known_for_politics_or_leadership=true;occupation_poet=false,"player survey (80 popular characters, answers given without the data)"
+Q859,Plato,overrides=occupation_poet=false,"player survey (80 popular characters, answers given without the data)"
+Q7243,Leo Tolstoy,overrides=occupation_poet=false,"player survey (80 popular characters, answers given without the data)"
+Q991,Fyodor Dostoyevsky,overrides=occupation_poet=false,"player survey (80 popular characters, answers given without the data)"
+Q9358,Friedrich Nietzsche,overrides=occupation_poet=false;instrument_piano=false,"player survey (80 popular characters, answers given without the data)"
+Q5592,Michelangelo,overrides=occupation_poet=false,"player survey (80 popular characters, answers given without the data)"
+Q8743,Thomas Edison,overrides=occupation_physicist=false;occupation_mathematician=false,"player survey (80 popular characters, answers given without the data)"
+Q9312,Immanuel Kant,overrides=occupation_physicist=false;occupation_mathematician=false,"player survey (80 popular characters, answers given without the data)"
+Q6279,Joe Biden,overrides=occupation_lawyer=true,worked as a lawyer before politics
+Q8409,Alexander the Great,overrides=occupation_emperor=unknown,"player survey (80 popular characters, answers given without the data): a king, but players call him an emperor"
+Q7747,Vladimir Putin,overrides=occupation_martial_artist=unknown;occupation_spy=unknown,"player survey (80 popular characters, answers given without the data): judo black belt and former KGB officer"
+Q51730,Yoda,overrides=occupation_teacher=true,Jedi master who trains Luke
+Q180704,Iron Man,overrides=has_superpowers_or_magic=unknown;known_for_technology=true;known_for_business=true,genius inventor and CEO of Stark Industries
+Q170241,Tarzan,overrides=franchise_disney=true,"player survey (80 popular characters, answers given without the data): best known from the Disney film"

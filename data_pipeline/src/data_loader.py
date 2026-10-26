@@ -30,14 +30,6 @@ VALUE_MAP = {"true": True, "false": False, "unknown": None}
 # (attribute, value, implied attribute, implied value): if the first attribute
 # has that value, a *known* implied attribute must have the implied value.
 IMPLICATIONS = (
-    ("origin_bce", True, "origin_before_1500", True),
-    ("origin_before_1500", True, "origin_before_1800", True),
-    ("origin_before_1800", True, "origin_before_1900", True),
-    ("origin_before_1900", True, "origin_before_1950", True),
-    ("origin_before_1950", True, "origin_1960_or_later", False),
-    ("origin_1995_or_later", True, "origin_1980_or_later", True),
-    ("origin_1980_or_later", True, "origin_1970_or_later", True),
-    ("origin_1970_or_later", True, "origin_1960_or_later", True),
     ("is_human", True, "is_animal", False),
     ("is_alive", True, "died_before_age_40", False),
     ("known_for_football", True, "known_for_sport", True),
