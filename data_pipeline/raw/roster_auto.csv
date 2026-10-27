@@ -234,7 +234,7 @@ Nicolas Cage,Q42869,,real,male,human,1964,yes,,north_america,USA,acting,,,,Ameri
 Frank Sinatra,Q40912,,real,male,human,1915,no,82,europe;north_america,Italy;USA,acting;music,,,from_europe=false;from_north_america=true;from_usa=true;from_italy=false,American singer and actor (1915–1998)
 Charles Dickens,Q5686,,real,male,human,1812,no,58,europe,UK,writing,,,,English novelist and social critic (1812–1870)
 Joan of Arc,Q7226,,real,female,human,1412,no,19,europe,France,politics,,,,"French folk heroine (1412–1431), military leader who crowned Charles VII and Roman Catholic saint, canonized 500 years after her death"
-Justin Bieber,Q34086,,real,male,human,1994,yes,,north_america,Canada,music,,,,Canadian singer-songwriter (born 1994)
+Justin Bieber,Q34086,,real,male,human,1994,yes,,north_america,Canada,music,,,from_usa=unknown;instrument_guitar=true;instrument_piano=unknown,Canadian singer-songwriter (born 1994)
 Jennifer Aniston,Q32522,,real,female,human,1969,yes,,north_america,USA,acting,,,,American actress (born 1969)
 Julia Roberts,Q40523,,real,female,human,1967,yes,,north_america,USA,acting,,,,American actress (born 1967)
 J. Robert Oppenheimer,Q132537,,real,male,human,1904,no,62,north_america,USA,science,,,,American theoretical physicist (1904–1967)

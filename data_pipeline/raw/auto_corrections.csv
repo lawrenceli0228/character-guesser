@@ -170,3 +170,4 @@ Q7747,Vladimir Putin,overrides=occupation_martial_artist=unknown;occupation_spy=
 Q51730,Yoda,overrides=occupation_teacher=true,Jedi master who trains Luke
 Q180704,Iron Man,overrides=has_superpowers_or_magic=unknown;known_for_technology=true;known_for_business=true,genius inventor and CEO of Stark Industries
 Q170241,Tarzan,overrides=franchise_disney=true,"player survey (80 popular characters, answers given without the data): best known from the Disney film"
+Q34086,Justin Bieber,overrides=from_usa=unknown;instrument_guitar=true;instrument_piano=unknown,Canadian but famous through his US career (two players answered USA yes); became famous with guitar covers on YouTube
