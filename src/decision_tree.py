@@ -34,10 +34,6 @@ class DecisionTree:
         model = answer_model(question)
         result = 0
         for answer in ("yes", "no", "unknown"):
-            # 1. weights = 每个候选人的 概率 × model[真实值][answer]
-            # 2. total = sum(weights)
-            # 3. 如果 total > 0：算 weights 归一化后的熵
-            # 4. result += total × 熵
             weights = []
             weights_nor = []
             for candidate,prob in candidates:

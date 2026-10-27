@@ -2,9 +2,9 @@ import difflib
 
 from decision_tree import DecisionTree
 from display import Display
-from probability import popularity_prior
+from probability import Probability
 from simulate import answer_model
-import dataset
+from dataset import Dataset
 
 
 class Game:
@@ -29,10 +29,10 @@ class Game:
     @staticmethod
     def play():
         tree = DecisionTree.load_dst("../model/tree.json")
-        questions = dataset.load_questions("../dataset/questions.csv")
-        parents = dataset.load_parents("../dataset/questions.csv")
-        characters = dataset.load_characters("../dataset/characters.csv")
-        prior = popularity_prior(characters)
+        questions = Dataset.load_questions("../dataset/questions.csv")
+        parents = Dataset.load_parents("../dataset/questions.csv")
+        characters = Dataset.load_characters("../dataset/characters.csv")
+        prior = Probability.popularity_prior(characters)
         print(Display.title(Game.MAX_QUESTIONS, len(characters)))
         while True:
             Game.play_round(tree, questions, characters, prior, parents)
@@ -81,15 +81,20 @@ class Game:
         if not question.startswith("origin_"):
             return False
         limit = Game.MAX_YEAR_QUESTIONS.get(answers.get("is_fictional"), 2)
-        asked = sum(1 for other in answers if other.startswith("origin_"))
-        return asked >= limit
+        year_asked = 0
+        for ans_question in answers:
+            if ans_question.startswith("origin_"):
+                year_asked += 1
+        return year_asked >= limit
 
     @staticmethod
     def confident(guesses):
         """True once the leader is far ahead of the runner-up, so more questions would not change the guess."""
         if len(guesses) < 2:
             return True
-        return guesses[0][1] >= Game.LEAD_RATIO * guesses[1][1]
+        leader_prob = guesses[0][1]
+        second_prob = guesses[1][1]
+        return leader_prob >= Game.LEAD_RATIO * second_prob
 
     @staticmethod
     def find_character(characters, name):
@@ -139,7 +144,7 @@ class Game:
         rows = []
         for question, answer in asked:
             expected = data_answer[character["attributes"][question]]
-            if "unknown" not in (answer, expected) and answer != expected:
+            if answer != "unknown" and expected != "unknown" and answer != expected:
                 rows.append((question, answer, expected))
         return rows
 
@@ -222,12 +227,9 @@ class Game:
     @staticmethod
     def play_round(tree, questions, characters, prior, parents=None):
         """One game: the tree picks the questions, then all answers pick the top 3 guesses."""
-
-
         node = tree
         asked = []
         for count in range(1, Game.MAX_QUESTIONS + 1):     # count = 1, 2, ..., 15
-            # 1. question = 用 choose_question 决定这题问什么（返回的是问题名）
             question = Game.choose_question(node, characters, prior, asked, parents)
             question_ = questions.get(question)
             answer = Game.ask(Display.question(count, Game.MAX_QUESTIONS, question_))
@@ -262,11 +264,17 @@ class Game:
         Linked questions: children of a No are skipped, and a child of a Yes is preferred
         when it is nearly as good as the best question, so the questions follow on.
         """
-        parents = parents or {}
+        if not parents:
+            parents = {}
+        # [{name: prob} ..]
         candidates = Game.score_guesses(characters, prior, asked, top_n)
         attributes = {}
+        #characters = [{"name": "Hulk", "attributes": {"is_male": True,...},]
+        #  attributes = {"Hulk" : {"is_male": True,...}}
         for character in characters:
             attributes[character["name"]] = character["attributes"]
+
+        # asked   = [("is_fictional", "yes"),...] to answer = {"is_fictional": "yes",...}
         answers = dict(asked)
         entropies = {}
         for question in characters[0]["attributes"]:
@@ -275,16 +283,28 @@ class Game:
             entropies[question] = DecisionTree.expected_entropy(candidates, attributes, question)
         if not entropies:
             return None
-        res_mini_name = min(entropies, key=entropies.get)
-        follow_ups = [question for question in entropies
-                      if answers.get(parents.get(question)) == "yes"
-                      and not Game.sibling_said_yes(question, answers, parents)
-                      and entropies[question] <= entropies[res_mini_name] + Game.FOLLOW_UP_SLACK]
-        if follow_ups:
-            return min(follow_ups, key=entropies.get)
+
+        res_mini_name = Game.mini_name(entropies)
+        follow_up_question = {}
+        for question in entropies:
+            if (answers.get(parents.get(question)) == "yes" and not Game.sibling_said_yes(question, answers, parents)
+                    and entropies[question] <= (entropies[res_mini_name] + Game.FOLLOW_UP_SLACK)):
+                follow_up_question[question] = entropies[question]
+
+        best_follow_up = Game.mini_name(follow_up_question)
+        if best_follow_up:
+            return best_follow_up
         return res_mini_name
 
-
+    @staticmethod
+    def mini_name(entropies):
+        res_mini = float("inf")
+        res_mini_name = None
+        for question in entropies:
+            if entropies[question] < res_mini:
+                res_mini = entropies[question]
+                res_mini_name = question
+        return res_mini_name
 
 
 
