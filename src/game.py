@@ -1,5 +1,6 @@
 import difflib
 
+from animation import Animation
 from decision_tree import DecisionTree
 from display import Display
 from probability import Probability
@@ -34,11 +35,19 @@ class Game:
         characters = Dataset.load_characters("../dataset/characters.csv")
         prior = Probability.popularity_prior(characters)
         print(Display.title(Game.MAX_QUESTIONS, len(characters)))
+        start = Display.press_start()
+        if start:
+            input(start)
+        score = {"cpu": 0, "player": 0}
         while True:
-            Game.play_round(tree, questions, characters, prior, parents)
-            if Game.ask_yes_no(Display.play_again()) != "yes":
+            Animation.frames(Display.ready(), 0.7)
+            if Game.play_round(tree, questions, characters, prior, parents):
+                score["cpu"] += 1
+            else:
+                score["player"] += 1
+            if Game.ask_yes_no(Display.play_again(score)) != "yes":
                 break
-        print(Display.goodbye())
+        print(Display.goodbye(score))
 
     @staticmethod
     def choose_question(node, characters, prior, asked, parents=None):
@@ -217,32 +226,46 @@ class Game:
 
     @staticmethod
     def ask(text):
+        prompt = Display.prompt(text)
         while True:
-            user_in = input(Display.prompt(text))
+            user_in = input(prompt)
             answer = Game.parse_user_input(user_in)
             if answer is not None:
                 return answer
             print(Display.invalid())
+            prompt = Display.retry(text)     # the arcade screen keeps the error visible instead of redrawing
 
     @staticmethod
     def play_round(tree, questions, characters, prior, parents=None):
-        """One game: the tree picks the questions, then all answers pick the top 3 guesses."""
+        """One game: the tree picks the questions, then all answers pick the top 3 guesses.
+
+        Returns True when the CPU guessed right (for the score).
+        """
         node = tree
         asked = []
+        # every character's chance so far: the arcade screen shows the leader's and how many are left
+        guesses = Game.score_guesses(characters, prior, asked, len(characters))
         for count in range(1, Game.MAX_QUESTIONS + 1):     # count = 1, 2, ..., 15
             question = Game.choose_question(node, characters, prior, asked, parents)
             question_ = questions.get(question)
-            answer = Game.ask(Display.question(count, Game.MAX_QUESTIONS, question_))
+            answer = Game.ask(Display.question(count, Game.MAX_QUESTIONS, question_, guesses))
             asked.append((question, answer))
             if node is not None and not node["leaf"] and question == node["question"]:
                 node = Game.next_quest(node, answer)
             else:
                 node = None
+            new_guesses = Game.score_guesses(characters, prior, asked, len(characters))
+            Animation.show(Display.feedback(answer, guesses, new_guesses))
+            Animation.pause(1.0)
+            guesses = new_guesses
             # stop early when one character is already far ahead (like akinator.dev)
-            if count >= Game.MIN_QUESTIONS and Game.confident(Game.score_guesses(characters, prior, asked, 2)):
+            if count >= Game.MIN_QUESTIONS and Game.confident(guesses):
                 break
         ge_names = Game.score_guesses(characters, prior, asked, 3)
-        print(Display.result(ge_names, len(asked)))
+        Animation.show(Display.final_round(len(asked), Game.MAX_QUESTIONS))
+        Animation.progress(Display.loading_frames(), 0.06)
+        Animation.frames(Display.clues(asked), 0.3)
+        Animation.show(Display.result(ge_names, len(asked)), 0.002)
         # one guess only: the runners-up are already on screen
         guess = ge_names[0][0]
         while True:
@@ -252,10 +275,11 @@ class Game:
             print(Display.yes_or_no())
         named = Game.find_character(characters, name) if name else None
         if verdict == "yes" or (named is not None and named["name"] == guess):
-            print(Display.win(len(asked)))
-        else:
-            print(Display.lose())
-            Game.explain_miss(characters, prior, questions, asked, name)
+            Animation.show(Display.win(len(asked), ge_names[0][1]), 0.002)
+            return True
+        print(Display.lose())
+        Game.explain_miss(characters, prior, questions, asked, name)
+        return False
 
     @staticmethod
     def focus_question(characters, prior, asked, top_n, parents=None):

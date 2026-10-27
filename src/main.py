@@ -1,9 +1,15 @@
+import sys
+
+from animation import Animation
 from display import Display
 from game import Game
 
 
 def main():
-    # Display.FANCY = True    # the game screen: title box, progress bar, framed guess (off while testing)
+    # python3 main.py --arcade : the arcade screen (colours, countdown, K.O.); plain lines without it
+    if "--arcade" in sys.argv[1:]:
+        Display.FANCY = True
+        Animation.ON = True
     Game.play()
 
 
