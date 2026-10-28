@@ -38,11 +38,11 @@ class Game:
         start = Display.press_start()
         if start:
             input(start)
-        score = {"cpu": 0, "player": 0}
+        score = {"algo": 0, "player": 0}
         while True:
             Animation.frames(Display.ready(), 0.7)
             if Game.play_round(tree, questions, characters, prior, parents):
-                score["cpu"] += 1
+                score["algo"] += 1
             else:
                 score["player"] += 1
             if Game.ask_yes_no(Display.play_again(score)) != "yes":
@@ -239,7 +239,7 @@ class Game:
     def play_round(tree, questions, characters, prior, parents=None):
         """One game: the tree picks the questions, then all answers pick the top 3 guesses.
 
-        Returns True when the CPU guessed right (for the score).
+        Returns True when the game guessed right (for the score).
         """
         node = tree
         asked = []

@@ -34,11 +34,23 @@ EVERYONE = [("Severus Snape", 0.62), ("Albus Dumbledore", 0.21), ("Harry Potter"
 # --- helpers for the arcade screen -----------------------------------------------------
 
 def test_visible_removes_colour_codes():
-    assert display.Display.visible(display.Display.paint("CPU", display.Display.RED)) == "CPU"
+    assert display.Display.visible(display.Display.paint("ALGO", display.Display.RED)) == "ALGO"
+
+
+def test_place_moves_every_line_to_the_middle_of_the_window(monkeypatch):
+    monkeypatch.setattr(display.Display, "margin", staticmethod(lambda: "    "))
+
+    placed = display.Display.place(display.Display.CLEAR + "STAGE 01\n>> question")
+
+    assert placed == display.Display.CLEAR + "    STAGE 01\n    >> question"
+
+
+def test_no_margin_when_output_is_not_a_terminal():
+    assert display.Display.margin() == ""     # pytest captures stdout, so it is not a terminal
 
 
 def test_box_lines_all_have_the_screen_width():
-    box = display.Display.box(["A K I N A T O R", display.Display.paint("at home", display.Display.PURPLE)],
+    box = display.Display.box(["G U E S S O R I T H M", display.Display.paint("at home", display.Display.PURPLE)],
                               display.Display.PURPLE)
 
     assert {len(line) for line in lines_of(box)} == {display.Display.WIDTH}
@@ -75,7 +87,7 @@ def test_rank_depends_on_questions_used():
 def test_title_names_the_game_and_the_rules(fancy):
     title = " ".join(seen(display.Display.title(15, 500)).split())    # wrapping may split a phrase over two lines
 
-    assert "A K I N A T O R" in title
+    assert "G U E S S O R I T H M" in title
     assert "15 questions" in title
     assert "500" in title
     assert "y = yes" in title and "n = no" in title and "? = not sure" in title
@@ -116,7 +128,7 @@ def test_question_shows_its_stage_progress_and_text(fancy):
 def test_question_shows_the_mind_read_meter_when_guesses_are_given(fancy):
     screen = seen(display.Display.question(3, 15, "Is this person still alive today?", EVERYONE))
 
-    assert "CPU MIND-READ" in screen and "62%" in screen
+    assert "ALGO MIND-READ" in screen and "62%" in screen
     assert "4 suspects left" in screen
 
 
@@ -198,7 +210,7 @@ def test_win_says_how_many_questions_it_took(fancy):
     screen = seen(display.Display.win(15, 0.97))
 
     assert "15 questions" in screen
-    assert "97%" in screen and "C P U   W I N S" in screen
+    assert "97%" in screen and "A L G O   W I N S" in screen
 
 
 def test_explanation_lists_each_critical_miss(fancy):
@@ -206,7 +218,7 @@ def test_explanation_lists_each_critical_miss(fancy):
 
     assert "B A T T L E" in text and "1 critical miss" in text
     assert "Has this person won a Grammy Award?" in text
-    assert "P1 NO" in text and "CPU DATA YES" in text
+    assert "P1 NO" in text and "ALGO DATA YES" in text
 
 
 def test_explanation_fits_the_screen_width(fancy):
@@ -215,11 +227,11 @@ def test_explanation_fits_the_screen_width(fancy):
     assert all(len(line) <= display.Display.WIDTH for line in lines_of(text))
 
 
-def test_score_shows_cpu_against_player(fancy):
-    score = {"cpu": 2, "player": 1}
+def test_score_shows_algo_against_player(fancy):
+    score = {"algo": 2, "player": 1}
 
-    assert "CPU 2 : 1 P1" in seen(display.Display.play_again(score))
-    assert "CPU 2 : 1 P1" in seen(display.Display.goodbye(score))
+    assert "ALGO 2 : 1 P1" in seen(display.Display.play_again(score))
+    assert "ALGO 2 : 1 P1" in seen(display.Display.goodbye(score))
 
 
 # --- plain output (the default while testing) ------------------------------------------
@@ -267,8 +279,8 @@ def test_plain_explanation_when_every_answer_matched():
 
 
 def test_plain_play_again_and_goodbye_are_unchanged():
-    assert display.Display.play_again({"cpu": 1, "player": 0}) == "Play again?"
-    assert display.Display.goodbye({"cpu": 1, "player": 0}) == "Thanks for playing!"
+    assert display.Display.play_again({"algo": 1, "player": 0}) == "Play again?"
+    assert display.Display.goodbye({"algo": 1, "player": 0}) == "Thanks for playing!"
 
 
 def test_unknown_character_says_it_is_not_in_the_dataset():
