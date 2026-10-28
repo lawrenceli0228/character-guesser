@@ -1,8 +1,9 @@
-# Character Guesser
+# Guessorithm
 
-A terminal guessing game in the spirit of Akinator. Think of a famous real person
-or fictional character; the game asks up to 15 yes / no / not-sure questions and
-then guesses who it is. It knows 500 characters (350 real people, 150 fictional).
+A terminal guessing game in the spirit of Akinator (repository: `character-guesser`).
+Think of a famous real person or fictional character; the game asks up to 15
+yes / no / not-sure questions and then guesses who it is. It knows 500 characters
+(350 real people, 150 fictional).
 
 Built as a final project for COMP9001 (Introduction to Programming, University of Sydney).
 
@@ -12,8 +13,12 @@ Requires Python 3.8 or later; no third-party packages.
 
 ```bash
 cd src
-python3 main.py
+python3 main.py            # plain screen: one line per question
+python3 main.py --arcade   # arcade screen: Player 1 vs ALGO, colours, countdown, K.O.
 ```
+
+Run the arcade screen in a real terminal (macOS Terminal or iTerm). IDE run windows,
+such as PyCharm's, do not support clearing the screen or centring, so the layout breaks.
 
 Answer each question with `y` (yes), `n` (no) or `?` (not sure). If the guess is
 wrong, type who you were thinking of and the game shows which of your answers
@@ -43,13 +48,30 @@ python3 train.py
 5. **Linked questions**: questions know their broader parent question (UK -> Europe),
    so answers that follow from earlier ones are never asked.
 
+## Accuracy
+
+`src/evaluate.py` plays the real game with simulated players: for each of the 500
+characters one honest game (answers taken from the data) and 3 noisy games (85%
+right, 5% wrong, 10% not sure, the same answer model the tree is trained on).
+
+```bash
+cd src
+python3 evaluate.py          # seed 9001, about 3 minutes
+python3 evaluate.py 2027     # another random seed
+```
+
+Seed 9001: honest players are guessed first time in 498/500 games (99.6%); noisy
+players in 936/1500 (62.4%), with the answer in the top 3 in 1155/1500 (77.0%).
+Simulated players make random mistakes, not the shared misconceptions real players
+have, so accuracy with real players can be lower.
+
 ## Project structure
 
 | Path | Contents |
 |---|---|
-| `src/` | The game: `main.py`, `game.py`, `decision_tree.py`, `simulate.py`, `probability.py`, `dataset.py`, `display.py`, `train.py` |
+| `src/` | The game: `main.py`, `game.py`, `decision_tree.py`, `simulate.py`, `probability.py`, `dataset.py`, `display.py` (both screens), `animation.py` (arcade timing effects), `train.py`, `evaluate.py` (accuracy with simulated players) |
 | `tests/` | Tests for the game (`python3 -m pytest tests`) |
-| `dataset/` | The 500 characters and 175 questions the game reads (see `dataset/README.md`) |
+| `dataset/` | The 500 characters and 188 questions the game reads (see `dataset/README.md`) |
 | `model/tree.json` | The trained decision tree |
 | `data_pipeline/` | How the dataset was built from Wikidata (see `data_pipeline/DATA.md`) |
 | `playtests.md` | Every playtest, why a guess failed, and the fix that followed |

@@ -173,4 +173,17 @@ role_belgian,Is this character Belgian?,pool,
 role_sherlock_enemy,Is this character the arch-enemy of Sherlock Holmes?,pool,
 role_golden_trio,"Is this one of the three best friends in Harry Potter (Harry, Ron and Hermione)?",pool,universe_harry_potter
 work_star_wars_original,Is this a character from the original Star Wars films (1977-1983)?,pool,universe_star_wars
+award_lead_acting_oscar,Has this person won the Oscar for Best Actor or Best Actress (a leading role)?,pool,award_oscar
+real_six_wives,Did this king have six wives?,pool,is_monarch_or_royal
+real_abdicated,Did this monarch give up the throne (abdicate)?,pool,is_monarch_or_royal
+real_lost_american_colonies,Was this the British king who lost the American colonies?,pool,is_monarch_or_royal
+real_ww1_monarch,Was this person a king or emperor during World War I?,pool,is_monarch_or_royal
+real_never_married_queen,"Is this the queen who never married (the ""Virgin Queen"")?",pool,is_monarch_or_royal
+real_taught_alexander,Did this philosopher teach Alexander the Great?,pool,occupation_philosopher
+real_god_is_dead,"Did this philosopher write ""God is dead""?",pool,occupation_philosopher
+real_pride_and_prejudice,Did this person write Pride and Prejudice?,pool,known_for_writing
+real_american_idol_judge,Has this person been a judge on American Idol?,pool,known_for_music
+real_son_became_president,Did this person's son also become President of the United States?,pool,position_us_president
+real_trade_union_leader,Was this person a trade union leader before entering politics?,pool,known_for_politics_or_leadership
+real_israel_pm,Has this person been Prime Minister of Israel?,pool,known_for_politics_or_leadership
 real_disney_channel_star,Is this a real person who became famous as a Disney Channel star?,pool,

@@ -121,7 +121,7 @@ def test_1d_every_attribute_has_a_question():
     characters = dataset.Dataset.load_characters(CHARACTERS_CSV)
     questions = dataset.Dataset.load_questions(QUESTIONS_CSV)
 
-    assert len(questions) == 175
+    assert len(questions) == 188
     assert list(questions) == list(characters[0]["attributes"])
 
 
