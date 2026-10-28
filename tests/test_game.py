@@ -389,3 +389,81 @@ def test_5n_not_sure_is_asked_again():
 
 def test_5n_a_typed_name_means_no_and_who_it_was():
     assert game.Game.read_confirm("Donald Trump") == ("no", "Donald Trump")
+
+
+# --- 5o: a whole round and the score (input() replaced by a list of answers) ----------
+
+def answer_with(monkeypatch, replies):
+    """Make input() return the replies in order and remember every prompt it was shown."""
+    prompts = []
+    replies = list(replies)
+
+    def fake_input(prompt=""):
+        prompts.append(prompt)
+        return replies.pop(0)
+
+    monkeypatch.setattr("builtins.input", fake_input)
+    return prompts
+
+
+ROUND_CHARACTERS = [make_character("A", is_male=True), make_character("B", is_male=False)]
+ROUND_QUESTIONS = {"is_male": "Is this character male?"}
+ROUND_PRIOR = {"A": 0.5, "B": 0.5}
+
+
+@pytest.fixture
+def one_question_round(monkeypatch):
+    # one question is enough to tell A from B; the plain screen, no waiting
+    monkeypatch.setattr(game.Game, "MAX_QUESTIONS", 1)
+    monkeypatch.setattr(game.Display, "FANCY", False)
+    monkeypatch.setattr(game.Animation, "ON", False)
+
+
+def test_5o_invalid_answer_reprompts_with_retry(monkeypatch, capsys):
+    monkeypatch.setattr(game.Display, "FANCY", True)
+    prompts = answer_with(monkeypatch, ["yess", "y"])
+
+    assert game.Game.ask("Is this character male?") == "yes"
+    assert prompts == [game.Display.prompt("Is this character male?"), game.Display.retry("Is this character male?")]
+    assert "INVALID INPUT" in game.Display.visible(capsys.readouterr().out)
+
+
+def test_5o_round_is_won_when_the_guess_is_confirmed(monkeypatch, one_question_round):
+    answer_with(monkeypatch, ["y", "y"])          # male: yes -> guesses A; "is it A?": yes
+
+    assert game.Game.play_round(None, ROUND_QUESTIONS, ROUND_CHARACTERS, ROUND_PRIOR) is True
+
+
+def test_5o_round_is_lost_when_the_guess_is_wrong(monkeypatch, one_question_round):
+    answer_with(monkeypatch, ["y", "n", ""])      # "is it A?": no; who was it: skipped
+
+    assert game.Game.play_round(None, ROUND_QUESTIONS, ROUND_CHARACTERS, ROUND_PRIOR) is False
+
+
+def test_5o_typing_the_guessed_name_counts_as_a_win(monkeypatch, one_question_round):
+    answer_with(monkeypatch, ["y", "a"])          # typed the guessed character instead of y
+
+    assert game.Game.play_round(None, ROUND_QUESTIONS, ROUND_CHARACTERS, ROUND_PRIOR) is True
+
+
+def test_5o_play_counts_the_score_and_waits_for_start(monkeypatch):
+    monkeypatch.setattr(game.Dataset, "load_questions", staticmethod(lambda path: {}))
+    monkeypatch.setattr(game.Dataset, "load_parents", staticmethod(lambda path: {}))
+    monkeypatch.setattr(game.Dataset, "load_characters", staticmethod(lambda path: []))
+    monkeypatch.setattr(game.DecisionTree, "load_dst", staticmethod(lambda path: None))
+    monkeypatch.setattr(game.Probability, "popularity_prior", staticmethod(lambda characters: {}))
+    monkeypatch.setattr(game.Display, "FANCY", True)
+    monkeypatch.setattr(game.Animation, "ON", False)
+    results = iter([True, False])                 # ALGO wins round 1, the player wins round 2
+    monkeypatch.setattr(game.Game, "play_round", staticmethod(lambda *args: next(results)))
+    again = iter(["yes", "no"])
+    monkeypatch.setattr(game.Game, "ask_yes_no", staticmethod(lambda text: next(again)))
+    seen_scores = []
+    monkeypatch.setattr(game.Display, "play_again", staticmethod(lambda score: seen_scores.append(dict(score)) or ""))
+    monkeypatch.setattr(game.Display, "goodbye", staticmethod(lambda score: seen_scores.append(dict(score)) or ""))
+    prompts = answer_with(monkeypatch, [""])     # Enter on the title screen
+
+    game.Game.play()
+
+    assert "PRESS ENTER" in game.Display.visible(prompts[0])
+    assert seen_scores == [{"algo": 1, "player": 0}, {"algo": 1, "player": 1}, {"algo": 1, "player": 1}]
