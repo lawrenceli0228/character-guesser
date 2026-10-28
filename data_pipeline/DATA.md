@@ -6,7 +6,7 @@
 |---|---|
 | Rows | **500**: 350 real people, 150 fictional characters |
 | Of which | 91 hand-curated and reviewed entry by entry (`roster.csv`); 409 generated from Wikidata by fixed rules (`roster_auto.csv`) |
-| Attributes | **134** Yes/No attributes: 48 hand-designed core questions + 86 questions in the reviewed question pool. Each value is `true`, `false` or `unknown` |
+| Attributes | **175** Yes/No attributes: 48 hand-designed core questions + 127 questions in the reviewed question pool. Each value is `true`, `false` or `unknown` |
 | Popularity | `sitelinks`: number of Wikipedia/Wikimedia language editions with an article (26–340) |
 | Game file | `../dataset/characters.csv` (plus `questions.csv`) (generated; do not edit by hand) |
 | Wikidata snapshot | `raw/wikidata_snapshot.json`, retrieved 2026-10-17 |
@@ -52,7 +52,7 @@ characters = load_characters()                 # tuple of Character (500)
 characters[0].name                             # "Albert Einstein"
 characters[0].attributes["is_fictional"]       # True / False / None (unknown)
 characters[0].sitelinks                        # 322 (popularity)
-QUESTIONS["is_fictional"]                      # player-facing question text (134 questions)
+QUESTIONS["is_fictional"]                      # player-facing question text (175 questions)
 FIRST_QUESTION                                 # "is_fictional": always ask this first
 ```
 

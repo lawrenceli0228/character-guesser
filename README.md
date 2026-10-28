@@ -49,7 +49,7 @@ python3 train.py
 |---|---|
 | `src/` | The game: `main.py`, `game.py`, `decision_tree.py`, `simulate.py`, `probability.py`, `dataset.py`, `display.py`, `train.py` |
 | `tests/` | Tests for the game (`python3 -m pytest tests`) |
-| `dataset/` | The 500 characters and 134 questions the game reads (see `dataset/README.md`) |
+| `dataset/` | The 500 characters and 175 questions the game reads (see `dataset/README.md`) |
 | `model/tree.json` | The trained decision tree |
 | `data_pipeline/` | How the dataset was built from Wikidata (see `data_pipeline/DATA.md`) |
 | `playtests.md` | Every playtest, why a guess failed, and the fix that followed |

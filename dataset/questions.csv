@@ -132,4 +132,45 @@ look_red_hair,Is this a fictional character with red hair?,pool,
 real_social_network,Is this a real person who created a social network (for example Facebook)?,pool,
 real_western_star,Is this an actor famous for Western (cowboy) films?,pool,
 real_godfather_actor,Is this an actor who starred in The Godfather films?,pool,
+real_titanic_actor,Is this an actor who starred in the film Titanic (1997)?,pool,known_for_acting_or_tv
+real_mission_impossible_star,Is this the actor who stars in the Mission: Impossible films?,pool,known_for_acting_or_tv
+real_oceans_eleven_actor,Is this an actor who starred in the heist film Ocean's Eleven (2001)?,pool,known_for_acting_or_tv
+real_shawshank_actor,Is this an actor who starred in The Shawshank Redemption?,pool,known_for_acting_or_tv
+real_forrest_gump_actor,Is this the actor who played Forrest Gump?,pool,known_for_acting_or_tv
+real_friends_actor,Is this an actor from the TV show Friends?,pool,known_for_acting_or_tv
+real_hunger_games_actor,Is this the actress who played Katniss in The Hunger Games?,pool,known_for_acting_or_tv
+real_devil_wears_prada_actor,Is this an actress who starred in The Devil Wears Prada?,pool,known_for_acting_or_tv
+real_transformers_actor,Is this an actor who starred in the Transformers films?,pool,known_for_acting_or_tv
+real_iron_man_actor,Is this the actor who played Iron Man (Tony Stark) in the Marvel films?,pool,known_for_acting_or_tv
+real_scarface_actor,Is this the actor who played Tony Montana in Scarface?,pool,known_for_acting_or_tv
+real_star_lord_actor,Is this the actor who played Star-Lord in Guardians of the Galaxy?,pool,known_for_acting_or_tv
+real_tomb_raider_actor,Is this the actress who played Lara Croft in the Tomb Raider films?,pool,known_for_acting_or_tv
+real_la_la_land_actor,Is this an actor who starred in La La Land?,pool,known_for_acting_or_tv
+real_charlies_angels_actor,Is this an actress who starred in Charlie's Angels (2000)?,pool,known_for_acting_or_tv
+real_that_70s_show_actor,Is this an actor from That '70s Show?,pool,known_for_acting_or_tv
+real_silence_of_the_lambs_actor,Is this an actor who starred in The Silence of the Lambs?,pool,known_for_acting_or_tv
+real_microsoft_founder,Did this person found Microsoft?,pool,known_for_technology
+real_apple_founder,Did this person co-found Apple?,pool,known_for_technology
+real_amazon_founder,Did this person found Amazon?,pool,known_for_technology
+real_tesla_spacex,Does this person run Tesla and SpaceX?,pool,known_for_technology
+real_apprentice_host,Is this person famous for hosting the TV show The Apprentice?,pool,
+real_king_of_pop,Is this person known as the King of Pop?,pool,known_for_music
+real_king_of_rock,Is this person known as the King of Rock and Roll?,pool,known_for_music
+real_chicago_bulls,Did this person play basketball for the Chicago Bulls?,pool,sport_basketball
+real_lakers,Has this person played basketball for the Los Angeles Lakers?,pool,sport_basketball
+look_eye_beams,Does this character shoot energy beams from their eyes?,pool,
+role_telepath_wheelchair,Is this a telepath who uses a wheelchair?,pool,franchise_x_men
+role_controls_weather,Can this character control the weather?,pool,
+role_absorbs_powers,Does this character absorb other people's powers by touching them?,pool,franchise_x_men
+look_metal_claws,Does this character have metal claws?,pool,
+work_south_park,Is this character from South Park?,pool,work_animated_tv_comedy
+work_family_guy,Is this character from Family Guy?,pool,work_animated_tv_comedy
+look_hockey_mask,Does this character wear a hockey mask?,pool,work_horror_villain
+look_knife_glove,Does this character wear a glove with knife blades on the fingers?,pool,work_horror_villain
+look_chicken,Is this character a rooster or a chicken?,pool,is_animal
+look_dog,Is this character a dog?,pool,is_animal
+role_belgian,Is this character Belgian?,pool,
+role_sherlock_enemy,Is this character the arch-enemy of Sherlock Holmes?,pool,
+role_golden_trio,"Is this one of the three best friends in Harry Potter (Harry, Ron and Hermione)?",pool,universe_harry_potter
+work_star_wars_original,Is this a character from the original Star Wars films (1977-1983)?,pool,universe_star_wars
 real_disney_channel_star,Is this a real person who became famous as a Disney Channel star?,pool,
