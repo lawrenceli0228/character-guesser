@@ -1,3 +1,8 @@
+"""Train the decision tree and save it to model/tree.json (run from src/: python3 train.py).
+
+Steps: popularity prior -> simulated answer sheets -> ID3 tree -> JSON file.
+It takes about a minute; the game only needs the saved tree.
+"""
 from dataset import Dataset
 from probability import Probability
 from simulate import make_sheets
@@ -18,6 +23,7 @@ class  Train:
         return dst_model
 
 def main():
+    # 50,000 sheets in total, at least 20 per character; the tree may ask 10 questions deep
     characters = Dataset.load_characters(Train.CHARACTERS_PATH)
     dst_model =Train.train(characters, total=50000, minimum=20, seed=1, max_depth=10, min_sheets=5)
     DecisionTree.save_dst(dst_model,'../model/tree.json')

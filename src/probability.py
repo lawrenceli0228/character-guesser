@@ -28,6 +28,10 @@ class Probability:
                 real_char.append(character["sitelinks"])
         return {False: statistics.median(real_char), True: statistics.median(fictional_char)}
 
+    # More famous characters start more likely (players pick famous people more often).
+    # The square root keeps the most famous from swamping everyone else, and each
+    # character is compared with its own group, so fictional characters are not
+    # penalised for having fewer Wikipedia language editions than real people.
     @staticmethod
     def popularity_prior(characters):
         """Starting probability of each character: sqrt(sitelinks / median of its group), normalised."""

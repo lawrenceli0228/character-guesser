@@ -1,99 +1,125 @@
 # Guessorithm
 
 A terminal guessing game in the spirit of Akinator (repository: `character-guesser`).
-Think of a famous real person or fictional character; the game asks up to 15
-yes / no / not-sure questions and then guesses who it is. It knows 500 characters
-(350 real people, 150 fictional).
+Think of a famous real person or fictional character. The game, ALGO, asks up to
+15 yes / no / not-sure questions and then guesses who it is. It knows 500
+characters (350 real people, 150 fictional).
 
 Built as a final project for COMP9001 (Introduction to Programming, University of Sydney).
 
-## How to run
+## How to start
 
-Requires Python 3.8 or later; no third-party packages.
+You need Python 3.8 or later. No extra packages are needed.
 
 ```bash
 cd src
-python3 main.py            # plain screen: one line per question
-python3 main.py --arcade   # arcade screen: Player 1 vs ALGO, colours, countdown, K.O.
+python3 main.py
 ```
 
-Run the arcade screen in a real terminal (macOS Terminal or iTerm). IDE run windows,
-such as PyCharm's, do not support clearing the screen or centring, so the layout breaks.
+Run it from inside `src/`, because the game reads `../dataset/` and `../model/`.
 
-Answer each question with `y` (yes), `n` (no) or `?` (not sure). If the guess is
-wrong, type who you were thinking of and the game shows which of your answers
-disagreed with its data.
+Use a real terminal (macOS Terminal, iTerm, or a Windows/Linux terminal) at least
+60 columns wide. The arcade screen uses colours, clears the screen and centres
+itself in the window. IDE run windows such as PyCharm's cannot clear the screen
+or centre text, so the layout breaks there.
 
-To retrain the decision tree after changing the dataset (about 30 seconds):
+For one plain line per question, with no colours or animation:
+
+```bash
+python3 main.py --plain
+```
+
+## How to play
+
+1. **Title screen.** Press Enter to start.
+2. **Think of someone.** A 3-2-1 countdown starts the round. Don't type the name yet.
+3. **Answer the questions.** Each screen is one stage (STAGE 01/15 ...). Type an
+   answer and press Enter:
+
+   | Type | Means |
+   |---|---|
+   | `y` or `yes` | yes |
+   | `n` or `no` | no |
+   | `?`, `not sure`, `maybe` or `u` | not sure (use it when you really don't know) |
+
+   After each answer you see how sure ALGO is (the MIND-READ meter) and how many
+   suspects are left. A wrong answer does not end the game; it only makes that
+   character less likely.
+4. **The guess.** After 15 questions, or earlier once ALGO is far more sure of one
+   character than the rest (COMBO BREAKER), it shows its answer and the next two
+   possibilities. Then reply:
+   - `y` if it is right: **K.O., ALGO wins**, with a rank for how few questions it needed;
+   - `n` if it is wrong: **YOU WIN**. Then type who you were thinking of (or press Enter to skip);
+   - or type the name straight away instead of `n`.
+5. **Battle replay.** If you name your character, ALGO shows which of your answers
+   did not match its data. A name it does not know gets "CHARACTER NOT FOUND".
+6. **Continue?** `y` plays another round (the score ALGO : P1 is kept); `n` ends the
+   game with GAME OVER and the final score.
+
+Press Ctrl-C at any time to quit.
+
+**Tips**
+- Pick someone well known: leaders, scientists, athletes, singers, actors,
+  superheroes, cartoon and video-game characters.
+- Names are matched forgivingly: case does not matter, a surname alone is enough
+  ("einstein"), and small typos are accepted.
+
+## How it works
+
+1. **Simulated players** (`simulate.py`): for every character, answer sheets are
+   generated the way real players answer (sometimes wrong or unsure), more of them
+   for more famous characters (`probability.py`).
+2. **ID3 decision tree** (`decision_tree.py`, trained by `train.py`): entropy and
+   information gain pick the best question at each node. The tree is saved to
+   `model/tree.json` and chooses the first questions of every round.
+3. **Focus mode** (`game.py`): once the tree's branch has too little training data,
+   the next question is the one that best splits the 20 most likely characters
+   (lowest expected entropy).
+4. **Scoring** (`game.py`): after every answer, all 500 characters are scored with
+   all the answers so far, so one wrong answer lowers a score instead of ruling a
+   character out.
+5. **Linked questions**: each question knows its broader parent (UK -> Europe), so
+   answers that already follow from earlier ones are never asked.
+
+To retrain the tree after changing the dataset (about a minute):
 
 ```bash
 cd src
 python3 train.py
 ```
 
-## How it works
-
-1. **Simulated players** (`simulate.py`): for every character, thousands of answer
-   sheets are generated with a realistic error rate (players are sometimes wrong
-   or unsure), weighted by how famous the character is (`probability.py`).
-2. **ID3 decision tree** (`decision_tree.py`): a hand-written ID3 tree (entropy and
-   information gain, no machine-learning libraries) is trained on these sheets and
-   saved to `model/tree.json`. It chooses the first questions.
-3. **Focus mode** (`game.py`): once the tree has too little training data for the
-   current branch, the next question is the one that best splits the 20 most
-   likely characters (lowest expected entropy).
-4. **Guessing** (`game.py`): every character is scored with all answers given, so
-   one wrong answer lowers a score instead of ruling the character out. The game
-   guesses early once the leader is 20 times more likely than the runner-up.
-5. **Linked questions**: questions know their broader parent question (UK -> Europe),
-   so answers that follow from earlier ones are never asked.
-
-## Accuracy
-
-`src/evaluate.py` plays the real game with simulated players: for each of the 500
-characters one honest game (answers taken from the data) and 3 noisy games (85%
-right, 5% wrong, 10% not sure, the same answer model the tree is trained on).
-
-```bash
-cd src
-python3 evaluate.py          # seed 9001, about 3 minutes
-python3 evaluate.py 2027     # another random seed
-```
-
-Seed 9001: honest players are guessed first time in 498/500 games (99.6%); noisy
-players in 936/1500 (62.4%), with the answer in the top 3 in 1155/1500 (77.0%).
-Simulated players make random mistakes, not the shared misconceptions real players
-have, so accuracy with real players can be lower.
-
-## Project structure
+## Files
 
 | Path | Contents |
 |---|---|
-| `src/` | The game: `main.py`, `game.py`, `decision_tree.py`, `simulate.py`, `probability.py`, `dataset.py`, `display.py` (both screens), `animation.py` (arcade timing effects), `train.py`, `evaluate.py` (accuracy with simulated players) |
-| `tests/` | Tests for the game (`python3 -m pytest tests`) |
-| `dataset/` | The 500 characters and 188 questions the game reads (see `dataset/README.md`) |
+| `src/main.py` | Starts the game (arcade screen by default, `--plain` for plain lines) |
+| `src/game.py` | Game logic: choosing questions, scoring, guessing, the round and the score |
+| `src/decision_tree.py` | The hand-written ID3 decision tree |
+| `src/train.py` | Trains the tree and saves `model/tree.json` |
+| `src/simulate.py` | How simulated players answer (the answer models) |
+| `src/probability.py` | Popularity prior: famous characters start more likely |
+| `src/dataset.py` | Reads `dataset/characters.csv` and `dataset/questions.csv` |
+| `src/display.py` | Everything on screen, for both the arcade and the plain screen |
+| `src/animation.py` | Arcade timing: pauses, countdown, typing effect, loading bar |
+| `dataset/` | The 500 characters and 188 questions (see `dataset/README.md`) |
 | `model/tree.json` | The trained decision tree |
-| `data_pipeline/` | How the dataset was built from Wikidata (see `data_pipeline/DATA.md`) |
-| `playtests.md` | Every playtest, why a guess failed, and the fix that followed |
-
-## Running the tests
-
-```bash
-python3 -m pytest tests
-python3 -m pytest data_pipeline/tests
-```
 
 ## Data
 
 Character facts come from [Wikidata](https://www.wikidata.org/) (CC0), with hand
 corrections where Wikidata differs from what ordinary players believe. Popularity
-uses the number of Wikipedia language editions of each article.
+uses the number of Wikipedia language editions of each article. The pipeline that
+built the dataset, the tests and the evaluation script are not part of this
+submission; they are on the `feat/arcade-screen` branch of the GitHub repository.
 
-## Acknowledgements
+## AI Usage Declaration
 
-The data pipeline and the dataset were prepared with the help of an AI assistant
-(Claude), as approved for this project. The game code was written with step-by-step
-guidance from the same assistant.
+In accordance with the University of Sydney's academic integrity policy on generative AI,
+I declare the following use of AI tools (Claude) in this assignment.
+
+I wrote the program myself. Claude explained concepts, reviewed my code, 
+suggested fixes and structure, and wrote test scripts that were not submitted.
+
 
 ## License
 

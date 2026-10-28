@@ -3,8 +3,8 @@ import csv
 
 
 class Dataset:
-    VALUES = {"true": True, "false": False, "unknown": None}
-    ATTRIBUTES_Char = {"name", "sitelinks", "source"}
+    VALUES = {"true": True, "false": False, "unknown": None}    # how a value is written in the CSV
+    ATTRIBUTES_Char = {"name", "sitelinks", "source"}          # columns that are not yes/no questions
 
     @staticmethod
     def parse_value(text):
@@ -16,7 +16,7 @@ class Dataset:
 
     @staticmethod
     def load_characters(path):
-        """Read the ready-made dataset in csv format."""
+        """Characters from characters.csv: [{"name": ..., "sitelinks": int, "attributes": {question: True/False/None}}]."""
         characters = []
         with open(path, mode='r', encoding='utf-8') as file:
             csv_reader = csv.DictReader(file)
@@ -37,7 +37,7 @@ class Dataset:
 
     @staticmethod
     def load_questions(path):
-        """Read the ready-made dataset in csv format."""
+        """Question text for every attribute from questions.csv: {attribute: question}."""
         questions = {}
         with open(path, mode='r', newline="", encoding='utf-8') as file:
             csv_reader = csv.DictReader(file)

@@ -2,8 +2,10 @@
 
 A ready-made dataset of **500 well-known people and fictional characters**
 (350 real, 150 fictional), each described by **188 Yes/No attributes**.
-It was collected from Wikidata and prepared separately (see
-`../data_pipeline/DATA.md`); the game only reads the two CSV files below.
+It was collected from Wikidata and prepared separately by a data pipeline that
+is not part of this submission (the version that built this data is on the
+`feat/arcade-screen` branch of the GitHub repository); the game only reads the
+two CSV files below.
 
 ## Files
 
@@ -56,4 +58,4 @@ Every attribute column of `characters.csv` appears exactly once in
 
 Facts come from Wikidata (CC0, public domain). The data leans towards the
 USA, Europe and men, and generated rows may contain occasional errors.
-Facts and popularity reflect October 2026. Details: `../data_pipeline/DATA.md`.
+Facts and popularity reflect October 2026.

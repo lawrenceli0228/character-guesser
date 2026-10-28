@@ -6,6 +6,11 @@ import json
 from simulate import answer_model
 
 class DecisionTree:
+    """A tree is nested dicts. A leaf: {"leaf": True, "counts": {name: sheets}}.
+    A question node: {"leaf": False, "counts": ..., "question": attribute,
+    "branches": {"yes": node, "no": node, "unknown": node}}.
+    """
+
     @staticmethod
     def entropy(names):
         """Entropy H(S) of a list of names (lecture week 5a): 0 if all the same, higher if mixed."""
@@ -89,6 +94,7 @@ class DecisionTree:
 
     @staticmethod
     def get_names(sheets):
+        """The character name on every answer sheet."""
         res = []
         for answers, name in sheets:
             res.append(name)
@@ -96,6 +102,7 @@ class DecisionTree:
 
     @staticmethod
     def delete_questions(attributes,question):
+        """The attributes without question, so a branch never asks the same question twice."""
         results =[]
         for a in attributes:
             if a != question:
@@ -123,6 +130,7 @@ class DecisionTree:
         if len(counts) == 1 or max_depth == 0 or len(sheets) < min_sheets:
             return result
 
+        # the root may be forced (is_fictional), every other node takes the highest gain
         if first_question:
             question = first_question
         else:
@@ -149,6 +157,7 @@ class DecisionTree:
             ],
         }
         '''
+        # one subtree per answer; an answer no sheet gave keeps this node's counts
         for key, values in groups.items():
             if not values:
                 branches[key] = result

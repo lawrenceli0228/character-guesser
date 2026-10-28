@@ -1,3 +1,13 @@
+"""The game itself: choose each question, read the player's answers, score every
+character and make the guess.
+
+Flow of one round (play_round):
+  1. the decision tree (model/tree.json) asks the first questions;
+  2. once its branch has too few training sheets, focus mode asks the question that
+     best splits the 20 most likely characters;
+  3. after every answer all 500 characters are scored again with ALL answers;
+  4. the game guesses when the leader is far ahead, or after 15 questions.
+"""
 import difflib
 
 from animation import Animation
@@ -9,6 +19,7 @@ from dataset import Dataset
 
 
 class Game:
+    # every answer the player may type, mapped to the three answers the game uses
     accept_input = {
             "y": "yes", "yes": "yes",
             "n": "no", "no": "no",
@@ -18,9 +29,9 @@ class Game:
             "not sure": "unknown",
             "dont know": "unknown", "don't know": "unknown", "maybe": "unknown",
         }
-    FOCUS_BELOW = 1000
-    TOP_N = 20
-    MAX_QUESTIONS = 15
+    FOCUS_BELOW = 1000        # follow the tree only while its node has at least this many training sheets
+    TOP_N = 20                # focus mode compares the 20 most likely characters
+    MAX_QUESTIONS = 15        # at most 15 questions per round
     FOLLOW_UP_SLACK = 0.1     # a follow-up of a Yes may leave this many more bits of uncertainty than the best question
     LEAD_RATIO = 20           # guess early once the leader is this many times as likely as the runner-up
     MIN_QUESTIONS = 5         # never guess before this many questions
@@ -29,6 +40,7 @@ class Game:
 
     @staticmethod
     def play():
+        """Load the data, show the title screen and play rounds until the player stops."""
         tree = DecisionTree.load_dst("../model/tree.json")
         questions = Dataset.load_questions("../dataset/questions.csv")
         parents = Dataset.load_parents("../dataset/questions.csv")
@@ -38,7 +50,7 @@ class Game:
         start = Display.press_start()
         if start:
             input(start)
-        score = {"algo": 0, "player": 0}
+        score = {"algo": 0, "player": 0}     # rounds won by the game (ALGO) and by the player
         while True:
             Animation.frames(Display.ready(), 0.7)
             if Game.play_round(tree, questions, characters, prior, parents):
@@ -185,6 +197,7 @@ class Game:
 
     @staticmethod
     def parse_user_input(user_in):
+        """The player's reply as "yes" / "no" / "unknown", or None if it is not an answer."""
         temp = user_in.strip().lower()
         key_check = Game.accept_input.get(temp)
         return key_check
@@ -226,6 +239,7 @@ class Game:
 
     @staticmethod
     def ask(text):
+        """Ask one question until the player gives a valid answer; returns "yes", "no" or "unknown"."""
         prompt = Display.prompt(text)
         while True:
             user_in = input(prompt)
@@ -241,19 +255,22 @@ class Game:
 
         Returns True when the game guessed right (for the score).
         """
-        node = tree
-        asked = []
+        node = tree            # where we are in the decision tree (None once focus mode has taken over)
+        asked = []             # (question, answer) pairs in the order they were asked
         # every character's chance so far: the arcade screen shows the leader's and how many are left
         guesses = Game.score_guesses(characters, prior, asked, len(characters))
         for count in range(1, Game.MAX_QUESTIONS + 1):     # count = 1, 2, ..., 15
+            # 1. pick the next question (tree first, then focus mode) and ask it
             question = Game.choose_question(node, characters, prior, asked, parents)
-            question_ = questions.get(question)
+            question_ = questions.get(question)          # the text the player reads
             answer = Game.ask(Display.question(count, Game.MAX_QUESTIONS, question_, guesses))
             asked.append((question, answer))
+            # 2. follow the tree's branch for this answer; leave the tree if focus mode asked
             if node is not None and not node["leaf"] and question == node["question"]:
                 node = Game.next_quest(node, answer)
             else:
                 node = None
+            # 3. score everyone again with all answers and show what changed
             new_guesses = Game.score_guesses(characters, prior, asked, len(characters))
             Animation.show(Display.feedback(answer, guesses, new_guesses))
             Animation.pause(1.0)
@@ -261,6 +278,7 @@ class Game:
             # stop early when one character is already far ahead (like akinator.dev)
             if count >= Game.MIN_QUESTIONS and Game.confident(guesses):
                 break
+        # 4. the guess: the best character, with the next two shown as other possibilities
         ge_names = Game.score_guesses(characters, prior, asked, 3)
         Animation.show(Display.final_round(len(asked), Game.MAX_QUESTIONS))
         Animation.progress(Display.loading_frames(), 0.06)
@@ -273,6 +291,7 @@ class Game:
             if verdict != "again":
                 break
             print(Display.yes_or_no())
+        # typing the guessed character's name instead of y also counts as right
         named = Game.find_character(characters, name) if name else None
         if verdict == "yes" or (named is not None and named["name"] == guess):
             Animation.show(Display.win(len(asked), ge_names[0][1]), 0.002)
