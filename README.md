@@ -117,9 +117,14 @@ submission; they are on the `feat/arcade-screen` branch of the GitHub repository
 In accordance with the University of Sydney's academic integrity policy on generative AI,
 I declare the following use of AI tools (Claude) in this assignment.
 
-I wrote the program myself. Claude explained concepts, reviewed my code, 
-suggested fixes and structure, and wrote test scripts that were not submitted.
-
+- I wrote the core game logic and the ID3 decision tree (game.py, decision_tree.py,
+  train.py, simulate.py, probability.py, dataset.py) with Claude explaining concepts
+  step by step and reviewing my code.
+- Claude wrote the data pipeline that built dataset/ (not submitted; on the
+  feat/arcade-screen branch) and the test and evaluation scripts (not submitted).
+- Claude wrote the arcade screen (the arcade parts of display.py, and animation.py)
+  and some changes to game.py (score, arcade round flow, re-prompt after an invalid
+  answer); I reviewed them line by line.
 
 ## License
 
